@@ -1,0 +1,3 @@
+To determine the subject's MDS-UPDRS finger tapping score, the analysis focused on the number of taps, rhythm consistency, presence of hesitations or halts, and changes in movement amplitude over time. The data revealed approximately 10 taps within the 10-second window, indicating mild slowing compared to typical performance. There were several interruptions in the tapping rhythm, amounting to around 4 hesitations, which falls into the mild category. Additionally, the amplitude of movements showed a noticeable decrement starting midway through the sequence. Considering these factors—mild slowing, 3-5 interruptions, and amplitude decrement beginning around the midpoint—the score is classified as mild.
+
+2

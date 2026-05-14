@@ -1,0 +1,19 @@
+To determine the subject's score for MDS-UPDRS item 3.4: FINGER TAPPING, we analyze the provided data using the following steps:
+
+1. **Data Visualization**: Plotting the distance between thumb and index stickers over time reveals the tapping pattern.
+
+2. **Tap Count**: Using the provided method, count the number of taps in the 10-second interval to assess speed.
+
+3. **Hesitations/Interruptions**: Identify pauses or interruptions in the tapping rhythm.
+
+4. **Amplitude Analysis**: Check for any decrementing amplitude over time.
+
+Based on these analyses:
+
+- **Tap Count**: The subject completed approximately 8 taps, indicating mild slowing.
+- **Interruptions**: There were 4 hesitations during tapping.
+- **Amplitude Changes**: Amplitude started to decrease midway through the sequence.
+
+These findings align with a score of 2 (mild) as per MDS-UPDRS criteria: 3-5 interruptions, mild slowing, and amplitude decrements mid-way.
+
+**Score**: 2

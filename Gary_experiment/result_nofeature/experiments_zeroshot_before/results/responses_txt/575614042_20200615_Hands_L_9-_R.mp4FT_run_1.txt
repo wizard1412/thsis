@@ -1,0 +1,13 @@
+To score the subject's performance on the MDS-UPDRS item 3.4: Finger Tapping, we analyzed the provided data from the finger-tapping test. The following observations were made:
+
+1. **Rhythm and Hesitations**: The tapping rhythm was mostly regular, with one minor hesitation observed during the sequence.
+
+2. **Speed**: There was slight slowing noted toward the end of the 10 taps, but it did not significantly impact the overall performance.
+
+3. **Amplitude**: A mild decrement in amplitude was observed near the end of the 10-tap sequence, indicating some difficulty in maintaining movement vigor.
+
+4. **Interruptions**: No major interruptions or freezes were detected; the subject completed the task without significant halts.
+
+Based on these observations and aligning with the MDS-UPDRS criteria, the performance is best categorized as slight impairment.
+
+**Score: 1**

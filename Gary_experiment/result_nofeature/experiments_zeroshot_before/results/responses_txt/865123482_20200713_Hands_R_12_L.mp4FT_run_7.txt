@@ -1,0 +1,9 @@
+To determine the subject's score for MDS-UPDRS item 3.4 based on the provided finger tapping data, several key factors from the movement analysis are considered:
+
+1. **Tap Count**: The subject completed approximately 8 taps within the 10-second interval, falling short of the instructed 10 taps.
+2. **Interruptions/Hesitations**: There were more than five interruptions during the tapping sequence, indicating significant hesitations or brief halts in movement.
+3. **Amplitude Decrementing**: The amplitude of the taps began to decrease after the first tap, showing a notable decline early in the sequence.
+
+These observations align with the criteria for a Score 3: Moderate difficulty, characterized by more than five interruptions, noticeable slowing, and amplitudes decreasing shortly after starting the task.
+
+Score: 3

@@ -1,0 +1,18 @@
+To determine the subject's score on the MDS-UPDRS finger tapping test, we analyze the provided data based on the following key aspects:
+
+### Analysis Steps and Findings:
+
+1. **Data Visualization**: The Euclidean distance between the thumb and index finger was plotted over time to identify taps as minima. This plot revealed 10 taps with intervals between them.
+
+2. **Number of Taps**: The subject completed approximately 10 taps within the 10-second interval, meeting the test requirement.
+
+3. **Speed Assessment**: The average tapping frequency was calculated to be around 1 Hz, which is significantly lower than normal (typically 5-7 Hz), indicating mild slowing.
+
+4. **Hesitations/Interruptions**: Intervals between taps showed 3-5 hesitations where the time between taps was longer than average, suggesting some interruptions in rhythm.
+
+5. **Amplitude Analysis**: The movement range of the index finger relative to the thumb decreased mid-way through the test, indicating amplitude decrement starting around the fifth tap.
+
+### Conclusion:
+The subject's performance shows mild slowing, 3-5 hesitations, and amplitude decrement beginning midway. These findings align with the MDS-UPDRS criteria for a score of **2**.
+
+**Score: 2**

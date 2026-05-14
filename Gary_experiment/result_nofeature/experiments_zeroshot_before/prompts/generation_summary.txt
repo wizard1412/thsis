@@ -1,0 +1,216 @@
+============================================================
+特徵提取與 Prompt 生成摘要
+============================================================
+
+
+051331512_20200406_Hands_L_9-_L.mp4FT:
+  - Taps: 10
+  - Prompt: prompts\051331512_20200406_Hands_L_9-_L.mp4FT_prompt.txt
+
+051331512_20200406_Hands_R_9-_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\051331512_20200406_Hands_R_9-_L.mp4FT_prompt.txt
+
+161568408_20200601_Hands_L_13_R.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\161568408_20200601_Hands_L_13_R.mp4FT_prompt.txt
+
+161568408_20200601_Hands_R_13_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\161568408_20200601_Hands_R_13_L.mp4FT_prompt.txt
+
+161568408_20210208_Hands_L_R.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\161568408_20210208_Hands_L_R.mp4FT_prompt.txt
+
+161568408_20210208_Hands_R_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\161568408_20210208_Hands_R_L.mp4FT_prompt.txt
+
+207795468_20200810_Hands_L_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\207795468_20200810_Hands_L_L.mp4FT_prompt.txt
+
+207795468_20200810_Hands_R_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\207795468_20200810_Hands_R_L.mp4FT_prompt.txt
+
+281628421_20200323_Hands_L_10-_R.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\281628421_20200323_Hands_L_10-_R.mp4FT_prompt.txt
+
+281628421_20200323_Hands_R_10-_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\281628421_20200323_Hands_R_10-_L.mp4FT_prompt.txt
+
+281628421_20201130_Hands_L_R.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\281628421_20201130_Hands_L_R.mp4FT_prompt.txt
+
+281628421_20201130_Hands_R_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\281628421_20201130_Hands_R_L.mp4FT_prompt.txt
+
+292801541_20201221_Hands_L_R.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\292801541_20201221_Hands_L_R.mp4FT_prompt.txt
+
+292801541_20201221_Hands_R_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\292801541_20201221_Hands_R_L.mp4FT_prompt.txt
+
+403773045_20200427_Hands_L_13_R.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\403773045_20200427_Hands_L_13_R.mp4FT_prompt.txt
+
+403773045_20200427_Hands_R_13_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\403773045_20200427_Hands_R_13_L.mp4FT_prompt.txt
+
+403773045_20201012_Hands_L_R.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\403773045_20201012_Hands_L_R.mp4FT_prompt.txt
+
+403773045_20201012_Hands_R_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\403773045_20201012_Hands_R_L.mp4FT_prompt.txt
+
+403773045_20210201_Hands_L_R.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\403773045_20210201_Hands_L_R.mp4FT_prompt.txt
+
+403773045_20210201_Hands_R_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\403773045_20210201_Hands_R_L.mp4FT_prompt.txt
+
+421326689_20200706_Hands_R_13_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\421326689_20200706_Hands_R_13_L.mp4FT_prompt.txt
+
+445817794_20200720_Hands_L_12-_L.mp4FT:
+  - Taps: 10
+  - Prompt: prompts\445817794_20200720_Hands_L_12-_L.mp4FT_prompt.txt
+
+445817794_20200720_Hands_R_12-_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\445817794_20200720_Hands_R_12-_L.mp4FT_prompt.txt
+
+445817794_20201109_Hands_L_R.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\445817794_20201109_Hands_L_R.mp4FT_prompt.txt
+
+445817794_20201109_Hands_R_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\445817794_20201109_Hands_R_L.mp4FT_prompt.txt
+
+546503158_20200310_Hands_L_9_R.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\546503158_20200310_Hands_L_9_R.mp4FT_prompt.txt
+
+546503158_20200310_Hands_R_9_L_redo.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\546503158_20200310_Hands_R_9_L_redo.mp4FT_prompt.txt
+
+553661824_20200629_Hands_L_7-_R.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\553661824_20200629_Hands_L_7-_R.mp4FT_prompt.txt
+
+553661824_20200629_Hands_R_7-_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\553661824_20200629_Hands_R_7-_L.mp4FT_prompt.txt
+
+553661824_20200921_Hands_R_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\553661824_20200921_Hands_R_L.mp4FT_prompt.txt
+
+553661824_20201116_Hands_L_R.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\553661824_20201116_Hands_L_R.mp4FT_prompt.txt
+
+553661824_20201116_Hands_R_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\553661824_20201116_Hands_R_L.mp4FT_prompt.txt
+
+553661824_20210503_Hands_L_R.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\553661824_20210503_Hands_L_R.mp4FT_prompt.txt
+
+553661824_20210503_Hands_R_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\553661824_20210503_Hands_R_L.mp4FT_prompt.txt
+
+575614042_20200615_Hands_L_9-_R.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\575614042_20200615_Hands_L_9-_R.mp4FT_prompt.txt
+
+575614042_20200615_Hands_R_9-_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\575614042_20200615_Hands_R_9-_L.mp4FT_prompt.txt
+
+751297988_20200824_Hands_L_R.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\751297988_20200824_Hands_L_R.mp4FT_prompt.txt
+
+751297988_20200824_Hands_R_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\751297988_20200824_Hands_R_L.mp4FT_prompt.txt
+
+759859453_20200914_Hands_L_R.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\759859453_20200914_Hands_L_R.mp4FT_prompt.txt
+
+759859453_20200914_Hands_R_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\759859453_20200914_Hands_R_L.mp4FT_prompt.txt
+
+759859453_20210104_Hands_L_R.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\759859453_20210104_Hands_L_R.mp4FT_prompt.txt
+
+759859453_20210104_Hands_R_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\759859453_20210104_Hands_R_L.mp4FT_prompt.txt
+
+759859453_20210426_Hands_L_R.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\759859453_20210426_Hands_L_R.mp4FT_prompt.txt
+
+759859453_20210426_Hands_R_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\759859453_20210426_Hands_R_L.mp4FT_prompt.txt
+
+865123482_20200713_Hands_R_12_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\865123482_20200713_Hands_R_12_L.mp4FT_prompt.txt
+
+879885247_20200608_Hands_L_11_R.mp4FT:
+  - Taps: 12
+  - Prompt: prompts\879885247_20200608_Hands_L_11_R.mp4FT_prompt.txt
+
+879885247_20200608_Hands_R_11_L.mp4FT:
+  - Taps: 10
+  - Prompt: prompts\879885247_20200608_Hands_R_11_L.mp4FT_prompt.txt
+
+879885247_20200803_Hands_L_R.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\879885247_20200803_Hands_L_R.mp4FT_prompt.txt
+
+879885247_20200803_Hands_R_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\879885247_20200803_Hands_R_L.mp4FT_prompt.txt
+
+879885247_20201123_Hands_L_R.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\879885247_20201123_Hands_L_R.mp4FT_prompt.txt
+
+879885247_20201123_Hands_R_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\879885247_20201123_Hands_R_L.mp4FT_prompt.txt
+
+973565404_20200622_Hands_L_11_R.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\973565404_20200622_Hands_L_11_R.mp4FT_prompt.txt
+
+973565404_20200622_Hands_R_11_L.mp4FT:
+  - Taps: 11
+  - Prompt: prompts\973565404_20200622_Hands_R_11_L.mp4FT_prompt.txt

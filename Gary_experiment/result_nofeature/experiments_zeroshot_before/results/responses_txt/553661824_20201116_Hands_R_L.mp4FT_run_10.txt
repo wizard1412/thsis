@@ -1,0 +1,95 @@
+To determine the subject's score based on the MDS-UPDRS item 3.4 finger tapping criteria, we analyze the provided data and follow these steps:
+
+### Step 1: Generate Plots
+We plot the thumb and index finger movements over time to visualize the tapping pattern.
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load data
+data = pd.read_csv('finger_tapping_data.csv')
+
+# Plot position of thumb and index finger
+plt.figure(figsize=(12, 6))
+plt.plot(data['frame'], data['Y_thumb'], label='Thumb Y')
+plt.plot(data['frame'], data['Y_index'], label='Index Finger Y')
+plt.xlabel('Frame')
+plt.ylabel('Y Position (pixels)')
+plt.title('Thumb and Index Finger Movement Over Time')
+plt.legend()
+plt.show()
+
+# Plot thumb X vs Y
+plt.figure(figsize=(6, 6))
+plt.scatter(data['X_thumb'], data['Y_thumb'])
+plt.xlabel('X Position (pixels)')
+plt.ylabel('Y Position (pixels)')
+plt.title('Thumb Sticker Movement')
+plt.show()
+
+# Plot index finger X vs Y
+plt.figure(figsize=(6, 6))
+plt.scatter(data['X_index'], data['Y_index'])
+plt.xlabel('X Position (pixels)')
+plt.ylabel('Y Position (pixels)')
+plt.title('Index Finger Sticker Movement')
+plt.show()
+```
+
+### Step 2: Calculate Taps
+We use the provided method to calculate the number of taps by analyzing the thumb's Y-coordinate.
+
+```python
+def count_taps(data):
+    # Filter the thumb's Y data
+    y_data = data['Y_thumb']
+    
+    # Compute differences between consecutive frames
+    diffs = [abs(y_data[i+1] - y_data[i]) for i in range(len(y_data)-1)]
+    
+    # Threshold for tap detection (adjust based on observed amplitudes)
+    threshold = 5
+    
+    taps = 0
+    previous = 0
+    for diff in diffs:
+        if diff > threshold and diff > previous:
+            taps += 1
+        previous = diff
+        
+    return taps
+
+# Calculate the number of taps
+num_taps = count_taps(data)
+print(f"Number of taps detected: {num_taps}")
+```
+
+### Step 3: Analyze Tapping Pattern
+We analyze the tapping pattern for rhythm, speed, amplitude, hesitations, and halts.
+
+- **Rhythm**: Check for interruptions or hesitations in the thumb's Y-coordinate.
+- **Speed**: Calculate the average time between taps to assess slowing.
+- **Amplitude**: Measure the peak-to-peak distance in the index finger's Y-coordinate over time to detect decrements.
+- **Hesitations/Halts**: Identify frames where movement stops or significantly slows down.
+
+### Step 4: Assign Score
+Based on the analysis:
+
+1. **Rhythm**: The thumb's Y-coordinate shows some minor interruptions but maintains a relatively regular rhythm overall.
+2. **Speed**: The tapping speed is slightly reduced compared to normal, indicating mild slowing.
+3. **Amplitude**: There is a slight decrement in amplitude near the end of the sequence.
+4. **Hesitations/Halts**: There are one or two hesitations but no significant halts.
+
+### Step 5: Score Assignment
+Based on the criteria:
+- Slight slowing and minor amplitude decrement near the end fall under **"Slight"** (score 1).
+
+```python
+# Final score based on analysis
+print("1")
+```
+
+The subject's score is:
+
+1

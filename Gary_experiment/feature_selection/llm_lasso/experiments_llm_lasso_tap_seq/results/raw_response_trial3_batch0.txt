@@ -1,0 +1,163 @@
+Here is the list of features with assigned penalty factors and reasoning:
+
+1. **finger_mvmnt_x_median**: 4  
+   Reasoning: Less relevant as horizontal movement is secondary to vertical in tapping.
+
+2. **finger_mvmnt_x_quartile_range**: 3  
+   Reasoning: Indicates rhythm consistency, somewhat relevant.
+
+3. **finger_mvmnt_x_mean**: 4  
+   Reasoning: Horizontal movement is less critical for tapping assessment.
+
+4. **finger_mvmnt_x_min**: 3  
+   Reasoning: May indicate hesitations or freezes.
+
+5. **finger_mvmnt_x_max**: 4  
+   Reasoning: Less relevant due to directionality.
+
+6. **finger_mvmnt_x_stdev**: 3  
+   Reasoning: Indicates movement variability, somewhat relevant.
+
+7. **finger_mvmnt_y_median**: 2  
+   Reasoning: Directly related to primary tapping movement.
+
+8. **finger_mvmnt_y_quartile_range**: 3  
+   Reasoning: Relates to rhythm consistency.
+
+9. **finger_mvmnt_y_mean**: 2  
+   Reasoning: Crucial for amplitude and speed assessment.
+
+10. **finger_mvmnt_y_min**: 3  
+    Reasoning: Indicates possible hesitations.
+
+11. **finger_mvmnt_y_max**: 2  
+    Reasoning: Important for assessing peak vigor.
+
+12. **finger_mvmnt_y_stdev**: 3  
+    Reasoning: Relates to rhythm regularity.
+
+13. **finger_mvmnt_dist_median**: 2  
+    Reasoning: Combines movements, indicating overall amplitude and speed.
+
+14. **finger_mvmnt_dist_quartile_range**: 3  
+    Reasoning: Indicates rhythm consistency.
+
+15. **finger_mvmnt_dist_mean**: 2  
+    Reasoning: Directly related to both speed and amplitude.
+
+16. **finger_mvmnt_dist_min**: 3  
+    Reasoning: May indicate hesitations or freezes.
+
+17. **finger_mvmnt_dist_max**: 2  
+    Reasoning: Important for assessing peak movement.
+
+18. **finger_mvmnt_dist_stdev**: 3  
+    Reasoning: Relates to rhythm and consistency.
+
+19. **aperiodicity**: 2  
+    Reasoning: Directly measures rhythm irregularity.
+
+20. **periodEntropy**: 3  
+    Reasoning: Important for assessing rhythm complexity.
+
+21. **periodVarianceNorm**: 2  
+    Reasoning: Indicates rhythm stability.
+
+22. **numInterruptions**: 2  
+    Reasoning: Key criterion in MDS-UPDRS scoring.
+
+23. **numFreeze**: 2  
+    Reasoning: Critical indicator of severity.
+
+24. **maxFreezeDuration**: 3  
+    Reasoning: Important but slightly less direct.
+
+25. **period_median**: 2  
+    Reasoning: Indicates average rhythm and speed.
+
+26. **period_quartile_range**: 3  
+    Reasoning: Relates to consistency.
+
+27. **period_mean**: 2  
+    Reasoning: Crucial for assessing slowing.
+
+28. **period_min**: 4  
+    Reasoning: Less critical than other interval measures.
+
+29. **period_max**: 3  
+    Reasoning: Indicates hesitations.
+
+30. **period_stdev**: 2  
+    Reasoning: Important for rhythm stability.
+
+31. **frequency_median**: 2  
+    Reasoning: Directly relates to speed and rhythm.
+
+32. **frequency_quartile_range**: 3  
+    Reasoning: Relates to consistency.
+
+33. **frequency_mean**: 2  
+    Reasoning: Important for assessing slowing.
+
+34. **frequency_min**: 3  
+    Reasoning: Indicates possible hesitations.
+
+35. **frequency_max**: 2  
+    Reasoning: Shows initial vigor.
+
+36. **frequency_stdev**: 3  
+    Reasoning: Relates to rhythm consistency.
+
+37. **frequency_lr_fitness_r2**: 3  
+    Reasoning: Important for trend assessment.
+
+38. **frequency_lr_slope**: 2  
+    Reasoning: Indicates slowing or speeding trends.
+
+39. **frequency_fit_min_degree**: 4  
+    Reasoning: Less directly relevant.
+
+40. **num_peaks**: 3  
+    Reasoning: Relates to rhythm but affected by freezes.
+
+41. **num_interruptions_norm**: 2  
+    Reasoning: Strong indicator of hesitations.
+
+42. **num_freeze_norm**: 2  
+    Reasoning: Critical for severity assessment.
+
+43. **speed_median**: 2  
+    Reasoning: Directly relates to speed and vigor.
+
+44. **speed_quartile_range**: 3  
+    Reasoning: Indicates consistency.
+
+45. **speed_mean**: 2  
+    Reasoning: Important for assessing slowing.
+
+46. **speed_min**: 3  
+    Reasoning: May indicate hesitations.
+
+47. **speed_max**: 2  
+    Reasoning: Shows peak effort.
+
+48. **speed_stdev**: 3  
+    Reasoning: Relates to rhythm consistency.
+
+49. **acceleration_median**: 3  
+    Reasoning: Important for movement vigor.
+
+50. **acceleration_quartile_range**: 4  
+    Reasoning: Less critical than others.
+
+51. **acceleration_mean**: 4  
+    Reasoning: Less directly tied to criteria.
+
+52. **acceleration_min**: 3  
+    Reasoning: Indicates hesitations or freezes.
+
+53. **acceleration_max**: 2  
+    Reasoning: Important for speed and rhythm.
+
+54. **acceleration_stdev**: 4  
+    Reasoning: Relates to consistency but less critical.

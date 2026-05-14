@@ -1,0 +1,15 @@
+To determine the subject's MDS-UPDRS finger tapping score, we analyze the movement data for speed, amplitude, and interruptions.
+
+1. **Tap Count**: The subject performed approximately 10 taps within 10 seconds, indicating reasonable task completion.
+
+2. **Speed**: The tap frequency is slightly reduced but not significantly slowed, suggesting mild bradykinesia.
+
+3. **Amplitude**: There's a noticeable decrement in tap amplitude towards the end, indicating possible fatigue.
+
+4. **Interruptions**: Two minor hesitations were observed without major freezes, pointing to slight irregularities.
+
+5. **Rhythm Consistency**: The rhythm is mostly maintained with minor breaks, affecting but not severely impairing performance.
+
+Considering these factors, the score is 2, reflecting mild impairment with some slowing and amplitude reduction, along with a few interruptions.
+
+**Score: 2**

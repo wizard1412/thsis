@@ -1,0 +1,20 @@
+To score the subject's finger tapping test according to MDS-UPDRS item 3.4, we analyze the data for speed, amplitude, hesitations, halts, and decrementing amplitude.
+
+### Data Analysis:
+1. **Taps Count**: The number of taps within 10 seconds is calculated using the provided method.
+2. **Speed**: The average tapping rate (taps per second) is computed to assess slowing.
+3. **Amplitude**: The range of motion between thumb and index finger during taps is measured across the sequence.
+4. **Hesitations/Halts**: Intervals between taps are examined for interruptions or freezing.
+5. **Decrementing Amplitude**: Changes in tap amplitude over time are evaluated.
+
+### Results:
+- **Taps Count**: Within 10 seconds, the subject performed approximately 8 taps.
+- **Speed**: The average tapping rate is slightly below normal, indicating mild slowing.
+- **Amplitude**: There's a noticeable decrement in amplitude starting midway through the sequence.
+- **Hesitations/Halts**: Three interruptions are observed during tapping.
+- **Decrementing Amplitude**: Amplitude decreases after the first few taps.
+
+### Scoring:
+The presence of three hesitations, mild slowing, and amplitude decrement mid-sequence aligns with criteria for a score of 2 (Mild).
+
+4

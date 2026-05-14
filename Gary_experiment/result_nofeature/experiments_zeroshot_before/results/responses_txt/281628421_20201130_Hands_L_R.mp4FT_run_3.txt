@@ -1,0 +1,15 @@
+To determine the subject's score on the MDS-UPDRS finger tapping test, we analyzed the provided data focusing on speed, amplitude, hesitations, and interruptions.
+
+1. **Data Visualization**: Plotted Y coordinates of thumb and index over frames, revealing a regular tapping pattern without significant pauses or amplitude decay.
+
+2. **Tap Counting**: Using the provided method, the subject completed approximately 10 taps within 10 seconds.
+
+3. **Speed Analysis**: Intervals between taps were consistent, indicating normal speed without slowing.
+
+4. **Amplitude Assessment**: Calculated distances showed consistent amplitudes throughout, with no significant decrement.
+
+5. **Hesitation Detection**: No notable hesitations or interruptions were observed in the tapping pattern.
+
+Based on these findings, the subject's performance is normal with no issues identified.
+
+**Score: 0**

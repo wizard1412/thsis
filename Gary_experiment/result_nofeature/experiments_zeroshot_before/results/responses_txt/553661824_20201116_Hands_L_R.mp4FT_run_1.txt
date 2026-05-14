@@ -1,0 +1,12 @@
+To determine the subject's MDS-UPDRS finger tapping score based on the provided 10-second data, we analyze the movement patterns of both the thumb and index finger using their respective x and y coordinates over time.
+
+### Key Observations:
+1. **Number of Taps**: The subject completes approximately 10 taps within the 10-second interval.
+2. **Rhythm and Hesitations**: There are no significant interruptions or hesitations observed during the tapping sequence.
+3. **Speed**: The tapping speed is regular, with consistent intervals between taps, indicating normal performance without slowing.
+4. **Amplitude**: The amplitude of the index finger's movement remains relatively constant throughout the 10 taps, showing no decrementing pattern.
+
+### Conclusion:
+The subject exhibits a normal performance in the finger-tapping task with consistent speed, rhythm, and amplitude. There are no hesitations or decrements observed.
+
+Score: **0**

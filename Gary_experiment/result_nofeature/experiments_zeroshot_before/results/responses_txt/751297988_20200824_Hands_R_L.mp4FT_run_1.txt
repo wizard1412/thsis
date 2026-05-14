@@ -1,0 +1,11 @@
+To determine the subject's MDS-UPDRS finger tapping score, we analyzed the provided data focusing on speed (number of taps), hesitations/interruptions, and amplitude consistency. The subject demonstrated moderate issues with significant slowing, multiple interruptions exceeding 5 instances, and amplitude decrement starting early in the sequence. These factors align with a score of 3, indicating moderate impairment.
+
+The analysis revealed:
+
+1. **Tap Count**: The number of taps was lower than expected, indicating noticeable slowing.
+2. **Hesitations/Interruptions**: More than five interruptions were observed, disrupting the regular rhythm.
+3. **Amplitude Decrement**: Amplitude decreased early in the tapping sequence, starting after the first tap.
+
+These findings correspond to a score of 3 according to MDS-UPDRS criteria for moderate severity.
+
+3

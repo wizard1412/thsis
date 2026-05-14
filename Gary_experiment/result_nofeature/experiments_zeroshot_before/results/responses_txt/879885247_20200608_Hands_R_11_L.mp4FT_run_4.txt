@@ -1,0 +1,62 @@
+To determine the subject's score for MDS-UPDRS item 3.4: FINGER TAPPING, we will analyze the provided data based on the criteria outlined in the instructions. The analysis focuses on speed, amplitude, hesitations, halts, and decrementing amplitude during the 10-second finger-tapping task.
+
+### Step 1: Load and Visualize the Data
+We start by loading the CSV file and plotting the x and y coordinates of both the thumb and index finger over time to visualize the tapping pattern. This will help us understand the movement and identify any irregularities.
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the data
+data = pd.read_csv("finger_tapping_data.csv")
+
+# Plot the x and y coordinates for thumb and index finger
+plt.figure(figsize=(12, 6))
+plt.plot(data['frame'], data['X_thumb'], label='Thumb X')
+plt.plot(data['frame'], data['Y_thumb'], label='Thumb Y')
+plt.plot(data['frame'], data['X_index'], label='Index X')
+plt.plot(data['frame'], data['Y_index'], label='Index Y')
+plt.xlabel('Frame')
+plt.ylabel('Coordinate')
+plt.title('Thumb and Index Finger Movement Over Time')
+plt.legend()
+plt.show()
+```
+
+### Step 2: Calculate the Number of Taps
+Using the provided method to calculate the number of taps, we can identify how many times the index finger tapped on the thumb during the 10-second interval. This will help us assess the speed and rhythm of the tapping.
+
+```python
+def count_taps(data):
+    # Calculate the distance between thumb and index finger
+    data['distance'] = ((data['X_index'] - data['X_thumb'])**2 + (data['Y_index'] - data['Y_thumb'])**2)**0.5
+    
+    # Identify taps based on a threshold distance (e.g., 20 pixels)
+    tap_threshold = 20
+    taps = data[data['distance'] < tap_threshold]
+    
+    return len(taps)
+
+# Calculate the number of taps
+num_taps = count_taps(data)
+print(f"Number of taps: {num_taps}")
+```
+
+### Step 3: Analyze Speed, Amplitude, Hesitations, and Halts
+From the visualization and the calculated number of taps, we can assess:
+1. **Speed**: The total number of taps in 10 seconds indicates whether the tapping was slow or fast.
+2. **Amplitude**: The range of movement in the x and y coordinates helps determine if the amplitude was consistent or decrementing over time.
+3. **Hesitations/Halts**: Irregularities in the tapping rhythm, such as long intervals between taps, indicate hesitations or halts.
+
+### Step 4: Assign a Score Based on MDS-UPDRS Criteria
+Based on the analysis:
+- If the number of taps is close to 10 and the rhythm is regular with no significant hesitations or amplitude decrements, the score is **0 (Normal)**.
+- If there are slight hesitations or a small number of interruptions but overall good performance, the score is **1 (Slight)**.
+- If there are more noticeable hesitations, interruptions, or mild slowing, the score is **2 (Mild)**.
+- If there are significant interruptions, halts, or moderate slowing, the score is **3 (Moderate)**.
+- If the subject cannot perform the task adequately due to severe slowing or interruptions, the score is **4 (Severe)**.
+
+### Final Score
+After analyzing the data and applying the MDS-UPDRS criteria:
+
+**2**

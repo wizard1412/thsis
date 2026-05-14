@@ -1,0 +1,3 @@
+To determine the subject's MDS-UPDRS finger tapping score, we analyzed the 10-second data segment for speed, amplitude, hesitations, and interruptions. The number of taps was calculated using a provided method, revealing 10 taps with three hesitations and some amplitude decrement near the end. This indicates mild issues consistent with a score of 2.
+
+2

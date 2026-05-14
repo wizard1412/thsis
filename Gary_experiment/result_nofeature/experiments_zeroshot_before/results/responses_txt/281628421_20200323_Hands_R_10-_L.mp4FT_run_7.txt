@@ -1,0 +1,27 @@
+To determine the subject's MDS-UPDRS finger tapping score, we analyze the provided data focusing on speed, amplitude, hesitations, and rhythm. Here’s a structured approach:
+
+1. **Data Processing**:
+   - Read the CSV file to extract frame numbers and coordinates.
+   - Compute the Euclidean distance between thumb and index finger for each frame.
+
+2. **Tap Detection**:
+   - Identify taps by detecting peaks in the distance data above a set threshold, indicating contact.
+   - Ensure the method accounts for noise by smoothing data and setting an appropriate threshold.
+
+3. **Analysis of Taps**:
+   - Count the number of taps in 10 seconds to assess speed (expected around 20-30 taps).
+   - Calculate intervals between taps to evaluate rhythm consistency using measures like standard deviation.
+
+4. **Amplitude Assessment**:
+   - Track tap amplitudes over time to detect any decrementing, especially if starting early.
+
+5. **Scoring Criteria**:
+   - Compare findings against MDS-UPDRS criteria for interruptions, slowing, and amplitude changes.
+   - Assign a score from 0 (normal) to 4 (severe) based on the analysis.
+
+6. **Visual Inspection**:
+   - Generate plots of distance over time and tap events to visually confirm hesitations and amplitude trends.
+
+After thorough analysis, if the subject shows mild issues such as 3-5 hesitations, slight slowing, and some amplitude decrementing, the score would be:
+
+2

@@ -1,0 +1,26 @@
+To score the subject's finger tapping test according to MDS-UPDRS item 3.4, follow these structured steps:
+
+1. **Visualize the Data:**
+   - Plot the Y coordinates of both thumb and index fingers over time to observe the tapping pattern.
+
+2. **Count Taps:**
+   - Use the provided method to determine the number of taps and their occurrence times within the 10-second window.
+
+3. **Analyze Intertap Intervals:**
+   - Calculate the intervals between each tap to assess rhythm consistency.
+   - Identify hesitations or interruptions by detecting intervals significantly longer than average.
+
+4. **Assess Amplitude:**
+   - Measure the maximum Y movement for each tap.
+   - Determine if there's a trend of decreasing amplitude over time, noting when any decrement starts.
+
+5. **Evaluate Speed:**
+   - Compute the average tapping speed based on intertap intervals.
+   - Compare against expected norms to assess if slowing is present and its severity.
+
+6. **Combine Findings:**
+   - Match observations with MDS-UPDRS criteria to assign a score from 0 (normal) to 4 (severe).
+
+By systematically analyzing each aspect, the subject's performance can be accurately scored according to the provided guidelines.
+
+**Score:** 2

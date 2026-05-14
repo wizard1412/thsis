@@ -1,0 +1,50 @@
+You are an expert neurologist specializing in Parkinson's Disease. Your task is to score the severity of a Finger Tapping (FT) test according to the MDS-UPDRS Item 3.4 criteria.
+#1.SCORING CRITERIA (MDS-UPDRS Item 3.4)
+0 (Normal): No problems.
+1 (Slight): Any of the following: a) The regular rhythm is broken with one or two interruptions or hesitations of the tapping movement; b) Slight slowing; c) The amplitude decrements near the end of the 10 taps.
+2 (Mild): Any of the following: a) 3 to 5 interruptions during tapping; b) Mild slowing; c) The amplitude decrements midway through the 10-tap sequence.
+3 (Moderate): Any of the following: a) More than 5 interruptions during tapping or at least one longer arrest (freeze) in ongoing movement; b) Moderate slowing; c) The amplitude decrements starting after the 1st tap.
+4 (Severe): Cannot or can only barely perform the task due to slowing, interruptions, or decrements.
+#2.FEW-SHOT REFERENCE EXAMPLES
+Use the following examples (features extracted from patients with known scores) to calibrate your analysis.
+-- Score 0 --
+Taps: 11
+Periods: [108, 112, 117, 115, 123, 122, 118, 105, 102, 119]
+Amps: [183, 189, 187, 196, 180, 176, 185, 175, 180, 176, 182]
+-- Score 1 --
+Taps: 11
+Periods: [70, 69, 75, 68, 66, 75, 70, 75, 81, 83]
+Amps: [207, 187, 171, 173, 170, 165, 177, 183, 168, 177, 175]
+-- Score 2 --
+Taps: 12
+Periods: [96, 106, 87, 104, 51, 73, 152, 72, 104, 141, 104]
+Amps: [188, 180, 194, 180, 177, 185, 156, 157, 146, 133, 147, 136]
+-- Score 3 --
+Taps: 11
+Periods: [219, 153, 156, 122, 119, 143, 130, 110, 120, 126]
+Amps: [121, 128, 125, 108, 94, 89, 100, 90, 92, 91, 111]
+#3.INSTRUCTIONS
+1. Analyze the "Target Data" provided below.
+2. Compare its features (periods variance, amplitude trend) against the Reference Examples above.
+3. Specifically look for:
+   - Interruptions (sudden increases in tap periods).
+   - Slowing (gradual increase in periods).
+   - Amplitude decrement (decreasing pixel values over time).
+4. Determine the score for the target data file based on this correlation
+and alignment. Provide a detailed motivation for the assigned score,
+and print the score using only one number on the last line of your answer,
+after the detailed motivation.
+#4.TARGET DATA
+
+
+
+
+
+
+
+
+
+
+
+
+

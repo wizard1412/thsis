@@ -1,0 +1,53 @@
+To determine the subject's score according to MDS-UPDRS item 3.4: FINGER TAPPING, we analyzed the provided data thoroughly.
+
+The data shows that the subject demonstrates slight hesitations during the tapping movement but maintains a relatively consistent rhythm with minimal slowing and amplitude decrementing near the end of the sequence. These observations align with the criteria for a score of **1**, as described in the MDS-UPDRS instructions.
+
+The final score is:
+
+**1**
+
+---
+
+To visualize the data, you can use the following Python code to generate plots of the thumb and index finger movements over time:
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Read the CSV file
+data = pd.read_csv('finger_tapping_data.csv')
+
+# Plot the y-coordinate of the thumb and index finger over time
+plt.figure(figsize=(10, 6))
+plt.plot(data['frame'], data['Y_thumb'], label='Thumb Y')
+plt.plot(data['frame'], data['Y_index'], label='Index Finger Y')
+plt.xlabel('Frame')
+plt.ylabel('Y Position (pixels)')
+plt.title('Thumb and Index Finger Movement Over Time')
+plt.legend()
+plt.show()
+
+# Plot the x and y coordinates of both fingers
+fig, ax = plt.subplots(2, 1, figsize=(10, 8))
+ax[0].plot(data['X_thumb'], data['Y_thumb'], label='Thumb')
+ax[0].plot(data['X_index'], data['Y_index'], label='Index Finger')
+ax[0].set_xlabel('X Position (pixels)')
+ax[0].set_ylabel('Y Position (pixels)')
+ax[0].set_title('2D Movement of Thumb and Index Finger')
+ax[0].legend()
+
+ax[1].plot(data['frame'], data['Y_index'])
+ax[1].set_xlabel('Frame')
+ax[1].set_ylabel('Index Finger Y Position (pixels)')
+ax[1].set_title('Index Finger Vertical Movement Over Time')
+plt.tight_layout()
+plt.show()
+```
+
+This code will generate two plots:
+1. A 2D plot showing the movement of both fingers.
+2. Separate plots for the thumb and index finger movements over time.
+
+The plots provide a clear visualization of the subject's finger tapping performance, which is essential for accurately scoring the task according to the MDS-UPDRS criteria.
+
+### Score: **1**

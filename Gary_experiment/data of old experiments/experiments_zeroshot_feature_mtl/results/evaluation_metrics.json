@@ -1,0 +1,52 @@
+{
+  "mae": 0.840062720501764,
+  "accuracy": 0.3563308506468052,
+  "weighted_f1": 0.349439110108872,
+  "macro_f1": 0.341671322095001,
+  "off_by_one_accuracy": 0.8247745981967856,
+  "qwk": 0.2914055285274837,
+  "correlation": 0.3013105288406827,
+  "aauc": 0.5868053560584109,
+  "wasserstein_distance": 0.23480987847902773,
+  "confusion_matrix": [
+    [
+      189,
+      321,
+      116,
+      15
+    ],
+    [
+      189,
+      380,
+      180,
+      23
+    ],
+    [
+      130,
+      296,
+      255,
+      42
+    ],
+    [
+      39,
+      124,
+      167,
+      85
+    ]
+  ],
+  "cv_mean_accuracy": 0.3564424615310574,
+  "cv_std_accuracy": 0.031767466251662,
+  "cv_mean_mae": 0.8398115976448743,
+  "cv_std_mae": 0.05811831943464753,
+  "cv_mean_off_by_one": 0.8248506961355796,
+  "cv_std_off_by_one": 0.015990326644143973,
+  "cv_mean_qwk": 0.2921268732143908,
+  "cv_std_qwk": 0.0645039102199888,
+  "cv_mean_correlation": 0.3026320465379141,
+  "cv_std_correlation": 0.06556051423029376,
+  "cv_mean_aauc": 0.5868167349741935,
+  "cv_std_aauc": 0.02268053662808217,
+  "cv_mean_wd": 0.25995792357823644,
+  "cv_std_wd": 0.021331728199651512,
+  "classification_report_text": "              precision    recall  f1-score   support\n\n     Score 0       0.35      0.29      0.32       641\n     Score 1       0.34      0.49      0.40       772\n     Score 2       0.36      0.35      0.35       723\n    Score 3+       0.52      0.20      0.29       415\n\n    accuracy                           0.36      2551\n   macro avg       0.39      0.34      0.34      2551\nweighted avg       0.37      0.36      0.35      2551\n"
+}

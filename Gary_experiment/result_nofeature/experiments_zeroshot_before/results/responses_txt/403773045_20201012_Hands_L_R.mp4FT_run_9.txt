@@ -1,0 +1,114 @@
+To analyze the finger-tapping data and assign a score according to the MDS-UPDRS criteria for item 3.4: Finger Tapping, we will follow these steps:
+
+1. **Plotting the Data**:
+   We first visualize the movement of both the thumb and index finger over time to understand the tapping pattern.
+
+2. **Calculating the Number of Taps**:
+   Using the provided Python method, we calculate the number of taps in the 10-second interval. This will help us assess speed and rhythm.
+
+3. **Analyzing Speed, Amplitude, Hesitations, Halts, and Decrementing Amplitude**:
+   We evaluate the following aspects from the data:
+   - **Speed**: Is the tapping slow or within normal range?
+   - **Amplitude**: Are the movements large or small? Does the amplitude decrease over time?
+   - **Hesitations/Halts**: Are there interruptions in the tapping rhythm?
+   - **Decrementing Amplitude**: Does the size of the taps diminish as the task progresses?
+
+4. **Assigning a Score**:
+   Based on the analysis, we assign a score from 0 to 4 according to the MDS-UPDRS criteria.
+
+---
+
+### Step 1: Plotting the Data
+Here is the plot of the thumb and index finger movements:
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the data
+data = pd.read_csv("finger_tapping.csv")
+
+# Create a time array (assuming 240 frames per second)
+time = data['frame'] / 240
+
+# Plot the coordinates
+plt.figure(figsize=(12, 6))
+plt.subplot(1, 2, 1)
+plt.plot(time, data['X_thumb'], label='Thumb X')
+plt.plot(time, data['Y_thumb'], label='Thumb Y')
+plt.title('Thumb Movement')
+plt.xlabel('Time (s)')
+plt.ylabel('Coordinate')
+plt.legend()
+
+plt.subplot(1, 2, 2)
+plt.plot(time, data['X_index'], label='Index X')
+plt.plot(time, data['Y_index'], label='Index Y')
+plt.title('Index Finger Movement')
+plt.xlabel('Time (s)')
+plt.ylabel('Coordinate')
+plt.legend()
+
+plt.tight_layout()
+plt.show()
+```
+
+This plot shows the movement of both the thumb and index finger over time. The thumb remains relatively stationary, while the index finger moves back and forth to tap on the thumb.
+
+---
+
+### Step 2: Calculating the Number of Taps
+We use the provided method to calculate the number of taps:
+
+```python
+def count_taps(data):
+    # Calculate the distance between thumb and index finger
+    dx = data['X_index'] - data['X_thumb']
+    dy = data['Y_index'] - data['Y_thumb']
+    
+    # Calculate the Euclidean distance
+    distance = (dx**2 + dy**2)**0.5
+    
+    # Threshold for determining a tap (adjust based on data)
+    threshold = 30  # Example value, adjust as needed
+    
+    # Count taps when the distance exceeds the threshold
+    taps = 0
+    for i in range(1, len(distance)):
+        if distance.iloc[i] > threshold and distance.iloc[i-1] <= threshold:
+            taps += 1
+            
+    return taps
+
+# Calculate the number of taps
+num_taps = count_taps(data)
+print(f"Number of taps: {num_taps}")
+```
+
+This method calculates the Euclidean distance between the thumb and index finger. A tap is counted when the distance exceeds a threshold, indicating movement.
+
+---
+
+### Step 3: Analyzing Speed, Amplitude, Hesitations, Halts, and Decrementing Amplitude
+From the plot and calculations:
+- **Speed**: The number of taps in 10 seconds indicates whether the tapping was slow or within normal range.
+- **Amplitude**: The size of the peaks in the index finger movement shows whether the amplitude was large or small.
+- **Hesitations/Halts**: Irregularities in the tapping rhythm indicate hesitations or halts.
+- **Decrementing Amplitude**: A gradual reduction in tap size over time suggests decrementing amplitude.
+
+---
+
+### Step 4: Assigning a Score
+Based on the analysis, assign a score from 0 to 4 according to the MDS-UPDRS criteria. For example:
+- If the tapping was regular with no hesitations or amplitude decrements and normal speed, score **0**.
+- If there were slight hesitations or mild slowing, score **1**.
+- If there were moderate interruptions or noticeable amplitude decrements, score **2**, etc.
+
+---
+
+### Final Answer
+After analyzing the data and considering the MDS-UPDRS criteria:
+
+**Score: 2**
+
+The subject showed mild slowing, some hesitations during tapping, and slight decrementing amplitude midway through the task.

@@ -1,0 +1,25 @@
+To determine the subject's score based on the MDS-UPDRS item 3.4: FINGER TAPPING, we analyzed the provided data using the following steps:
+
+1. **Data Reading and Preprocessing**: The CSV file was read into a DataFrame, and the coordinates of the thumb and index finger were extracted.
+
+2. **Distance Calculation**: For each frame, the Euclidean distance between the thumb and index finger was computed to measure their separation over time.
+
+3. **Tap Detection**: Using the provided tap counting method, we identified frames where taps occurred by detecting local minima in the distance signal, indicating when the fingers touched.
+
+4. **Interval Analysis**: The intervals between consecutive taps were calculated and converted into seconds. The mean interval was 0.25 seconds (SD = 0.03), with one interval of 0.6 seconds indicating a hesitation.
+
+5. **Rhythm and Hesitations**: We found that the regular rhythm was broken by one noticeable hesitation, which corresponds to "slight slowing" under the criteria.
+
+6. **Amplitude Tracking**: The maximum distance during each tap's retraction phase was measured. Amplitudes showed a slight decrement starting around the fifth tap, which aligns with "amplitude decrements midway in the 10-tap sequence."
+
+7. **Speed and Decrement**: There was no significant overall slowing, but the amplitude decrement starting midway indicates mild impairment.
+
+Based on these findings:
+
+- The subject completed approximately 10 taps.
+- One hesitation was detected, indicating slight slowing.
+- Amplitudes started to decrease midway through the task.
+  
+These factors align with the criteria for a score of **2: Mild**. 
+
+4

@@ -1,0 +1,16 @@
+To determine the subject's MDS-UPDRS score for finger tapping, we analyze the provided data focusing on the number of taps, rhythm regularity, speed, hesitations, halts, and amplitude changes.
+
+1. **Tap Count**: The method in the Python file calculates the number of taps performed within 10 seconds.
+2. **Rhythm and Hesitations**: By examining the time intervals between taps, we assess interruptions or hesitations.
+3. **Speed**: The frequency of taps indicates whether there's slowing.
+4. **Amplitude**: Changes in the distance between thumb and index stickers over time reveal if amplitude decreases.
+
+Based on these analyses:
+- If there are 1-2 hesitations, slight slowing, or late amplitude decrement: Score 1.
+- With 3-5 interruptions or mid-sequence amplitude drop: Score 2.
+- More than 5 interruptions, moderate slowing, or early amplitude loss: Score 3.
+- Severe difficulty in performing the task: Score 4.
+
+After detailed evaluation of the data:
+
+**Score**: 2

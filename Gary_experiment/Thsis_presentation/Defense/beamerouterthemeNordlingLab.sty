@@ -1,0 +1,216 @@
+% The Nordling Lab Presentation theme created by Victor Osorio and Torbjörn Nordling, implemented using Beamer by Jose Chang and Torbjörn Nordling.
+% Copyright 2017 by Nordling Lab, Nordron AB
+
+%Outer Themes 
+%"An outer theme speci es what the “outside” or “border” of the presentation slides should look like. It specifies whether there are head- and footlines, what is shown in them, whether there is a sidebar, where the logo goes, where the navigation symbols and bars go, and so on. It also specifies where the frametitle is put and how it is typeset." Beamer User Guide sec. 15.1
+
+%Typically, an outer theme specifies how the following elements are rendered:
+%∙ The head- and footline. 
+%∙ The sidebars.
+%∙ The logo.
+%∙ The frame title.
+
+% The size of a Beamer slide is 128mm by 96mm, while a PPT slide (4:3) is 254mm by 190.5mm, so the beamer elements should be 0.5039 of the PPT elements.
+
+% Requirement
+\pgfdeclareimage[height=1.5cm]{NCKU}{Figures/NCKUlogo.pdf}
+\pgfdeclareimage[height=1.5cm]{NL}{Figures/NordlingLablogo.pdf}
+\pgfdeclareimage[height=1.5cm]{ME}{Figures/NCKUMElogo.pdf}
+\pgfdeclareimage[height=0.46cm]{CC}{Figures/CClogo.pdf}
+\pgfdeclareimage[width=12.3cm]{Banner}{Figures/NordlingLabbanner43.pdf}
+
+\tikzset{help lines/.style={color=red!50,very thin}} %Sets the color of the help lines in the grid so they are visible
+%\tikzset{help lines/.style={color=white,very thin}} %Sets the color of the help lines in the grid to the background color
+
+\mode<presentation>
+
+
+% Background templates
+\defbeamertemplate*{background}{NLTitle}[1][]{% Background for title page
+  %\hspace{-5mm} %The small white stripe on the left side cannot be removed. It is probably a rendering error
+  \begin{tikzpicture}
+  	\useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
+%	\draw[help lines] (0,0) grid (\the\paperwidth,\the\paperheight); %Turn on a grid with 1x1cm squares to make placement easier
+%  	\draw[color=green] (\the\paperwidth/2,0) -- (\the\paperwidth/2,\the\paperheight); %Draws vertical line in the middle of the slide
+%  	\draw[color=yellow] (0,\the\paperheight/2) -- (\the\paperwidth,\the\paperheight/2); %Draws horizontal line in the middle of the slide
+ 	\fill[color=NLdarkblue] (\the\paperwidth/2,-0.7) ellipse (4.23cm and 1.59cm);%Ellipse in the footline of title slide
+	%Banner of title slide
+ 	\fill[color=NLlightblue] (0,\the\paperheight) rectangle(\the\paperwidth,9.15);
+ 	\fill[color=NLmiddleblue] (0,\the\paperheight) rectangle(8.54,9.15);
+ 	\fill[color=NLdarkblue] (0,\the\paperheight) rectangle(4.27,9.15);
+	%Logos
+  	\pgftext[at=\pgfpoint{0.37cm}{0.35cm},left,base]{\pgfuseimage{NCKU}}
+  	\pgftext[at=\pgfpoint{\the\paperwidth/2}{1.0cm},base]{\pgfuseimage{NL}}
+  	\pgftext[at=\pgfpoint{\the\paperwidth-0.35cm}{0.35cm},right,base]{\pgfuseimage{ME}}
+  \end{tikzpicture}
+}
+
+\defbeamertemplate*{background}{NL}[1][]{% Background for slide without CC
+  \begin{tikzpicture}
+  	\useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
+ 	\fill[color=NLdarkblue] (\the\paperwidth/2,-0.89cm) ellipse (4.23cm and 1.59cm);%Ellipse in the footline of normal slides
+%Banner
+  	\pgftext[at=\pgfpoint{\the\paperwidth/2}{\the\paperheight-0.21cm},top]{\pgfuseimage{Banner}}
+  \end{tikzpicture}
+}
+
+\defbeamertemplate*{background}{NLCC}[1][]{% Background for slide with CC
+  %\hspace{-5mm} %The small white stripe on the left side cannot be removed. It is probably a rendering error
+  \begin{tikzpicture}
+  	\useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
+ 	\fill[color=NLdarkblue] (\the\paperwidth/2,-0.89cm) ellipse (4.23cm and 1.59cm);%Ellipse in the footline of normal slides
+	%Banner
+  	\pgftext[at=\pgfpoint{\the\paperwidth/2}{\the\paperheight-0.21cm},top]{\pgfuseimage{Banner}}
+	%CC logo
+  	\pgftext[at=\pgfpoint{0.77cm}{0.15cm},left,base]{\pgfuseimage{CC}}
+  \end{tikzpicture}
+}
+
+
+% Title page
+\defbeamertemplate*{title page}{NLTitle}{
+  \vspace{-0.4cm}%
+  %\vspace{-0.98cm}%
+  \ifx\inserttitle\@empty\par
+  \else{%
+  \begin{beamercolorbox}[wd=12.4cm,ht=1.98cm,dp=1ex,sep=0cm,center]{titlelike}
+  	{\usebeamerfont{title}\par\inserttitle\par}
+  \end{beamercolorbox}%
+  }%
+  \fi
+  \begin{centering}
+  \ifx\insertsubtitle\@empty\par
+  \else{\par\usebeamercolor[fg]{title page title}\usebeamerfont{subtitle}\insertsubtitle\par}
+  \fi
+  \ifx\insertauthor\@empty\par
+  \else{\par\usebeamercolor[fg]{normal text}\usebeamerfont{author}\insertauthor\par}
+  \fi
+  \ifx\insertinstitute\@empty\par
+  \else{\par\usebeamercolor[fg]{normal text}\usebeamerfont{institute}\insertinstitute\par}
+  \fi
+  \ifx\insertdate\@empty\par
+  \else{\vspace{0.1cm}\par\usebeamercolor[fg]{normal text}\usebeamerfont{date}\insertdate\par}
+  \fi
+  \end{centering}
+  \vfill
+}
+
+% Frame title
+\defbeamertemplate*{frametitle}{NL}[1][]{%frametitle for slide with/without CC
+  \vskip0.82cm%
+  \ifx\insertframetitle\@empty\par
+  \else{%
+    \begin{centering}
+      ~
+      \begin{beamercolorbox}[wd=9.07cm,ht=0.42cm,sep=0cm,center]{frametitle}
+      	\vbox to0.42cm{\vfil{\usebeamerfont{frametitle}\insertframetitle\par}\vfil}%
+      \end{beamercolorbox}%
+      ~\par%Trick to center beamercolorbox by making something else exist on the line and end it
+      \vskip-1mm
+    \end{centering}
+  }%
+  \fi
+  \ifx\insertframesubtitle\@empty\par
+  \else{%
+    \begin{centering}
+      ~
+      \begin{beamercolorbox}[wd=9.07cm,ht=0.35cm,sep=0cm,center]{framesubtitle}
+      	\vbox to0.35cm{\vfil{\usebeamerfont{framesubtitle}\insertframesubtitle\par}\vfil}%
+      \end{beamercolorbox}%
+      ~\par%Trick to center beamercolorbox by making something else exist on the line and end it
+    \end{centering}
+  }%
+  \fi
+}
+
+% Footline templates
+\defbeamertemplate*{footline}{NLTitle}[1][]{%Empty footline for title page
+}
+
+\defbeamertemplate*{footline}{NL}[1][]{%Footline for slide without CC
+  \urlstyle{same}
+    \hbox{%
+        \ifx&#1&%
+       % #1 is empty
+       \hspace{.75\paperwidth}
+    \else
+       % #1 is nonempty
+    \hspace{.25\paperwidth}
+   \parbox{.50\paperwidth}{
+   	\begin{centering}
+   		\vbox to0.5cm{\vfil{\usebeamercolor[fg]{footline}\usebeamerfont{footline} #1}\vfil}%
+	\end{centering}
+    }%
+    \fi
+    \begin{beamercolorbox}[wd=.15\paperwidth,ht=.5cm,dp=.2cm,center]{date in head/foot}%
+        \usebeamerfont{date in head/foot}\insertshortdate{}
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.10\paperwidth,ht=.5cm,dp=.2cm,right,rightskip=5ex]{page number in head/foot}%
+        \usebeamerfont{page number in head/foot}\insertframenumber / \inserttotalframenumber
+    \end{beamercolorbox}%
+    }
+}
+
+\defbeamertemplate*{footline}{NLnoPP}[1][]{%Footline for slide without CC and page number
+  \urlstyle{same}
+    \hbox{%
+        \ifx&#1&%
+       % #1 is empty
+       \hspace{.75\paperwidth}
+    \else
+       % #1 is nonempty
+    \hspace{.25\paperwidth}
+   \parbox{.50\paperwidth}{
+   	\begin{centering}
+   		\vbox to0.5cm{\vfil{\usebeamercolor[fg]{footline}\usebeamerfont{footline} #1}\vfil}%
+	\end{centering}
+    }%
+    \fi
+    \begin{beamercolorbox}[wd=.15\paperwidth,ht=.5cm,dp=.2cm,center]{date in head/foot}%
+        \usebeamerfont{date in head/foot}\insertshortdate{}
+    \end{beamercolorbox}%
+    %\begin{beamercolorbox}[wd=.10\paperwidth,ht=.5cm,dp=.2cm,right,rightskip=5ex]{page number in head/foot}%
+    %    \usebeamerfont{page number in head/foot}\insertframenumber / \inserttotalframenumber
+    %\end{beamercolorbox}%
+    }
+}
+
+\defbeamertemplate*{footline}{NLCC}[1][]{%Footline for slide with CC
+  \urlstyle{same}
+    \hbox{%
+    \hspace{.25\paperwidth}
+   \parbox{.50\paperwidth}{
+   	\begin{centering}
+   		\vbox to0.5cm{\vfil{\usebeamercolor[fg]{footline}\usebeamerfont{footline}Licensed under CC BY 4.0, except logos\\
+    		\url{https://creativecommons.org/licenses/by/4.0/legalcode}}\vfil}%
+	\end{centering}
+    }%
+    \begin{beamercolorbox}[wd=.15\paperwidth,ht=.5cm,dp=.2cm,center]{date in head/foot}%
+        \usebeamerfont{date in head/foot}\insertshortdate{}
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.10\paperwidth,ht=.5cm,dp=.2cm,right,rightskip=5ex]{page number in head/foot}%
+        \usebeamerfont{page number in head/foot}\insertframenumber / \inserttotalframenumber
+    \end{beamercolorbox}%
+    }
+}
+
+\defbeamertemplate*{footline}{NLCCnoPP}[1][]{%Footline for slide with CC but without page number
+  \urlstyle{same}
+    \hbox{%
+    \hspace{.25\paperwidth}
+   \parbox{.50\paperwidth}{
+   	\begin{centering}
+   		\vbox to0.5cm{\vfil{\usebeamercolor[fg]{footline}\usebeamerfont{footline}Licensed under CC BY 4.0, except logos\\
+    		\url{https://creativecommons.org/licenses/by/4.0/legalcode}}\vfil}%
+	\end{centering}
+    }%
+    \begin{beamercolorbox}[wd=.15\paperwidth,ht=.5cm,dp=.2cm,center]{date in head/foot}%
+        \usebeamerfont{date in head/foot}\insertshortdate{}
+    \end{beamercolorbox}%
+    %\begin{beamercolorbox}[wd=.10\paperwidth,ht=.5cm,dp=.2cm,right,rightskip=5ex]{page number in head/foot}%
+    %    \usebeamerfont{page number in head/foot}\insertframenumber / \inserttotalframenumber
+    %\end{beamercolorbox}%
+    }
+}
+
+\mode<all>

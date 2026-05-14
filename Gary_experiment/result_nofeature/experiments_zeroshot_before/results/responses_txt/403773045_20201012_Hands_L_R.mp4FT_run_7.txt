@@ -1,0 +1,15 @@
+To determine the subject's score based on the MDS-UPDRS finger tapping criteria:
+
+**Analysis:**
+- The subject completed approximately 14 taps in 10 seconds, indicating a tap rate of about 1.4 Hz. This suggests mild slowing compared to typical performance.
+- The amplitude of taps showed a decrement over time, starting midway through the sequence and becoming more pronounced towards the end.
+- The rhythm was regular with no significant hesitations or interruptions.
+
+**Scoring:**
+- **Speed:** Mild slowing (14 taps in 10 seconds).
+- **Amplitude:** Decrementing from midway, affecting performance.
+- **Regularity:** No notable hesitations or interruptions.
+
+According to MDS-UPDRS criteria, these observations align with a mild impairment.
+
+1

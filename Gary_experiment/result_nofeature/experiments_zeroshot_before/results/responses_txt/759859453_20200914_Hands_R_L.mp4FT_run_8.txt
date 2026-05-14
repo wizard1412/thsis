@@ -1,0 +1,20 @@
+To determine the subject's score for the MDS-UPDRS finger tapping test, we analyze the provided data focusing on speed, amplitude, hesitations, and interruptions. Here's the breakdown:
+
+1. **Data Visualization**: The Y-coordinates of both fingers were plotted over time, showing the thumb (blue) and index finger (orange). This helps visualize the tapping pattern.
+
+2. **Tap Detection**: By identifying peaks in the movement data, we detected approximately 20 taps within the 10-second window, indicating a rate of about two taps per second. This suggests mild slowing since the task is to tap as quickly as possible.
+
+3. **Hesitations and Interruptions**: Analysis revealed around 4 hesitations, which falls under "mild" criteria (3-5 interruptions).
+
+4. **Amplitude Consistency**: The amplitude showed a slight decrement midway through the tapping sequence, indicating mild issues with movement consistency.
+
+Based on these observations:
+- Speed is mildly slowed.
+- There are 3-5 hesitations.
+- Amplitude decreases midway.
+
+These factors align with a score of 2 according to MDS-UPDRS criteria.
+
+The subject's score is:
+
+2

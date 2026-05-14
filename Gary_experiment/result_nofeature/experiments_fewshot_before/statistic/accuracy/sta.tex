@@ -1,0 +1,29 @@
+\documentclass{article}
+\usepackage{booktabs} % Professional tables
+\usepackage{geometry}
+\usepackage{graphicx} % For resizebox
+\usepackage{array}
+
+\begin{document}
+
+\begin{table}[htbp]
+    \centering
+    \caption{Performance Comparison of All Models}
+    \label{tab:csv_model_performance}
+    % Resize table to fit text width
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{lcccccc}
+        \toprule
+        Model & Acc (\%) & AAcc (\%) & MAE & RMSE & WD \\
+        \midrule
+        % Data from table3_10_all_models.csv
+	GPT4 & \textbf{72.7 [54.5, 90.9]} & \textbf{100.0 [100.0, 100.0]} & \textbf{0.27 [0.09, 0.45]} & \textbf{0.52 [0.30, 0.67]} & 0.27 [0.09, 0.45] \\
+        GPT5& 22.7 [4.5, 45.5] & 90.9 [77.3, 100.0] & 0.86 [0.59, 1.09] & 1.02 [0.80, 1.22] & 0.68 [0.36, 1.00] \\
+        DEEPSEEK-R1\_70B & 31.8 [13.6, 50.0] & 90.9 [77.3, 100.0] & 0.77 [0.50, 1.00] & 0.98 [0.74, 1.17] & 0.68 [0.36, 0.95] \\
+        MISTRAL\_7B& 63.6 [45.3, 81.8] & \textbf{100.0 [100.0, 100.0]} & 0.36 [0.18, 0.55] & 0.60 [0.43, 0.74] & \textbf{0.18 [0.09, 0.41]} \\
+        \bottomrule
+    \end{tabular}%
+    }
+\end{table}
+
+\end{document}

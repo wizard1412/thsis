@@ -1,0 +1,1120 @@
+{
+  "finger_mvmnt_x_median": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Median horizontal movement of thumb between consecutive frames"
+  },
+  "finger_mvmnt_x_quartile_range": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Interquartile range of horizontal thumb movement"
+  },
+  "finger_mvmnt_x_mean": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Mean horizontal thumb movement amplitude per frame"
+  },
+  "finger_mvmnt_x_min": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Minimum horizontal thumb movement (closest to stationary)"
+  },
+  "finger_mvmnt_x_max": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Maximum horizontal thumb movement in a single frame"
+  },
+  "finger_mvmnt_x_stdev": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Variability of horizontal thumb movement across frames"
+  },
+  "finger_mvmnt_y_median": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Median vertical movement of thumb between consecutive frames"
+  },
+  "finger_mvmnt_y_quartile_range": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Interquartile range of vertical thumb movement"
+  },
+  "finger_mvmnt_y_mean": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Mean vertical thumb movement amplitude per frame"
+  },
+  "finger_mvmnt_y_min": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Minimum vertical thumb movement"
+  },
+  "finger_mvmnt_y_max": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Maximum vertical thumb movement in a single frame"
+  },
+  "finger_mvmnt_y_stdev": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Variability of vertical thumb movement across frames"
+  },
+  "finger_mvmnt_dist_median": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Median Euclidean distance of thumb movement between frames"
+  },
+  "finger_mvmnt_dist_quartile_range": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Interquartile range of thumb movement distance"
+  },
+  "finger_mvmnt_dist_mean": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Mean thumb-index distance (overall movement amplitude)"
+  },
+  "finger_mvmnt_dist_min": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Minimum thumb movement distance"
+  },
+  "finger_mvmnt_dist_max": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Maximum thumb movement distance in a single frame"
+  },
+  "finger_mvmnt_dist_stdev": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Variability of thumb movement distance"
+  },
+  "aperiodicity": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "FFT power spectrum entropy measuring rhythm irregularity (higher = more irregular)"
+  },
+  "periodEntropy": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Entropy of inter-tap interval distribution (higher = more complex rhythm)"
+  },
+  "periodVarianceNorm": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Normalized variance of tap periods (rhythm stability measure)"
+  },
+  "numInterruptions": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Count of interruptions/hesitations during tapping sequence"
+  },
+  "numFreeze": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Count of freeze episodes (movement arrest) during tapping"
+  },
+  "maxFreezeDuration": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Duration of the longest freeze episode in seconds"
+  },
+  "period_median": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Median inter-tap interval in seconds"
+  },
+  "period_quartile_range": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Interquartile range of tap intervals (rhythm consistency)"
+  },
+  "period_mean": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Mean inter-tap interval in seconds (inversely related to tapping speed)"
+  },
+  "period_min": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Shortest inter-tap interval in seconds"
+  },
+  "period_max": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Longest inter-tap interval in seconds (may indicate hesitation)"
+  },
+  "period_stdev": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Standard deviation of tap intervals (rhythm stability, higher = more unstable)"
+  },
+  "frequency_median": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Median tapping frequency in Hz"
+  },
+  "frequency_quartile_range": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Interquartile range of tapping frequency"
+  },
+  "frequency_mean": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Mean tapping frequency in Hz (higher = faster tapping)"
+  },
+  "frequency_min": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Minimum tapping frequency (slowest tapping moment)"
+  },
+  "frequency_max": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Maximum tapping frequency (fastest tapping moment)"
+  },
+  "frequency_stdev": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Variability of tapping frequency across the sequence"
+  },
+  "frequency_lr_fitness_r2": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "R-squared of linear fit to frequency over time (frequency trend goodness)"
+  },
+  "frequency_lr_slope": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Slope of linear fit to frequency over time (negative = slowing down)"
+  },
+  "frequency_fit_min_degree": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Minimum polynomial degree to fit frequency trend"
+  },
+  "num_peaks": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Total number of detected taps in the sequence"
+  },
+  "num_interruptions_norm": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Normalized count of interruptions (interruptions per tap)"
+  },
+  "num_freeze_norm": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Normalized count of freeze episodes (freezes per tap)"
+  },
+  "speed_median": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Median finger movement speed in degrees/second"
+  },
+  "speed_quartile_range": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Interquartile range of movement speed"
+  },
+  "speed_mean": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Mean finger movement speed (higher = more vigorous tapping)"
+  },
+  "speed_min": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Minimum movement speed"
+  },
+  "speed_max": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Maximum movement speed (peak velocity)"
+  },
+  "speed_stdev": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Variability of movement speed"
+  },
+  "acceleration_median": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Median finger movement acceleration"
+  },
+  "acceleration_quartile_range": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Interquartile range of acceleration"
+  },
+  "acceleration_mean": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Mean finger acceleration"
+  },
+  "acceleration_min": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Minimum acceleration (peak deceleration)"
+  },
+  "acceleration_max": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Maximum acceleration (peak acceleration)"
+  },
+  "acceleration_stdev": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Variability of acceleration across the sequence"
+  },
+  "amplitude_median": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Median peak-to-peak finger aperture during tapping (pixels, denoised)"
+  },
+  "amplitude_quartile_range": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Interquartile range of tap amplitudes (amplitude consistency)"
+  },
+  "amplitude_mean": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Mean tap amplitude (overall finger opening size)"
+  },
+  "amplitude_min": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Minimum tap amplitude (smallest opening, may reflect fatigue or rigidity)"
+  },
+  "amplitude_max": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Maximum tap amplitude (largest opening recorded)"
+  },
+  "amplitude_stdev": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Standard deviation of tap amplitudes (amplitude variability)"
+  },
+  "amplitude_entropy": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "Entropy of tap amplitude distribution (higher = more irregular amplitude)"
+  },
+  "amplitude_decrement_fitness_r2": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "R-squared of linear fit to amplitude-over-time (decrement trend quality)"
+  },
+  "amplitude_decrement_slope": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Slope of amplitude over tap index (negative = decreasing amplitude, key MDS-UPDRS criterion)"
+  },
+  "amplitude_decrement_end_to_mean": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Ratio of last tap amplitude to mean (< 1 = decrement)"
+  },
+  "amplitude_decrement_fit_min_degree": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Polynomial degree used for amplitude trend fitting"
+  },
+  "amplitude_decrement_last_to_first_half": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "Ratio of second-half mean to first-half mean amplitude (< 1 = overall decrement)"
+  },
+  "tap_amp_norm_01": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Normalized amplitude of tap #1 out of up to 20 taps (ratio to the subject's max amplitude in this trial; 1.0 = full opening, 0 = no opening). NaN if the subject has fewer than 1 taps. Together, tap_amp_norm_01..20 represent the temporal amplitude trajectory, capturing decrement, fatigue, or irregular amplitude during the finger-tapping task."
+  },
+  "tap_amp_norm_02": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Normalized amplitude of tap #2 out of up to 20 taps (ratio to the subject's max amplitude in this trial; 1.0 = full opening, 0 = no opening). NaN if the subject has fewer than 2 taps. Together, tap_amp_norm_01..20 represent the temporal amplitude trajectory, capturing decrement, fatigue, or irregular amplitude during the finger-tapping task."
+  },
+  "tap_amp_norm_03": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Normalized amplitude of tap #3 out of up to 20 taps (ratio to the subject's max amplitude in this trial; 1.0 = full opening, 0 = no opening). NaN if the subject has fewer than 3 taps. Together, tap_amp_norm_01..20 represent the temporal amplitude trajectory, capturing decrement, fatigue, or irregular amplitude during the finger-tapping task."
+  },
+  "tap_amp_norm_04": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Normalized amplitude of tap #4 out of up to 20 taps (ratio to the subject's max amplitude in this trial; 1.0 = full opening, 0 = no opening). NaN if the subject has fewer than 4 taps. Together, tap_amp_norm_01..20 represent the temporal amplitude trajectory, capturing decrement, fatigue, or irregular amplitude during the finger-tapping task."
+  },
+  "tap_amp_norm_05": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Normalized amplitude of tap #5 out of up to 20 taps (ratio to the subject's max amplitude in this trial; 1.0 = full opening, 0 = no opening). NaN if the subject has fewer than 5 taps. Together, tap_amp_norm_01..20 represent the temporal amplitude trajectory, capturing decrement, fatigue, or irregular amplitude during the finger-tapping task."
+  },
+  "tap_amp_norm_06": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Normalized amplitude of tap #6 out of up to 20 taps (ratio to the subject's max amplitude in this trial; 1.0 = full opening, 0 = no opening). NaN if the subject has fewer than 6 taps. Together, tap_amp_norm_01..20 represent the temporal amplitude trajectory, capturing decrement, fatigue, or irregular amplitude during the finger-tapping task."
+  },
+  "tap_amp_norm_07": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Normalized amplitude of tap #7 out of up to 20 taps (ratio to the subject's max amplitude in this trial; 1.0 = full opening, 0 = no opening). NaN if the subject has fewer than 7 taps. Together, tap_amp_norm_01..20 represent the temporal amplitude trajectory, capturing decrement, fatigue, or irregular amplitude during the finger-tapping task."
+  },
+  "tap_amp_norm_08": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Normalized amplitude of tap #8 out of up to 20 taps (ratio to the subject's max amplitude in this trial; 1.0 = full opening, 0 = no opening). NaN if the subject has fewer than 8 taps. Together, tap_amp_norm_01..20 represent the temporal amplitude trajectory, capturing decrement, fatigue, or irregular amplitude during the finger-tapping task."
+  },
+  "tap_amp_norm_09": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Normalized amplitude of tap #9 out of up to 20 taps (ratio to the subject's max amplitude in this trial; 1.0 = full opening, 0 = no opening). NaN if the subject has fewer than 9 taps. Together, tap_amp_norm_01..20 represent the temporal amplitude trajectory, capturing decrement, fatigue, or irregular amplitude during the finger-tapping task."
+  },
+  "tap_amp_norm_10": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Normalized amplitude of tap #10 out of up to 20 taps (ratio to the subject's max amplitude in this trial; 1.0 = full opening, 0 = no opening). NaN if the subject has fewer than 10 taps. Together, tap_amp_norm_01..20 represent the temporal amplitude trajectory, capturing decrement, fatigue, or irregular amplitude during the finger-tapping task."
+  },
+  "tap_amp_norm_11": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Normalized amplitude of tap #11 out of up to 20 taps (ratio to the subject's max amplitude in this trial; 1.0 = full opening, 0 = no opening). NaN if the subject has fewer than 11 taps. Together, tap_amp_norm_01..20 represent the temporal amplitude trajectory, capturing decrement, fatigue, or irregular amplitude during the finger-tapping task."
+  },
+  "tap_amp_norm_12": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Normalized amplitude of tap #12 out of up to 20 taps (ratio to the subject's max amplitude in this trial; 1.0 = full opening, 0 = no opening). NaN if the subject has fewer than 12 taps. Together, tap_amp_norm_01..20 represent the temporal amplitude trajectory, capturing decrement, fatigue, or irregular amplitude during the finger-tapping task."
+  },
+  "tap_amp_norm_13": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Normalized amplitude of tap #13 out of up to 20 taps (ratio to the subject's max amplitude in this trial; 1.0 = full opening, 0 = no opening). NaN if the subject has fewer than 13 taps. Together, tap_amp_norm_01..20 represent the temporal amplitude trajectory, capturing decrement, fatigue, or irregular amplitude during the finger-tapping task."
+  },
+  "tap_amp_norm_14": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Normalized amplitude of tap #14 out of up to 20 taps (ratio to the subject's max amplitude in this trial; 1.0 = full opening, 0 = no opening). NaN if the subject has fewer than 14 taps. Together, tap_amp_norm_01..20 represent the temporal amplitude trajectory, capturing decrement, fatigue, or irregular amplitude during the finger-tapping task."
+  },
+  "tap_amp_norm_15": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Normalized amplitude of tap #15 out of up to 20 taps (ratio to the subject's max amplitude in this trial; 1.0 = full opening, 0 = no opening). NaN if the subject has fewer than 15 taps. Together, tap_amp_norm_01..20 represent the temporal amplitude trajectory, capturing decrement, fatigue, or irregular amplitude during the finger-tapping task."
+  },
+  "tap_amp_norm_16": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Normalized amplitude of tap #16 out of up to 20 taps (ratio to the subject's max amplitude in this trial; 1.0 = full opening, 0 = no opening). NaN if the subject has fewer than 16 taps. Together, tap_amp_norm_01..20 represent the temporal amplitude trajectory, capturing decrement, fatigue, or irregular amplitude during the finger-tapping task."
+  },
+  "tap_amp_norm_17": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Normalized amplitude of tap #17 out of up to 20 taps (ratio to the subject's max amplitude in this trial; 1.0 = full opening, 0 = no opening). NaN if the subject has fewer than 17 taps. Together, tap_amp_norm_01..20 represent the temporal amplitude trajectory, capturing decrement, fatigue, or irregular amplitude during the finger-tapping task."
+  },
+  "tap_amp_norm_18": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Normalized amplitude of tap #18 out of up to 20 taps (ratio to the subject's max amplitude in this trial; 1.0 = full opening, 0 = no opening). NaN if the subject has fewer than 18 taps. Together, tap_amp_norm_01..20 represent the temporal amplitude trajectory, capturing decrement, fatigue, or irregular amplitude during the finger-tapping task."
+  },
+  "tap_amp_norm_19": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Normalized amplitude of tap #19 out of up to 20 taps (ratio to the subject's max amplitude in this trial; 1.0 = full opening, 0 = no opening). NaN if the subject has fewer than 19 taps. Together, tap_amp_norm_01..20 represent the temporal amplitude trajectory, capturing decrement, fatigue, or irregular amplitude during the finger-tapping task."
+  },
+  "tap_amp_norm_20": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "Normalized amplitude of tap #20 out of up to 20 taps (ratio to the subject's max amplitude in this trial; 1.0 = full opening, 0 = no opening). NaN if the subject has fewer than 20 taps. Together, tap_amp_norm_01..20 represent the temporal amplitude trajectory, capturing decrement, fatigue, or irregular amplitude during the finger-tapping task."
+  }
+}

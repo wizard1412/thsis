@@ -1,0 +1,13 @@
+To determine the subject's score based on the MDS-UPDRS item 3.4 finger tapping test, the following analysis was conducted:
+
+1. **Tap Intervals**: The time between taps was calculated to assess rhythm and speed. Most intervals were consistent, but there were a few longer pauses indicating hesitations.
+
+2. **Amplitude Measurement**: Each tap's amplitude showed a gradual decrease starting midway through the sequence, meeting criterion 2c (amplitude decrements midway).
+
+3. **Hesitations/Freezes**: There were approximately 3-5 interruptions during tapping, fitting into criterion 2a (mild issues with hesitations).
+
+4. **Number of Taps**: The subject completed the task within the time frame without significant decrementing amplitude early on.
+
+Based on these findings, the score is assigned as per the criteria for mild issues, which include 3-5 interruptions and amplitude decrements midway.
+
+**Score: 2**

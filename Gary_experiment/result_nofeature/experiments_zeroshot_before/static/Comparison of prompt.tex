@@ -1,0 +1,114 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\geometry{a4paper, margin=1in}
+
+\begin{document}
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{p{3.5cm}p{5.5cm}p{5.5cm}}
+\toprule
+\textbf{Item} & \textbf{Dallen's PromptC} & \textbf{My Non-shot Prompt} \\
+\midrule
+\textbf{Input Data Token Count} & 
+High\newline
+($\sim$2,400 rows $\times$ 5 columns = 12,000 values)\newline
+Each row: "123,45.2,67.8,89.1,34.5"\newline
+Estimated: 50,000-100,000 tokens & 
+Low\newline
+(Only 10 feature values)\newline
+Tap count: 1 value\newline
+Periods: 10 values\newline
+Amplitudes: 10 values\newline
+Estimated: 200-500 tokens \\
+\midrule
+\textbf{Prompt Instruction Token Count} & 
+Medium\newline
+(Detailed description of raw data format, tracking system, fps, coordinate system, etc.)\newline
+Estimated: 400-600 tokens & 
+Low\newline
+(Concise description of feature types)\newline
+Estimated: 300-400 tokens \\
+\midrule
+\textbf{Total Token Usage} & 
+50,400-100,600 tokens & 
+500-900 tokens \\
+\midrule
+\textbf{Raw Data Format} & 
+CSV coordinate data:\newline
+• frame\newline
+• X\_thumb\newline
+• Y\_thumb\newline
+• X\_index \newline
+• Y\_index  & 
+Preprocessed features:\newline
+• Tap count \newline
+• Periods \newline
+• Amplitudes \\
+\bottomrule
+\end{tabular}
+\caption{Comparison between PromptC and Prompt}
+\label{tab:comparison}
+\end{table}
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{p{3.5cm}p{5.5cm}p{5.5cm}}
+\toprule
+\textbf{Item} & \textbf{Dallen's PromptD} & \textbf{My few-shot Prompt} \\
+\midrule
+\textbf{Input Data Token Count} & 
+High\newline
+($\sim$2,400 rows $\times$ 5 columns = 12,000 values)\newline
+Each row: "123,45.2,67.8,89.1,34.5"\newline
+Estimated: 50,000-100,000 tokens & 
+Low\newline
+(Only 10 feature values)\newline
+Tap count: 1 value\newline
+Periods: 10 values\newline
+Amplitudes: 10 values\newline
+Estimated: 200-500 tokens \\
+\midrule
+\textbf{Prompt Instruction Token Count} & 
+Medium\newline
+(Detailed description of raw data format, tracking system, fps, coordinate system, etc.)\newline
+Estimated: 400-600 tokens & 
+Medium\newline
+(Concise description of feature types + 4 reference examples)\newline
+Estimated: 800-1,000 tokens \\
+\midrule
+\textbf{Total Token Usage} & 
+50,400-100,600 tokens & 
+1,000-1,500 tokens \\
+\midrule
+\textbf{Raw Data Format} & 
+CSV coordinate data:\newline
+• frame \newline
+• X\_thumb \newline
+• Y\_thumb \newline
+• X\_index \newline
+• Y\_index  & 
+Preprocessed features:\newline
+• Tap count )\newline
+• Periods \newline
+• Amplitudes  \\
+\midrule
+\textbf{Reference Examples Format} & 
+Other CSV files with raw coordinate data\newline
+(Same format as target data: frame, X\_thumb, Y\_thumb, X\_index, Y\_index) & 
+Extracted features from example CSV files\newline
+(Preprocessed: Tap count, Periods array, Amplitudes array for each score 0-3) \\
+\bottomrule
+\end{tabular}
+\caption{Comparison between Prompt4 and Few-shot Prompt}
+\label{tab:comparison}
+\end{table}
+\end{document}

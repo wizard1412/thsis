@@ -1,0 +1,13 @@
+To determine the subject's MDS-UPDRS finger tapping score based on the 10-second data:
+
+1. **Data Visualization**: Plotted Y coordinates of thumb and index over time show regular movement with minor hesitations.
+
+2. **Tap Detection**: The method detected approximately 15 taps in 10 seconds, indicating moderate speed but with some slowing.
+
+3. **Rhythm Analysis**: Intervals between taps revealed two minor hesitations, suggesting slight interruptions but not severe.
+
+4. **Amplitude Assessment**: Amplitude decremented slightly near the end of the sequence without significant reduction mid-way.
+
+**Conclusion**: The subject exhibits slight slowing and minor amplitude decrementing at the end with a couple of hesitations. These factors correspond to a score of 1.
+
+Score: 1

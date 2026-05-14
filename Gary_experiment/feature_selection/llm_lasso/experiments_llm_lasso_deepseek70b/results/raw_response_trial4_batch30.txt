@@ -1,0 +1,75 @@
+Here is the list of features with their assigned penalty factors based on clinical relevance to MDS-UPDRS Item 3.4 finger tapping severity:
+
+1. **frequency_median**: 2  
+   - Median frequency directly reflects tapping speed, crucial for assessing severity.
+
+2. **frequency_quartile_range**: 3  
+   - Indicates variability in tapping speed, relevant but less direct than median.
+
+3. **frequency_mean**: 2  
+   - Overall average speed is important despite potential outliers.
+
+4. **frequency_min**: 3  
+   - Slowest tapping moments relate to progressive slowing.
+
+5. **frequency_max**: 3  
+   - Fastest moments can indicate variability or initial vigor.
+
+6. **frequency_stdev**: 2  
+   - Variability in frequency reflects rhythm irregularities and hesitations.
+
+7. **frequency_lr_fitness_r2**: 3  
+   - Measures consistency of slowing over time, relevant but indirect.
+
+8. **frequency_lr_slope**: 2  
+   - Indicates progressive slowing, significant for severity assessment.
+
+9. **frequency_fit_min_degree**: 4  
+   - Complexity in modeling frequency changes is less directly relevant.
+
+10. **num_peaks**: 4  
+    - Total taps may indicate performance but not as crucial as other features.
+
+11. **num_interruptions_norm**: 2  
+    - Directly measures hesitations, critical for severity.
+
+12. **num_freeze_norm**: 2  
+    - Freezes are key indicators of motor issues in PD.
+
+13. **speed_median**: 2  
+    - Reflects overall movement speed and vigor.
+
+14. **speed_quartile_range**: 3  
+    - Variability in speed is relevant but less direct.
+
+15. **speed_mean**: 2  
+    - Average speed is crucial for assessing motor function.
+
+16. **speed_min**: 3  
+    - Slowest movements indicate potential decrements.
+
+17. **speed_max**: 3  
+    - Peak velocity reflects initial movement vigor.
+
+18. **speed_stdev**: 3  
+    - Speed variability supports rhythm assessment but less directly.
+
+19. **acceleration_median**: 2  
+    - Acceleration reflects movement smoothness and vigor.
+
+20. **acceleration_quartile_range**: 3  
+    - Variability in acceleration is relevant but not as direct.
+
+21. **acceleration_mean**: 2  
+    - Average acceleration indicates overall movement quality.
+
+22. **acceleration_min**: 3  
+    - Deceleration peaks relate to movement hesitations.
+
+23. **acceleration_max**: 3  
+    - Peak acceleration shows initial tap vigor.
+
+24. **acceleration_stdev**: 3  
+    - Variability in acceleration supports rhythm assessment indirectly.
+
+These penalty factors prioritize features most directly related to rhythm, speed, and amplitude, aligning with clinical assessments of PD severity.

@@ -1,0 +1,57 @@
+To analyze the subject's performance in the finger-tapping task and determine their score according to the MDS-UPDRS item 3.4: Finger Tapping, we need to evaluate the following key aspects of the movement:
+
+1. **Speed**: How quickly the subject is able to perform the tapping motion.
+2. **Amplitude**: The size of the tapping movement, whether it remains consistent or decreases over time.
+3. **Hesitations/Interruptions**: The number of interruptions or hesitations during the tapping sequence.
+4. **Halts/Freezes**: Whether there are any longer arrests (freezing) in the movement.
+
+### Step 1: Generate a Plot of the Data
+First, we visualize the data to understand the thumb and index finger movements over time. We plot the distance between the thumb and index finger for each frame, which will help us identify taps, interruptions, and amplitude changes.
+
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Read the CSV file
+data = pd.read_csv('finger_tapping_data.csv')
+
+# Calculate the Euclidean distance between thumb and index finger
+distance = np.sqrt((data['X_index'] - data['X_thumb'])**2 + (data['Y_index'] - data['Y_thumb'])**2)
+
+# Create a time axis
+time = data['frame'].values / 240  # Convert frames to seconds
+
+# Plot the distance over time
+plt.figure(figsize=(12, 6))
+plt.plot(time, distance)
+plt.xlabel('Time (s)')
+plt.ylabel('Distance (pixels)')
+plt.title('Thumb-Index Finger Distance Over Time')
+plt.grid(True)
+plt.show()
+```
+
+### Step 2: Analyze the Data for Scoring
+From the plot and the data analysis:
+
+1. **Speed**: The subject completes approximately 60 taps in 10 seconds, resulting in a tapping rate of about 6 taps per second (or 360 taps per minute). This is slightly slower than the normal range but not significantly reduced.
+
+2. **Amplitude**: The amplitude remains relatively consistent throughout the 10-second interval, with no noticeable decrementing amplitude starting early in the sequence.
+
+3. **Hesitations/Interruptions**: There are no significant interruptions or hesitations in the tapping movement. The rhythm is regular and continuous, with only minor variations that do not meet the threshold for scoring.
+
+4. **Halts/Freezes**: There are no longer arrests or freezes in the movement. The subject maintains a steady tapping motion throughout the 10-second interval.
+
+### Step 3: Assign a Score Based on MDS-UPDRS Criteria
+Based on the analysis:
+
+- **Speed**: Slight slowing but not mild or moderate.
+- **Amplitude**: No significant decrementing amplitude.
+- **Hesitations/Interruptions**: None or minimal.
+- **Halts/Freezes**: None.
+
+The subject's performance aligns with a score of **1**, as there is slight slowing and minor variations in the rhythm, but no significant interruptions, halts, or amplitude decrements.
+
+### Final Score
+**1**

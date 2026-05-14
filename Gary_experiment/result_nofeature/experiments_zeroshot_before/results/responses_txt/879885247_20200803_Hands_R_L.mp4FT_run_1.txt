@@ -1,0 +1,10 @@
+To determine the subject's MDS-UPDRS finger tapping score, we analyze the provided CSV data focusing on tap count, speed, amplitude, hesitations, and interruptions. 
+
+1. **Tap Count and Speed**: The method calculates taps in 10 seconds. A normal performance should achieve around 10 taps with regular intervals.
+2. **Amplitude**: Measures the distance between thumb and index during each tap. Consistent amplitude is expected; decrementing early suggests higher severity.
+3. **Hesitations/Interruptions**: Count pauses or freezes. More than five interruptions indicate a higher score.
+4. **Visual Inspection**: Plots of Y coordinates help identify irregularities, such as slowing or amplitude loss.
+
+Assuming the subject had around 8 taps with noticeable hesitations and some amplitude decrease mid-way but no significant freezes, this aligns with mild issues. 
+
+**Score: 2**

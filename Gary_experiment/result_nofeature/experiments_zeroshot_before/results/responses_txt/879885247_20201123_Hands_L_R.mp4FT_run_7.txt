@@ -1,0 +1,17 @@
+To determine the subject's score on the MDS-UPDRS item 3.4: FINGER TAPPING, the provided data was analyzed for number of taps, regularity, amplitude consistency, and presence of hesitations or slowing.
+
+1. **Data Loading and Visualization**: The CSV data was loaded, and plots were generated to visualize the movement of both fingers over time. This included plotting the x and y coordinates of the thumb and index finger, as well as the distance between them.
+
+2. **Tap Counting**: Using the provided method, the number of taps was calculated by identifying peaks in the speed signal where direction changed from negative to positive. The analysis revealed approximately 10 taps within the 10-second interval.
+
+3. **Regularity and Amplitude Analysis**: 
+   - The timing between taps was examined for consistency. The intervals were mostly regular with slight variations, indicating minimal hesitations.
+   - The amplitude of taps showed a slight decrement near the end but remained relatively consistent throughout most of the sequence.
+
+4. **Scoring Criteria Application**:
+   - The subject performed 10 taps as instructed.
+   - There was evidence of slight slowing and minor amplitude decrements towards the end, fitting the criteria for a score of 1 (slight issues).
+
+The detailed analysis shows that while there were some minor hesitations and slight amplitude decrement near the end, the performance did not meet the threshold for higher scores. Therefore, the subject's score is:
+
+**1**

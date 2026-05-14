@@ -1,0 +1,5 @@
+To determine the subject's MDS-UPDRS finger tapping score, the data was analyzed for speed, rhythm, amplitude, and interruptions.
+
+The subject completed approximately 8 taps within 10 seconds, indicating mild difficulty. There were about 4 hesitations, which is within the 3-5 range, and amplitude began to decrease around the midpoint of the tapping sequence. These factors align with mild slowing and amplitude decrement midway, fitting the criteria for a score of 2.
+
+**Score: 2**

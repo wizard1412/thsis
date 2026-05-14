@@ -1,0 +1,93 @@
+Here is the structured assignment of penalty factors for each feature based on their relevance to predicting MDS-UPDRS Item 3.4 scores:
+
+1. **frequency_median**: 2  
+   - Directly related to tapping speed, a key criterion.
+
+2. **frequency_quartile_range**: 3  
+   - Indicates consistency in frequency, relevant but less direct.
+
+3. **frequency_mean**: 2  
+   - Important for overall speed assessment despite possible outliers.
+
+4. **frequency_min**: 3  
+   - Sudden changes may indicate issues like freezing.
+
+5. **frequency_max**: 3  
+   - Similar to min, indicates speed range and potential hesitations.
+
+6. **frequency_stdev**: 2  
+   - Measures rhythm variability, crucial for regularity.
+
+7. **frequency_lr_fitness_r2**: 3  
+   - Indicates trend fit, relevant but less direct.
+
+8. **frequency_lr_slope**: 2  
+   - Directly relates to slowing down over time.
+
+9. **frequency_fit_min_degree**: 4  
+   - Less direct as it measures trend complexity.
+
+10. **num_peaks**: 3  
+    - Relevant for rhythm but not as critical as others.
+
+11. **num_interruptions_norm**: 2  
+    - Directly ties to rhythm regularity.
+
+12. **num_freeze_norm**: 2  
+    - Crucial for assessing freezing episodes.
+
+13. **speed_median**: 2  
+    - Strong indicator of movement speed.
+
+14. **speed_quartile_range**: 3  
+    - Indicates consistency in speed.
+
+15. **speed_mean**: 2  
+    - Important despite possible outliers.
+
+16. **speed_min**: 3  
+    - Suggests potential issues with hesitations.
+
+17. **speed_max**: 3  
+    - Indicates peak velocity and possible issues.
+
+18. **speed_stdev**: 3  
+    - Measures speed variability, relevant for rhythm.
+
+19. **acceleration_median**: 4  
+    - Less direct but indicates movement smoothness.
+
+20. **acceleration_quartile_range**: 4  
+    - Relevant but not as crucial.
+
+21. **acceleration_mean**: 4  
+    - Important but less direct than speed features.
+
+22. **acceleration_min**: 4  
+    - Indicates deceleration, somewhat relevant.
+
+23. **acceleration_max**: 4  
+    - Shows peak acceleration, moderately important.
+
+24. **acceleration_stdev**: 4  
+    - Measures variability in acceleration.
+
+25. **amplitude_median**: 2  
+    - Directly related to tap distance, a key criterion.
+
+26. **amplitude_quartile_range**: 3  
+    - Indicates consistency in amplitude.
+
+27. **amplitude_mean**: 2  
+    - Important for overall amplitude assessment.
+
+28. **amplitude_min**: 3  
+    - Suggests potential issues with tap distance.
+
+29. **amplitude_max**: 3  
+    - Indicates peak tap distance, relevant but less direct.
+
+30. **amplitude_stdev**: 3  
+    - Measures variability in amplitude, important for consistency.
+
+Each feature's penalty factor is determined by its relevance to rhythm regularity, speed, and amplitude, aligning with clinical assessments of Parkinson's disease.

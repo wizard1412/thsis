@@ -1,0 +1,2069 @@
+
+============================================================
+553661824_20200629_Hands_R_7-_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The subject's finger tapping performance is scored based on the presence of hesitations, amplitude decrements, and slowing. The data shows one significant hesitation, amplitude decrements starting midway through the sequence, and mild slowing. These factors align with the criteria for a moderate score.
+
+Score: 2
+
+--- 評估 2 (分數: 2) ---
+The subject's performance shows a mild level of impairment in finger tapping. They completed 11 taps with some hesitations and amplitude decrements.
+
+**Score: 2 (Mild)**  
+This score reflects the presence of amplitude decrement starting around the middle of the sequence and slight hesitations, fitting the criteria for a mild impairment.
+
+--- 評估 3 (分數: 1) ---
+The subject performed slightly more taps than instructed but maintained relatively consistent speed with a minor amplitude decrease towards the end. 
+
+**Score: 1**
+
+--- 評估 4 (分數: 2) ---
+The subject's performance shows some decrements in amplitude starting around the midpoint of the tapping sequence and minor variations in tap periods without significant interruptions. Based on the criteria, this aligns with a mild impairment.
+
+**Score: 2 (Mild)**
+
+--- 評估 5 (分數: 2) ---
+The subject's performance shows some hesitations and a noticeable decrease in amplitude starting around the midpoint of the taps. Considering the criteria, this aligns with mild issues.
+
+**Score: 2**
+
+
+============================================================
+403773045_20201012_Hands_L_R.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The subject's finger tapping test is scored based on the MDS-UPDRS item 3.4 criteria.
+
+**Score: 2 (Mild)**  
+**Reasoning:**  
+- The tap amplitudes show a decrement starting around the fifth tap, meeting the criterion for score 2.  
+- There are minimal interruptions, which alone might suggest a lower score but combined with the amplitude change warrants a mild rating.  
+
+Thus, the final score is **2 (Mild)**.
+
+--- 評估 2 (分數: 2) ---
+The subject's finger tapping test is scored based on the MDS-UPDRS criteria for item 3.4. The analysis shows more than two interruptions in tap periods, amplitude decrements beginning around the midpoint, and mild slowing. These factors align with a score of 2 (Mild).
+
+**Score: 2 (Mild)**
+
+--- 評估 3 (分數: 2) ---
+The subject performed 11 taps with varying periods and amplitudes. The tap periods showed one significant hesitation (158 frames), indicating a possible single interruption. However, the amplitudes began decrementing around the midpoint of the sequence, meeting criterion c for a score of 2. Despite some mild slowing, the key factor is the amplitude decrement starting midway.
+
+Score: 2
+
+--- 評估 4 (分數: 3) ---
+MDS-UPDRS Item 3.4 Score: 3
+
+--- 評估 5 (分數: 2) ---
+Based on the analysis of the extracted features from the finger tapping test:
+
+1. **Amplitude Decrement**: The amplitudes start to decrease around the sixth tap, which is midway through the sequence. This meets criterion c for a score of 2.
+
+2. **Tap Periods (Speed)**: There are four notable slower periods, indicating mild slowing and interruptions. This aligns with criterion b for a score of 2.
+
+3. **Number of Taps**: Although there were 11 taps recorded, the analysis focuses on the first 10 as per instructions, so this doesn't affect the scoring.
+
+**Conclusion**: The subject's performance shows mild slowing and amplitude decrement starting midway, leading to an MDS-UPDRS score of 2 for finger tapping.
+
+**Score: 2**
+
+
+============================================================
+973565404_20200622_Hands_R_11_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The subject performed 11 taps, but we focused on the first 10 as per instructions. The analysis shows one hesitation in the initial tap and amplitude decrement starting midway, indicating mild impairment.
+
+**Score: 2 (Mild)**
+
+--- 評估 2 (分數: 2) ---
+The subject's finger tapping test is scored as follows:
+
+- **Amplitude**: Shows decrementing starting midway through the taps (criterion c for score 2).
+- **Interruptions and Hesitations**: No significant interruptions; the extra tap doesn't indicate hesitation.
+- **Speed**: Variability without consistent slowing beyond slight.
+
+**Score: 2**
+
+The amplitude criterion alone meets the level 2 requirement, so the overall score is 2.
+
+Answer:  
+\boxed{2}
+
+--- 評估 3 (分數: 2) ---
+The subject's finger tapping performance shows a slight decrease in amplitude starting around the midpoint and mild slowing, fitting the criteria for a score of 2.
+
+MDS-UPDRS Score: 2
+
+--- 評估 4 (分數: 2) ---
+The subject's performance shows mild issues with finger tapping. The amplitudes decrease from around the fifth tap onward, meeting criterion 2c for a mild score. Additionally, there are variations in tap periods that may indicate hesitations but not enough to classify as moderate or severe.
+
+**Score: 2 (Mild)**
+
+--- 評估 5 (分數: 2) ---
+The subject performed 11 taps with notable features including one significant hesitation and amplitudes decreasing from the midpoint. Despite only one interruption, the amplitude decrement starting midway meets the criteria for a score of 2.
+
+**Score: 2**
+
+
+============================================================
+445817794_20200720_Hands_R_12-_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The extracted features indicate that the subject performed slightly more than the instructed 10 taps (11 taps). The tap periods show some variation, with a few instances where the time between taps increased towards the end, suggesting mild slowing. The amplitudes generally decreased over time, starting from higher values and gradually reducing, which fits the criterion of amplitude decrementing midway through the sequence.
+
+Based on the MDS-UPDRS scoring criteria for item 3.4: FINGER TAPPING:
+
+- The presence of mild slowing (taps taking longer as the sequence progresses).
+- Amplitude decrements starting midway through the 10-tap sequence.
+  
+These observations align with the criteria for a score of **2 (Mild)**.
+
+**Score: 2**
+
+--- 評估 2 (分數: 3) ---
+The subject's finger tapping test is scored based on the extracted features and MDS-UPDRS criteria.
+
+**Score: 3 (Moderate)**  
+The amplitude decrements starting after the first tap meet criterion 3c for a moderate score.
+
+--- 評估 3 (分數: 3) ---
+The subject's performance shows significant amplitude decrement starting immediately after the first tap and some slowing towards the end. Based on the criteria, this aligns with a score of 3 (Moderate).
+
+**Score: 3**
+
+--- 評估 4 (分數: 1) ---
+The data indicates mild difficulties in finger tapping with evidence of slight hesitations and amplitude decrements near the end. 
+
+**Answer: The MDS-UPDRS score for finger tapping is 1.**
+
+--- 評估 5 (分數: 2) ---
+The subject's performance shows two hesitations and amplitude decrement starting midway, along with mild slowing. 
+
+**Answer:** 2
+
+
+============================================================
+759859453_20210104_Hands_L_R.mp4FT
+============================================================
+
+--- 評估 1 (分數: 3) ---
+The subject's finger tapping test shows variable periods with several hesitations and amplitudes that start decreasing early on. The significant fluctuations in both speed and amplitude meet the criteria for moderate issues.
+
+**Score: 3 (Moderate)**
+
+--- 評估 2 (分數: 1) ---
+Based on the analysis of the extracted features from the finger tapping test, the subject's performance aligns with the criteria for a score of **1 (Slight)**. 
+
+**Rationale:**
+
+- **Interruptions:** The tap count was 11 instead of the instructed 10, which might indicate an extra tap but doesn't necessarily reflect significant hesitations or interruptions.
+  
+- **Speed:** There is variability in tap periods, suggesting slight slowing but not to a degree that would classify as mild or moderate.
+
+- **Amplitude Decrementing:** Amplitudes decrease near the end of the sequence, meeting the criteria for a score of 1.
+
+Thus, the subject's performance shows slight slowing and amplitude decrement near the end, warranting a score of **1 (Slight)**. 
+
+**Score: 1**
+
+--- 評估 3 (分數: 2) ---
+The subject's finger tapping performance shows mild slowing with some hesitations and notable amplitude decrement starting early. 
+
+**Score: 2 (Mild)**
+
+--- 評估 4 (分數: 2) ---
+The subject performed 11 taps instead of 10, showing possible motor control issues. Tap periods varied significantly with at least three major hesitations, indicating mild interruptions. Amplitudes showed decrementing near the end, and there was evidence of mild slowing. These factors align most closely with a score of 2.
+
+**Score: 2 (Mild)**
+
+--- 評估 5 (分數: 3) ---
+Based on the analysis of the extracted features and the MDS-UPDRS scoring criteria for finger tapping:
+
+**Score: 3**
+
+The subject demonstrates moderate impairment with decrementing amplitudes starting immediately, variations in tap periods indicative of hesitations, and overall performance affecting both speed and rhythm.
+
+
+============================================================
+051331512_20200406_Hands_R_9-_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The subject's performance shows mild slowing with tap periods around 0.6-0.7 seconds, which is slower than normal. Amplitudes start to decrement from the fourth tap onward, fitting the criteria for a score of 2.
+
+**Score: 2 (Mild)**
+
+--- 評估 2 (分數: 3) ---
+Based on the analysis of tap periods and amplitudes, the subject demonstrates significant slowing with increasing tap periods and a notable decrease in amplitude starting early. These factors align with the moderate severity criteria.
+
+**Score: 3 (Moderate)**
+
+--- 評估 3 (分數: 3) ---
+The subject's performance shows moderate slowing in tap periods, with an average of approximately 0.66 seconds per tap and some periods as high as 0.7083 seconds, indicating a significant decrease in speed. The amplitude decrements start midway through the sequence, fitting the criteria for score 2, and there are four interruptions, which also aligns with score 2. However, since moderate slowing (score 3) is present, it takes precedence.
+
+**Score: 3**
+
+--- 評估 4 (分數: 2) ---
+The subject's performance shows mild issues with both speed and amplitude during the finger tapping test. The tap periods indicate some slowing, particularly in the latter half, and the amplitudes decrease starting around the midpoint. These factors align most closely with a mild impairment.
+
+**Score: 2 (Mild)**
+
+--- 評估 5 (分數: 3) ---
+The subject's performance shows significant amplitude decrement from the start and mild slowing, fitting the criteria for a moderate impairment.
+
+**Score: 3**
+
+
+============================================================
+281628421_20201130_Hands_R_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 1) ---
+The subject's finger tapping test results indicate minor deviations in rhythm and amplitude, fitting the criteria for a slight impairment. 
+
+Score: 1
+
+--- 評估 2 (分數: 1) ---
+Score: 1
+
+--- 評估 3 (分數: 1) ---
+The subject's performance shows slight slowing in tap periods with an average of ~323ms per tap, indicating mild speed reduction. There are no significant hesitations or interruptions beyond minor variations. Amplitudes fluctuate without consistent decrementing, especially near the end. Therefore, the score is:
+
+**1 (Slight)**
+
+--- 評估 4 (分數: 1) ---
+**Score: 1 (Slight)**  
+The subject's performance shows slight slowing and minor hesitations, with a small amplitude decrement near the end.
+
+--- 評估 5 (分數: 1) ---
+The subject demonstrated finger tapping with two minor hesitations in the rhythm and no significant amplitude decrementing. The speed was slightly variable but not notably slow. 
+
+Score: 1
+
+
+============================================================
+879885247_20200608_Hands_R_11_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 3) ---
+The subject demonstrates moderate impairment in finger tapping with significant amplitude decrement early on, meeting the criteria for a score of 3.
+
+Score: 3
+
+--- 評估 2 (分數: 2) ---
+The subject's performance shows mild slowing and amplitude decrements midway through the taps, fitting the criteria for a score of 2.
+
+Score: 2
+
+--- 評估 3 (分數: 2) ---
+The subject's performance shows 3 hesitations in the tap periods, indicating mild interruptions. Amplitude doesn't consistently decrement beyond the initial taps, and speed varies but isn't uniformly slow. 
+
+**Score: 2 (Mild)**
+
+--- 評估 4 (分數: 2) ---
+The subject's finger tapping performance shows some hesitations and amplitude variation. With more than two interruptions and amplitude decrements midway, the score is:
+
+2 (Mild)
+
+--- 評估 5 (分數: 1) ---
+The subject's finger tapping test shows two hesitations and slight variations in speed without consistent slowing or amplitude decrement near the end. 
+
+**Score: 1**
+
+
+============================================================
+403773045_20210201_Hands_R_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The subject's finger tapping performance shows a mild level of impairment according to MDS-UPDRS item 3.4 criteria. 
+
+**Score: 2 (Mild)**
+
+--- 評估 2 (分數: 2) ---
+The subject's performance shows some signs of mild impairment in finger tapping. There are 11 taps instead of 10, indicating an extra movement possibly due to hesitation. The tap periods reveal one significant interruption (150 frames), and amplitudes decrease starting around the midpoint. With mild slowing observed, this aligns with criteria for Score 2.
+
+**Score: 2**
+
+--- 評估 3 (分數: 3) ---
+The subject performed 11 taps instead of the instructed 10, indicating potential difficulty in controlling movement. The tap periods showed one significant interruption (150 frames), suggesting a possible hesitation. Amplitudes consistently decreased from the first tap onwards, meeting criterion 3c for a score of 3.
+
+**Score: 3**
+
+--- 評估 4 (分數: 2) ---
+The subject performed 11 taps with two interruptions (periods of 150 and 126 frames), slight slowing in some periods, and amplitudes decreasing from around the midpoint. 
+
+**Score: 2**
+
+Mild issues are present due to amplitude decrement starting midway through the sequence.
+
+--- 評估 5 (分數: 1) ---
+Based on the analysis of the finger tapping data:
+
+The subject performed 11 taps instead of the instructed 10, indicating an extra tap. The tap periods showed one notable hesitation at 150 frames, suggesting a mild interruption. Amplitudes gradually decreased, particularly near the end. Speed was slightly affected but remained relatively consistent except for the hesitation.
+
+**Score: 1 (Slight)**  
+Reasoning: Single interruption, slight slowing, and amplitude decrement towards the end.
+
+
+============================================================
+553661824_20201116_Hands_R_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The subject demonstrated finger tapping with 11 taps, showing some hesitations in the periods between taps. The tap periods indicated three instances where the time between taps was longer than average, suggesting mild interruptions. Additionally, there was evidence of mild slowing based on the average period duration. However, the amplitudes did not show a significant decrementing pattern throughout the sequence. Based on these observations, the score is:
+
+**2 (Mild)**
+
+--- 評估 2 (分數: 1) ---
+The subject's performance shows slight slowing with tap periods around 80-90 frames and an initial drop in amplitude followed by recovery. There are minor hesitations but no significant interruptions. 
+
+**Score: 1 (Slight)**
+
+--- 評估 3 (分數: 1) ---
+The subject performed 11 taps with slight hesitations and slowing but consistent amplitudes.
+
+Score: 1
+
+--- 評估 4 (分數: 2) ---
+The subject's finger tapping test shows mild slowing with three interruptions and amplitude decrements mid-way.
+
+**Score: 2**
+
+--- 評估 5 (分數: 2) ---
+The subject performed 11 taps with tap periods showing some hesitations and mild slowing, but amplitudes didn't consistently decrement. Based on the criteria, this falls into the mild category.
+
+Score: 2
+
+
+============================================================
+879885247_20200803_Hands_R_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The finger tapping test results show that the subject completed 11 taps with varying periods and amplitudes. The tap periods indicate some hesitations, and the amplitudes show a decrement starting midway through the sequence. According to the MDS-UPDRS criteria, these factors correspond to a mild impairment.
+
+**Score: 2**
+
+--- 評估 2 (分數: 2) ---
+The analysis of the subject's performance in the MDS-UPDRS item 3.4 finger tapping test indicates:
+
+1. **Number of Taps**: The subject performed 11 taps instead of the instructed 10, which may indicate a slight deviation but not necessarily a significant issue.
+
+2. **Tap Periods (Speed)**: The tap periods show variability without extreme hesitations or freezes. The average period is around 91 frames (0.38 seconds per tap), suggesting possible mild slowing.
+
+3. **Amplitudes**: There's a notable decrease in amplitude starting midway through the sequence, particularly after tap 6, which aligns with the criteria for a Score 2.
+
+**Conclusion**: Based on the amplitude decrement starting midway and possible mild slowing without significant interruptions, the score is:
+
+\boxed{2}
+
+--- 評估 3 (分數: 2) ---
+The subject's performance shows 3 interruptions in tap periods and amplitudes decreasing midway through the sequence. These factors fit into the 'mild' category.
+
+**Score: 2**
+
+--- 評估 4 (分數: 2) ---
+The subject's finger tapping test is scored based on the analysis of tap periods and amplitudes. There are three significant hesitations in the tap periods, indicating mild interruptions. Additionally, the amplitude shows a decrement starting around midway through the taps. Both factors align with the criteria for a score of 2.
+
+**Score: 2 (Mild)**
+
+--- 評估 5 (分數: 2) ---
+The subject's performance shows 3 interruptions in the tapping rhythm and a noticeable amplitude decrement starting midway through the sequence. These factors align with the criteria for a mild impairment.
+
+Score: 2
+
+
+============================================================
+751297988_20200824_Hands_L_R.mp4FT
+============================================================
+
+--- 評估 1 (分數: 3) ---
+The subject's finger tapping test is scored as **3 (Moderate)** according to MDS-UPDRS item 3.4.
+
+**Reasoning:**
+
+1. **Number of Taps:** The subject performed 11 taps instead of the instructed 10, which may indicate some difficulty in adhering to the task but doesn't directly impact the score beyond other factors.
+
+2. **Tap Periods (Speed):** There are significant fluctuations in tap periods, indicating more than five interruptions or hesitations. This meets criterion 3.a for a moderate score.
+
+3. **Tap Amplitudes:** The amplitudes show a consistent decrement starting immediately after the first tap, which aligns with criterion 3.c for amplitude decrements beginning early in the sequence.
+
+**Conclusion:** Both criteria 3.a and 3.c are met, leading to a score of **3 (Moderate)**.
+
+--- 評估 2 (分數: 1) ---
+**Score: 1**
+
+The subject exhibits slight hesitations (1-2 interruptions), mild slowing, and some amplitude decrement mid-sequence, fitting the criteria for a score of 1.
+
+--- 評估 3 (分數: 1) ---
+The subject's performance shows 2 interruptions in the tapping rhythm, some amplitude decrement near the end, and slight slowing. 
+
+**Score: 1 (Slight)**
+
+--- 評估 4 (分數: 1) ---
+The subject's performance on the MDS-UPDRS finger tapping test is scored based on the analysis of tap periods and amplitudes. The key findings are:
+
+- **Speed:** Two notable hesitations (137 and 143 frames) indicate slight slowing.
+- **Rhythm:** Two interruptions, fitting the 'slight' category for score 1.
+- **Amplitude:** Decrementing starts midway but isn't consistent, aligning with a slight issue.
+
+**Score: 1 (Slight)**
+
+--- 評估 5 (分數: 3) ---
+MDS-UPDRS Score: 3
+
+
+============================================================
+281628421_20200323_Hands_L_10-_R.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The subject's finger tapping test is scored based on the MDS-UPDRS criteria. The analysis shows that while there are no significant hesitations or interruptions, the amplitudes start to decrement midway through the taps, fitting criterion 2c. Additionally, slight slowing is present but not severe. 
+
+**Score: 2 (Mild)**
+
+--- 評估 2 (分數: 1) ---
+Based on the analysis of the extracted features from the subject's finger tapping test:
+
+**Score: 1**
+
+The subject demonstrates slight slowing in tap periods, an extra tap suggesting a minor rhythm issue, and amplitude decrements near the end of the sequence. These factors align with the criteria for a score of 1, indicating slight issues without more severe interruptions or significant amplitude drops early on.
+
+**Step-by-Step Explanation:**
+
+1. **Number of Taps:** The subject performed 11 taps instead of 10, suggesting a possible minor rhythm issue but not a significant interruption.
+
+2. **Tap Periods:** The periods show variation (0.317 to 0.433 seconds) with no extremely long intervals, indicating slight slowing without severe hesitations.
+
+3. **Amplitudes:** There are noticeable decrements near the end (taps 8-9), meeting the criteria for a score of 1 which includes amplitude decrement near the end.
+
+Thus, the overall score is 1, reflecting slight difficulties in performance.
+
+--- 評估 3 (分數: 3) ---
+The subject's finger tapping performance shows an amplitude decrement starting after the second tap and some initial slowing that improves. According to the MDS-UPDRS criteria, this aligns with a moderate issue due to early amplitude decrease.
+
+**Score: 3**
+
+--- 評估 4 (分數: 1) ---
+Based on the analysis of the extracted features from the finger tapping test, the subject's performance is scored as follows:
+
+**Score: 1 (Slight)**
+
+The reasoning for this score is that there are slight slowing in tap periods and some decrementing amplitudes near the end, fitting the criteria for a Score 1.
+
+### Final Answer:
+\boxed{1}
+
+--- 評估 5 (分數: 2) ---
+The subject performed 10 consecutive finger taps with varying periods and amplitudes. The amplitudes showed a noticeable decrease starting around the midpoint, fitting the criterion for a mild decrement. The tapping rhythm had minor variations but no significant hesitations or severe slowing. 
+
+**Score: 2 (Mild)**
+
+
+============================================================
+575614042_20200615_Hands_R_9-_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 1) ---
+The subject's finger tapping test is scored based on the analysis of tap periods and amplitudes against the MDS-UPDRS criteria.
+
+**Tap Periods Analysis:**
+- Notable hesitations occur at frames 131 and 117, indicating possible interruptions. There are approximately 2-3 instances of longer periods, suggesting slight hesitations but not exceeding the threshold for a higher score.
+
+**Amplitude Analysis:**
+- Amplitudes show variability with dips around taps 4 and 5 but recover and even increase later. This fluctuation doesn't meet the criteria for consistent decrementing required for higher scores.
+
+**Conclusion:**
+The presence of slight hesitations and variable amplitudes without significant slowing or decrementing patterns aligns with a score of 1 (Slight).
+
+**Score: 1**
+
+--- 評估 2 (分數: 3) ---
+Based on the analysis of the extracted features and the MDS-UPDRS criteria:
+
+1. **Number of Taps**: The subject performed 11 taps, but only the first 10 are considered as per instructions.
+
+2. **Tap Periods**: Significant fluctuations indicate multiple hesitations, with more than five interruptions and a notable arrest (131 frames), suggesting moderate slowing.
+
+3. **Amplitudes**: Amplitude started decrementing midway through the sequence, meeting the criteria for a score of 3.
+
+**Conclusion**: The subject's performance shows moderate issues in both speed and amplitude consistency, leading to a score of 3.
+
+The final score is:
+
+3 (Moderate)
+
+--- 評估 3 (分數: 1) ---
+Score: 1
+
+--- 評估 4 (分數: 2) ---
+The subject's performance shows some slowing and amplitude decrement mid-way through the tapping sequence, meeting the criteria for mild impairment.
+
+Score: 2
+
+--- 評估 5 (分數: 2) ---
+The subject's finger tapping test is scored based on the MDS-UPDRS criteria for speed, amplitude, and hesitations. The analysis shows mild slowing and amplitude decrementing midway through the taps, leading to an overall score of 2.
+
+**Score: 2**
+
+
+============================================================
+207795468_20200810_Hands_L_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 1) ---
+To determine the MDS-UPDRS score for this subject's finger tapping test, we analyze the extracted features in light of the provided criteria.
+
+### Analysis:
+
+1. **Number of Taps**: The subject performed 11 taps instead of the instructed 10. This indicates an extra tap but does not necessarily impact the scoring unless it reflects a lack of coordination or rhythm, which is not clearly evident here.
+
+2. **Tap Periods (Frames)**:
+   - The periods between taps are as follows: [120, 95, 114, 98, 103, 85, 80, 103, 83, 72].
+   - There is variability in the intervals, with some periods being shorter and others longer. However, there are no extremely long pauses that would suggest significant hesitations or freezes.
+   - The variation does not consistently indicate slowing but may suggest minor interruptions.
+
+3. **Tap Amplitudes (Pixels)**:
+   - The amplitudes recorded are: [158.76, 168.86, 144.22, 181.66, 136.49, 163.87, 136.82, 121.43, 188.45, 144.81, 132.97].
+   - There is a noticeable decrement in amplitude towards the end of the sequence (e.g., 132.97 pixels at the last tap).
+   - The amplitude does not consistently decrease throughout the sequence but shows a clear decrement near the end.
+
+### Conclusion:
+The subject's performance exhibits slight slowing, minor interruptions, and amplitude decrements near the end of the tapping sequence. These findings align with the criteria for a score of **1 (Slight)** under MDS-UPDRS item 3.4: FINGER TAPPING.
+
+**Score: 1 (Slight)**
+
+--- 評估 2 (分數: 2) ---
+Based on the analysis of the extracted features and considering the MDS-UPDRS scoring criteria, the subject's performance shows amplitude decrements starting midway through the tapping sequence. This meets the criteria for a Score 2.
+
+**Score: 2**
+
+--- 評估 3 (分數: 1) ---
+The subject performed 11 taps with some hesitations and slight amplitude variations. The analysis shows two interruptions and possible slight slowing without significant amplitude decrementing. 
+
+Score: **1** (Slight)
+
+--- 評估 4 (分數: 2) ---
+The subject's finger tapping test is scored based on the extracted features and the MDS-UPDRS criteria.
+
+**Score: 2**
+
+**Rationale:**
+- **Tap Periods:** The periods show variability with some slower intervals (e.g., 120 frames) and faster ones, indicating possible mild slowing.
+- **Amplitudes:** Amplitudes fluctuate and decrement mid-way through the sequence, particularly noticeable around the fifth tap.
+
+These factors align with criteria for a score of 2: mild slowing and amplitude decrements midway.
+
+--- 評估 5 (分數: 1) ---
+Based on the analysis of the extracted features, here is the scoring assessment for MDS-UPDRS item 3.4: Finger Tapping.
+
+### Analysis Summary:
+
+1. **Number of Taps:**  
+   - The subject performed 11 taps instead of the instructed 10. This might indicate a potential interruption or restart but isn't explicitly penalized in the criteria beyond performance quality.
+
+2. **Tap Periods (Speed):**  
+   - The tap periods showed variability, with an initial long period (120 frames) suggesting slight slowing at the start. Subsequent taps were quicker but inconsistent, indicating possible mild hesitations but no significant freezes or arrests.
+
+3. **Amplitudes:**  
+   - Amplitudes fluctuated throughout the sequence. Notable decrements occurred near the end of the 10-tap sequence (taps 8 to 11), aligning with criteria for slight amplitude decrementing towards the conclusion.
+
+4. **Hesitations/Interruptions:**  
+   - The initial long tap period could be interpreted as a single hesitation. Subsequent taps, while variable in speed and amplitude, did not show clear interruptions beyond this.
+
+### Scoring Decision:
+
+Given the observed features:
+- Slight slowing at the start.
+- One possible hesitation (first tap).
+- Amplitude decrements near the end of the sequence.
+
+These factors align with a score of **1 (Slight)** according to the MDS-UPDRS criteria.
+
+**Score: 1**
+
+
+============================================================
+553661824_20210503_Hands_L_R.mp4FT
+============================================================
+
+--- 評估 1 (分數: 1) ---
+The subject exhibits slight slowing in tap periods with an average indicating mild slowing, and while there's some amplitude fluctuation, it doesn't consistently decrement. There are no significant interruptions. 
+
+Score: 1
+
+--- 評估 2 (分數: 1) ---
+To score this subject according to MDS-UPDRS item 3.4: FINGER TAPPING, we analyze the extracted features and compare them against the scoring criteria.
+
+### Key Observations:
+1. **Number of Taps**: The subject performed 11 taps instead of the instructed 10, indicating a potential lack of precision in task completion.
+2. **Tap Periods (Speed)**:
+   - The tap periods are mostly consistent, ranging from 93 to 103 frames (approximately 0.39 to 0.43 seconds per tap at 240 fps).
+   - There is no significant slowing or hesitation observed in the tapping rhythm.
+3. **Tap Amplitudes**:
+   - The amplitudes show some variability but remain relatively consistent overall.
+   - A slight amplitude decrement is observed midway through the sequence (e.g., from 188.92 to 180.47 pixels), but this decrement is not severe or progressive.
+
+### Scoring Criteria Analysis:
+- **Speed**: The tapping speed appears slightly slowed compared to normal, but it does not meet the threshold for "mild slowing" as described in the criteria.
+- **Hesitations/Interruptions**: There are no interruptions, hesitations, or freezes observed in the tapping rhythm.
+- **Amplitude Decrementing**: A mild amplitude decrement is noted midway through the sequence, but it does not worsen over time.
+
+### Conclusion:
+The subject's performance shows slight slowing and a mild amplitude decrement starting midway through the 10-tap sequence. These findings align with the criteria for a score of **1 (Slight)**. 
+
+**Final Score: 1 (Slight)**
+
+--- 評估 3 (分數: 1) ---
+The subject's performance shows slight slowing with tap periods around 0.4167 seconds, consistent but slightly below typical speeds. There are no significant interruptions or amplitude decrements beyond minor variations. 
+
+**Score: 1 (Slight)**
+
+--- 評估 4 (分數: 1) ---
+The subject's performance shows slight slowing with one significant hesitation and varying amplitudes without a clear decrementing trend near the end.
+
+Score: 1
+
+--- 評估 5 (分數: 1) ---
+The subject's performance in the finger tapping test shows minimal issues with slight hesitations and minor variations in tap periods but no significant amplitude decrementing or slowing. 
+
+Score: 1
+
+
+============================================================
+403773045_20200427_Hands_L_13_R.mp4FT
+============================================================
+
+--- 評估 1 (分數: 1) ---
+The extracted features indicate that while there is some slowing and minor variations in tap intervals, the subject maintained amplitudes without significant decrementing. The number of taps exceeds requirements, but with manageable periods and no severe interruptions.
+
+**Score: 1 (Slight)**
+
+--- 評估 2 (分數: 2) ---
+The subject's finger tapping test is scored based on the MDS-UPDRS criteria. The analysis shows four potential hesitations or interruptions in tap periods and mild slowing. Amplitude does not show significant decrementing.
+
+Score: 2 (Mild)
+
+--- 評估 3 (分數: 2) ---
+The subject performed 11 taps with periods indicating three hesitations and amplitudes without a clear decrementing pattern. Based on the criteria, this corresponds to mild issues.
+
+**Score: 2**
+
+--- 評估 4 (分數: 1) ---
+The subject's performance shows minimal disruptions and consistent amplitudes, indicating only slight issues.
+
+Score: 1
+
+--- 評估 5 (分數: 1) ---
+The subject performed 11 taps instead of 10, indicating possible hesitation. Tap periods showed variability with one significant hesitation (220 frames). Amplitudes fluctuated without consistent decrementing. Considering these factors, the score is:
+
+**1**
+
+
+============================================================
+161568408_20200601_Hands_R_13_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The subject's performance in the finger tapping test shows that while there is some variability in tap periods and a noticeable decrease in amplitude starting around halfway through the sequence, these factors align with the criteria for a mild impairment. 
+
+**Score: 2 (Mild)**
+
+--- 評估 2 (分數: 1) ---
+The subject's performance shows slight issues with finger tapping. There's one noticeable hesitation in tap period and amplitudes decrease towards the end, fitting the criteria for a slight impairment.
+
+**Score: 1**
+
+--- 評估 3 (分數: 1) ---
+The subject's performance shows slight slowing with some hesitations and amplitude decrements near the end, fitting the criteria for a score of 1.
+
+**Score: 1**
+
+--- 評估 4 (分數: 1) ---
+The subject's performance in the finger tapping test indicates mild issues. There's a slight decrement in amplitude towards the end and minor hesitations, but no significant slowing or major interruptions.
+
+**Score: 1 (Slight)**
+
+--- 評估 5 (分數: 2) ---
+The subject's finger tapping performance shows mild slowing, with an average interval between taps suggesting reduced speed. There is one noticeable hesitation and slight amplitude decrements near the end. Since mild slowing falls under Score 2, that takes precedence.
+
+**Score: 2**
+
+
+============================================================
+879885247_20201123_Hands_R_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 1) ---
+The subject performed 11 finger taps with varying periods and amplitudes. The tap periods showed significant variability, including a notably long initial period, indicating possible hesitations. The average tapping speed was slower than typical, suggesting slight slowing. Amplitude analysis revealed decrements, particularly noticeable towards the end of the sequence. Considering these factors—interruptions, slowing, and amplitude decrements—the score is:
+
+1 (Slight)
+
+--- 評估 2 (分數: 3) ---
+Based on the analysis of the extracted features from the subject's finger tapping test, the scoring for MDS-UPDRS item 3.4: FINGER TAPPING is as follows:
+
+The number of taps performed was 11, which exceeds the instructed 10 taps. The tap periods show significant variability, with some indicating possible hesitations or interruptions. Additionally, there is a noticeable decrement in amplitude starting early in the sequence.
+
+**Score: 3 (Moderate)**
+
+--- 評估 3 (分數: 2) ---
+The subject exhibits mild difficulties in finger tapping, characterized by some hesitations and a noticeable decrement in amplitude midway through the task.
+
+Score: 2
+
+--- 評估 4 (分數: 3) ---
+3
+
+--- 評估 5 (分數: 3) ---
+The subject's finger tapping test is scored based on the analysis of tap periods and amplitudes. The key observations include:
+
+1. **Amplitude Decrement**: The amplitudes start high but decrease steadily after the first tap, meeting criterion c) for a score of 3 (moderate issues).
+
+2. **Tap Periods**: There's a notable long period at the beginning (153 frames), indicating possible hesitation or arrest, and some variability throughout.
+
+3. **Speed**: The average tap period suggests moderate slowing compared to typical tapping speeds.
+
+Considering these factors, the subject demonstrates moderate difficulties with amplitude decrement starting early and some interruptions or slowing.
+
+**Score: 3**
+
+
+============================================================
+759859453_20210426_Hands_L_R.mp4FT
+============================================================
+
+--- 評估 1 (分數: 3) ---
+The subject's finger tapping performance shows significant issues. The tap periods reveal a notable hesitation of 197 frames, indicating a longer arrest. Additionally, the amplitudes start to decrease mid-way through the taps. These factors meet the criteria for moderate impairment.
+
+Score: 3
+
+--- 評估 2 (分數: 3) ---
+The subject's performance in the MDS-UPDRS finger tapping test is scored based on several factors:
+
+1. **Tap Count**: The subject performed 11 taps instead of the instructed 10, indicating possible hesitation or rhythm issues.
+
+2. **Tap Periods**: Significant variations were observed, with periods ranging from 131 to 197 frames. Notably, a period of 197 frames suggests a significant hesitation or freeze, contributing to interruptions.
+
+3. **Amplitude Decrementing**: Amplitudes decreased consistently from the first tap onward, meeting the criterion for moderate severity (starting after the first tap).
+
+Considering these factors—amplitude decrement starting early and multiple interruptions beyond five—the score is determined as follows:
+
+**Score: 3 (Moderate)**
+
+--- 評估 3 (分數: 1) ---
+The extracted features from the finger tapping test show that the subject completed 11 taps with varying periods and amplitudes. The tap periods indicate some hesitations but not enough to meet higher severity criteria. Amplitudes don't consistently decrease towards the end, though there's a noticeable fluctuation.
+
+**Score: 1 (Slight)**  
+The subject exhibits slight slowing, one or two interruptions in rhythm, and minor amplitude variations near the end of the sequence, fitting the criteria for a score of 1.
+
+--- 評估 4 (分數: 3) ---
+The subject's finger tapping test is scored based on the MDS-UPDRS criteria. The analysis shows:
+
+1. **Amplitude Decrement**: The amplitudes decrease from the first tap, meeting criterion c for a moderate score (3).
+
+2. **Interruptions and Freeze**: There are multiple hesitations, with at least one significant freeze (197 frames), fitting criterion a for moderate.
+
+**Score: 3**
+
+--- 評估 5 (分數: 2) ---
+Based on the analysis of tap periods and amplitudes:
+
+- **Interruptions:** Four instances of longer tap periods, indicating hesitations.
+- **Amplitude:** Decrementing near the end, meeting a criterion for Score 1 but less severe than other factors.
+- **Slowing:** Mild, consistent with Score 2.
+
+**Final Score: 2**
+
+\boxed{2}
+
+
+============================================================
+759859453_20200914_Hands_R_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 1) ---
+The subject's performance shows slight issues with finger tapping, including some initial hesitation and minor variations in speed and amplitude. 
+
+**Score: 1 (Slight)**
+
+--- 評估 2 (分數: 2) ---
+The subject's performance in the finger tapping test shows some variability in both speed and amplitude. The tap periods indicate mild slowing with inconsistent intervals, while the amplitudes show a decrement starting after the first few taps. However, there are no severe interruptions or freezes. Considering these factors, the score is:
+
+2 (Mild)
+
+--- 評估 3 (分數: 2) ---
+The subject's performance shows three instances of longer tap periods, indicating possible hesitations, and some fluctuation in amplitude with a slight decrease towards the end. These factors align most closely with a Score 2.
+
+**Score: 2**
+
+--- 評估 4 (分數: 1) ---
+The extracted features indicate slight slowing with one or two interruptions and amplitudes decrementing near the end. 
+
+Score: **1** (Slight)
+
+--- 評估 5 (分數: 1) ---
+Based on the analysis of the finger tapping test:
+
+**Speed:** The initial periods are slow (around 0.64 seconds), which could indicate slight slowing. However, subsequent taps approach a more normal range.
+
+**Interruptions:** There's no clear evidence of multiple hesitations beyond the initial slower taps, which might be considered slight interruptions.
+
+**Amplitude:** Amplitudes fluctuate without a consistent decrement pattern until near the end, fitting criterion 1c for slight decrements.
+
+**Score: 1 (Slight)**
+
+The subject exhibits slight slowing and amplitude decrement near the end of the sequence.
+
+
+============================================================
+546503158_20200310_Hands_R_9_L_redo.mp4FT
+============================================================
+
+--- 評估 1 (分數: 3) ---
+Based on the analysis, the subject's finger tapping test shows one significant interruption (long pause) and variable amplitudes without consistent decrementing. The presence of a notable arrest suggests a moderate issue.
+
+**Score: 3**
+
+--- 評估 2 (分數: 2) ---
+The subject's finger tapping performance shows variability in both rhythm and amplitude. There is one notable hesitation and a significant amplitude decrement starting mid-way through the taps. Based on the criteria, this aligns with a score indicating mild impairment.
+
+**Score: 2 (Mild)**
+
+--- 評估 3 (分數: 3) ---
+The extracted features from the finger tapping test indicate several irregularities. The subject performed 11 taps instead of the instructed 10, suggesting possible interruptions. Tap periods showed significant variability, with some delays indicating hesitations. Amplitudes decreased notably around the fifth tap and continued to fluctuate.
+
+Considering these factors—more than five interruptions, moderate slowing, and amplitude decrement starting midway—the score is:
+
+**3 (Moderate)**
+
+--- 評估 4 (分數: 3) ---
+The subject's performance in the finger tapping test shows mild slowing, some hesitations, and amplitude decrements starting midway through the taps.
+
+**Answer:**  
+MDS-UPDRS item 3.4 score: **2**
+
+--- 評估 5 (分數: 2) ---
+The subject performed 11 taps instead of the instructed 10, but this doesn't directly affect scoring. The tap periods showed one significant hesitation (300 frames), indicating slight slowing and one interruption. Tap amplitudes started to decrement midway through the sequence. Considering these factors, the score is based on the amplitude criterion.
+
+**Score: 2**
+
+
+============================================================
+292801541_20201221_Hands_L_R.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The subject performed 11 taps instead of the instructed 10, but this doesn't significantly impact the scoring. The tap periods showed only one hesitation beyond two standard deviations, indicating minor interruptions. The amplitudes demonstrated a clear decrement starting midway through the sequence, meeting the criteria for a score of 2. Although there was some indication of slight slowing, the amplitude decrement was sufficient to classify the score as mild.
+
+Score: **2**
+
+--- 評估 2 (分數: 3) ---
+Based on the analysis of the extracted features from the finger tapping test:
+
+- **Number of taps**: The subject performed 11 taps instead of the instructed 10. This slight deviation suggests a minor issue but does not significantly impact scoring.
+
+- **Tap periods (frames)**: The intervals between taps are variable, with notable fluctuations such as [117, 150, 112, 138]. These variations indicate interruptions or hesitations in the tapping rhythm. There appear to be more than five interruptions, which is a key criterion for a higher score.
+
+- **Tap amplitudes (pixels)**: The amplitudes show a decrementing pattern starting after the fifth tap and continuing throughout the sequence. This early and consistent decrease in amplitude aligns with criteria for a higher score.
+
+Considering these factors, the finger tapping performance exhibits characteristics of moderate impairment.
+
+**MDS-UPDRS Score: 3**
+
+--- 評估 3 (分數: 2) ---
+The subject's finger tapping test reveals several key observations:
+
+1. **Number of Taps**: The subject performed 11 taps instead of the instructed 10, which might indicate a slight deviation but doesn't significantly impact scoring.
+
+2. **Tap Periods**: The intervals between taps show variability, with fluctuations indicating possible hesitations or interruptions. Notably, there's a mix of shorter and longer periods without clear freezes.
+
+3. **Tap Amplitudes**: There is a noticeable decline in amplitude starting midway through the sequence, which aligns with criteria for mild issues.
+
+Given these factors, the scoring aligns most closely with a **2 (Mild)** as there are multiple interruptions and amplitude decrements midway, but no evidence of freezes or severe slowing.
+
+**Final Score: 2**
+
+--- 評估 4 (分數: 2) ---
+The subject's performance shows amplitude decrements starting around the fifth tap and includes at least one noticeable hesitation. These factors align with the criteria for a mild impairment.
+
+Score: 2
+
+--- 評估 5 (分數: 2) ---
+The subject performed 11 taps with some hesitations and amplitude decrements. The analysis shows one significant interruption in tap periods (150 frames) and amplitudes decreasing around the fifth tap, fitting the criteria for a score of 2 due to amplitude.
+
+Score: 2
+
+
+============================================================
+161568408_20210208_Hands_L_R.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The subject's finger tapping performance shows some variations in both tap periods and amplitudes. While there are no significant interruptions or halts, the amplitude starts decreasing around the midpoint of the 10 taps, fitting the criteria for a mild score.
+
+**Score: 2 (Mild)**
+
+--- 評估 2 (分數: 2) ---
+The subject's finger tapping performance shows:
+
+- **Hesitations/Interruptions**: 1 significant interruption (score1 criterion).
+- **Amplitude Decrement**: Midway through the sequence, fitting score2.
+- **Speed**: Mild slowing, indicating score2.
+
+Considering two criteria align with score2, the overall score is:
+
+**Score: 2**
+
+The final answer is:
+
+\boxed{2}
+
+--- 評估 3 (分數: 3) ---
+The subject's finger tapping test indicates that while they were able to perform the task, there are notable issues with amplitude decrements starting early in the sequence. Specifically, the amplitudes begin to decrease immediately after the first tap, which aligns with criterion 3c for a moderate score. 
+
+**Answer:**  
+Score: 3
+
+--- 評估 4 (分數: 3) ---
+Based on the analysis of the extracted features, here is the scoring:
+
+**Score: 3 (Moderate)**
+
+--- 評估 5 (分數: 3) ---
+The subject's finger tapping test shows one interruption and significant early amplitude decrement, meeting the criteria for moderate impairment.
+
+**Answer:**  
+\boxed{3}
+
+
+============================================================
+445817794_20201109_Hands_L_R.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The subject performed 11 taps with varying periods and amplitudes. The initial tap period was longer (82 frames), indicating a possible hesitation. Amplitudes started high but began to decrease around tap 4-5, which is midway through the sequence. This meets the criteria for score 2 due to amplitude decrement starting midway.
+
+**Score: 2**
+
+--- 評估 2 (分數: 1) ---
+Based on the analysis of the extracted features:
+
+The subject performed 11 taps instead of the required 10, but this does not significantly impact the scoring. There was one notable hesitation (second tap period of 82 frames) and a decrement in amplitude towards the end of the 10 taps. These factors align with the criteria for a score of 1.
+
+**Score: 1 (Slight)**
+
+--- 評估 3 (分數: 1) ---
+Based on the analysis of the tap periods and amplitudes, the subject's performance shows a slight decrement in amplitude towards the end without significant interruptions or slowing. This aligns with the criteria for a score of 1.
+
+**Final Score: 1 (Slight)**
+
+--- 評估 4 (分數: 2) ---
+The subject's performance in the finger tapping test is scored as follows:
+
+**Score: 2 (Mild)**
+
+**Explanation:**
+- **Tap Periods:** One noticeable hesitation at 82 frames, indicating mild slowing.
+- **Amplitudes:** A gradual decrease starting around the midpoint of the taps.
+
+This meets the criteria for a mild impairment.
+
+--- 評估 5 (分數: 2) ---
+The subject's performance shows some signs of hesitation and amplitude decrement starting around the midpoint, fitting the criteria for a mild impairment.
+
+**Score: 2**
+
+
+============================================================
+421326689_20200706_Hands_R_13_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 3) ---
+The subject's finger tapping test shows that while there are some hesitations in the tapping rhythm and slight slowing, the most significant issue is the early decrementing of amplitudes. The amplitudes start to decrease after the first tap, which aligns with the criteria for a score of 3.
+
+Score: 3
+
+--- 評估 2 (分數: 3) ---
+MDS-UPDRS Item 3.4 Score: **1**
+
+--- 評估 3 (分數: 1) ---
+The subject's performance shows slight variations in tapping speed with some periods being longer than average, indicating possible minor hesitations. The amplitudes fluctuate without a consistent decrementing pattern. Considering the criteria, this aligns with slight slowing and minor interruptions.
+
+**Score: 1**
+
+--- 評估 4 (分數: 2) ---
+The subject's performance shows mild issues during the finger tapping test. The amplitudes decrease midway through the taps and then recover, fitting the criteria for a moderate decrement starting around the middle of the sequence. Additionally, there are slight variations in tap periods suggesting possible hesitations but not exceeding five interruptions.
+
+**Score: 2 (Mild)**
+
+--- 評估 5 (分數: 2) ---
+The subject performed 11 taps with slight variations in tap periods and amplitudes. The amplitudes showed a dip around the middle, indicating a decrement starting mid-sequence. There were no significant hesitations or severe slowdowns, but mild slowing was present. 
+
+**Score: 2**
+
+
+============================================================
+553661824_20200921_Hands_R_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The subject's performance shows mild slowing with 3-5 hesitations and amplitude decrements starting midway.
+
+**Score: 2 (Mild)**
+
+--- 評估 2 (分數: 2) ---
+The subject's finger tapping test shows four hesitations in tap periods, which fall under the mild category with 3-5 interruptions. Additionally, there is some amplitude decrement starting around the midpoint of the taps. Considering these factors, the score aligns with mild issues.
+
+**Score: 2 (Mild)**
+
+--- 評估 3 (分數: 1) ---
+The subject's performance in the finger tapping test is scored based on the extracted features and the MDS-UPDRS criteria. 
+
+**Score: 1 (Slight)**  
+**Reasoning:** The subject showed slight slowing with a longer period towards the end and a mild amplitude decrement near the conclusion of the taps, fitting the criteria for a slight impairment.
+
+--- 評估 4 (分數: 2) ---
+The subject's finger tapping test results show mild slowing and amplitude decrements starting midway through the taps.
+
+**Score: 2 (Mild)**
+
+--- 評估 5 (分數: 2) ---
+The subject performed 11 taps with slight variations in tap periods and amplitudes. The tap periods showed one notable hesitation (100 frames), and amplitudes began to decrement around the midpoint. Based on these observations:
+
+**Score: 2**
+
+This score reflects mild slowing, up to two interruptions, and amplitude decrements starting midway through the sequence.
+
+
+============================================================
+403773045_20201012_Hands_R_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: None) ---
+無回應
+
+--- 評估 2 (分數: 2) ---
+The subject's performance shows one significant hesitation, some mild slowing, and notable amplitude decrements midway through the task. According to the MDS-UPDRS criteria, this corresponds to a mild impairment.
+
+**Score: 2 (Mild)**
+
+--- 評估 3 (分數: 2) ---
+The subject performed 11 taps with two hesitations and amplitude decrements starting midway. These factors meet the criteria for a score of 2.
+
+**Score: 2**
+
+--- 評估 4 (分數: 2) ---
+The subject's performance shows five interruptions in tap periods, amplitude decrement starting midway, and mild slowing. These factors align with a score of 2.
+
+**Answer:** 2
+
+--- 評估 5 (分數: 3) ---
+The subject's performance shows a longer arrest in tapping and amplitude decrement starting midway through the sequence.
+
+Score: 3 (Moderate)
+
+
+============================================================
+051331512_20200406_Hands_L_9-_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 1) ---
+The subject's finger tapping test is evaluated based on the extracted features:
+
+- **Number of Taps**: Completed all 10 taps successfully.
+- **Tap Periods**: Two periods exceed 180 frames, indicating slight hesitations.
+- **Amplitudes**: Slight decrement towards the end without consistent decline.
+
+**Score: 1 (Slight)**  
+Reasoning: The subject shows one or two hesitations, slight slowing, and amplitude decrement near the end.
+
+--- 評估 2 (分數: 2) ---
+The subject's performance shows mild slowing with some hesitations and no significant amplitude decrementing. 
+
+Score: 2
+
+--- 評估 3 (分數: 1) ---
+The subject's performance shows two interruptions, slight slowing, and amplitude decrement near the end, fitting the criteria for a slight impairment.
+
+Score: **1**
+
+--- 評估 4 (分數: 1) ---
+Based on the analysis of the tap periods and amplitudes:
+
+- The subject completed all 10 taps with minimal hesitations (1 or 2) and slight slowing in tap periods.
+- Amplitude showed some decrement towards the end but not consistently from the start.
+
+**Score: 1 (Slight)**
+
+--- 評估 5 (分數: 1) ---
+Based on the analysis of tap periods and amplitudes, the subject's performance shows slight slowing, minimal amplitude decrement near the end, and no significant interruptions. 
+
+**Score: 1 (Slight)**
+
+
+============================================================
+759859453_20210104_Hands_R_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 1) ---
+The subject's performance shows slight hesitations and amplitude decrements midway, fitting the criteria for a score of 1.
+
+**Score: 1 (Slight)**
+
+--- 評估 2 (分數: 2) ---
+The subject's performance in the finger tapping test is scored as follows:
+
+**Score: 2**
+
+This score reflects mild slowing with two interruptions and amplitude decrement starting midway, fitting the criteria for a mild impairment.
+
+--- 評估 3 (分數: 2) ---
+The subject's performance shows two significant interruptions in the tapping rhythm and a noticeable decrement in amplitude starting around the midpoint of the sequence. These factors align most closely with the criteria for a score of 2 (Mild).
+
+**Score: 2**
+
+--- 評估 4 (分數: 3) ---
+The subject's performance shows signs of moderate impairment during the finger tapping test. There is evidence of one longer arrest (tap 6 at ~0.93 seconds) and amplitude decrements starting midway through the sequence. These factors align with the criteria for a Score 3.
+
+**Score: 3**
+
+--- 評估 5 (分數: 2) ---
+The analysis of the subject's performance in the MDS-UPDRS finger tapping test reveals three interruptions in the rhythm, mild slowing, and amplitude decrement starting midway through the sequence.
+
+**Answer:**  
+Score: 2
+
+
+============================================================
+445817794_20200720_Hands_L_12-_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 3) ---
+The subject's finger tapping performance shows significant interruptions and amplitude decrements. The tap periods reveal a notable hesitation at the 8th tap, indicating a possible freeze. Additionally, the amplitudes decrease starting around the midpoint, consistent with moderate issues.
+
+**Score: 3 (Moderate)**
+
+--- 評估 2 (分數: 1) ---
+The subject's performance shows slight issues with finger tapping, including minor interruptions and amplitude decrements towards the end. 
+
+**Score: 1 (Slight)**
+
+--- 評估 3 (分數: 1) ---
+Based on the analysis of the extracted features from the finger tapping test:
+
+- **Number of taps completed**: 10 (completed as instructed)
+- **Tap periods (frames)**: The average tap period is approximately 66.9 frames, with two notable interruptions at 75 and 86 frames. These interruptions are mild and do not meet the threshold for moderate or severe slowing.
+- **Amplitude analysis**: There is a slight decrement in amplitude near the end of the sequence, particularly noticeable on the ninth tap (184.62 pixels), but this does not qualify as significant amplitude loss.
+
+The presence of one or two hesitations/interruptions and slight amplitude decrementing near the end align with the scoring criteria for **1 (Slight)**.
+
+**Final Score**: 1
+
+--- 評估 4 (分數: 2) ---
+The subject's performance on the MDS-UPDRS item 3.4 finger tapping test is scored based on the analysis of tap periods and amplitudes. 
+
+**Analysis:**
+1. **Number of Taps:** Completed all 10 taps as instructed.
+2. **Tap Periods:** Two intervals (75 and 86 frames) indicate hesitations, suggesting mild slowing but not enough for a higher score.
+3. **Amplitudes:** Amplitudes start to decrement midway through the sequence, meeting the criteria for a score of 2.
+
+**Conclusion:**
+The amplitude decrement starting midway leads to an overall score of 2 (Mild). 
+
+Score: 2
+
+--- 評估 5 (分數: 1) ---
+The subject's performance shows two hesitations in tapping, slight slowing, and amplitude decrement towards the end. 
+
+**Score: 1**
+
+
+============================================================
+879885247_20200608_Hands_L_11_R.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The analysis of the subject's performance in the finger tapping test reveals:
+
+- **Speed:** The tap periods show two significant interruptions (51 and 152 frames) which could indicate hesitations. This aligns with slight slowing or 1-2 interruptions, suggesting a score closer to 1 for speed.
+
+- **Amplitude:** There is a noticeable decrease in amplitude starting midway through the taps, specifically from tap7 onwards. This meets the criterion for a score of 2 due to amplitude decrementing midway.
+
+Considering both aspects together and the presence of criteria meeting a higher score for amplitude, the overall performance is best categorized under a score of 2.
+
+**Final Score: 2 (Mild)**
+
+--- 評估 2 (分數: 3) ---
+The subject's finger tapping performance shows significant hesitations, including an arrest and amplitude decrement starting midway through the taps. These factors meet the criteria for a moderate impairment.
+
+Score: 3
+
+--- 評估 3 (分數: 3) ---
+Based on the extracted features and analysis, the subject's performance shows multiple interruptions in tapping rhythm and a significant decrement in amplitude starting early in the sequence.
+
+**Score: 3 (Moderate)**
+
+--- 評估 4 (分數: 1) ---
+The subject's finger tapping performance shows 2 hesitations and amplitude decrements near the end with slight slowing, fitting the criteria for a slight impairment.
+
+Score: 1
+
+--- 評估 5 (分數: 3) ---
+The subject's performance in the finger tapping test exhibits characteristics that align with the moderate severity criteria. There is a notable longer arrest (152 frames) indicating an interruption, and the amplitudes show a consistent decrement starting early in the sequence.
+
+**Score: 3**
+
+
+============================================================
+281628421_20201130_Hands_L_R.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The subject's performance shows a significant amplitude decrement starting around the midpoint of the tapping sequence, which aligns with the criteria for a mild impairment. Additionally, while there are no more than one or two interruptions, the key factor is the amplitude decrement, which meets the Score 2 criteria.
+
+Score: **2**
+
+--- 評估 2 (分數: 2) ---
+MDS-UPDRS Score: 2
+
+--- 評估 3 (分數: 3) ---
+The MDS-UPDRS score for this finger tapping test is:
+
+**3 (Moderate)**
+
+This scoring is based on the observed decrement in amplitude starting midway through the sequence, consistent with criteria 'c' under Moderate severity.
+
+--- 評估 4 (分數: 2) ---
+The subject's performance shows a mild decrement in amplitude starting around the midpoint and some minor variations in tapping periods without significant interruptions. 
+
+**Score: 2**
+
+--- 評估 5 (分數: 2) ---
+The subject's finger tapping test shows an amplitude decrement starting midway through the taps, which aligns with the moderate category for amplitude. However, considering other factors like slight interruptions and speed variations without severe slowing, the overall score is:
+
+**2 (Mild)**
+
+
+============================================================
+553661824_20201116_Hands_L_R.mp4FT
+============================================================
+
+--- 評估 1 (分數: 1) ---
+The subject performed 11 taps with mostly consistent periods around 90-100 frames. There were slight hesitations but no significant slowing. Amplitudes showed a minor dip towards the end without consistent decrementing.
+
+Score: 1 (Slight)
+
+--- 評估 2 (分數: 2) ---
+The subject's performance shows amplitude decrements starting midway through the taps without significant hesitations or slowing. This aligns with the criteria for a mild impairment.
+
+**Score: 2**
+
+--- 評估 3 (分數: 2) ---
+The extracted features indicate that while there are no significant hesitations or slowing, the tap amplitudes start to decrease around midway through the sequence. This meets the criterion for a score of 2 under the MDS-UPDRS item 3.4.
+
+**Score: 2**
+
+--- 評估 4 (分數: 1) ---
+The MDS-UPDRS score for this finger tapping test is:
+
+**Score: 1**
+
+**Rationale:**  
+- The subject completed 11 taps instead of the instructed 10, which might indicate a minor interruption but not significant enough to warrant a higher score.  
+- Tap periods showed slight variability but remained relatively consistent without major hesitations or arrests.  
+- Amplitudes demonstrated a clear decrement towards the end, particularly in the last few taps, meeting criterion 1c (amplitude decrements near the end of the sequence).  
+
+Overall, these factors align with the criteria for a score of 1, indicating slight difficulties such as amplitude decrementing and possible minor slowing.
+
+--- 評估 5 (分數: 2) ---
+The subject's finger tapping test shows some amplitude decrements starting midway and slight slowing. These factors meet the criteria for a score of 2.
+
+Score: 2
+
+
+============================================================
+403773045_20210201_Hands_L_R.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The subject's performance shows some decrements in amplitude starting around tap 6, which is midway through the sequence, indicating a mild issue. There are one or two hesitations, which are slight, and the amplitude change is the more significant factor here.
+
+**Score: 2 (Mild)**
+
+--- 評估 2 (分數: 1) ---
+The subject performed the finger tapping test with 11 taps instead of the instructed 10, indicating an extra tap which may not significantly affect scoring. The tap periods showed two instances of increased hesitation (from 123 to 139 and 108 to 111 frames), suggesting mild interruptions. Amplitudes fluctuated without a consistent decrement towards the end, though there was a notable drop mid-sequence.
+
+Based on these observations:
+- **Tap Periods**: Two hesitations but fewer than three.
+- **Amplitudes**: Some decrements mid-way but recovery thereafter.
+
+This aligns with slight slowing and amplitude decrements near the end, fitting the criteria for a score of 1.
+
+**Final Score: 1**
+
+--- 評估 3 (分數: 1) ---
+To determine the score for MDS-UPDRS item 3.4: FINGER TAPPING based on the provided data, we analyze the extracted features against the scoring criteria.
+
+### Key Observations:
+1. **Number of taps**: The subject performed 11 taps instead of the instructed 10, which indicates a potential issue with rhythm or pace.
+2. **Tap periods (frames)**: The tap-to-tap intervals show variability and some slowing over time, particularly in the later taps (e.g., frames 108, 111).
+3. **Tap amplitudes (pixels)**: While there is some fluctuation in amplitude, there is no clear evidence of consistent decrementing amplitude throughout the sequence.
+
+### Analysis Against Scoring Criteria:
+- **Speed**: There is mild slowing in some intervals but not enough to qualify as moderate or severe.
+- **Amplitude**: The amplitudes do not show a significant decrementing pattern that starts early or midway through the taps.
+- **Hesitations/Interruptions**: There are no obvious long arrests (freezes) or more than 5 interruptions.
+
+### Conclusion:
+The observed mild slowing and variability in tap periods, without significant amplitude decrementing or frequent interruptions, align with a score of **1 (Slight)** according to the MDS-UPDRS criteria.
+
+**Final Score**: **1 (Slight)**
+
+--- 評估 4 (分數: 1) ---
+The subject's finger tapping test reveals slight slowing in tap periods and a gradual decrease in amplitudes beginning midway through the sequence, fitting the criteria for a slight impairment.
+
+**Score: 1 (Slight)**
+
+--- 評估 5 (分數: 1) ---
+The MDS-UPDRS score for this subject is **1**. 
+
+**Explanation:**
+
+- **Number of Taps:** The subject performed 11 taps instead of the instructed 10, but this doesn't significantly impact the scoring as it's within the ballpark.
+
+- **Tap Periods (Speed):** The periods between taps show a slight decrease over time, indicating that the subject might have sped up rather than slowed down. There are no significant hesitations or interruptions observed in the tap periods.
+
+- **Tap Amplitudes:** The amplitudes start strong, dip around the 7th to 8th tap (midway), and then recover slightly. This dip could be considered a slight amplitude decrement but doesn't meet the criteria for more severe decrements starting earlier.
+
+- **Scoring Criteria Analysis:**
+  - **Score 0:** Not applicable as there are some minor issues.
+  - **Score 1:** Fits because of the slight amplitude decrement midway without any interruptions or slowing. The dip in amplitude is present but not significant enough to classify as moderate.
+  - **Score 2-4:** Criteria for these scores involve more pronounced issues which aren't observed here.
+
+Thus, the score aligns with a slight issue under criterion (c) of Score 1.
+
+
+============================================================
+879885247_20200803_Hands_L_R.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The subject's finger tapping performance shows mild issues with amplitude decrement starting midway and slight variations in tap periods, fitting the criteria for a mild score.
+
+**Score: 2**
+
+--- 評估 2 (分數: 2) ---
+The subject's performance in the finger tapping test shows several characteristics that align with the scoring criteria for MDS-UPDRS item 3.4.
+
+1. **Number of Taps**: The subject completed 11 taps instead of the instructed 10, indicating an extra tap beyond what was required.
+
+2. **Tap Periods**: The periods between taps show fluctuations, with significant drops at certain points (e.g., from 84 to 61 frames and from 82 to 62 frames). These drops suggest hesitations or interruptions in the rhythm.
+
+3. **Amplitudes**: There is a steady decrease in tap amplitudes throughout the sequence, particularly noticeable midway through the taps, indicating amplitude decrement starting around the middle of the sequence.
+
+Based on these observations:
+
+- The number of significant interruptions (around three) falls into the 3-5 range.
+- Amplitude decrement occurs midway, not near the end or immediately after the first tap.
+- The variations in periods suggest mild slowing rather than moderate or severe.
+
+**Score: 2**
+
+--- 評估 3 (分數: 2) ---
+The subject's performance shows two slight hesitations and an amplitude decrement starting midway. According to the MDS-UPDRS criteria, this meets the mild category due to the amplitude decrease.
+
+**Score: 2**
+
+--- 評估 4 (分數: 2) ---
+The extracted features indicate that the subject performed 11 taps instead of the instructed 10, but this does not significantly impact the scoring. The tap periods show some variability, with a mix of shorter and longer intervals, but there are no clear hesitations or interruptions beyond what might be considered slight. The amplitudes demonstrate a decrement starting around the midpoint of the sequence.
+
+Based on these observations:
+
+- **Hesitations/Interruptions**: None significant.
+- **Slowing**: Slight.
+- **Amplitude Decrement**: Starts midway through the 10-tap sequence.
+
+This aligns with criteria for a score of **2 (Mild)**.
+
+--- 評估 5 (分數: 2) ---
+The subject's finger tapping performance shows signs of mild impairment. There are indications of hesitations in the tap periods and a noticeable decrease in amplitudes starting around the midpoint. According to the MDS-UPDRS criteria, this corresponds to a score of 2.
+
+**Score: 2**
+
+
+============================================================
+973565404_20200622_Hands_L_11_R.mp4FT
+============================================================
+
+--- 評估 1 (分數: 1) ---
+The subject performed 11 taps instead of the required 10, but this didn't significantly affect the scoring. The tap periods showed one notable hesitation (168 frames) indicating a slight interruption. Amplitudes varied without a clear decrementing pattern. Based on these observations:
+
+**Score: 1**
+
+**Explanation:**  
+- **Number of Taps:** 11 (one extra tap, but not problematic).  
+- **Tap Periods:** One longer period suggesting a slight hesitation or interruption.  
+- **Amplitudes:** Varied without consistent decrementing.  
+
+The criteria for score 1 are met due to the single hesitation and absence of amplitude issues.
+
+--- 評估 2 (分數: 1) ---
+The subject performed the finger tapping test with 11 taps, but we focus on the first 10. There was one significant hesitation (168 frames) indicating a broken rhythm, slight slowing, and amplitude decrement near the end. 
+
+**Score: 1**
+
+--- 評估 3 (分數: 2) ---
+The subject's finger tapping performance shows mild issues. The amplitudes decrease starting around the midpoint, and there are noticeable variations in tap periods suggesting mild slowing or hesitations.
+
+**Score: 2 (Mild)**
+
+--- 評估 4 (分數: 2) ---
+The subject's performance shows amplitude decrement starting midway and moderate slowing with several interruptions. 
+
+**Score: 2**
+
+--- 評估 5 (分數: 1) ---
+The subject performed 11 taps with some variability in tap periods and amplitudes. The analysis shows slight slowing with one major interruption (period=168) and potentially another minor hesitation. Amplitudes fluctuated without consistent decrementing. Based on the criteria, this aligns with slight issues, leading to a score of:
+
+**Score: 1**
+
+
+============================================================
+865123482_20200713_Hands_R_12_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 1) ---
+The subject performed 11 taps with one notable hesitation at the start and maintained amplitudes throughout without significant decrementing. The speed showed minor variability but not severe slowing.
+
+Score: 1
+
+--- 評估 2 (分數: 1) ---
+The subject's finger tapping test shows one clear hesitation, slight slowdowns in a few instances, and amplitude decrement near the end. These factors align with the criteria for a score of 1.
+
+**Score: 1 (Slight)**
+
+--- 評估 3 (分數: 2) ---
+The data indicates multiple factors affecting the performance:
+
+1. **Hesitations**: There were three significant periods where tapping slowed down considerably, meeting the criteria for score 2a (3–5 interruptions).
+2. **Amplitude**: The amplitudes showed some decrement towards the end of the task, fitting into score 1c (decrementing near the end).
+3. **Speed**: Overall tapping speed was mildly slower than typical performance, aligning with score 2b (mild slowing).
+
+Since the scoring is based on any factor meeting a particular level, and hesitations meet score 2a while speed meets 2b, the overall evaluation leads to:
+
+**Score: 2**
+
+This conclusion is reached because the presence of factors meeting higher-score criteria (hesitations and slowing) takes precedence over those meeting lower ones.
+
+--- 評估 4 (分數: 1) ---
+The subject performed 10 finger taps with some initial hesitation and a slight slowdown, followed by more consistent tapping. Amplitudes increased then decreased near the end.
+
+**Score: 1 (Slight)**
+
+--- 評估 5 (分數: 2) ---
+The subject's performance shows mild issues during the finger tapping test. There are signs of hesitations in the tap periods and amplitude decrements starting mid-way through the task.
+
+**MDS-UPDRS Score: 2**
+
+
+============================================================
+751297988_20200824_Hands_R_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The subject's finger tapping test analysis reveals:
+
+- **Number of Taps**: 11 (but focusing on the first 10 as per instructions)
+- **Tap Periods**: Show mild slowing, particularly with an initial hesitation (159 frames).
+- **Amplitudes**: Demonstrate a decrement starting midway through the taps.
+
+Based on these observations and the MDS-UPDRS criteria, the score is:
+
+**2 (Mild)**
+
+--- 評估 2 (分數: 1) ---
+The subject's performance shows slight slowing, a few hesitations, and amplitude decrement near the end. 
+
+**Score: 1**
+
+--- 評估 3 (分數: 1) ---
+The subject's performance in the finger tapping test shows two interruptions, slight slowing at the beginning, and amplitude decrements towards the end. 
+
+**Score: 1 (Slight)**
+
+--- 評估 4 (分數: 1) ---
+The subject's performance shows slight slowing with one or two hesitations and amplitude decrementing towards the end of the taps.
+
+Score: 1
+
+--- 評估 5 (分數: 1) ---
+Based on the analysis of tap periods and amplitudes, the subject's performance shows slight hesitations, minimal slowing, and a dip in amplitude towards the end. These factors align with the criteria for a score of 1.
+
+**Score: 1 (Slight)**
+
+
+============================================================
+553661824_20200629_Hands_L_7-_R.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+Based on the analysis of the tap periods and amplitudes, the subject demonstrates mild slowing and amplitude decrementing starting midway through the task. These factors correspond to a score of 2.
+
+**Score: 2**
+
+--- 評估 2 (分數: 2) ---
+The subject's performance on the MDS-UPDRS finger tapping test is scored based on the analysis of tap periods and amplitudes. The key observations are:
+
+1. **Tap Periods**: There were notable slowdowns, particularly at taps 5 and 6, indicating possible hesitations or mild slowing.
+
+2. **Amplitudes**: A clear decrement in amplitude starting around the midpoint of the sequence (taps 5-6), which aligns with criteria for a score of 2.
+
+3. **Interruptions**: There were one or two possible interruptions, contributing to the mild severity assessment.
+
+**Final Score: 2**
+
+--- 評估 3 (分數: 2) ---
+The subject's finger tapping test is scored based on the extracted features:
+
+1. **Number of Taps**: 11 (though only 10 are considered).
+2. **Tap Periods**: Show some variability but not more than 5 interruptions.
+3. **Amplitudes**: Decrease starting midway, indicating a mild issue.
+
+**Score: 2**  
+**Reasoning**: The amplitude decrement starts midway, and there are signs of mild slowing or hesitations, fitting the criteria for a score of 2 (Mild).
+
+--- 評估 4 (分數: 1) ---
+The subject's performance shows slight slowing with tap periods averaging around 0.475 seconds per tap and one potential hesitation at 125 frames. Amplitudes slightly decrease near the end without significant decrement. 
+
+Score: 1
+
+--- 評估 5 (分數: 2) ---
+The subject's performance in the finger tapping test shows some signs of impairment. There is a noticeable decrease in tap amplitudes starting around the middle of the sequence, which meets the criteria for a score of 2 (Mild). Additionally, there is mild slowing and one interruption during the taps, supporting this assessment.
+
+**Score: 2 (Mild)**
+
+
+============================================================
+553661824_20210503_Hands_R_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 3) ---
+MDS-UPDRS Item 3.4 Score: **1**
+
+--- 評估 2 (分數: 1) ---
+Score: 1
+
+--- 評估 3 (分數: 1) ---
+The subject performed 11 taps instead of 10, which may be due to an extra frame or miscount. The tap periods were converted from frames to milliseconds, showing variability but no significant slowing. Amplitudes showed decrements both midway and near the end.
+
+Considering the criteria:
+- Speed: Slightly variable with some speeding up towards the end.
+- Amplitude: Decrementing in mid and end taps.
+- Hesitations: Not evident beyond possible minor interruptions.
+
+The amplitude decrements suggest a score of 2, but overall performance leans more towards mild issues. 
+
+Final Score: 1 (Slight)
+
+--- 評估 4 (分數: 1) ---
+Based on the analysis of the extracted features from the finger tapping test, the subject's performance aligns with the criteria for a score of 1 (Slight). The findings include up to two interruptions in rhythm, slight slowing in tap periods, and some amplitude decrements near the end. These factors collectively indicate minor impairment.
+
+**Score: 1**
+
+--- 評估 5 (分數: 1) ---
+The subject's performance shows slight deviations from normal tapping, with one extra tap and minor fluctuations in amplitude without consistent decrementing. The periods indicate maintained speed with slight variations. 
+
+Score: 1 (Slight)
+
+
+============================================================
+879885247_20201123_Hands_L_R.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The subject's performance shows two hesitations (within score 1 criteria) but a significant amplitude decrement starting midway through the taps. According to MDS-UPDRS scoring, any criterion met at a higher level determines the score. Thus, the amplitude issue places the score at 2.
+
+**Score: 2**
+
+--- 評估 2 (分數: 3) ---
+The subject's finger tapping test shows significant issues. The amplitudes decrease from the first tap onwards, meeting the criteria for a higher score. Additionally, there is at least one notable hesitation in the tapping rhythm and evidence of moderate slowing.
+
+**Score: 3**
+
+--- 評估 3 (分數: 2) ---
+The subject performed 11 taps instead of the instructed 10, but we focus on the first 10 for scoring. The tap periods showed four instances above average, suggesting hesitations, and amplitudes decreased starting midway through the sequence. These factors align with a mild impairment.
+
+**Score: 2**
+
+--- 評估 4 (分數: 3) ---
+The finger tapping test is scored based on interruptions in rhythm and amplitude changes. The subject had 11 taps with notable period variations and a steady decrease in amplitude from the start. Despite having exactly 5 interruptions (which could be considered mild), the amplitude decrement starting immediately and a possible longer arrest push the score higher.
+
+**Score: 3**
+
+--- 評估 5 (分數: 3) ---
+The subject's finger tapping performance is scored based on the extracted features and MDS-UPDRS criteria. 
+
+**Analysis:**
+- **Interruptions:** Two noticeable hesitations in tap periods (tap7 and tap9).
+- **Amplitude:** Steady decrement from the first tap onwards, meeting the moderate criterion.
+- **Speed:** Some slow periods but not enough for a higher score on their own.
+
+The amplitude decrement starting immediately after the first tap meets the criteria for a moderate issue. Therefore, despite fewer interruptions, the overall score is determined by the highest applicable criterion.
+
+**Score: 3**
+
+3
+
+
+============================================================
+161568408_20200601_Hands_L_13_R.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The MDS-UPDRS score for this finger tapping test is **2**. 
+
+**Rationale:**
+- The subject performed 11 taps instead of 10, but this isn't a critical factor.
+- Tap periods averaged around 0.45 seconds, indicating mild slowing.
+- Amplitudes showed a decrement starting midway through the sequence, fitting the criteria for a score of 2.
+
+**Score:** 2 (Mild)
+
+--- 評估 2 (分數: 1) ---
+The subject's finger tapping test shows minor inconsistencies in tap periods and amplitudes, fitting the criteria for slight issues. 
+
+**Score: 1**
+
+--- 評估 3 (分數: 2) ---
+The subject's performance shows some hesitations in tapping rhythm and a decrease in amplitude starting midway. These factors align with mild impairment.
+
+**Score: 2**
+
+--- 評估 4 (分數: 2) ---
+The subject's performance shows amplitude decrements starting midway through the taps and possible mild slowing in tap periods. There are slight variations in rhythm but no significant hesitations beyond one or two interruptions. Therefore, the score is:
+
+**2 (Mild)**
+
+--- 評估 5 (分數: 1) ---
+The subject's performance shows slight slowing, amplitude decrement towards the end, and minimal interruptions. These factors align with the criteria for a score of 1.
+
+**Score: 1**
+
+
+============================================================
+759859453_20200914_Hands_L_R.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The subject's performance shows 3 hesitations and amplitude decrements starting midway through the taps.
+
+**Score: 2**
+
+The final score based on the analysis of tap periods, amplitudes, and interruptions is:
+
+\boxed{2}
+
+--- 評估 2 (分數: 2) ---
+The subject's performance shows mild issues with hesitations, amplitude decrement midway, and possible mild slowing. 
+
+**Score: 2**
+
+--- 評估 3 (分數: 3) ---
+The data indicates moderate to severe issues in both speed and amplitude during the tapping sequence. Specifically, there are notable hesitations and a significant decline in amplitude, leading to an overall assessment of **moderate impairment**.
+
+- **Speed:** The presence of longer arrest periods suggests moderate impairment (Score 3).
+- **Amplitude:** A clear decrement starting midway indicates moderate issues (Score 2).
+
+However, since the speed issue is more severe and meets a higher criterion, it dictates the final score.
+
+**Final Score: 3**
+
+\boxed{3}
+
+--- 評估 4 (分數: 2) ---
+The subject's finger tapping test shows mild slowing in tap periods, amplitude decrement starting midway through the sequence, and two interruptions. These factors meet the criteria for a Score of 2 (Mild).
+
+**Score: 2**
+
+--- 評估 5 (分數: 2) ---
+The subject's finger tapping performance shows mild slowing and amplitude decrements starting midway through the taps. There are several hesitations in the tap periods, indicating interruptions consistent with a mild rating.
+
+**Score: 2**
+
+
+============================================================
+759859453_20210426_Hands_R_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 3) ---
+The subject's finger tapping test is scored as follows based on the MDS-UPDRS criteria:
+
+**Score: 3 (Moderate)**  
+**Reasoning:**  
+- **Amplitude Decrement:** The amplitudes decrease significantly from the first tap onwards, meeting criterion c for a moderate score.  
+- **Hesitations/Interruptions:** There are several periods with notable fluctuations, suggesting interruptions that align with mild criteria but contribute to an overall moderate assessment.  
+- **Speed:** The average tap period indicates moderate slowing compared to typical performance.
+
+Thus, the subject's performance is best categorized as Moderate under MDS-UPDRS item 3.4.
+
+--- 評估 2 (分數: 3) ---
+The subject's finger tapping test reveals moderate issues with hesitations and slowing. They had more than five interruptions, including a notable arrest, and their average tap period suggests moderate slowing. While amplitude decrements occurred near the end, the primary issues with rhythm and speed justify a higher score.
+
+Score: 3
+
+--- 評估 3 (分數: 1) ---
+The subject performed 11 taps with some hesitation (one interruption) and amplitude decrement near the end. These factors correspond to a slight impairment.
+
+**Score: 1**
+
+--- 評估 4 (分數: 1) ---
+The subject's performance in the MDS-UPDRS finger tapping test is evaluated based on the extracted features. The analysis reveals:
+
+1. **Number of Taps**: 11 taps performed, which is one more than required but does not significantly impact scoring.
+2. **Tap Periods**: Varied periods with a notable hesitation (195 frames) and some above-average intervals, indicating slight slowing and one or two interruptions.
+3. **Amplitudes**: A decrement in amplitude starting near the end of the sequence, specifically from tap 7 onwards.
+
+These observations align with the criteria for score 1: slight hesitations, slowing, and amplitude decrements near the end. Therefore, the final score is:
+
+**Score: 1**
+
+--- 評估 5 (分數: 2) ---
+The subject's finger tapping test revealed two significant interruptions in tap periods and a noticeable decrement in amplitude beginning around the midpoint. These findings align with the criteria for a mild impairment.
+
+**Score: 2 (Mild)**
+
+
+============================================================
+546503158_20200310_Hands_L_9_R.mp4FT
+============================================================
+
+--- 評估 1 (分數: 3) ---
+The subject's finger tapping performance shows one hesitation at the start and a significant decrement in amplitude beginning after the second tap. According to the MDS-UPDRS criteria, this meets the moderate level due to the early amplitude decrement.
+
+**Score: 3 (Moderate)**
+
+--- 評估 2 (分數: 2) ---
+The extracted features indicate the following:
+
+### Key Observations:
+1. **Number of Taps**: The subject performed 11 taps instead of the instructed 10. This could indicate mild difficulty in adhering to the task requirements.
+   
+2. **Tap Periods (Speed)**: 
+   - The tap periods are variable, ranging from 110 to 211 frames.
+   - The first tap period is notably longer (211 frames), which may suggest initial hesitation or slowing.
+   - Overall, there is mild slowing and some variability in the tapping rhythm.
+
+3. **Tap Amplitudes**:
+   - The amplitudes show a decrementing pattern starting midway through the sequence.
+   - For example, the amplitude decreases from 120.768 pixels at the first tap to around 90 pixels by the sixth tap, with some fluctuations afterward.
+
+### Scoring Based on MDS-UPDRS Criteria:
+- **Speed**: There is mild slowing, which aligns with score 2.
+- **Interruptions/Hesitations**: The variability in tap periods and the longer initial period suggest some hesitations or interruptions, but they are not severe enough to meet the criteria for score 3.
+- **Amplitude Decrementing**: The amplitudes decrement starting midway through the sequence, which aligns with score 2.
+
+### Final Score:
+**2 (Mild)**
+
+--- 評估 3 (分數: 2) ---
+The subject's performance in the finger tapping test is scored based on the MDS-UPDRS criteria. The analysis shows that while there are some hesitations and slight slowing, the key factor is the amplitude decrement starting midway through the taps. This meets the criterion for a mild score.
+
+**Answer:**  
+2 (Mild)
+
+--- 評估 4 (分數: 2) ---
+The subject's finger tapping test is scored based on the extracted features and MDS-UPDRS criteria.
+
+**Score: 2**
+
+**Explanation:**
+- **Amplitude:** The amplitude decrements starting mid-way through the taps (around tap 4), fitting criterion 2c for mild issues.
+- **Speed:** There's evidence of mild slowing with some periods being notably long, aligning with criterion 2b.
+- **Hesitations:** Only one significant hesitation observed at the start, which doesn't meet the threshold for more severe categories.
+
+Thus, the overall score is 2 (Mild).
+
+--- 評估 5 (分數: 3) ---
+Based on the analysis of the extracted features from the subject's finger tapping test, the scoring for MDS-UPDRS item 3.4 is determined as follows:
+
+The number of taps exceeds the instructed 10, indicating a potential difficulty in stopping. The tap periods show variability with some hesitations, particularly a notable delay at the start. Tap amplitudes demonstrate a significant decrement starting around the fourth tap, which is considered an early decrement according to the criteria.
+
+Considering these factors:
+- **Hesitations**: One significant hesitation at the beginning.
+- **Amplitude Decrement**: Starts around the fourth tap, earlier than midway but not immediately after the first tap. This aligns more with a moderate issue under the scoring criteria.
+
+**Final Score: 3 (Moderate)**
+
+
+============================================================
+403773045_20200427_Hands_R_13_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 1) ---
+The MDS-UPDRS score for this finger tapping test is based on the analysis of tap periods and amplitudes. The subject performed 11 taps instead of the requested 10, but the key factors are the variations in tap periods and amplitude decrements.
+
+**Tap Periods**: The intervals between taps show some variation, particularly a noticeable drop towards the end, indicating potential speeding up rather than significant hesitations or interruptions. There's no evidence of more than five interruptions or longer arrests, which would be required for higher scores.
+
+**Amplitudes**: A clear decrement in amplitude is observed near the end of the sequence, specifically in the last tap, which aligns with criterion 1c (slight decrementing near the end).
+
+Considering these factors, the score is determined to be slight issues due to the amplitude decrement without significant interruptions or slowing.
+
+**Score: 1 (Slight)**
+
+--- 評估 2 (分數: 1) ---
+The subject performed 11 taps instead of the instructed 10, but this doesn't significantly impact scoring. The tap periods show some variation with a notable decrease towards the end, possibly indicating mild speeding up rather than slowing or hesitation. Amplitudes are generally consistent except for a noticeable dip in the ninth tap, which suggests slight amplitude decrement near the conclusion.
+
+**Score: 1 (Slight)**
+
+--- 評估 3 (分數: 2) ---
+The subject's performance shows a notable decrement in amplitude starting around the middle of the tapping sequence, fitting the criterion for a Mild impairment (score 2). While there are possible hesitations, they don't meet the threshold for a higher score.
+
+**Score: 2 (Mild)**
+
+--- 評估 4 (分數: 2) ---
+The subject performed 10 finger taps with some hesitations (4 instances) and amplitude decrements both midway and near the end. These factors meet the criteria for mild impairment.
+
+**Score: 2**
+
+--- 評估 5 (分數: 1) ---
+MDS-UPDRS Item 3.4 Score: **1**
+
+**Rationale:**
+The subject performed 11 taps instead of the instructed 10, but this doesn't significantly impact the score. The tap periods show minor variations without clear hesitations or interruptions. However, there is a noticeable decrement in amplitude towards the end (tap 10), meeting criterion 1c for slight issues. Thus, the score is 1.
+
+
+============================================================
+292801541_20201221_Hands_R_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 3) ---
+To determine the score for MDS-UPDRS item 3.4: Finger Tapping, we analyze the extracted features based on the provided criteria:
+
+### Analysis of Features:
+1. **Number of Taps**: The subject performed 11 taps instead of the instructed 10.
+
+2. **Tap Periods (frames)**: 
+   - The periods are [222, 192, 225, 171, 153, 219, 141, 189, 155, 216].
+   - There is significant variability in tap intervals.
+   - Several periods exceed 200 frames, indicating possible hesitations or interruptions.
+
+3. **Tap Amplitudes (pixels)**: 
+   - The amplitudes are [178.22, 168.96, 174.41, 159.85, 170.66, 168.58, 160.56, 152.62, 162.79, 158.14, 154.38].
+   - There is a noticeable decrement in amplitude starting after the first tap.
+
+### Scoring Based on MDS-UPDRS Criteria:
+- **Interruptions/Hesitations**: The variability in tap periods suggests several interruptions or hesitations.
+- **Amplitude Decrement**: The amplitude starts to decrease immediately after the first tap and continues throughout the sequence, meeting criterion 3c.
+- **Speed**: There is mild slowing due to variable tap intervals.
+
+### Conclusion:
+The subject's performance meets the criteria for a score of **3 (Moderate)** due to amplitude decrement starting early and multiple interruptions. 
+
+**Score: 3**
+
+--- 評估 2 (分數: None) ---
+無回應
+
+--- 評估 3 (分數: None) ---
+無回應
+
+--- 評估 4 (分數: 2) ---
+The subject demonstrates mild difficulties with four interruptions during tapping and amplitudes decreasing midway. 
+
+Score: **2**
+
+--- 評估 5 (分數: 3) ---
+The subject's performance shows multiple hesitations and a consistent decrease in amplitude starting early, fitting the criteria for a moderate impairment.
+
+**Score: 3**
+
+
+============================================================
+281628421_20200323_Hands_R_10-_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The subject's performance shows one notable hesitation in the tap periods and a decrement in amplitude starting around the midpoint of the sequence. These factors meet the criteria for a mild impairment.
+
+**Score: 2**
+
+--- 評估 2 (分數: 3) ---
+The subject performed 11 taps with initial hesitations and significant amplitude decrement starting early. Despite some slowing, the main factor is the amplitude decrease, fitting criterion 3c.
+
+**Score: 3**
+
+--- 評估 3 (分數: 2) ---
+The subject performed 11 taps instead of the required 10, which may indicate minor rhythm issues. The tap periods showed initial hesitations (two longer intervals) but then settled into a faster rhythm without further interruptions. Amplitudes fluctuated with an overall downward trend starting around the fifth tap, indicating a decrement midway through the sequence.
+
+**Score: 2**
+
+The amplitude decrement starting midway and mild slowing at the beginning justify a Score of 2 (Mild).
+
+--- 評估 4 (分數: 2) ---
+The subject's finger tapping performance shows two hesitations in the rhythm, amplitudes decreasing from the midpoint, and some initial mild slowing. These factors meet the criteria for a score of 2.
+
+**Score: 2**
+
+--- 評估 5 (分數: 2) ---
+The subject's performance in the finger tapping test is scored based on the MDS-UPDRS criteria for item 3.4. 
+
+**Score: 2**
+
+**Explanation:**
+- **Amplitude Decrement:** The amplitudes start high but show a noticeable decrease from around the fourth tap, indicating a decrement starting midway through the sequence.
+- **Interruptions and Speed:** There are no significant hesitations or interruptions beyond mild variability. The tap periods show some fluctuation but do not indicate more than 2 interruptions or moderate slowing.
+
+This meets the criteria for a score of 2, reflecting mild issues with amplitude decrement and possible mild slowing without severe interruptions.
+
+
+============================================================
+207795468_20200810_Hands_R_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 1) ---
+The subject's performance shows slight slowing with one hesitation and amplitude decrement starting midway.
+
+**Score: 1 (Slight)**
+
+--- 評估 2 (分數: 1) ---
+The subject performed 11 taps instead of the instructed 10, with two notable hesitations towards the end. The amplitudes significantly decreased near the conclusion, and there was slight slowing in the later taps. These factors align with the criteria for a score of 1.
+
+**Score: 1**
+
+--- 評估 3 (分數: 3) ---
+The subject's finger tapping test data shows significant amplitude decrement starting early and notable speed variability. 
+
+**Answer:** The score is **3 (Moderate)** according to MDS-UPDRS item 3.4 criteria.
+
+--- 評估 4 (分數: 2) ---
+The MDS-UPDRS score for this finger tapping test is **2**. 
+
+**Reasoning:**
+- The subject performed 11 taps instead of the required 10, but this didn't significantly impact the scoring.
+- Tap amplitudes showed a notable decrease starting around the 7th tap, indicating a decrement midway through the sequence.
+- There were signs of mild slowing in some periods towards the end.
+- These factors align with criteria for a score of 2, which includes amplitude decrement midway and possible mild slowing.
+
+--- 評估 5 (分數: 2) ---
+The subject's finger tapping performance shows amplitude decrement starting around the seventh tap, which is just after the halfway point. Additionally, there are variations in tap periods that suggest hesitations or slowing. These factors align with the criteria for a mild impairment.
+
+**Score: 2 (Mild)**
+
+
+============================================================
+575614042_20200615_Hands_L_9-_R.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The subject's performance shows that the amplitudes of their finger taps started decreasing around the midpoint of the 10-tap sequence. According to the MDS-UPDRS criteria, this decrement beginning midway corresponds to a mild impairment.
+
+**Score: 2**
+
+--- 評估 2 (分數: 2) ---
+The subject's performance shows mild slowing with an average tap period of ~0.575 seconds, three hesitations, and amplitudes decreasing midway through the taps.
+
+**Score: 2**
+
+--- 評估 3 (分數: 3) ---
+The subject's performance in the MDS-UPDRS finger tapping test indicates moderate impairment.
+
+**Score: 3**
+
+This score reflects moderate issues with amplitude decrementing starting midway through the sequence and some hesitations in tap periods, aligning with criterion 3c (moderate).
+
+--- 評估 4 (分數: 2) ---
+The subject performed 11 taps with amplitudes showing a consistent decrease starting around the middle. There were no significant hesitations or freezes, but the amplitude decrement began midway through the task.
+
+**Score: 2**
+
+--- 評估 5 (分數: 2) ---
+Based on the analysis of the tap periods and amplitudes:
+
+- **Number of Taps**: 11 taps instead of the instructed 10, indicating possible difficulty in maintaining rhythm but not explicitly penalized.
+- **Tap Periods**: Most periods are around 130-160 frames with one notable longer period (159 frames), suggesting a slight hesitation.
+- **Amplitude Trends**: A gradual decrease starting midway through the sequence, recovering towards the end.
+
+**Score: 2 (Mild)**  
+The subject shows amplitude decrementing midway and possible mild slowing, fitting the criteria for a mild score.
+
+
+============================================================
+161568408_20210208_Hands_R_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 2) ---
+The MDS-UPDRS score for this finger tapping test is **2** (Mild). 
+
+**Rationale:**
+- The subject performed 10 taps as instructed, with an extra tap recorded but not impacting the analysis.
+- Tap periods showed variability, including a noticeable hesitation at 132 frames, indicating mild slowing.
+- Amplitudes decreased starting around the middle of the sequence, fitting the criteria for a mild score.
+- There were only one or two hesitations, which aligns with the mild category rather than moderate.
+
+--- 評估 2 (分數: 2) ---
+The subject's finger tapping performance is scored as follows:
+
+**Score: 2**
+
+**Rationale:**
+- The tap periods show mild slowing with one notable hesitation (132 frames) and some variation.
+- Amplitudes exhibit a decrement starting around the mid-point of the sequence, particularly noticeable in the sixth and ninth taps.
+- There are not enough interruptions to warrant a higher score, but the presence of both slowing and amplitude decrements justifies a mild rating.
+
+--- 評估 3 (分數: 1) ---
+The subject performed 11 taps with one significant interruption (at period6) and amplitude decrements towards the end. These factors meet the criteria for slight impairment.
+
+**Score: 1**
+
+--- 評估 4 (分數: 3) ---
+The subject's performance shows amplitude decrement starting early and at least one noticeable interruption, fitting the criteria for a moderate score.
+
+**Score: 3**
+
+--- 評估 5 (分數: 2) ---
+The subject demonstrates mild impairment in finger tapping with one interruption and amplitude decrement starting midway through the task.
+
+**Score: 2 (Mild)**
+
+
+============================================================
+445817794_20201109_Hands_R_L.mp4FT
+============================================================
+
+--- 評估 1 (分數: 3) ---
+The subject's finger tapping performance shows some concerning signs:
+
+- **Amplitude**: The amplitudes decrease significantly from the first tap onwards, meeting criterion c) of score 3.
+- **Periods**: While there are variations in tap periods, they don't indicate severe hesitations or arrests but do show some slowing.
+
+Considering these factors, particularly the early amplitude decrement, the appropriate score is:
+
+**Score: 3 (Moderate)**
+
+--- 評估 2 (分數: 1) ---
+The subject's performance shows minor hesitations and slight amplitude variations without consistent decrementing. They have a couple of interruptions in tap periods, fitting the criteria for Score 1.
+
+**Score: 1**
+
+--- 評估 3 (分數: 2) ---
+The subject performed 11 taps with some hesitations in tap periods but no significant amplitude decrementing. The analysis shows three interruptions, fitting into the criteria for a score of 2 (Mild).
+
+**Score: 2**
+
+--- 評估 4 (分數: 3) ---
+The subject's finger tapping test shows amplitude decrementing from the first tap, some hesitations, and moderate slowing. According to the MDS-UPDRS criteria, these observations align with a score of 3.
+
+**Score: 3**
+
+--- 評估 5 (分數: 1) ---
+The subject's finger tapping performance shows two potential hesitations (longer periods) and slight slowing, fitting the criteria for a score of 1.
+
+**Score: 1**
+

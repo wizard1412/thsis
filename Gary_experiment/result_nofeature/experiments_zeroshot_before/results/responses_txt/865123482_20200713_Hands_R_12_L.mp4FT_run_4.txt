@@ -1,0 +1,10 @@
+To determine the subject's score, the data was analyzed for key metrics including tap count, inter-tap intervals, and amplitude consistency. The distance between thumb and index finger was computed, smoothed, and peaks detected to identify taps. 
+
+The analysis revealed:
+- Approximately 8 taps in 10 seconds, indicating slower tapping.
+- Intertap intervals showed significant variability, suggesting hesitations.
+- Amplitude decreased early in the sequence.
+
+Based on MDS-UPDRS criteria, these findings align with moderate slowing, multiple interruptions, and early amplitude decrement. 
+
+Score: 3

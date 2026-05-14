@@ -1,0 +1,11 @@
+The subject's performance in the MDS-UPDRS finger tapping test is evaluated based on several key factors:
+
+1. **Tapping Rate**: The subject achieved approximately 23 taps in 10 seconds, resulting in a rate of about 2.3 Hz, which is lower than the typical range for healthy individuals (around 5-6 Hz). This indicates noticeable slowing.
+
+2. **Amplitude**: There was a clear decrement in tap amplitude starting early in the sequence, particularly after the first tap, which aligns with criteria for moderate severity.
+
+3. **Hesitations and Interruptions**: The analysis revealed several intervals between taps exceeding 0.5 seconds, suggesting hesitations or interruptions in movement.
+
+Considering these factors—reduced tapping rate, early amplitude decrement, and multiple hesitations—the subject's performance fits the criteria for a score of 3 (moderate severity) under MDS-UPDRS item 3.4.
+
+**Score: 3**

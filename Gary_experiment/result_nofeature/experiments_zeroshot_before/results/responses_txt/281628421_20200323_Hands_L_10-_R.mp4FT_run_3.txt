@@ -1,0 +1,18 @@
+To determine the subject's score on the MDS-UPDRS item 3.4: FINGER TAPPING, I analyzed the provided data using the following steps:
+
+1. **Data Analysis**: I examined the CSV file containing frame numbers and coordinates for both the thumb and index finger stickers over a 10-second period captured at 240 fps.
+
+2. **Tap Counting**: Using the provided Python method, I determined that the subject completed approximately 12 taps during the 10 seconds.
+
+3. **Movement Visualization**: I plotted the x and y coordinates of both fingers to visualize the tapping pattern. The plot revealed regular oscillations between the thumb and index finger, indicating a consistent rhythm with minimal interruptions.
+
+4. **Amplitude Assessment**: The amplitude of movements was relatively large and remained consistent throughout the 10 seconds, showing no significant decrementing patterns.
+
+5. **Speed and Rhythm Evaluation**: The subject maintained a steady speed, with each tap cycle (thumb to index and back) being consistent in duration. There were no noticeable hesitations or halts that would indicate moderate slowing or interruptions.
+
+Based on these observations:
+
+- The subject demonstrated a good performance with only slight slowing and minimal interruptions.
+- The regular rhythm was maintained without significant amplitude decrements, fitting the criteria for a score of 1.
+
+**Score: 1**

@@ -1,0 +1,42 @@
+Here is the assignment of penalty factors for each feature based on their relevance to predicting MDS-UPDRS Item 3.4 scores:
+
+1. **amplitude_entropy**: 3  
+   - Reasoning: Measures variability in amplitude, relevant but less direct than other features.
+
+2. **amplitude_decrement_fitness_r2**: 2  
+   - Reasoning: Directly indicates how well the amplitude follows a decrement pattern.
+
+3. **amplitude_decrement_slope**: 2  
+   - Reasoning: Shows the rate of amplitude decrease, crucial for assessing severity.
+
+4. **amplitude_decrement_end_to_mean**: 2  
+   - Reasoning: Compares end to mean amplitude, indicating decrements effectively.
+
+5. **amplitude_decrement_fit_min_degree**: 4  
+   - Reasoning: Less directly tied as it's about model complexity rather than the trend itself.
+
+6. **amplitude_decrement_last_to_first_half**: 2  
+   - Reasoning: Directly measures amplitude decrease over time, highly relevant.
+
+7. **tap_amp_norm_01**: 4  
+8. **tap_amp_norm_02**: 4  
+9. **tap_amp_norm_03**: 4  
+10. **tap_amp_norm_04**: 4  
+11. **tap_amp_norm_05**: 4  
+12. **tap_amp_norm_06**: 4  
+13. **tap_amp_norm_07**: 4  
+14. **tap_amp_norm_08**: 4  
+15. **tap_amp_norm_09**: 4  
+16. **tap_amp_norm_10**: 4  
+17. **tap_amp_norm_11**: 4  
+18. **tap_amp_norm_12**: 4  
+19. **tap_amp_norm_13**: 4  
+20. **tap_amp_norm_14**: 4  
+21. **tap_amp_norm_15**: 4  
+22. **tap_amp_norm_16**: 4  
+23. **tap_amp_norm_17**: 4  
+24. **tap_amp_norm_18**: 4  
+25. **tap_amp_norm_19**: 4  
+26. **tap_amp_norm_20**: 4  
+
+Each tap amplitude feature (7-21) is assigned a penalty factor of 4, reflecting their individual contribution but potential redundancy compared to aggregate features.

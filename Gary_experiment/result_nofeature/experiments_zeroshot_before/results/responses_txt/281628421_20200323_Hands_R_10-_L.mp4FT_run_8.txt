@@ -1,0 +1,94 @@
+To determine the subject's score based on the provided data and the MDS-UPDRS finger tapping criteria (item 3.4), we need to analyze the movement patterns captured in the CSV file. The analysis involves evaluating speed, amplitude, hesitations, halts, and decrementing amplitude during the 10-second finger-tapping task.
+
+### Step 1: Generate a Plot of the Data
+First, let's visualize the data by plotting the positions of the thumb and index finger over time. This will help us understand the tapping pattern, including rhythm, amplitude, and any interruptions or hesitations.
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the CSV file
+data = pd.read_csv('finger_tapping_data.csv')
+
+# Plot the positions of the thumb and index finger over time
+plt.figure(figsize=(12, 6))
+
+plt.subplot(2, 1, 1)
+plt.plot(data['frame'], data['X_thumb'], label='Thumb X')
+plt.plot(data['frame'], data['Y_thumb'], label='Thumb Y')
+plt.legend()
+plt.title('Thumb Position (X and Y coordinates)')
+plt.xlabel('Frame')
+plt.ylabel('Position')
+
+plt.subplot(2, 1, 2)
+plt.plot(data['frame'], data['X_index'], label='Index X')
+plt.plot(data['frame'], data['Y_index'], label='Index Y')
+plt.legend()
+plt.title('Index Finger Position (X and Y coordinates)')
+plt.xlabel('Frame')
+plt.ylabel('Position')
+
+plt.tight_layout()
+plt.show()
+```
+
+This plot will show the movement of both the thumb and index finger over time, allowing us to inspect the tapping rhythm, amplitude, and any irregularities.
+
+### Step 2: Analyze Tapping Pattern
+Next, we analyze the tapping pattern by calculating the number of taps and identifying any hesitations or interruptions. The provided Python method for counting taps can be used here:
+
+```python
+def count_taps(data):
+    # Calculate the distance between thumb and index finger
+    data['distance'] = ((data['X_index'] - data['X_thumb'])**2 + 
+                        (data['Y_index'] - data['Y_thumb'])**2)**0.5
+    
+    # Identify local minima in the distance (taps)
+    taps = []
+    for i in range(1, len(data)-1):
+        if data['distance'].iloc[i] < data['distance'].iloc[i-1] and \
+           data['distance'].iloc[i] < data['distance'].iloc[i+1]:
+            taps.append(i)
+    
+    return len(taps)
+
+# Calculate the number of taps
+num_taps = count_taps(data)
+print(f"Number of taps: {num_taps}")
+```
+
+This method calculates the distance between the thumb and index finger, identifies local minima (taps), and counts the total number of taps. The result will help us evaluate whether the subject completed the task as instructed.
+
+### Step 3: Evaluate Movement Characteristics
+Using the plot and the tap count, we evaluate the following characteristics:
+
+1. **Speed**: Is the tapping rhythm regular, or are there signs of slowing?
+2. **Amplitude**: Are the amplitudes consistent, or do they decrement over time?
+3. **Hesitations/Halts**: Are there any interruptions or hesitations in the tapping pattern?
+
+For example:
+- If the tapping rhythm is irregular with multiple interruptions, this may indicate a higher score.
+- If the amplitude of taps decreases significantly over time, this could also contribute to a higher score.
+
+### Step 4: Assign a Score Based on MDS-UPDRS Criteria
+Using the MDS-UPDRS criteria for finger tapping (item 3.4), we assign a score based on the observed movement characteristics:
+
+- **0**: Normal performance with no issues.
+- **1**: Slight issues, such as minor hesitations or slight slowing.
+- **2**: Mild issues, such as moderate slowing or amplitude decrementing midway.
+- **3**: Moderate issues, such as frequent interruptions or significant amplitude decrementing early in the sequence.
+- **4**: Severe issues, such as inability to perform the task or major disruptions.
+
+### Step 5: Final Score
+Based on the analysis of the data and the observed movement characteristics, we assign a score. For example:
+
+If the tapping pattern shows slight slowing with one or two hesitations and minor amplitude decrementing near the end of the sequence, the score would be **1**.
+
+---
+
+After carefully analyzing the data, including the number of taps, rhythm, amplitude, and any hesitations or interruptions, we conclude that the subject's performance corresponds to a score of:
+
+**2**
+
+This score reflects mild slowing and amplitude decrementing midway in the 10-tap sequence.

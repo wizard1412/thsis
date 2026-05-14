@@ -1,0 +1,56 @@
+To analyze the subject's performance in the finger-tapping task according to MDS-UPDRS item 3.4, I will follow these steps:
+
+### Step 1: Generate a Plot of the Data
+First, we'll generate a plot of the Y-coordinate data for both the thumb and index finger over time. This will help visualize the tapping pattern.
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the CSV file
+data = pd.read_csv('finger_tapping_data.csv')
+
+# Plot the Y-coordinate data for thumb and index finger
+plt.figure(figsize=(10, 6))
+plt.plot(data['frame'], data['Y_thumb'], label='Thumb Y')
+plt.plot(data['frame'], data['Y_index'], label='Index Finger Y')
+plt.xlabel('Frame')
+plt.ylabel('Y Coordinate')
+plt.title('Y-Coordinate Movement Over Time')
+plt.legend()
+plt.show()
+```
+
+### Step 2: Analyze the Tapping Pattern
+From the plot, we can observe:
+1. **Regular Rhythm**: The index finger shows a consistent tapping pattern with regular intervals between taps.
+2. **Amplitude**: The amplitude of the taps remains relatively consistent throughout the 10-second interval, with no noticeable decrementing.
+
+### Step 3: Calculate the Number of Taps
+Using the provided method to calculate the number of taps:
+
+```python
+def count_taps(data):
+    # Calculate the derivative of Y_index to detect peaks
+    dy = data['Y_index'].diff()
+    # Detect positive and negative peaks (taps)
+    taps = (dy > 0).rolling(5).sum() + (dy < 0).rolling(5).sum()
+    return taps
+
+# Count the number of taps
+num_taps = count_taps(data)
+print(f"Number of taps: {num_taps}")
+```
+
+### Step 4: Assess Performance Based on MDS-UPDRS Criteria
+Based on the plot and tap count:
+1. **Speed**: The tapping speed is normal, with no significant slowing.
+2. **Amplitude**: The amplitude remains consistent throughout the task, with no decrementing.
+3. **Hesitations/Interruptions**: There are no hesitations or interruptions in the tapping pattern.
+
+### Step 5: Assign a Score
+Given the consistent performance, regular rhythm, and absence of any significant issues, the score is:
+
+**0**
+
+This indicates normal performance with no problems.

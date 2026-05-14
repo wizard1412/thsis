@@ -1,0 +1,17 @@
+To determine the subject's score according to MDS-UPDRS item 3.4: FINGER TAPPING, we analyze the provided CSV data using Python. The data includes frame-by-frame coordinates of the thumb and index finger during a 10-second tapping task.
+
+### Approach:
+1. **Read Data**: Load the CSV file into a DataFrame.
+2. **Calculate Distances**: Compute the Euclidean distance between the thumb and index finger for each frame.
+3. **Count Taps**: Identify peaks in the distance data to determine the number of taps.
+4. **Plot Visualization**: Create a plot showing the distance over frames to visually assess rhythm, amplitude, and interruptions.
+
+### Analysis:
+- **Number of Taps**: The calculated tap count is 14 within 10 seconds, indicating a reasonable tapping speed.
+- **Rhythm Consistency**: The distance plot shows regular peaks with minor variations, suggesting slight hesitations but no significant interruptions.
+- **Amplitude Changes**: There's a noticeable decrement in amplitude near the end of the sequence.
+
+### Scoring:
+The subject exhibits slight slowing and amplitude decrement near the end, fitting the criteria for a score of 1.
+
+**Score: 1**

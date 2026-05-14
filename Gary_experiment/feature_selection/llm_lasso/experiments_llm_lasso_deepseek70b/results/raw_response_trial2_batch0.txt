@@ -1,0 +1,93 @@
+Here is the structured assignment of penalty factors for each feature based on their relevance to predicting MDS-UPDRS Item 3.4 scores:
+
+1. **finger_mvmnt_x_median**: 4  
+   Reasoning: Less relevant as horizontal movement isn't crucial for vertical tapping.
+
+2. **finger_mvmnt_x_quartile_range**: 5  
+   Reasoning: Variability in horizontal movement is minimally relevant.
+
+3. **finger_mvmnt_x_mean**: 4  
+   Reasoning: Average horizontal amplitude is less critical.
+
+4. **finger_mvmnt_x_min**: 5  
+   Reasoning: Minimum horizontal movement is not very important.
+
+5. **finger_mvmnt_x_max**: 4  
+   Reasoning: Slightly more relevant than min but still not crucial.
+
+6. **finger_mvmnt_x_stdev**: 3  
+   Reasoning: Variability could indicate hesitations or freezes, affecting rhythm.
+
+7. **finger_mvmnt_y_median**: 2  
+   Reasoning: Vertical movement is key for amplitude and rhythm.
+
+8. **finger_mvmnt_y_quartile_range**: 3  
+   Reasoning: Affects rhythm regularity.
+
+9. **finger_mvmnt_y_mean**: 2  
+   Reasoning: Directly ties into amplitude assessment.
+
+10. **finger_mvmnt_y_min**: 4  
+    Reasoning: Indicates possible amplitude issues but less critical.
+
+11. **finger_mvmnt_y_max**: 3  
+    Reasoning: Important for peak amplitude assessment.
+
+12. **finger_mvmnt_y_stdev**: 3  
+    Reasoning: Relates to rhythm consistency.
+
+13. **finger_mvmnt_dist_median**: 2  
+    Reasoning: Important for speed and amplitude.
+
+14. **finger_mvmnt_dist_quartile_range**: 3  
+    Reasoning: Affects rhythm regularity.
+
+15. **finger_mvmnt_dist_mean**: 2  
+    Reasoning: Crucial for overall amplitude and speed.
+
+16. **finger_mvmnt_dist_min**: 4  
+    Reasoning: Indicates hesitations but less critical.
+
+17. **finger_mvmnt_dist_max**: 3  
+    Reasoning: Shows peak performance but not as crucial.
+
+18. **finger_mvmnt_dist_stdev**: 3  
+    Reasoning: Relates to rhythm consistency.
+
+19. **aperiodicity**: 2  
+    Reasoning: Directly tied to rhythm irregularity.
+
+20. **periodEntropy**: 3  
+    Reasoning: Affects rhythm regularity.
+
+21. **periodVarianceNorm**: 2  
+    Reasoning: Measures rhythm stability.
+
+22. **numInterruptions**: 2  
+    Reasoning: Directly part of scoring criteria.
+
+23. **numFreeze**: 2  
+    Reasoning: Crucial for severity assessment.
+
+24. **maxFreezeDuration**: 2  
+    Reasoning: Indicates severity with longer freezes.
+
+25. **period_median**: 3  
+    Reasoning: Relates to speed and rhythm.
+
+26. **period_quartile_range**: 3  
+    Reasoning: Affects rhythm consistency.
+
+27. **period_mean**: 2  
+    Reasoning: Key for tapping speed assessment.
+
+28. **period_min**: 4  
+    Reasoning: Less critical unless abnormal.
+
+29. **period_max**: 3  
+    Reasoning: Indicates hesitations or freezes.
+
+30. **period_stdev**: 2  
+    Reasoning: Directly measures rhythm stability.
+
+Each feature's penalty factor reflects its relevance to the clinical aspects of MDS-UPDRS scoring, ensuring that more critical features are penalized less in the Lasso model.

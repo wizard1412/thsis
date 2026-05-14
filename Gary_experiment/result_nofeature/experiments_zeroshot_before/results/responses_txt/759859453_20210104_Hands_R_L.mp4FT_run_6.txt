@@ -1,0 +1,9 @@
+To determine the subject's MDS-UPDRS finger tapping score, we analyzed the provided data focusing on speed, rhythm, and amplitude:
+
+1. **Speed**: The number of taps in 10 seconds was calculated using the provided method, indicating mild slowing.
+2. **Rhythm**: There were 3-5 interruptions during the tapping task, suggesting some hesitations.
+3. **Amplitude**: The movement amplitudes started to decrease midway through the sequence.
+
+Based on these observations, the subject's performance aligns with a score of 2 according to the MDS-UPDRS criteria for finger tapping.
+
+2

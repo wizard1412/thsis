@@ -1,0 +1,10 @@
+To score the subject's finger tapping test, we analyze the movement data focusing on tap count, intervals, amplitude, and interruptions.
+
+1. **Tap Count**: Achieved 10 taps as instructed.
+2. **Intervals**: Mostly consistent with a couple of minor hesitations.
+3. **Amplitude**: Slight decrease towards the end.
+4. **Hesitations/Freezes**: Two minor interruptions without freezes.
+
+Based on MDS-UPDRS criteria, these observations align with slight issues: regular rhythm is broken by one or two hesitations and amplitude decrements near the end.
+
+**Score:** 1

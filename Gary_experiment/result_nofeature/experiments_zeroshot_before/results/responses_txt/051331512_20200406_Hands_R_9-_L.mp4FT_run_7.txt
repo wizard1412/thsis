@@ -1,0 +1,17 @@
+To determine the subject's score on the MDS-UPDRS item 3.4 finger tapping test, we analyze the provided data as follows:
+
+1. **Number of Taps**: The subject completed approximately 14 taps in 10 seconds, exceeding the required 10 taps. This indicates adequate speed.
+
+2. **Hesitations and Interruptions**: There are noticeable hesitations between taps around frames 2000-3000, with longer inter-tap intervals suggesting mild interruptions.
+
+3. **Amplitude Consistency**: The amplitude of taps begins to decrement starting around the 8th tap, indicating a decline in movement size midway through the task.
+
+Based on these observations:
+- The subject demonstrates mild slowing and hesitations.
+- Amplitude decrements are evident midway.
+
+These factors align with a score of **2: Mild** according to the MDS-UPDRS criteria.
+
+The final score is:
+
+2

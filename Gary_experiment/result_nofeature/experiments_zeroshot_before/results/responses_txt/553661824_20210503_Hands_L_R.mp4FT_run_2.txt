@@ -1,0 +1,15 @@
+To determine the subject's score for MDS-UPDRS item 3.4: FINGER TAPPING, we analyze the provided finger tapping data using the following key observations:
+
+1. **Number of Taps**: The subject performed approximately 15 taps within the 10-second interval, indicating moderate slowing compared to a healthy individual who might perform around 20 taps.
+
+2. **Regular Rhythm and Interruptions**: The data shows 3-5 interruptions during the tapping sequence, which aligns with mild hesitations or breaks in rhythm.
+
+3. **Amplitude Decrementing**: There is evidence of amplitude decrement starting midway through the 10-tap sequence, suggesting mild fatigue affecting movement size.
+
+Based on these observations:
+- The number of taps and presence of 3-5 interruptions suggest mild slowing.
+- Amplitude decrementing midway fits the criteria for a mild score.
+
+Therefore, the subject's performance aligns with a score of **2** under MDS-UPDRS item 3.4.
+
+2

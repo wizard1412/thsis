@@ -1,0 +1,93 @@
+Here is the list of features with their assigned penalty factors and reasoning:
+
+1. **finger_mvmnt_x_median**: 4  
+   Reasoning: Less relevant as horizontal movement isn't crucial for tapping assessment.
+
+2. **finger_mvmnt_x_quartile_range**: 5  
+   Reasoning: Variability in horizontal movement is minimally relevant.
+
+3. **finger_mvmnt_x_mean**: 5  
+   Reasoning: Average horizontal movement is not very informative.
+
+4. **finger_mvmnt_x_min**: 5  
+   Reasoning: Minimum horizontal movement isn't key for assessment.
+
+5. **finger_mvmnt_x_max**: 4  
+   Reasoning: Maximum horizontal movement slightly indicates vigor.
+
+6. **finger_mvmnt_x_stdev**: 5  
+   Reasoning: Variability in horizontal movement is less relevant.
+
+7. **finger_mvmnt_y_median**: 4  
+   Reasoning: Vertical movement relevance is moderate.
+
+8. **finger_mvmnt_y_quartile_range**: 5  
+   Reasoning: Less important than other vertical measures.
+
+9. **finger_mvmnt_y_mean**: 4  
+   Reasoning: Average vertical movement is somewhat relevant.
+
+10. **finger_mvmnt_y_min**: 5  
+    Reasoning: Minimum vertical movement isn't very informative.
+
+11. **finger_mvmnt_y_max**: 3  
+    Reasoning: Maximum vertical movement relates to amplitude.
+
+12. **finger_mvmnt_y_stdev**: 4  
+    Reasoning: Variability in vertical movement is less critical.
+
+13. **finger_mvmnt_dist_median**: 3  
+    Reasoning: Median distance relates to amplitude consistency.
+
+14. **finger_mvmnt_dist_quartile_range**: 3  
+    Reasoning: Important for assessing amplitude variability.
+
+15. **finger_mvmnt_dist_mean**: 2  
+    Reasoning: Directly related to amplitude, a key criterion.
+
+16. **finger_mvmnt_dist_min**: 4  
+    Reasoning: Less important than mean or max distance.
+
+17. **finger_mvmnt_dist_max**: 3  
+    Reasoning: Indicates peak amplitude, relevant for assessment.
+
+18. **finger_mvmnt_dist_stdev**: 3  
+    Reasoning: Important for movement consistency.
+
+19. **aperiodicity**: 2  
+    Reasoning: Directly measures rhythm irregularity.
+
+20. **periodEntropy**: 3  
+    Reasoning: Indicates variability in tap intervals.
+
+21. **periodVarianceNorm**: 2  
+    Reasoning: Measures rhythm stability directly.
+
+22. **numInterruptions**: 2  
+    Reasoning: Key aspect of rhythm regularity.
+
+23. **numFreeze**: 2  
+    Reasoning: Critical indicator of motor issues.
+
+24. **maxFreezeDuration**: 2  
+    Reasoning: Important for severity assessment.
+
+25. **period_median**: 3  
+    Reasoning: Indicates average rhythm but less critical than variance.
+
+26. **period_quartile_range**: 3  
+    Reasoning: Measures rhythm consistency.
+
+27. **period_mean**: 2  
+    Reasoning: Relates to tapping speed, a key criterion.
+
+28. **period_min**: 4  
+    Reasoning: Less relevant than other interval measures.
+
+29. **period_max**: 3  
+    Reasoning: Indicates possible hesitations or freezes.
+
+30. **period_stdev**: 2  
+    Reasoning: Directly measures rhythm stability.
+
+Each feature's penalty reflects its relevance to the MDS-UPDRS criteria, with lower penalties for features directly tied to rhythm, speed, and amplitude.

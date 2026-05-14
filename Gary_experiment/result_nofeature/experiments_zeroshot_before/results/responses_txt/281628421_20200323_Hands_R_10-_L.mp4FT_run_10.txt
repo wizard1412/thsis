@@ -1,0 +1,5 @@
+To determine the subject's MDS-UPDRS finger-tapping score based on the provided data and criteria:
+
+The subject's performance was analyzed using the CSV data, which included coordinates of thumb and index finger movements over 10 seconds. The distance between the fingers was calculated to identify taps, resulting in approximately 2.7 taps per second. This rate indicates mild slowing. However, amplitude remained consistent with no significant decrements, and only minor hesitations were noted.
+
+Score: 1

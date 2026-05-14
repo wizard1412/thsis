@@ -1,0 +1,255 @@
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.bib
+*.pdf
+*.spl
+
+## Intermediate documents:
+*.dvi
+*.xdv
+*-converted-to.*
+# these rules might exclude image files for figures etc.
+*.ps
+*.eps
+
+# keep pdf image in figures folder
+!Figures/*.pdf
+!Figures/*/*.pdf
+!Figures/*/*/*.pdf
+!Figures/*/*/*/*.pdf
+!*/Figures/*.pdf
+!*/License/*.pdf
+
+# Keep LibraryAllReferences.bib file
+!LibraryAllReferences.bib
+
+# Keep eps image in Rain's article folder
+!./Article_Wu2023_forecast_third_outbreak/European_journal_of_epidemiology/*.eps
+
+## Bibliography auxiliary files (bibtex/biblatex/biber):
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.brf
+*.run.xml
+
+## Build tool auxiliary files:
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+## Auxiliary and intermediate files from other packages:
+
+# AI (Claude, Gemini, Codex)
+.claude
+
+# algorithms
+*.alg
+*.loa
+
+# achemso
+acs-*.bib
+
+# amsthm
+*.thm
+
+# beamer
+*.nav
+*.snm
+*.vrb
+
+#(e)ledmac/(e)ledpar
+*.end
+*.[1-9]
+*.[1-9][0-9]
+*.[1-9][0-9][0-9]
+*.[1-9]R
+*.[1-9][0-9]R
+*.[1-9][0-9][0-9]R
+*.eledsec[1-9]
+*.eledsec[1-9]R
+*.eledsec[1-9][0-9]
+*.eledsec[1-9][0-9]R
+*.eledsec[1-9][0-9][0-9]
+*.eledsec[1-9][0-9][0-9]R
+
+# glossaries
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+
+# gnuplottex
+*-gnuplottex-*
+
+# hyperref
+*.brf
+
+# knitr
+*-concordance.tex
+*.tikz
+*-tikzDictionary
+
+# listings
+*.lol
+
+# makeidx
+*.idx
+*.ilg
+*.ind
+*.ist
+
+# minitoc
+*.maf
+*.mtc
+*.mtc[0-9]
+*.mtc[1-9][0-9]
+
+# minted
+_minted*
+*.pyg
+
+# morewrites
+*.mw
+
+# mylatexformat
+*.fmt
+
+# nomencl
+*.nlo
+
+# sagetex
+*.sagetex.sage
+*.sagetex.py
+*.sagetex.scmd
+
+# sympy
+*.sout
+*.sympy
+sympy-plots-for-*.tex/
+
+# TikZ & PGF
+*.dpth
+*.md5
+*.auxlock
+
+# todonotes
+*.tdo
+
+# xindy
+*.xdy
+
+# WinEdt
+*.bak
+*.sav
+
+# mac junk
+._*
+
+
+# Python part
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+auto/
+
+# Windows files
+Thumbs.db
+
+MacOS files
+.DS_store
+Icon?
+
+# NHRI form
+!NHRI_CDG_application_*.pdf
+!NHRI_IRG_application_*.pdf
+
+# Appendix
+!Appendix_*.pdf
+
+!Grant_MOST_2030_Clean_coding_Reproducibility_210105/*.bib
+Article_Wu2023_forecast_third_outbreak/scientific_reports/article/*.pdf
+
+# Ignore Peter's pptx
+Article_Shi2024_Skin_feature_tracking/**/*.pptx
+Thesis_MSc_Peter_Stone/**/*.pptx
+
+# Ignore Dallen's txt files
+Thesis_MSc_Dallen_Chen/**/*.txt
+
+# Ignore Python generated files
+**/transformed/
+**/**/transformed
+**/**/**/transformed
+**/**/**/**/transformed
+
+# Ignore next generation files
+.nref
+logs/**

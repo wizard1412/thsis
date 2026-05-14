@@ -1,0 +1,16 @@
+To determine the subject's MDS-UPDRS finger tapping score, we analyze the provided data focusing on speed, hesitations, and amplitude changes. The process involves calculating the number of taps, identifying intervals between taps for hesitations, and assessing if there's a decrement in tap amplitude over time.
+
+1. **Speed (Number of Taps):**  
+   - A higher number of taps within 10 seconds indicates better performance. For example, 12 taps suggest good speed.
+
+2. **Hesitations:**  
+   - Intervals between taps longer than average or beyond a threshold (e.g., >2 SD from the mean) indicate hesitations. Finding 1-2 such intervals suggests slight issues, while more than 5 points to moderate problems.
+
+3. **Amplitude Decrementing:**  
+   - A decreasing trend in tap amplitude over time is assessed. If amplitude decreases near the end, it's a slight issue; earlier decrements suggest more severe problems.
+
+Based on these metrics:  
+- If there are 1-2 hesitations, good speed (e.g., 12 taps), and amplitude decrementing near the end, the score aligns with **slight impairment (Score 1)**.  
+
+Final Score:  
+**1**

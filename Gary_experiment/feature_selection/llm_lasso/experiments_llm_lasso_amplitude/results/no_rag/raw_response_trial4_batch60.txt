@@ -1,0 +1,21 @@
+Here are the penalty factors for each feature based on their relevance to predicting MDS-UPDRS Item 3.4 scores:
+
+1. **amplitude_entropy**: 3  
+   - Amplitude entropy measures variability, which is relevant but less direct than specific decrement patterns.
+
+2. **amplitude_decrement_fitness_r2**: 2  
+   - Directly indicates how well the amplitude follows a decrement pattern, crucial for scoring.
+
+3. **amplitude_decrement_slope**: 2  
+   - The slope's steepness reflects the rate of amplitude decrease, directly tied to severity.
+
+4. **amplitude_decrement_end_to_mean**: 2  
+   - Shows the difference from mean, indicating potential decrements relevant to scoring.
+
+5. **amplitude_decrement_fit_min_degree**: 4  
+   - Relates to model complexity rather than direct clinical criteria, so less relevant.
+
+6. **amplitude_decrement_last_to_first_half**: 2  
+   - Directly measures amplitude change over time, crucial for assessing decrements.
+
+These factors balance the clinical relevance of each feature in predicting finger-tapping severity scores.

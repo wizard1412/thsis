@@ -1,0 +1,72 @@
+To analyze the finger tapping data and determine the MDS-UPDRS score, we first generate a plot of the data to visualize the movement patterns.
+
+### Plotting the Data
+The following Python code generates a plot of the thumb and index finger movements over time:
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the CSV file
+data = pd.read_csv("finger_tapping_data.csv")
+
+# Calculate the time for each frame (assuming 240 fps)
+data['time'] = data['frame'] / 240
+
+# Plot the Y coordinates of thumb and index finger over time
+plt.figure(figsize=(12, 6))
+plt.plot(data['time'], data['Y_thumb'], label='Thumb Y-coordinate')
+plt.plot(data['time'], data['Y_index'], label='Index Finger Y-coordinate')
+plt.xlabel('Time (seconds)')
+plt.ylabel('Y-coordinate')
+plt.title('Finger Tapping Movement Over Time')
+plt.legend()
+plt.grid(True)
+plt.show()
+
+# Plot the X coordinates of thumb and index finger over time
+plt.figure(figsize=(12, 6))
+plt.plot(data['time'], data['X_thumb'], label='Thumb X-coordinate')
+plt.plot(data['time'], data['X_index'], label='Index Finger X-coordinate')
+plt.xlabel('Time (seconds)')
+plt.ylabel('X-coordinate')
+plt.title('Finger Tapping Movement Over Time')
+plt.legend()
+plt.grid(True)
+plt.show()
+
+# Plot the Y coordinates of thumb and index finger together
+plt.figure(figsize=(12, 6))
+plt.plot(data['Y_thumb'], data['Y_index'])
+plt.xlabel('Thumb Y-coordinate')
+plt.ylabel('Index Finger Y-coordinate')
+plt.title('Phase Plane of Thumb and Index Finger Movement')
+plt.grid(True)
+plt.show()
+```
+
+This code generates three plots:
+1. The Y-coordinates of the thumb and index finger over time.
+2. The X-coordinates of the thumb and index finger over time.
+3. A phase plane plot of the Y-coordinates of the thumb and index finger.
+
+These plots help visualize the movement patterns, including the amplitude, rhythm, and any hesitations or interruptions in the tapping.
+
+### Analyzing the Data
+1. **Number of Taps**: Use the provided method to calculate the number of taps. Ensure that the subject completed approximately 10 taps within the 10-second interval.
+2. **Rhythm and Hesitations**: Examine the plots for regularity in the tapping rhythm. Count any interruptions, hesitations, or halts in the movement.
+3. **Amplitude**: Assess whether the amplitude of the taps remains consistent throughout the 10 seconds or if there is a noticeable decrementing pattern.
+4. **Speed**: Evaluate whether the tapping speed is normal, slightly slowed, mildly slowed, moderately slowed, or severely slowed.
+
+### Assigning the Score
+Based on the analysis:
+- If there are no hesitations, interruptions, or amplitude decrements, and the rhythm is regular with normal speed, assign a score of **0**.
+- If there are 1–2 hesitations, slight slowing, or amplitude decrement near the end, assign a score of **1**.
+- If there are 3–5 hesitations, mild slowing, or amplitude decrement midway, assign a score of **2**.
+- If there are more than 5 hesitations, moderate slowing, or amplitude decrement starting early, assign a score of **3**.
+- If the subject cannot perform the task or shows severe slowing, assign a score of **4**.
+
+### Final Score
+After analyzing the data and plots, if the subject's performance shows slight hesitations, mild slowing, or minor amplitude decrements, the score would be:
+
+**1**

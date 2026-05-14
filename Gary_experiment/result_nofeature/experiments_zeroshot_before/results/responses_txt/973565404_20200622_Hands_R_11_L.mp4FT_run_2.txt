@@ -1,0 +1,17 @@
+To determine the score for the MDS-UPDRS item 3.4: Finger Tapping, we analyzed the provided data from a 10-second finger-tapping task performed by the subject. The analysis focused on evaluating speed, amplitude, hesitations, halts, and decrementing amplitude based on the movement data captured at 240 frames per second.
+
+### Key Observations:
+1. **Number of Taps**: The Python method calculated approximately 8 complete taps within the 10-second interval.
+2. **Speed**: The subject achieved fewer than 10 taps in 10 seconds, indicating mild slowing compared to normal performance.
+3. **Amplitude**: The amplitude of the tapping movements showed a slight decrement near the end of the sequence.
+4. **Hesitations and Halts**: There were 1-2 minor hesitations or interruptions during the tapping sequence.
+
+### Scoring Based on MDS-UPDRS Criteria:
+- **Score 0**: Normal performance with no issues — Not applicable, as there were slight abnormalities.
+- **Score 1**: Slight slowing (fewer than 10 taps in 10 seconds), slight amplitude decrement near the end of the sequence, and minor hesitations — Matches the observed data.
+- **Score 2 or Higher**: More significant slowing, multiple interruptions, or earlier amplitude decrement — Not applicable, as the observed issues were mild.
+
+### Conclusion:
+The subject's performance aligns with a score of 1 due to slight slowing, minor hesitations, and a small amplitude decrement near the end of the tapping sequence.
+
+**Score: 1**

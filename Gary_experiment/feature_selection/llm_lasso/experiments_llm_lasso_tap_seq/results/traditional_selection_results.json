@@ -1,0 +1,435 @@
+{
+  "comparison": [
+    {
+      "method": "ElasticNet-CV",
+      "cv_mae": 0.3764837079383717,
+      "n_features": 8,
+      "max_inter_corr": 0.5845349679843086,
+      "mean_inter_corr": 0.18210620852388323
+    },
+    {
+      "method": "Seq. Forward",
+      "cv_mae": 0.40967391283702126,
+      "n_features": 8,
+      "max_inter_corr": NaN,
+      "mean_inter_corr": NaN
+    },
+    {
+      "method": "RFECV (SVR)",
+      "cv_mae": 0.4163750431956476,
+      "n_features": 4,
+      "max_inter_corr": 0.6047010056313392,
+      "mean_inter_corr": 0.2853784262059896
+    },
+    {
+      "method": "LASSO-CV",
+      "cv_mae": 0.41774406158766586,
+      "n_features": 8,
+      "max_inter_corr": 0.715198968120955,
+      "mean_inter_corr": 0.19884226371418637
+    },
+    {
+      "method": "Stability Selection",
+      "cv_mae": 0.4287541819259101,
+      "n_features": 3,
+      "max_inter_corr": 0.2825173406035571,
+      "mean_inter_corr": 0.204822865890832
+    },
+    {
+      "method": "LLM-Lasso",
+      "cv_mae": 0.4320740021458322,
+      "n_features": 6,
+      "max_inter_corr": 0.715198968120955,
+      "mean_inter_corr": 0.2009769942384693
+    },
+    {
+      "method": "mRMR",
+      "cv_mae": 0.4386707806830389,
+      "n_features": 8,
+      "max_inter_corr": 0.9973883916302395,
+      "mean_inter_corr": 0.3865170494279911
+    },
+    {
+      "method": "Group LASSO",
+      "cv_mae": 0.4393662886095779,
+      "n_features": 7,
+      "max_inter_corr": 0.9575475373641071,
+      "mean_inter_corr": 0.36557349498343045
+    },
+    {
+      "method": "F-classif (ANOVA)",
+      "cv_mae": 0.44706262925701123,
+      "n_features": 8,
+      "max_inter_corr": 0.9973883916302395,
+      "mean_inter_corr": 0.5657684010382642
+    },
+    {
+      "method": "Ridge",
+      "cv_mae": 0.4485780456400336,
+      "n_features": 8,
+      "max_inter_corr": 0.9973883916302395,
+      "mean_inter_corr": 0.2893166075231866
+    },
+    {
+      "method": "Mutual Info",
+      "cv_mae": 0.4497421647470916,
+      "n_features": 8,
+      "max_inter_corr": 0.9702837722039979,
+      "mean_inter_corr": 0.5249667002726268
+    },
+    {
+      "method": "Spearman",
+      "cv_mae": 0.45002431043209334,
+      "n_features": 8,
+      "max_inter_corr": 0.9973883916302395,
+      "mean_inter_corr": 0.8361933689507887
+    },
+    {
+      "method": "Standard LASSO",
+      "cv_mae": 0.45338262691416154,
+      "n_features": 5,
+      "max_inter_corr": 0.8468436680166257,
+      "mean_inter_corr": 0.3716020520767407
+    },
+    {
+      "method": "Pearson",
+      "cv_mae": 0.4570733397195843,
+      "n_features": 8,
+      "max_inter_corr": 0.9973883916302395,
+      "mean_inter_corr": 0.5394915460822135
+    },
+    {
+      "method": "F-regression",
+      "cv_mae": 0.4570733397195843,
+      "n_features": 8,
+      "max_inter_corr": 0.9973883916302395,
+      "mean_inter_corr": 0.5394915460822135
+    },
+    {
+      "method": "Extra Trees",
+      "cv_mae": 0.4612762819197297,
+      "n_features": 8,
+      "max_inter_corr": 0.9973883916302395,
+      "mean_inter_corr": 0.6657228254695795
+    },
+    {
+      "method": "Gradient Boosting",
+      "cv_mae": 0.46923462812088834,
+      "n_features": 8,
+      "max_inter_corr": 0.9973883916302395,
+      "mean_inter_corr": 0.5259355475603694
+    },
+    {
+      "method": "Kendall",
+      "cv_mae": 0.47207132141189023,
+      "n_features": 8,
+      "max_inter_corr": 0.9973883916302395,
+      "mean_inter_corr": 0.6686409063759191
+    },
+    {
+      "method": "RF Importance",
+      "cv_mae": 0.4734367067939046,
+      "n_features": 8,
+      "max_inter_corr": 0.9973883916302395,
+      "mean_inter_corr": 0.4617798473099594
+    },
+    {
+      "method": "RFECV (RF)",
+      "cv_mae": 0.48595746504458076,
+      "n_features": 20,
+      "max_inter_corr": 0.9973883916302395,
+      "mean_inter_corr": 0.3921830167064253
+    },
+    {
+      "method": "Random (k=8)",
+      "cv_mae": 0.5088995853140862,
+      "cv_mae_std": 0.06305482541932105,
+      "n_features": 8,
+      "max_inter_corr": NaN,
+      "mean_inter_corr": NaN
+    }
+  ],
+  "selections": {
+    "Pearson": [
+      "amplitude_min",
+      "amplitude_mean",
+      "amplitude_median",
+      "amplitude_max",
+      "period_quartile_range",
+      "period_stdev",
+      "periodVarianceNorm",
+      "periodEntropy"
+    ],
+    "Spearman": [
+      "amplitude_min",
+      "amplitude_mean",
+      "amplitude_median",
+      "finger_mvmnt_dist_stdev",
+      "amplitude_max",
+      "finger_mvmnt_x_mean",
+      "finger_mvmnt_dist_mean",
+      "finger_mvmnt_x_stdev"
+    ],
+    "Kendall": [
+      "amplitude_min",
+      "amplitude_mean",
+      "amplitude_median",
+      "amplitude_max",
+      "finger_mvmnt_dist_stdev",
+      "finger_mvmnt_dist_quartile_range",
+      "finger_mvmnt_x_mean",
+      "period_quartile_range"
+    ],
+    "Mutual Info": [
+      "amplitude_decrement_end_to_mean",
+      "finger_mvmnt_y_max",
+      "amplitude_min",
+      "finger_mvmnt_dist_quartile_range",
+      "amplitude_median",
+      "finger_mvmnt_x_mean",
+      "finger_mvmnt_x_stdev",
+      "acceleration_quartile_range"
+    ],
+    "F-regression": [
+      "amplitude_min",
+      "amplitude_mean",
+      "amplitude_median",
+      "amplitude_max",
+      "period_quartile_range",
+      "period_stdev",
+      "periodVarianceNorm",
+      "periodEntropy"
+    ],
+    "F-classif (ANOVA)": [
+      "periodVarianceNorm",
+      "period_stdev",
+      "amplitude_min",
+      "amplitude_mean",
+      "amplitude_median",
+      "period_quartile_range",
+      "amplitude_max",
+      "finger_mvmnt_x_mean"
+    ],
+    "mRMR": [
+      "amplitude_min",
+      "periodEntropy",
+      "amplitude_entropy",
+      "amplitude_median",
+      "period_quartile_range",
+      "finger_mvmnt_x_max",
+      "periodVarianceNorm",
+      "amplitude_mean"
+    ],
+    "LASSO-CV": [
+      "period_quartile_range",
+      "finger_mvmnt_x_max",
+      "amplitude_min",
+      "amplitude_stdev",
+      "num_freeze_norm",
+      "amplitude_entropy",
+      "amplitude_decrement_fitness_r2",
+      "periodEntropy"
+    ],
+    "ElasticNet-CV": [
+      "period_quartile_range",
+      "finger_mvmnt_x_max",
+      "amplitude_min",
+      "amplitude_stdev",
+      "num_freeze_norm",
+      "amplitude_entropy",
+      "amplitude_decrement_fitness_r2",
+      "num_peaks"
+    ],
+    "Ridge": [
+      "period_quartile_range",
+      "amplitude_min",
+      "amplitude_entropy",
+      "amplitude_stdev",
+      "amplitude_decrement_fitness_r2",
+      "periodEntropy",
+      "amplitude_median",
+      "amplitude_mean"
+    ],
+    "RF Importance": [
+      "finger_mvmnt_dist_stdev",
+      "amplitude_min",
+      "finger_mvmnt_x_stdev",
+      "amplitude_stdev",
+      "amplitude_mean",
+      "period_quartile_range",
+      "amplitude_median",
+      "amplitude_quartile_range"
+    ],
+    "Extra Trees": [
+      "amplitude_min",
+      "finger_mvmnt_x_stdev",
+      "amplitude_mean",
+      "finger_mvmnt_x_max",
+      "finger_mvmnt_dist_stdev",
+      "amplitude_stdev",
+      "amplitude_median",
+      "finger_mvmnt_x_mean"
+    ],
+    "Gradient Boosting": [
+      "finger_mvmnt_dist_stdev",
+      "amplitude_stdev",
+      "finger_mvmnt_x_stdev",
+      "amplitude_mean",
+      "period_quartile_range",
+      "amplitude_min",
+      "amplitude_median",
+      "finger_mvmnt_dist_quartile_range"
+    ],
+    "Stability Selection": [
+      "amplitude_min",
+      "periodEntropy",
+      "amplitude_entropy"
+    ],
+    "RFECV (RF)": [
+      "finger_mvmnt_x_mean",
+      "finger_mvmnt_x_stdev",
+      "finger_mvmnt_dist_mean",
+      "finger_mvmnt_dist_max",
+      "finger_mvmnt_dist_stdev",
+      "periodVarianceNorm",
+      "maxFreezeDuration",
+      "period_quartile_range",
+      "period_max",
+      "period_stdev",
+      "frequency_min",
+      "frequency_stdev",
+      "amplitude_median",
+      "amplitude_quartile_range",
+      "amplitude_mean",
+      "amplitude_min",
+      "amplitude_max",
+      "amplitude_stdev",
+      "amplitude_decrement_end_to_mean",
+      "amplitude_decrement_last_to_first_half"
+    ],
+    "RFECV (SVR)": [
+      "finger_mvmnt_x_max",
+      "period_quartile_range",
+      "speed_max",
+      "amplitude_stdev"
+    ],
+    "Seq. Forward": [
+      "finger_mvmnt_x_min",
+      "finger_mvmnt_y_min",
+      "periodEntropy",
+      "period_stdev",
+      "acceleration_min",
+      "amplitude_min",
+      "amplitude_decrement_end_to_mean",
+      "amplitude_decrement_fit_min_degree"
+    ],
+    "Group LASSO": [
+      "finger_mvmnt_x_max",
+      "periodEntropy",
+      "periodVarianceNorm",
+      "period_quartile_range",
+      "period_stdev",
+      "amplitude_min",
+      "amplitude_entropy"
+    ],
+    "LLM-Lasso": [
+      "finger_mvmnt_x_max",
+      "periodEntropy",
+      "period_quartile_range",
+      "period_min",
+      "speed_min",
+      "amplitude_entropy"
+    ],
+    "Standard LASSO": [
+      "periodEntropy",
+      "periodVarianceNorm",
+      "period_quartile_range",
+      "amplitude_min",
+      "amplitude_entropy"
+    ]
+  },
+  "consensus_features": [
+    "amplitude_min",
+    "period_quartile_range",
+    "amplitude_median",
+    "amplitude_mean",
+    "periodEntropy",
+    "amplitude_entropy",
+    "amplitude_stdev",
+    "periodVarianceNorm",
+    "finger_mvmnt_x_max",
+    "amplitude_max",
+    "period_stdev",
+    "finger_mvmnt_dist_stdev",
+    "finger_mvmnt_x_mean",
+    "finger_mvmnt_x_stdev"
+  ],
+  "stability_frequencies": {
+    "finger_mvmnt_x_median": 0.135,
+    "finger_mvmnt_x_quartile_range": 0.085,
+    "finger_mvmnt_x_mean": 0.04,
+    "finger_mvmnt_x_min": 0.0,
+    "finger_mvmnt_x_max": 0.43,
+    "finger_mvmnt_x_stdev": 0.065,
+    "finger_mvmnt_y_median": 0.12,
+    "finger_mvmnt_y_quartile_range": 0.075,
+    "finger_mvmnt_y_mean": 0.0,
+    "finger_mvmnt_y_min": 0.0,
+    "finger_mvmnt_y_max": 0.04,
+    "finger_mvmnt_y_stdev": 0.005,
+    "finger_mvmnt_dist_median": 0.035,
+    "finger_mvmnt_dist_quartile_range": 0.07,
+    "finger_mvmnt_dist_mean": 0.0,
+    "finger_mvmnt_dist_min": 0.0,
+    "finger_mvmnt_dist_max": 0.09,
+    "finger_mvmnt_dist_stdev": 0.015,
+    "aperiodicity": 0.135,
+    "periodEntropy": 0.635,
+    "periodVarianceNorm": 0.185,
+    "numInterruptions": 0.045,
+    "numFreeze": 0.175,
+    "maxFreezeDuration": 0.06,
+    "period_median": 0.02,
+    "period_quartile_range": 0.445,
+    "period_mean": 0.0,
+    "period_min": 0.015,
+    "period_max": 0.005,
+    "period_stdev": 0.265,
+    "frequency_median": 0.01,
+    "frequency_quartile_range": 0.065,
+    "frequency_mean": 0.0,
+    "frequency_min": 0.01,
+    "frequency_max": 0.01,
+    "frequency_stdev": 0.045,
+    "frequency_lr_fitness_r2": 0.16,
+    "frequency_lr_slope": 0.135,
+    "frequency_fit_min_degree": 0.0,
+    "num_peaks": 0.175,
+    "num_interruptions_norm": 0.055,
+    "num_freeze_norm": 0.21,
+    "speed_median": 0.205,
+    "speed_quartile_range": 0.03,
+    "speed_mean": 0.025,
+    "speed_min": 0.32,
+    "speed_max": 0.03,
+    "speed_stdev": 0.025,
+    "acceleration_median": 0.03,
+    "acceleration_quartile_range": 0.04,
+    "acceleration_mean": 0.0,
+    "acceleration_min": 0.095,
+    "acceleration_max": 0.035,
+    "acceleration_stdev": 0.02,
+    "amplitude_median": 0.24,
+    "amplitude_quartile_range": 0.195,
+    "amplitude_mean": 0.09,
+    "amplitude_min": 0.81,
+    "amplitude_max": 0.04,
+    "amplitude_stdev": 0.295,
+    "amplitude_entropy": 0.54,
+    "amplitude_decrement_fitness_r2": 0.28,
+    "amplitude_decrement_slope": 0.18,
+    "amplitude_decrement_end_to_mean": 0.125,
+    "amplitude_decrement_fit_min_degree": 0.0,
+    "amplitude_decrement_last_to_first_half": 0.155
+  }
+}

@@ -1,0 +1,15 @@
+To score the subject's finger-tapping performance according to MDS-UPDRS item 3.4, we follow these steps:
+
+1. **Visualize the Data**: Plotting Y coordinates over time shows a regular and consistent tapping pattern without significant hesitations or interruptions.
+
+2. **Calculate Taps**: Using peak detection on the distance between thumb and index finger, we find approximately 10 taps within the 10-second window, indicating compliance with the task instruction.
+
+3. **Assess Rhythm and Interruptions**: The intervals between taps are regular, showing no significant hesitations or arrests in movement.
+
+4. **Evaluate Amplitude**: The amplitude of taps remains consistent throughout the 10 seconds without noticeable decrementing.
+
+5. **Determine Speed**: The subject achieves around 1 tap per second, which is within normal expectations and shows no signs of slowing.
+
+Based on these observations, the performance meets the criteria for a score of:
+
+0

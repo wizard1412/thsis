@@ -1,0 +1,93 @@
+Here is the list of penalty factors assigned to each feature based on their relevance to predicting MDS-UPDRS Item 3.4 scores:
+
+1. **frequency_median**: 2  
+   - Directly related to tapping speed, a key criterion.
+
+2. **frequency_quartile_range**: 3  
+   - Indicates consistency in frequency, relevant but less direct.
+
+3. **frequency_mean**: 2  
+   - Important for overall speed assessment.
+
+4. **frequency_min**: 3  
+   - Indicates slowest tapping moments, relevant to speed.
+
+5. **frequency_max**: 3  
+   - Indicates fastest tapping, showing range.
+
+6. **frequency_stdev**: 2  
+   - Measures rhythm variability, crucial for regularity.
+
+7. **frequency_lr_fitness_r2**: 3  
+   - Assesses trend consistency in frequency.
+
+8. **frequency_lr_slope**: 2  
+   - Directly relates to progressive slowing.
+
+9. **frequency_fit_min_degree**: 4  
+   - Less critical compared to other features.
+
+10. **num_peaks**: 4  
+    - Basic count, less nuanced than others.
+
+11. **num_interruptions_norm**: 2  
+    - Directly tied to rhythm regularity.
+
+12. **num_freeze_norm**: 2  
+    - Indicates severe symptoms like freezing.
+
+13. **speed_median**: 2  
+    - Important for movement speed assessment.
+
+14. **speed_quartile_range**: 3  
+    - Shows consistency in movement speed.
+
+15. **speed_mean**: 2  
+    - Relevant for overall speed.
+
+16. **speed_min**: 3  
+    - Indicates slowest movements.
+
+17. **speed_max**: 3  
+    - Shows peak velocity.
+
+18. **speed_stdev**: 2  
+    - Measures speed variability, tied to rhythm.
+
+19. **acceleration_median**: 3  
+    - Relates to movement initiation.
+
+20. **acceleration_quartile_range**: 3  
+    - Indicates acceleration consistency.
+
+21. **acceleration_mean**: 3  
+    - Affects movement vigor.
+
+22. **acceleration_min**: 3  
+    - Peak deceleration indicator.
+
+23. **acceleration_max**: 3  
+    - Peak acceleration measure.
+
+24. **acceleration_stdev**: 2  
+    - Relates to rhythm irregularity.
+
+25. **amplitude_median**: 2  
+    - Directly related to tap size.
+
+26. **amplitude_quartile_range**: 3  
+    - Indicates amplitude consistency.
+
+27. **amplitude_mean**: 2  
+    - Relevant for overall amplitude assessment.
+
+28. **amplitude_min**: 3  
+    - Shows smallest taps, indicating decrements.
+
+29. **amplitude_max**: 3  
+    - Shows largest taps, part of range.
+
+30. **amplitude_stdev**: 2  
+    - Measures tap size variability.
+
+Each penalty factor reflects the feature's relevance to rhythm, speed, or amplitude criteria, with more direct measures receiving lower penalties.

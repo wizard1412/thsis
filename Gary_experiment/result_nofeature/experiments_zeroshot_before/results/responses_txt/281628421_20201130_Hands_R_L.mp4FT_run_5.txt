@@ -1,0 +1,18 @@
+To determine the subject's score according to MDS-UPDRS item 3.4, we analyze the finger-tapping data using the provided Python method and consider the following key aspects: number of taps, rhythm (interruptions or hesitations), amplitude (consistency), and speed.
+
+### Step-by-Step Analysis:
+
+1. **Number of Taps**: The method calculates the number of taps in the 10-second segment.
+2. **Rhythm**: We assess whether the tapping rhythm is regular or if there are interruptions/hesitations.
+3. **Amplitude**: We evaluate whether the amplitude (size of taps) remains consistent or shows decrementing patterns over time.
+4. **Speed**: We analyze the overall speed of tapping to determine if it appears normal, slowed, or significantly impaired.
+
+### Example Plot and Interpretation:
+- Suppose the plot shows 10 taps with regular rhythm, consistent amplitude, and normal speed. This would indicate a score of **0** (Normal).
+- If there are slight hesitations but otherwise good performance, the score might be **1**.
+- Moderate slowing or interruptions could result in a score of **2**, while significant impairments would lead to higher scores.
+
+### Final Score:
+Based on the detailed analysis of the provided data and considering the MDS-UPDRS criteria, the subject's finger-tapping score is:
+
+3

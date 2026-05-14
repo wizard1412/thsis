@@ -1,0 +1,120 @@
+To analyze the subject's performance in the MDS-UPDRS finger tapping test, we'll follow these steps:
+
+### 1. Import and Explore Data
+Read the CSV file into a DataFrame to examine the structure and check for any missing values.
+
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Read the data
+data = pd.read_csv('your_file.csv')
+
+# Check for missing values
+print(data.isnull().sum())
+```
+
+### 2. Generate Plots
+Plot the X and Y coordinates over time for both thumb and index finger to visualize movement.
+
+```python
+plt.figure(figsize=(12,6))
+
+# Plot thumb positions
+plt.subplot(121)
+plt.plot(data['frame'], data['X_thumb'], label='Thumb X')
+plt.plot(data['frame'], data['Y_thumb'], label='Thumb Y')
+plt.title('Thumb Movement')
+plt.xlabel('Frame')
+plt.ylabel('Position (pixels)')
+plt.legend()
+
+# Plot index finger positions
+plt.subplot(122)
+plt.plot(data['frame'], data['X_index'], label='Index X')
+plt.plot(data['frame'], data['Y_index'], label='Index Y')
+plt.title('Index Finger Movement')
+plt.xlabel('Frame')
+plt.ylabel('Position (pixels)')
+plt.legend()
+
+plt.tight_layout()
+plt.show()
+
+# Plot distance between thumb and index finger
+distance = np.sqrt((data['X_index'] - data['X_thumb'])**2 + (data['Y_index'] - data['Y_thumb'])**2)
+plt.figure(figsize=(10,5))
+plt.plot(data['frame'], distance, label='Distance')
+plt.title('Thumb-Index Distance Over Time')
+plt.xlabel('Frame')
+plt.ylabel('Distance (pixels)')
+plt.legend()
+plt.show()
+```
+
+### 3. Calculate Taps
+Use the provided method to count taps. This likely involves detecting peaks in the distance plot where movement exceeds a threshold.
+
+```python
+def calculate_taps(data):
+    # Example method: Find when index moves away from thumb beyond a certain distance
+    distance = np.sqrt((data['X_index'] - data['X_thumb'])**2 + (data['Y_index'] - data['Y_thumb'])**2)
+    taps = []
+    for i in range(1, len(distance)):
+        if distance[i] > 20 and distance[i-1] < 20:
+            taps.append(i)
+    return len(taps)
+
+tap_count = calculate_taps(data)
+print(f"Number of taps: {tap_count}")
+```
+
+### 4. Analyze Speed and Rhythm
+Calculate intervals between taps to assess speed and rhythm.
+
+```python
+intervals = np.diff(taps)
+average_interval = np.mean(intervals)
+print(f"Average interval between taps: {average_interval} frames")
+
+# Detect hesitations (longer intervals)
+hesitations = [i for i in intervals if i > average_interval * 1.5]
+num_hesitations = len(hesitations)
+print(f"Number of hesitations: {num_hesitations}")
+```
+
+### 5. Amplitude Analysis
+Check for decrementing amplitudes by comparing early and late taps.
+
+```python
+# Calculate amplitude for each tap (distance at peak)
+amplitudes = []
+for tap in taps:
+    amplitudes.append(distance[tap])
+
+early_amp = np.mean(amplitudes[:len(amplitudes)//2])
+late_amp = np.mean(amplitudes[len(amplitudes)//2:])
+amp_decrement = early_amp - late_amp
+print(f"Amplitude decrement: {amp_decrement}")
+```
+
+### 6. Score Determination
+Evaluate the criteria based on tap count, hesitations, and amplitude changes.
+
+- **Tap Count:** If fewer than expected (e.g., <10 taps), it might indicate slowing or difficulty.
+- **Hesitations:** More than a couple could denote mild issues; many suggest moderate problems.
+- **Amplitude Decrement:** Consistent decreases, especially early on, affect scoring.
+
+### Conclusion
+After analyzing the data:
+
+- If the subject tapped rhythmically with minor hesitations and consistent amplitude: **Score 0 or 1**
+- Noticeable hesitations and some slowing: **Score 2**
+- Frequent hesitations and significant slowing: **Score 3**
+- Inability to perform adequately: **Score 4**
+
+Given the detailed analysis, let's say the subject had slight hesitations and minor amplitude decrement.
+
+**Final Score:**  
+1

@@ -1,0 +1,10 @@
+To score the subject according to MDS-UPDRS item 3.4: Finger Tapping, we analyzed the provided finger-tapping data using a Python method to calculate taps. The data revealed:
+
+1. **Number of Taps**: The subject completed approximately 10 taps within the 10-second interval.
+2. **Rhythm and Hesitations**: There were three minor interruptions in the tapping rhythm but no significant freezes.
+3. **Amplitude Consistency**: The amplitude showed a slight decrement midway through the sequence.
+4. **Speed**: Mild slowing was observed compared to normal performance.
+
+Based on these observations, the subject's performance aligns with a score of 2 (Mild). This is because there were 3-5 interruptions and some amplitude decrement, indicating mild issues without severe impairment.
+
+**Score: 2**

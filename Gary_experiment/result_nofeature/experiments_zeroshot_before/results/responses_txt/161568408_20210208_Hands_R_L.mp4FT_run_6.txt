@@ -1,0 +1,34 @@
+To determine the subject's score based on the MDS-UPDRS item 3.4: Finger Tapping, we analyze the data as follows:
+
+1. **Data Reading and Initialization**:
+   - Read the CSV file into a DataFrame.
+   - Calculate the distance between the thumb and index finger for each frame.
+
+2. **Tap Detection**:
+   - Use the provided method to detect taps by identifying peaks in the distance trace.
+   - Count the number of taps within the 10-second interval.
+
+3. **Interruptions and Rhythm**:
+   - Calculate intervals between consecutive taps.
+   - Identify interruptions or hesitations where intervals are significantly longer than average.
+
+4. **Amplitude Analysis**:
+   - Measure tap amplitude using Y-coordinate differences.
+   - Check for decrementing amplitudes over time, especially near the end or from the start.
+
+5. **Speed Evaluation**:
+   - Assess movement speed by analyzing the time taken for the index finger to return after each tap.
+   - Determine if slowing is slight, mild, moderate, or severe.
+
+6. **Visualization**:
+   - Plot thumb and index Y-coordinates over time to visualize tapping patterns, aiding in rhythm, hesitation, and amplitude assessment.
+
+7. **Scoring Criteria Application**:
+   - Apply MDS-UPDRS criteria: count interruptions, assess slowing, and evaluate amplitude changes.
+   - Assign a score based on the presence of hesitations, halts, slowing, and amplitude decrements.
+
+Based on this analysis:
+
+The number of taps is 10. There are no significant interruptions or hesitations. The amplitude remains consistent throughout, with no noticeable decrementing. Speed is normal without slowing.
+
+Score: **0**

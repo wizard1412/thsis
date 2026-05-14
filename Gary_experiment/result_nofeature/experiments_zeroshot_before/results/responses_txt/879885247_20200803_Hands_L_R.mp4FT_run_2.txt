@@ -1,0 +1,28 @@
+To determine the subject's score for MDS-UPDRS item 3.4: FINGER TAPPING, we analyze the provided finger-tapping data using the following steps:
+
+### Data Analysis
+1. **Plotting the Data**:
+   - The X and Y coordinates of both the thumb and index finger are plotted over time (in frames) to visualize the movement patterns.
+
+2. **Calculating Tap Count**:
+   - Using the provided Python method, we calculate the number of taps during the 10-second interval.
+   - This helps assess whether the subject was able to complete the required 10 taps.
+
+3. **Evaluating Movement Characteristics**:
+   - **Amplitude**: The size of the finger movements is analyzed to determine if there are any decrements in amplitude over time.
+   - **Rhythm and Hesitations**: The regularity of the tapping rhythm is assessed by identifying interruptions or hesitations in the movement.
+   - **Speed**: The velocity of the index finger during tapping is evaluated to detect any slowing.
+
+4. **Scoring Based on MDS-UPDRS Criteria**:
+   - **Amplitude**: The amplitude remains relatively consistent throughout the 10-second interval, with no significant decrements.
+   - **Rhythm and Hesitations**: The tapping rhythm is regular, with only one minor hesitation observed during the sequence.
+   - **Speed**: The tapping speed is normal, with no evidence of slowing.
+
+### Conclusion
+Based on the analysis:
+- The subject demonstrates a slight interruption in the tapping rhythm (one minor hesitation).
+- There is no significant decrement in amplitude or slowing of movement.
+- The performance aligns with the criteria for a score of **1**.
+
+### Final Score
+**1**

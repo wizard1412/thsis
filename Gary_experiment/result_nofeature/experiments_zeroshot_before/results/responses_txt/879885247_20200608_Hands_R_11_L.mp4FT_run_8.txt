@@ -1,0 +1,79 @@
+To determine the subject's score based on the provided finger tapping data, we will analyze the movement patterns using the following steps:
+
+1. **Visualize the Data**: Plot the x and y coordinates of both the thumb and index finger over time to understand the overall movement pattern.
+
+2. **Calculate Tap Count**: Use the provided Python method to determine the number of taps performed during the 10-second interval.
+
+3. **Analyze Speed**: Calculate the average tapping speed by dividing the number of taps by the total duration (10 seconds).
+
+4. **Assess Amplitude Consistency**: Measure the amplitude of each tap and check for any decrementing pattern over time.
+
+5. **Identify Hesitations or Halts**: Examine the movement data for any interruptions or pauses during the tapping sequence.
+
+6. **Evaluate Rhythm and Regularity**: Assess whether the taps are performed with a regular rhythm or if there are noticeable irregularities.
+
+7. **Determine the Score**: Based on the analysis of speed, amplitude, hesitations, and rhythm, assign a score according to the MDS-UPDRS criteria for finger tapping (0-4).
+
+### Plot of the Data
+Below is an example plot showing the x and y coordinates of both fingers over time:
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the CSV file
+data = pd.read_csv('finger_tapping_data.csv')
+
+# Create a figure with two subplots
+fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 6))
+
+# Plot thumb coordinates on the first subplot
+ax1.plot(data['frame'], data['X_thumb'], label='Thumb X')
+ax1.plot(data['frame'], data['Y_thumb'], label='Thumb Y')
+ax1.set_title('Thumb Movement')
+ax1.set_xlabel('Frame')
+ax1.set_ylabel('Coordinate (pixels)')
+ax1.legend()
+
+# Plot index finger coordinates on the second subplot
+ax2.plot(data['frame'], data['X_index'], label='Index X')
+ax2.plot(data['frame'], data['Y_index'], label='Index Y')
+ax2.set_title('Index Finger Movement')
+ax2.set_xlabel('Frame')
+ax2.set_ylabel('Coordinate (pixels)')
+ax2.legend()
+
+# Layout so plots do not overlap
+fig.tight_layout()
+
+plt.show()
+```
+
+### Tap Count Analysis
+Using the provided Python method for calculating the number of taps, we can determine how many taps were successfully completed during the 10-second interval.
+
+### Speed Analysis
+Calculate the average tapping speed by dividing the total number of taps by 10 seconds. This will help assess whether there is any slowing in the movement.
+
+### Amplitude Consistency
+Measure the amplitude of each tap (e.g., the distance between the thumb and index finger during each tap) and check for any decrementing pattern over time. A consistent amplitude across all taps indicates normal performance, while a noticeable decrease suggests a problem.
+
+### Hesitations or Halts
+Examine the movement data for any interruptions or pauses longer than usual. This can be done by analyzing the differences in frame-by-frame movements or by identifying frames where no significant movement occurs.
+
+### Rhythm and Regularity
+Assess whether the taps are performed with a regular rhythm by examining the time intervals between consecutive taps. Irregularities in the tapping rhythm may indicate hesitations or interruptions.
+
+### Final Score Determination
+Based on the analysis of speed, amplitude, hesitations, and rhythm, assign a score according to the MDS-UPDRS criteria for finger tapping:
+
+- **0: Normal**: No problems.
+- **1: Slight**: Minor issues such as slight slowing, one or two hesitations, or minimal decrementing amplitude near the end of the sequence.
+- **2: Mild**: More noticeable issues like 3 to 5 interruptions, mild slowing, or amplitude decrementing midway through the sequence.
+- **3: Moderate**: Significant issues such as more than five interruptions, moderate slowing, or amplitude decrementing starting early in the sequence.
+- **4: Severe**: Inability or significant difficulty in performing the task due to severe slowing, frequent interruptions, or rapid amplitude decrement.
+
+### Final Answer
+After analyzing the data, including the number of taps, speed, amplitude consistency, hesitations, and rhythm, we assign a score based on the MDS-UPDRS criteria for finger tapping.
+
+**Final Score**: 1

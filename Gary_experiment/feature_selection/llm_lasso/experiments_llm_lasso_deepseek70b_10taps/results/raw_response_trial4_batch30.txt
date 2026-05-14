@@ -1,0 +1,75 @@
+Here is the list of features with their assigned penalty factors based on their relevance to predicting MDS-UPDRS Item 3.4 scores:
+
+1. **frequency_median**: 2  
+   - Directly related to tapping speed, a key factor in scoring.
+
+2. **frequency_quartile_range**: 3  
+   - Indicates consistency in frequency, relevant but less direct than median.
+
+3. **frequency_mean**: 2  
+   - Overall measure of speed, crucial despite potential outliers.
+
+4. **frequency_min**: 3  
+   - Shows slowest tapping moments, indicating possible slowing.
+
+5. **frequency_max**: 3  
+   - Indicates fastest taps, showing variability in speed.
+
+6. **frequency_stdev**: 2  
+   - Measures frequency variability, linked to rhythm issues.
+
+7. **frequency_lr_fitness_r2**: 3  
+   - Irregularity or slowing trend relevance is moderate.
+
+8. **frequency_lr_slope**: 2  
+   - Directly relates to speed changes over time.
+
+9. **frequency_fit_min_degree**: 4  
+   - Less crucial compared to other features in modeling complexity.
+
+10. **num_peaks**: 5  
+    - Constant across sessions, not discriminative.
+
+11. **num_interruptions_norm**: 2  
+    - Directly tied to rhythm regularity.
+
+12. **num_freeze_norm**: 2  
+    - Critical for assessing freeze episodes.
+
+13. **speed_median**: 2  
+    - Crucial measure of overall tapping speed.
+
+14. **speed_quartile_range**: 3  
+    - Indicates speed consistency, relevant but indirect.
+
+15. **speed_mean**: 2  
+    - Important despite potential outliers.
+
+16. **speed_min**: 3  
+    - Shows minimum movement speed variability.
+
+17. **speed_max**: 3  
+    - Indicates peak velocity and possible slowing.
+
+18. **speed_stdev**: 2  
+    - Measures speed variability, important for rhythm.
+
+19. **acceleration_median**: 3  
+    - Reflects typical acceleration during taps.
+
+20. **acceleration_quartile_range**: 4  
+    - Less direct in assessing consistency.
+
+21. **acceleration_mean**: 3  
+    - Important but influenced by outliers.
+
+22. **acceleration_min**: 3  
+    - Indicates hesitations or freezes.
+
+23. **acceleration_max**: 3  
+    - Shows peak acceleration variability.
+
+24. **acceleration_stdev**: 4  
+    - Measures movement consistency, less direct.
+
+Each penalty factor reflects the feature's relevance to the scoring criteria, balancing clinical importance and statistical impact.

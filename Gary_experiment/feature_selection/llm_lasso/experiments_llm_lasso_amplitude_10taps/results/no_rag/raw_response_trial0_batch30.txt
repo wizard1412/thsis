@@ -1,0 +1,93 @@
+Here is the list of penalty factors assigned to each feature based on their relevance to predicting MDS-UPDRS Item 3.4 scores:
+
+1. **frequency_median**: 2  
+   Reasoning: Directly relates to tapping speed, a key criterion.
+
+2. **frequency_quartile_range**: 3  
+   Reasoning: Indicates rhythm irregularity but less direct than mean or median.
+
+3. **frequency_mean**: 2  
+   Reasoning: Strong association with tapping speed.
+
+4. **frequency_min**: 3  
+   Reasoning: Shows slowest tapping, relevant to progressive slowing.
+
+5. **frequency_max**: 3  
+   Reasoning: Indicates fastest tap, less critical than mean or median.
+
+6. **frequency_stdev**: 2  
+   Reasoning: Measures rhythm variability, crucial for scoring.
+
+7. **frequency_lr_fitness_r2**: 3  
+   Reasoning: Indicates trend in speed changes but not as direct.
+
+8. **frequency_lr_slope**: 2  
+   Reasoning: Directly shows slowing over time, important for assessment.
+
+9. **frequency_fit_min_degree**: 4  
+   Reasoning: Less relevant to clinical scoring criteria.
+
+10. **num_peaks**: 5  
+    Reasoning: Constant across sessions, no discriminative value.
+
+11. **num_interruptions_norm**: 2  
+    Reasoning: Key aspect of rhythm regularity.
+
+12. **num_freeze_norm**: 2  
+    Reasoning: Critical for higher severity scores.
+
+13. **speed_median**: 2  
+    Reasoning: Central tendency of movement speed, important.
+
+14. **speed_quartile_range**: 3  
+    Reasoning: Indicates consistency but less direct.
+
+15. **speed_mean**: 2  
+    Reasoning: Directly related to tapping speed.
+
+16. **speed_min**: 3  
+    Reasoning: Shows variability in speed.
+
+17. **speed_max**: 3  
+    Reasoning: Extreme values, relevant but not central.
+
+18. **speed_stdev**: 2  
+    Reasoning: Measures consistency, tied to rhythm.
+
+19. **acceleration_median**: 3  
+    Reasoning: Less directly tied to scoring criteria.
+
+20. **acceleration_quartile_range**: 3  
+    Reasoning: Indicates acceleration variability but less direct.
+
+21. **acceleration_mean**: 3  
+    Reasoning: Relevant but not as crucial.
+
+22. **acceleration_min**: 3  
+    Reasoning: Shows deceleration extremes, somewhat relevant.
+
+23. **acceleration_max**: 3  
+    Reasoning: Peak values, useful but less direct.
+
+24. **acceleration_stdev**: 3  
+    Reasoning: Indicates variability in acceleration.
+
+25. **amplitude_median**: 2  
+    Reasoning: Central tendency of movement amplitude.
+
+26. **amplitude_quartile_range**: 3  
+    Reasoning: Indicates spread, relevant but less direct.
+
+27. **amplitude_mean**: 2  
+    Reasoning: Directly related to amplitude criterion.
+
+28. **amplitude_min**: 3  
+    Reasoning: Shows minimal movement, somewhat relevant.
+
+29. **amplitude_max**: 3  
+    Reasoning: Extreme values, useful but not central.
+
+30. **amplitude_stdev**: 3  
+    Reasoning: Indicates variability in amplitude.
+
+Each feature's penalty factor reflects its relevance to the key aspects of MDS-UPDRS scoring, with a focus on rhythm, speed, and amplitude.

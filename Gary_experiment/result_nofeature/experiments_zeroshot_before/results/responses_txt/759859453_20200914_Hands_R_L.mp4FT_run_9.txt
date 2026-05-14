@@ -1,0 +1,14 @@
+To score the subject's performance based on the MDS-UPDRS item 3.4: FINGER TAPPING, we analyze the data from the CSV file containing the thumb and index finger coordinates over time.
+
+### Key Observations:
+1. **Number of Taps**: The Python method calculates approximately 10 taps within the 10-second interval.
+2. **Rhythm and Speed**:
+   - Minor hesitations are observed in the tapping rhythm, particularly between frames 150-200 and 350-400.
+   - Slight slowing occurs towards the end of the sequence.
+3. **Amplitude**:
+   - Amplitude remains relatively consistent throughout the task with no significant decrementing.
+
+### Conclusion:
+The subject exhibits slight hesitations and minor slowing but maintains amplitude consistency. These findings align with MDS-UPDRS criteria for a score of 1, indicating slight impairment.
+
+4

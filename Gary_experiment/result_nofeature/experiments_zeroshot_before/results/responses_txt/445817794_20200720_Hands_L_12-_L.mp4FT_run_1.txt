@@ -1,0 +1,3 @@
+The subject demonstrates slight slowing and one hesitation during the finger tapping test, with amplitude decrement near the end. These factors align with the MDS-UPDRS criteria for a score of 1.
+
+**Score: 1**

@@ -1,0 +1,19 @@
+To determine the subject's score for MDS-UPDRS item 3.4: FINGER TAPPING, the following analysis was conducted:
+
+1. **Tap Count and Speed**: Using the provided Python method, the number of taps was calculated. A higher tap count within 10 seconds indicates faster performance.
+
+2. **Rhythm and Hesitations**: The movement data was plotted to visually inspect for interruptions or hesitations in the tapping rhythm. The number of interruptions was counted to assess rhythmic regularity.
+
+3. **Amplitude Consistency**: The plot was examined for any decrementing amplitude, noting when and how significantly the tap size decreased over time.
+
+4. **Scoring Criteria Application**:
+   - **Score 0 or 1**: If taps were numerous with minimal interruptions and consistent amplitude.
+   - **Score 2**: Presence of 3-5 hesitations, slight slowing, or late amplitude decrement.
+   - **Score 3**: More than 5 interruptions, moderate slowing, early amplitude drop.
+   - **Score 4**: Significant difficulty in performing the task.
+
+Based on the analysis, the detailed observations aligned with the criteria to assign a score reflecting the subject's performance.
+
+The final score is determined by evaluating speed, rhythm, and amplitude against the MDS-UPDRS guidelines. 
+
+2

@@ -1,0 +1,216 @@
+{
+  "cv_mae_selection": {
+    "best_eta": 0.25,
+    "cv_mae": 0.4481556567851254,
+    "n_features": 4,
+    "selected_features": [
+      "periodEntropy",
+      "periodVarianceNorm",
+      "period_quartile_range",
+      "amplitude_min"
+    ],
+    "feature_coefficients": {
+      "periodEntropy": 0.06603985469933112,
+      "periodVarianceNorm": 0.03891518265195383,
+      "period_quartile_range": 0.11456442990218298,
+      "amplitude_min": -0.34387539125884375
+    }
+  },
+  "cve_area_selection": {
+    "best_eta": 0.25,
+    "cve_area": 0.6157650355035537,
+    "cv_mae": 0.4481556567851254,
+    "n_features": 4,
+    "selected_features": [
+      "periodEntropy",
+      "periodVarianceNorm",
+      "period_quartile_range",
+      "amplitude_min"
+    ],
+    "feature_coefficients": {
+      "periodEntropy": 0.06603985469933112,
+      "periodVarianceNorm": 0.03891518265195383,
+      "period_quartile_range": 0.11456442990218298,
+      "amplitude_min": -0.34387539125884375
+    }
+  },
+  "standard_lasso": {
+    "eta": 0.0,
+    "cv_mae": 0.44961741882970196,
+    "n_features": 4,
+    "selected_features": [
+      "periodEntropy",
+      "period_quartile_range",
+      "period_stdev",
+      "amplitude_min"
+    ]
+  },
+  "eta_search_results": [
+    {
+      "eta": 0.0,
+      "cv_mae": 0.44961741882970196,
+      "cve_area": 0.0,
+      "n_selected": 4,
+      "selected_indices": [
+        19,
+        25,
+        29,
+        57
+      ],
+      "alpha": 0.1288962712232867
+    },
+    {
+      "eta": 0.25,
+      "cv_mae": 0.4481556567851254,
+      "cve_area": 0.6157650355035537,
+      "n_selected": 4,
+      "selected_indices": [
+        19,
+        20,
+        25,
+        57
+      ],
+      "alpha": 0.1569290843442477
+    },
+    {
+      "eta": 0.5,
+      "cv_mae": 0.45314497128128417,
+      "cve_area": -1.3473827915800722,
+      "n_selected": 5,
+      "selected_indices": [
+        4,
+        19,
+        20,
+        25,
+        57
+      ],
+      "alpha": 0.18938695661660718
+    },
+    {
+      "eta": 0.75,
+      "cv_mae": 0.45801376953123174,
+      "cve_area": -3.3167146162732855,
+      "n_selected": 5,
+      "selected_indices": [
+        4,
+        19,
+        20,
+        25,
+        57
+      ],
+      "alpha": 0.2269268711275051
+    },
+    {
+      "eta": 1.0,
+      "cv_mae": 0.4636144077569327,
+      "cve_area": -2.3727239388748025,
+      "n_selected": 6,
+      "selected_indices": [
+        4,
+        19,
+        20,
+        25,
+        57,
+        59
+      ],
+      "alpha": 0.30647656579807636
+    },
+    {
+      "eta": 1.5,
+      "cv_mae": 0.46518861674910905,
+      "cve_area": -11.080838277732601,
+      "n_selected": 7,
+      "selected_indices": [
+        4,
+        19,
+        20,
+        25,
+        27,
+        57,
+        59
+      ],
+      "alpha": 0.3575386549919325
+    },
+    {
+      "eta": 2.0,
+      "cv_mae": 0.46578594970859,
+      "cve_area": -6.891867377839277,
+      "n_selected": 8,
+      "selected_indices": [
+        4,
+        7,
+        19,
+        20,
+        25,
+        27,
+        57,
+        59
+      ],
+      "alpha": 0.7427205701292033
+    },
+    {
+      "eta": 3.0,
+      "cv_mae": 0.4611885838923736,
+      "cve_area": -5.679064942622881,
+      "n_selected": 11,
+      "selected_indices": [
+        4,
+        7,
+        10,
+        24,
+        25,
+        27,
+        28,
+        49,
+        57,
+        58,
+        59
+      ],
+      "alpha": 3.797311527921831
+    },
+    {
+      "eta": 4.0,
+      "cv_mae": 0.4559459135664953,
+      "cve_area": -2.2580124920045153,
+      "n_selected": 12,
+      "selected_indices": [
+        4,
+        7,
+        10,
+        11,
+        24,
+        25,
+        27,
+        28,
+        49,
+        53,
+        58,
+        59
+      ],
+      "alpha": 23.12730642636661
+    },
+    {
+      "eta": 5.0,
+      "cv_mae": 0.4570728621695868,
+      "cve_area": -1.2796467872455097,
+      "n_selected": 14,
+      "selected_indices": [
+        4,
+        6,
+        7,
+        10,
+        11,
+        20,
+        24,
+        25,
+        27,
+        28,
+        49,
+        53,
+        58,
+        59
+      ],
+      "alpha": 123.26287301703165
+    }
+  ]
+}

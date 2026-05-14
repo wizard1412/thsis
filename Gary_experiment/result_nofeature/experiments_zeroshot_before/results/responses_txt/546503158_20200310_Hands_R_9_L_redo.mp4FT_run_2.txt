@@ -1,0 +1,21 @@
+To determine the subject's score based on the provided finger-tapping data and MDS-UPDRS item 3.4 criteria, we analyze the movement patterns captured by the stickers.
+
+1. **Data Visualization**: The Euclidean distance between the thumb and index stickers was plotted over time, revealing regular tapping movements with clear peaks and troughs.
+
+2. **Tap Detection**: Using a threshold method, taps were identified as instances where the distance dropped significantly. This resulted in 12 taps within the 10-second interval, indicating a high speed.
+
+3. **Hesitations/Interruptions**: The intervals between taps were consistent, with no abnormally long pauses or freezes observed.
+
+4. **Amplitude Analysis**: The maximum distances during each tap were measured and showed minimal decrement over time, suggesting consistent movement amplitude throughout the task.
+
+5. **Rhythm Regularity**: Tap intervals were found to be regular with low variability, indicating a steady rhythm without significant hesitations.
+
+Based on these findings:
+
+- The subject performed 12 taps in 10 seconds, demonstrating good speed.
+- No significant hesitations or interruptions were detected.
+- Amplitude remained consistent throughout the task.
+
+According to MDS-UPDRS criteria, this performance aligns with **normal function**.
+
+**Score: 0**

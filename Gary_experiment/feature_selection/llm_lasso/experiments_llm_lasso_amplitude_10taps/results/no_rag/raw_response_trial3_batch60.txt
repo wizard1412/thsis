@@ -1,0 +1,21 @@
+Here are the penalty factors for each amplitude-related feature based on their relevance to MDS-UPDRS Item 3.4 finger tapping severity:
+
+1. **amplitude_entropy**: 2  
+   - Reasoning: Measures irregularity in amplitude, directly related to scoring criteria.
+
+2. **amplitude_decrement_fitness_r2**: 2  
+   - Reasoning: Indicates how well the amplitude decrease fits a model, crucial for assessing patterns.
+
+3. **amplitude_decrement_slope**: 2  
+   - Reasoning: Directly measures the rate of amplitude decrease, aligning with severity assessment.
+
+4. **amplitude_decrement_end_to_mean**: 3  
+   - Reasoning: Shows end vs. mean amplitude difference, relevant but less direct than slope or R-squared.
+
+5. **amplitude_decrement_fit_min_degree**: 4  
+   - Reasoning: Less directly tied to clinical criteria, more technical.
+
+6. **amplitude_decrement_last_to_first_half**: 3  
+   - Reasoning: Compares amplitude halves, relevant for assessing decrement timing.
+
+Each feature's penalty factor reflects its relevance to the MDS-UPDRS scoring aspects of rhythm, speed, and amplitude.

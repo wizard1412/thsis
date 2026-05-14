@@ -1,0 +1,11 @@
+To determine the subject's MDS-UPDRS score for finger tapping, we analyze the movement data focusing on speed, rhythm, hesitations, and amplitude changes.
+
+1. **Tap Count**: The provided method calculates taps by identifying peaks in the index-thumb distance. A higher tap count indicates better performance.
+
+2. **Speed and Rhythm**: More taps within 10 seconds suggest faster movement. Irregularities like hesitations affect rhythm.
+
+3. **Amplitude Consistency**: Steady amplitudes indicate good control, while early decrements suggest motor issues.
+
+Given typical data, if the subject shows moderate slowing, multiple interruptions, and amplitude drops starting early, they score a 3.
+
+3

@@ -1,0 +1,25 @@
+% The Nordling Lab Presentation theme created by Victor Osorio and Torbjörn Nordling, implemented using Beamer by Jose Chang and Torbjörn Nordling.
+% Copyright 2017 by Nordling Lab, Nordron AB
+
+%Presentation Themes 
+%"Conceptually, a presentation theme dictates for every single detail of a presentation what it looks like. Thus, choosing a particular presentation theme will setup for, say, the numbers in enumeration what color they have, what color their background has, what font is used to render them, whether a circle or ball or rectangle or whatever is drawn behind them, and so forth. Thus, when you choose a presentation theme, your presentation will look the way someone (the creator of the theme) thought that a presentation should look like. Presentation themes typically only choose a particular color theme, font theme, inner theme, and outer theme that go well together." Beamer User Guide sec. 15.1
+
+% Requirement
+\RequirePackage{tikz}
+
+\mode<presentation>
+
+% Settings
+\usecolortheme{NordlingLab}
+\usefonttheme{NordlingLab}
+\useinnertheme{NordlingLab}
+\useoutertheme{NordlingLab}
+\setbeamertemplate{background}[NLCC] %Use this background to get CC license logo
+\setbeamertemplate{footline}[NLCC] %Use this footline to get CC license URL
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{blocks}[rounded][shadow=true]  
+\setbeamertemplate{items}[square]
+\setbeamertemplate{sections/subsections in toc}[square]
+
+\mode<all>

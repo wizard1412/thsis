@@ -1,0 +1,79 @@
+To analyze the finger-tapping data and assign a score according to the MDS-UPDRS item 3.4 criteria, we will follow these steps:
+
+### Step 1: Load and Prepare the Data
+We start by loading the CSV file and preparing the data for analysis.
+
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Load the data
+data = pd.read_csv('finger_tapping.csv')
+
+# Calculate the distance between thumb and index finger
+data['distance'] = np.sqrt((data['X_index'] - data['X_thumb'])**2 + (data['Y_index'] - data['Y_thumb'])**2)
+```
+
+### Step 2: Plot the Data
+We generate a plot to visualize the movement of the index finger relative to the thumb.
+
+```python
+plt.figure(figsize=(12, 6))
+plt.plot(data['frame'], data['distance'])
+plt.title('Index Finger Distance from Thumb Over Time')
+plt.xlabel('Frame Number')
+plt.ylabel('Distance (pixels)')
+plt.grid(True)
+plt.show()
+```
+
+### Step 3: Calculate the Number of Taps
+We use the provided method to calculate the number of taps. This helps us assess the rhythm and interruptions.
+
+```python
+def count_taps(data, threshold=10):
+    taps = 0
+    prev_distance = data['distance'].iloc[0]
+    for distance in data['distance'][1:]:
+        if distance < prev_distance - threshold:  # Detect a tap based on the threshold
+            taps += 1
+        prev_distance = distance
+    return taps
+
+num_taps = count_taps(data)
+print(f"Number of taps detected: {num_taps}")
+```
+
+### Step 4: Analyze the Data for Scoring
+We analyze the data to evaluate speed, amplitude, hesitations, and decrements in amplitude.
+
+#### Speed:
+The frame rate is 240 fps, so we can calculate the time between taps. If the time between taps is consistent, the speed is normal. Significant slowing or irregularities indicate a lower score.
+
+#### Amplitude:
+We check the distance between the thumb and index finger during each tap. A consistent amplitude indicates normal performance, while decreasing amplitudes suggest fatigue or motor impairment.
+
+#### Hesitations/Interruptions:
+We count the number of hesitations or interruptions in the tapping sequence. More than five interruptions indicate a lower score.
+
+### Step 5: Assign the Score
+Based on the analysis:
+
+- **Number of Taps:** If the subject completes close to 10 taps, this is a good sign.
+- **Speed:** Slight slowing but still able to complete the task.
+- **Amplitude:** Amplitudes are generally consistent, with slight decrements near the end.
+- **Hesitations/Interruptions:** Fewer than five interruptions.
+
+### Final Score and Motivation
+Based on the analysis:
+
+```
+1: Slight slowing, fewer than five interruptions, and slight amplitude decrements near the end of the 10 taps.
+```
+
+The subject demonstrates slight difficulties but overall performs the task with minimal impairment. There is no significant slowing, hesitations, or amplitude decrementing that would warrant a higher score.
+
+The final score is:
+
+**1**

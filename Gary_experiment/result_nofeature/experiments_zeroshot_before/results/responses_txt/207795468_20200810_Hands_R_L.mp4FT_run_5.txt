@@ -1,0 +1,17 @@
+To score the subject according to MDS-UPDRS item 3.4, we analyze the finger tapping data focusing on speed, amplitude, hesitations, halts, and decrementing amplitude.
+
+1. **Plotting Data**: The Y-coordinates of both thumb and index finger show a rhythmic pattern with peaks indicating taps.
+2. **Tap Count**: Using `calculate_taps()`, we find approximately 10 taps within the 10-second window.
+3. **Intervals and Rhythm**: Most tap intervals are consistent, but there are two noticeable hesitations, indicating slight interruptions.
+4. **Amplitude Analysis**: The amplitude remains relatively stable with a slight decrease towards the end of the sequence.
+5. **Speed Assessment**: The average tapping interval is within normal range without significant slowing.
+
+Based on these observations:
+
+- **Hesitations**: 1-2 interruptions fit the criteria for slight issues.
+- **Amplitude**: Slight decrement near the end.
+- **Speed**: No significant slowing observed.
+
+These factors align with a score of 1, indicating slight difficulties in performance.
+
+**Score: 1**

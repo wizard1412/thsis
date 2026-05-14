@@ -1,0 +1,125 @@
+To determine the MDS-UPDRS score for gait based on the provided CSV data, follow these steps:
+
+### Step 1: Read and Prepare Data
+Read the CSV file containing the patient's movement data.
+
+```python
+import pandas as pd
+import numpy as np
+
+# Read the CSV file
+df = pd.read_csv('your_data.csv')
+```
+
+### Step 2: Implement Tap Counting Method
+Create a function to detect tap events. This typically involves identifying peaks in the movement data, such as when the index finger taps on the thumb.
+
+```python
+def tap_counting_method(df):
+    # Example implementation (you may need to adjust based on actual data)
+    taps = []
+    # Logic to find tap frames (peaks or specific patterns)
+    return taps  # Returns list of frame indices where taps occur
+```
+
+### Step 3: Calculate Key Metrics
+
+#### Number of Taps (N)
+Count how many taps were detected in the 10-second window.
+
+```python
+taps_frames = tap_counting_method(df)
+N = len(taps_frames)
+```
+
+#### Intervals Between Taps
+Calculate the time intervals between consecutive taps.
+
+```python
+intervals = []
+for i in range(1, N):
+    interval_frames = taps_frames[i] - taps_frames[i-1]
+    interval_seconds = interval_frames / 240.0  # Assuming frame rate is 240 Hz
+    intervals.append(interval_seconds)
+
+mean_interval = np.mean(intervals)
+std_interval = np.std(intervals)
+```
+
+#### Count Hesitations (Long Intervals)
+Determine how many intervals exceed a threshold, indicating hesitations.
+
+```python
+threshold = mean_interval + std_interval
+hesitations = sum(1 for interval in intervals if interval > threshold)
+```
+
+#### Amplitude of Each Tap
+Measure the distance between thumb and index finger at each tap to assess amplitude.
+
+```python
+amplitudes = []
+for frame in taps_frames:
+    thumb_x = df['X_thumb'].iloc[frame]
+    thumb_y = df['Y_thumb'].iloc[frame]
+    index_x = df['X_index'].iloc[frame]
+    index_y = df['Y_index'].iloc(frame)
+    
+    distance = ((index_x - thumb_x)**2 + (index_y - thumb_y)**2)**0.5
+    amplitudes.append(distance)
+```
+
+#### Amplitude Decrement Analysis
+Check if the amplitudes decrease over time.
+
+```python
+if len(amplitudes) > 1:
+    tap_numbers = np.arange(1, N+1)
+    slope, _ = np.polyfit(tap_numbers, amplitudes, 1)
+    amplitude_decrement = slope < 0
+else:
+    amplitude_decrement = False
+
+# Determine when the decrement starts (simplified example)
+if amplitude_decrement:
+    # Example logic to check when decrement begins
+    mid_point = len(amplitudes) // 2
+    early_decrement = amplitudes[0] > amplitudes[mid_point]
+else:
+    early_decrement = False
+```
+
+### Step 4: Determine the MDS-UPDRS Score
+
+Based on the calculated metrics, apply the following logic:
+
+```python
+if N < 10:
+    # Patient couldn't complete 10 taps in time
+    if N <= 5:
+        score = 4
+    else:
+        if hesitations > 5 or early_decrement:
+            score = 3
+        elif hesitations >= 3:
+            score = 2
+        else:
+            score = 1
+else:
+    # Patient completed 10 taps
+    if hesitations <= 1 and not amplitude_decrement:
+        score = 0
+    elif hesitations <= 2 and not early_decrement:
+        score = 1
+    elif (hesitations >=3 and hesitations <=5) and not early_decrement:
+        score = 2
+    else:
+        # More than 5 hesitations or early amplitude decrement
+        score = 3
+
+print("MDS-UPDRS Score:", score)
+```
+
+### Final Answer:
+
+The MDS-UPDRS gait score based on the provided data analysis is \boxed{X}, where X represents the calculated score from the above logic (e.g., 0, 1, 2, 3, or 4).

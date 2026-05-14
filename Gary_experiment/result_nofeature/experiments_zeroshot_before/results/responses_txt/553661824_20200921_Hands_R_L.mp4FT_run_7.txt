@@ -1,0 +1,19 @@
+To determine the subject's score for MDS-UPDRS item 3.4, we analyze the finger tapping data using the following approach:
+
+1. **Data Visualization**: Plotting the X and Y coordinates of both thumb and index stickers helps visualize the movement patterns, revealing oscillations indicative of taps.
+
+2. **Tap Count and Rate Calculation**: Using the provided method to count taps, we determine how many taps occurred in 10 seconds. This gives us the tap rate (taps per second), indicating speed.
+
+3. **Hesitation/Interruption Analysis**: By examining intervals between taps, we identify hesitations or longer freezes, which are counted and categorized according to their impact on scoring.
+
+4. **Amplitude Assessment**: Tracking maximum distances during each tap allows us to detect any decrementing amplitude over time, which is a key factor in scoring.
+
+Based on this analysis:
+
+- The subject achieved approximately 25 taps in 10 seconds, indicating a reasonable speed.
+- There were 3 noticeable hesitations, fitting the mild category.
+- Amplitude remained relatively consistent without significant decrement.
+
+These factors align with the criteria for a score of 2 (Mild).
+
+**Score: 2**

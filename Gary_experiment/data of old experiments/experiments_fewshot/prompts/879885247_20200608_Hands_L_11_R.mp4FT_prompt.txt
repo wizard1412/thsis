@@ -1,0 +1,114 @@
+The data provided below consists of extracted features (tap count, periods, and amplitudes) derived from a subject performing the MDS-UPDRS Item 3.4 Finger Tapping test. The subject was instructed to tap the index finger on the thumb 10 times as quickly and as largely as possible.
+The objective is to score the subject according to MDS-UPDRS item 3.4: FINGER TAPPING based on the selected 10 seconds of continuous finger tapping. The instruction and scoring criteria of MDS-UPDRS item 3.4: FINGER TAPPING are as follows:
+“Instructions to the examiner: Each hand is tested separately. Demonstrate the task, but do not continue to perform the task while the patient is being tested. Instruct the patient to tap the index finger on the thumb 10 times as quickly AND as big as possible. Rate each side separately, evaluating speed, amplitude, hesitations, halts, and decrementing amplitude.
+0: Normal: No problems.
+1: Slight: Any of the following: a) the regular rhythm is broken with one or two interruptions or hesitations of the tapping movement; b) slight slowing; c) the amplitude decrements near the end of the 10 taps.
+2: Mild: Any of the following: a) 3 to 5 interruptions during tapping; b) mild slowing; c) the amplitude decrements midway in the 10-tap sequence.
+3: Moderate: Any of the following: a) more than 5 interruptions during tapping or at least one longer arrest (freeze) in ongoing movement; b) moderate slowing; c) the amplitude decrements starting after the 1st tap.
+4: Severe: Cannot or can only barely perform the task because of slowing, interruptions, or decrements.”
+Below are the extracted features including tap count, periods, and amplitudes. 
+To determine the subject's score, analyze the provided features thoroughly and give a detailed motivation for the assigned score based on the MDS-UPDRS finger tapping instruction. Print the score using only one number on the last line of your answer, after the detailed motivation.
+
+================================================================================
+FEW-SHOT EXAMPLES
+================================================================================
+Below are examples for each score to help you understand the scoring criteria:
+
+
+────────────────────────────────────────────────────────────────────────────────
+EXAMPLE FOR SCORE 0
+────────────────────────────────────────────────────────────────────────────────
+
+RAW DATA:
+  Number of taps: 11
+  Tap periods (frames): [110, 112, 114, 115, 124, 121, 118, 107, 103, 116]
+  Tap amplitudes (pixels): [183.2, 188.31, 186.12, 195.51, 179.33, 176.01, 184.07, 174.07, 178.62, 175.21, 181.66]
+
+STATISTICAL FEATURES:
+  period_stdev (rhythm stability): 0.025
+  periodEntropy (rhythm complexity): 0.9433
+  finger_mvmnt_x_mean (movement amplitude): 1.324
+  finger_mvmnt_dist_mean (finger distance): 1.5254
+  speed_mean (average speed): 273.8689
+  period_max (longest interval): 0.5167
+  maxFreezeDuration (longest freeze in seconds): 0.1208
+  aperiodicity (rhythm irregularity): 0.9262
+
+This example was rated as SCORE 0.
+
+────────────────────────────────────────────────────────────────────────────────
+EXAMPLE FOR SCORE 1
+────────────────────────────────────────────────────────────────────────────────
+
+RAW DATA:
+  Number of taps: 11
+  Tap periods (frames): [69, 70, 72, 71, 66, 73, 72, 74, 82, 81]
+  Tap amplitudes (pixels): [206.48, 187.45, 169.85, 172.35, 169.07, 164.2, 176.48, 182.7, 167.71, 176.07, 173.95]
+
+STATISTICAL FEATURES:
+  period_stdev (rhythm stability): 0.0198
+  periodEntropy (rhythm complexity): 0.8018
+  finger_mvmnt_x_mean (movement amplitude): 1.3024
+  finger_mvmnt_dist_mean (finger distance): 1.7407
+  speed_mean (average speed): 359.8713
+  period_max (longest interval): 0.3417
+  maxFreezeDuration (longest freeze in seconds): 0.075
+  aperiodicity (rhythm irregularity): 0.8479
+
+This example was rated as SCORE 1.
+
+────────────────────────────────────────────────────────────────────────────────
+EXAMPLE FOR SCORE 2
+────────────────────────────────────────────────────────────────────────────────
+
+RAW DATA:
+  Number of taps: 12
+  Tap periods (frames): [102, 111, 85, 105, 49, 76, 148, 73, 160, 87, 105]
+  Tap amplitudes (pixels): [188.1, 179.69, 194.16, 179.61, 176.3, 184.5, 155.32, 156.08, 146.03, 132.55, 146.58, 135.37]
+
+STATISTICAL FEATURES:
+  period_stdev (rhythm stability): 0.128
+  periodEntropy (rhythm complexity): 1.9722
+  finger_mvmnt_x_mean (movement amplitude): 0.8928
+  finger_mvmnt_dist_mean (finger distance): 1.4146
+  speed_mean (average speed): 266.4798
+  period_max (longest interval): 0.6667
+  maxFreezeDuration (longest freeze in seconds): 0.2
+  aperiodicity (rhythm irregularity): 0.8842
+
+This example was rated as SCORE 2.
+
+────────────────────────────────────────────────────────────────────────────────
+EXAMPLE FOR SCORE 3
+────────────────────────────────────────────────────────────────────────────────
+
+RAW DATA:
+  Number of taps: 11
+  Tap periods (frames): [210, 151, 155, 126, 117, 141, 131, 111, 120, 127]
+  Tap amplitudes (pixels): [120.77, 127.63, 124.87, 107.35, 93.23, 89.47, 100.17, 90.43, 92.18, 90.79, 110.57]
+
+STATISTICAL FEATURES:
+  period_stdev (rhythm stability): 0.1137
+  periodEntropy (rhythm complexity): 1.8344
+  finger_mvmnt_x_mean (movement amplitude): 0.3492
+  finger_mvmnt_dist_mean (finger distance): 0.634
+  speed_mean (average speed): 156.0915
+  period_max (longest interval): 0.875
+  maxFreezeDuration (longest freeze in seconds): 0.3917
+  aperiodicity (rhythm irregularity): 1.0012
+
+This example was rated as SCORE 3.
+# RAW DATA
+Number of taps: 12
+Tap periods (frames): [102, 111, 85, 105, 49, 76, 148, 73, 160, 87, 105]
+Tap amplitudes (pixels): [188.1, 179.69, 194.16, 179.61, 176.3, 184.5, 155.32, 156.08, 146.03, 132.55, 146.58, 135.37]
+
+# STATISTICAL FEATURES
+period_stdev (rhythm stability): 0.128
+periodEntropy (rhythm complexity): 1.9722
+finger_mvmnt_x_mean (movement amplitude): 0.8928
+finger_mvmnt_dist_mean (finger distance): 1.4146
+speed_mean (average speed): 266.4798
+period_max (longest interval): 0.6667
+maxFreezeDuration (longest freeze in seconds): 0.2
+aperiodicity (rhythm irregularity): 0.8842

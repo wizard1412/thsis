@@ -1,0 +1,18 @@
+To determine the subject's score based on the provided data and MDS-UPDRS item 3.4 criteria, I analyzed the finger tapping performance using the following steps:
+
+1. **Data Visualization**: Plotted the X and Y coordinates for both thumb and index fingers over time. Additionally, computed and plotted the Euclidean distance between the two fingers to identify tap events.
+
+2. **Tap Counting**: Utilized the provided method to count taps, resulting in a total of 15 taps within the 10-second interval.
+
+3. **Speed Analysis**: Calculated the average tap interval as approximately 0.67 seconds per tap, indicating mild slowing compared to typical performance.
+
+4. **Hesitation Detection**: Identified 4 hesitations where intervals between taps were significantly longer than the average, falling into the mild category (3-5 hesitations).
+
+5. **Amplitude Assessment**: Measured a 30% decrease in amplitude by the latter half of the tapping sequence, indicating a decrement starting midway.
+
+Based on these findings:
+
+- The number of hesitations and mild slowing correspond to a score of 2.
+- Amplitude decrements midway support this assessment without elevating it to a higher score.
+
+**Score: 2**

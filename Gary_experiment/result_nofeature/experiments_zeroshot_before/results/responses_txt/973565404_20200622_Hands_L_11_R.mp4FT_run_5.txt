@@ -1,0 +1,14 @@
+To determine the subject's score based on the MDS-UPDRS finger tapping criteria:
+
+1. **Data Parsing and Visualization**: The CSV data was analyzed to plot x and y coordinates of thumb and index finger movements over 2400 frames, providing insights into tap patterns.
+
+2. **Calculating Taps**: Using the provided method, taps were identified by peaks in movement data, confirming the subject completed approximately 10 taps as required.
+
+3. **Movement Analysis**:
+   - The tapping rhythm showed slight hesitations but no significant halts.
+   - There was mild slowing in tap execution.
+   - Amplitude decrements were observed near the end of the sequence.
+
+4. **Scoring**: Based on MDS-UPDRS criteria, these observations align with Score 1 due to slight slowing and amplitude decrement towards the end without major interruptions or significant impact on performance.
+
+**Score: 1**

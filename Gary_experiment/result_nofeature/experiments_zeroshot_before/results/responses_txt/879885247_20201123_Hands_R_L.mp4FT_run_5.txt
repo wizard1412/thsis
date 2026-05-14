@@ -1,0 +1,28 @@
+To evaluate the subject's performance based on the MDS-UPDRS item 3.4, we analyze the finger tapping data using the provided CSV file. The key steps include visualizing the movement, calculating tap count, assessing rhythm regularity, and examining amplitude consistency.
+
+### Analysis Steps:
+
+1. **Data Visualization:**
+   - Plotted the X and Y coordinates of both thumb and index fingers over time to observe their trajectories.
+   - Visualized the distance between the two fingers, revealing peaks (taps) and troughs (rest periods).
+
+2. **Tap Count Calculation:**
+   - Used a peak detection method on the distance data to count taps, ensuring accurate identification by filtering out noise with a moving average.
+
+3. **Rhythm Regularity Assessment:**
+   - Measured intervals between consecutive taps.
+   - Found minimal variations in tap intervals, indicating a regular rhythm without significant hesitations or freezes.
+
+4. **Amplitude Consistency Check:**
+   - Calculated the amplitude of each peak (tap).
+   - Observed consistent amplitudes throughout the 10-second period with no noticeable decrementing trend.
+
+### Scoring Based on MDS-UPDRS Criteria:
+
+- **Number of Taps:** The subject achieved a high tap count, indicating good speed.
+- **Rhythm Regularity:** Steady intervals suggest no significant hesitations or interruptions.
+- **Amplitude Consistency:** Amplitudes remained stable without decrementing.
+
+Given these observations, the performance aligns with normal functionality under the MDS-UPDRS criteria.
+
+**Score: 0**

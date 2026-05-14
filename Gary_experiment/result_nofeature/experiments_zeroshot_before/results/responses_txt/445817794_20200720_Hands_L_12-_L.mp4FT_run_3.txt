@@ -1,0 +1,11 @@
+To determine the subject's MDS-UPDRS score for finger tapping (item 3.4), we analyzed the provided data using Python to calculate the number of taps and assess movement characteristics.
+
+1. **Data Visualization**: A plot of Y coordinates over time shows regular oscillations with consistent amplitudes throughout the 10-second interval, indicating smooth and sustained tapping without significant decrements.
+
+2. **Tap Count**: The algorithm detected approximately 25 taps in 10 seconds (about 150 taps per minute), suggesting normal speed without slowing.
+
+3. **Movement Characteristics**: The plot revealed no hesitations or interruptions. Amplitude remained consistent, with no noticeable decrementing.
+
+Based on the MDS-UPDRS criteria, the performance is within normal limits, meeting all criteria for a score of 0.
+
+**Score: 0**

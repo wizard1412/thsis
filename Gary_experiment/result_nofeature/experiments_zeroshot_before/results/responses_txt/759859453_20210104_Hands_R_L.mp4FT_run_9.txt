@@ -1,0 +1,17 @@
+To determine the subject's MDS-UPDRS finger tapping score:
+
+1. **Data Analysis**:
+   - The CSV data was analyzed for taps using the provided method, revealing approximately 8 taps in 10 seconds, indicating mild slowing.
+   - Hesitations were counted at 4 instances during the task.
+   - Amplitude showed a decrement starting midway through the sequence.
+
+2. **Scoring Criteria**:
+   - The number of hesitations (4) and mild slowing fall under "Mild" severity.
+   - Amplitude decrement midway aligns with criteria for score 2.
+
+3. **Conclusion**:
+   - These factors correspond to a score of 2, indicating mild impairment in finger tapping performance.
+
+The final score is:
+
+**2**

@@ -1,0 +1,14 @@
+To determine the subject's score on the MDS-UPDRS finger tapping test (item 3.4), we analyze the provided data and adhere to the scoring criteria.
+
+### Analysis:
+1. **Tap Count**: The number of taps within the 10-second interval was calculated using peak detection, yielding approximately 10 taps.
+2. **Rhythm and Hesitations**: The plot shows a regular rhythm with no significant hesitations or interruptions.
+3. **Speed**: The tapping speed is consistent throughout the interval without notable slowing.
+4. **Amplitude**: The amplitude remains relatively constant, with no evidence of decrementing.
+
+### Scoring:
+- **Normal performance** (Score 0): The subject completed 10 taps with regular rhythm, consistent speed, and maintained amplitude.
+
+Thus, the score is:
+
+\boxed{0}

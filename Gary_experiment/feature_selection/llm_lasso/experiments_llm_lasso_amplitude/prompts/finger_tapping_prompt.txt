@@ -1,0 +1,80 @@
+**Context**: We wish to build a statistical (Lasso) model that predicts MDS-UPDRS Item 3.4 Finger Tapping severity scores (0-4) from kinematic features extracted from video recordings of Parkinson's Disease patients. The dataset includes 53 sessions and 54 kinematic features. The MDS-UPDRS Item 3.4 scoring criteria assess three key aspects of finger tapping: (1) rhythm regularity — interruptions, hesitations, freezes; (2) speed — progressive slowing of tapping; (3) amplitude — decrement pattern of tap opening distance. Score 0 = Normal, Score 1 = Slight (1-2 interruptions, slight slowing, amplitude decrements near end), Score 2 = Mild (3-5 interruptions, mild slowing, amplitude decrements midway), Score 3 = Moderate (>5 interruptions or freeze, moderate slowing, amplitude decrements after 1st tap), Score 4 = Severe (cannot perform).
+**Task**: Provide penalty factors for each of the features. These penalty factors should be integers between 2 and 5 (inclusive), where:
+2 indicates a feature strongly associated with the target variable (i.e., it should be penalized the least by Lasso).
+5 indicates a feature with minimal relevance to the target variable (i.e., it should be penalized the most by Lasso).
+Base these penalty factors on clinical knowledge about Parkinson's Disease motor assessment and biomechanical analysis of finger tapping. Do not state that it is impossible to determine exact factors without further data; instead, provide your best estimate from domain knowledge about each feature's importance in predicting MDS-UPDRS finger tapping severity.
+**Instructions**:
+1. You will receive a list of features: {genes}.
+2. For each feature, produce an integer penalty factor from 2 to 5.
+3. List the features and their penalty factors in the exact same order they appear in the list.
+4. For each penalty factor, provide a brief statement of how you arrived at that score or why the feature is more or less relevant to MDS-UPDRS finger tapping severity.
+
+**Your Response**:
+Must contain one entry per feature, each entry including:
+- The feature name.
+- The penalty factor.
+- A succinct reasoning for that factor.
+Do not include disclaimers about lacking full data; rely on your domain knowledge.
+
+Here is an example output:
+**period_stdev**: 2
+Reasoning: Standard deviation of inter-tap intervals directly measures rhythm stability, which is a primary criterion in MDS-UPDRS scoring. Higher variability indicates more interruptions and hesitations, strongly associated with higher severity scores.
+
+The list of features with their descriptions is:
+
+"finger_mvmnt_x_median": "Median horizontal movement of thumb between consecutive frames",
+"finger_mvmnt_x_quartile_range": "Interquartile range of horizontal thumb movement",
+"finger_mvmnt_x_mean": "Mean horizontal thumb movement amplitude per frame",
+"finger_mvmnt_x_min": "Minimum horizontal thumb movement (closest to stationary)",
+"finger_mvmnt_x_max": "Maximum horizontal thumb movement in a single frame",
+"finger_mvmnt_x_stdev": "Variability of horizontal thumb movement across frames",
+"finger_mvmnt_y_median": "Median vertical movement of thumb between consecutive frames",
+"finger_mvmnt_y_quartile_range": "Interquartile range of vertical thumb movement",
+"finger_mvmnt_y_mean": "Mean vertical thumb movement amplitude per frame",
+"finger_mvmnt_y_min": "Minimum vertical thumb movement",
+"finger_mvmnt_y_max": "Maximum vertical thumb movement in a single frame",
+"finger_mvmnt_y_stdev": "Variability of vertical thumb movement across frames",
+"finger_mvmnt_dist_median": "Median Euclidean distance of thumb movement between frames",
+"finger_mvmnt_dist_quartile_range": "Interquartile range of thumb movement distance",
+"finger_mvmnt_dist_mean": "Mean thumb-index distance (overall movement amplitude)",
+"finger_mvmnt_dist_min": "Minimum thumb movement distance",
+"finger_mvmnt_dist_max": "Maximum thumb movement distance in a single frame",
+"finger_mvmnt_dist_stdev": "Variability of thumb movement distance",
+"aperiodicity": "FFT power spectrum entropy measuring rhythm irregularity (higher = more irregular)",
+"periodEntropy": "Entropy of inter-tap interval distribution (higher = more complex rhythm)",
+"periodVarianceNorm": "Normalized variance of tap periods (rhythm stability measure)",
+"numInterruptions": "Count of interruptions/hesitations during tapping sequence",
+"numFreeze": "Count of freeze episodes (movement arrest) during tapping",
+"maxFreezeDuration": "Duration of the longest freeze episode in seconds",
+"period_median": "Median inter-tap interval in seconds",
+"period_quartile_range": "Interquartile range of tap intervals (rhythm consistency)",
+"period_mean": "Mean inter-tap interval in seconds (inversely related to tapping speed)",
+"period_min": "Shortest inter-tap interval in seconds",
+"period_max": "Longest inter-tap interval in seconds (may indicate hesitation)",
+"period_stdev": "Standard deviation of tap intervals (rhythm stability, higher = more unstable)",
+"frequency_median": "Median tapping frequency in Hz",
+"frequency_quartile_range": "Interquartile range of tapping frequency",
+"frequency_mean": "Mean tapping frequency in Hz (higher = faster tapping)",
+"frequency_min": "Minimum tapping frequency (slowest tapping moment)",
+"frequency_max": "Maximum tapping frequency (fastest tapping moment)",
+"frequency_stdev": "Variability of tapping frequency across the sequence",
+"frequency_lr_fitness_r2": "R-squared of linear fit to frequency over time (frequency trend goodness)",
+"frequency_lr_slope": "Slope of linear fit to frequency over time (negative = slowing down)",
+"frequency_fit_min_degree": "Minimum polynomial degree to fit frequency trend",
+"num_peaks": "Total number of detected taps in the sequence",
+"num_interruptions_norm": "Normalized count of interruptions (interruptions per tap)",
+"num_freeze_norm": "Normalized count of freeze episodes (freezes per tap)",
+"speed_median": "Median finger movement speed in degrees/second",
+"speed_quartile_range": "Interquartile range of movement speed",
+"speed_mean": "Mean finger movement speed (higher = more vigorous tapping)",
+"speed_min": "Minimum movement speed",
+"speed_max": "Maximum movement speed (peak velocity)",
+"speed_stdev": "Variability of movement speed",
+"acceleration_median": "Median finger movement acceleration",
+"acceleration_quartile_range": "Interquartile range of acceleration",
+"acceleration_mean": "Mean finger acceleration",
+"acceleration_min": "Minimum acceleration (peak deceleration)",
+"acceleration_max": "Maximum acceleration (peak acceleration)",
+"acceleration_stdev": "Variability of acceleration across the sequence"
+
+The list of features is {genes}.

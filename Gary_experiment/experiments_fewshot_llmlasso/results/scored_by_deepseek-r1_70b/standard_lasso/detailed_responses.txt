@@ -1,0 +1,2963 @@
+
+============================================================
+553661824_20200629_Hands_R_7-_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The subject's finger tapping features show a high number of taps (11 in 10 seconds), low period variability (period_stdev=0.0196) and quartile range (0.0344), indicating regular rhythm and consistent speed without significant slowing or hesitations. Amplitude metrics suggest no decrementing issues, as amplitude_min is sufficiently high. These factors align with the criteria for a normal performance.
+
+0
+
+--- Evaluation 2 (Score: 1) ---
+The subject's performance shows slight deviations from normal. The number of taps is slightly over, indicating possible mild slowing. Period features show high consistency, suggesting no significant hesitations or interruptions. Amplitude seems maintained well. These factors align with a Score 1.
+
+1
+
+--- Evaluation 3 (Score: 0) ---
+The subject's performance shows minimal deviation from normal, with consistent tapping rhythm and stable amplitudes. There are no significant hesitations, slowing, or decrements in amplitude.
+
+0
+
+--- Evaluation 4 (Score: 0) ---
+The subject's finger tapping features indicate a high level of performance. The number of taps is close to the target (11), and the period-related metrics show low variability and high regularity, suggesting no significant hesitations or slowing. Without evidence of amplitude decrementing, the overall performance aligns with normal function.
+
+0
+
+--- Evaluation 5 (Score: 1) ---
+The subject's tapping shows consistent timing and maintained amplitude with only an extra tap suggesting a minor interruption. Therefore, the score is:
+
+1
+
+--- Evaluation 6 (Score: 0) ---
+The subject performed well in the finger tapping test, showing consistent timing (low periodEntropy and stdev) and maintaining amplitude without decrementing. The slight excess in tap count doesn't indicate any issue. All features align with normal performance.
+
+0
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping features show high consistency in tap periods with low entropy and stdev, indicating regularity. The number of taps slightly exceeds the required 10, which might suggest a minor issue but not significant enough for a higher score. Amplitude features aren't detailed, but period metrics point to slight deviations at most.
+
+1
+
+--- Evaluation 8 (Score: 0) ---
+The subject's finger tapping test shows very consistent periods, minimal variation in intervals, and no significant amplitude decrements. These factors align with normal performance without interruptions or slowing.
+
+0
+
+--- Evaluation 9 (Score: 0) ---
+The subject's tapping performance is evaluated based on regularity and consistency in periods without significant interruptions or amplitude issues. The features indicate a stable rhythm with minimal variability.
+
+0
+
+--- Evaluation 10 (Score: 0) ---
+The subject's performance shows a high degree of regularity in tapping intervals with minimal variability and no significant amplitude decrements. This indicates normal function without notable issues.
+
+Score: 0
+
+
+============================================================
+403773045_20201012_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+The subject's features indicate some irregularities in tapping rhythm and amplitude. The period entropy and stdev suggest variability, and the amplitude min indicates possible decrementing amplitudes. These factors align with a mild to moderate impairment.
+
+2
+
+--- Evaluation 2 (Score: 2) ---
+The data analysis suggests moderate variability in tap intervals, indicating some hesitations or interruptions. The number of taps and amplitude don't strongly suggest severe issues. 
+
+Answer: $\boxed{2}$
+
+--- Evaluation 3 (Score: 2) ---
+The subject's finger tapping data shows moderate variability in tap intervals with higher entropy and quartile range compared to lower scores. The number of taps slightly exceeds the target, suggesting manageable performance without severe issues. Considering these factors, the score is determined to be 2.
+
+2
+
+--- Evaluation 4 (Score: 2) ---
+The subject's finger tapping performance shows mild slowing and some rhythm variability with a few hesitations, fitting the criteria for mild impairment.
+
+2
+
+--- Evaluation 5 (Score: 2) ---
+The subject's tapping features show moderate variability in periods and a slight decrease in amplitude, indicating mild difficulties without severe interruptions.
+
+2
+
+--- Evaluation 6 (Score: 1) ---
+The subject's performance shows some variability in tap intervals (periodEntropy: 1.7481) and amplitude (amplitude_min: 203.2356), suggesting mild irregularities but not severe enough for higher scores. The number of taps (11) doesn't indicate significant slowing, pointing towards slight issues. 
+
+Score: 1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's features show some variability in tap intervals (periodEntropy: ~1.75, period_quartile_range: ~0.12), indicating mild hesitations or slowing. The number of taps is slightly above the target, but not significantly problematic. Amplitude metrics suggest decent consistency. These factors align with a Score 1 for slight issues.
+
+1
+
+--- Evaluation 8 (Score: 2) ---
+The subject's finger tapping performance shows moderate variability in tap intervals (periodEntropy: 1.7481) and some inconsistency (period_quartile_range: 0.1198), indicating mild slowing or hesitations. The number of taps is slightly over, suggesting minor interruptions but no significant amplitude decrementing.
+
+2
+
+--- Evaluation 9 (Score: 1) ---
+The subject's finger tapping performance shows slight variability in tap timing without significant amplitude decrementing. The number of taps is close to the target, with moderate period variability but well-maintained amplitudes.
+
+1
+
+--- Evaluation 10 (Score: 1) ---
+Based on the analysis of the provided data, the subject demonstrated slight slowing with up to two hesitations or interruptions. The period entropy and quartile range suggest moderate variability but do not indicate severe issues. Therefore, the final score is:
+
+\boxed{1}
+
+
+============================================================
+973565404_20200622_Hands_R_11_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+The subject's finger tapping performance shows increased variability in tap periods (periodEntropy: 1.4708) and a moderate spread (period_quartile_range: 0.0625), suggesting some irregularity beyond normal but not severe. The number of taps is slightly higher than required, indicating possible minor speeding or rhythm issues. Considering the criteria, this points to mild slowing or hesitations, fitting a Score 1.
+
+However, upon reevaluation, the periodEntropy and Q range are higher than Score 1 examples, suggesting more interruptions or variability, which aligns more with a Score 2. Therefore, considering the increased irregularity beyond slight issues, the appropriate score is:
+
+2
+
+--- Evaluation 2 (Score: 1) ---
+The subject performed the finger tapping test with 11 taps, slightly exceeding the target. The period features show low standard deviation (0.0705) indicating consistent timing, but higher entropy (1.4708) and IQR (0.0625) suggest some variability in tap intervals, pointing to slight hesitations or slowing. Amplitude min is high at 161.2183 without clear signs of decrementing. These factors align with slight issues, fitting the criteria for a score of 1.
+
+1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's performance shows slight variability in tapping intervals (periodEntropy = 1.47) and moderate quartile range (0.0625), indicating some hesitations or mild slowing without significant amplitude decrement. This aligns with Score 1, reflecting minor issues.
+
+1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's tapping showed increased period entropy and quartile range compared to normal, indicating some rhythm irregularity. However, these measures didn't reach the levels of more severe scores. The amplitude didn't show significant decrementing. Overall, this suggests mild issues consistent with a score of 1.
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's performance shows slight slowing and minor hesitations, with some rhythm irregularity but no significant amplitude decrement. 
+
+Score: **1**
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping features indicate some variability in timing and possibly mild slowing, but not to the extent required for a higher score. The period entropy and quartile range suggest more than slight issues but less than moderate ones. Therefore, the score is 1.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping features show some variability in tap intervals but not to the extent of higher scores. The period entropy is higher than normal, indicating mild irregularity, possibly due to slight hesitations or slowing. Amplitude shows a minimal decrement near the end.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's finger tapping performance shows close adherence to the required 10 taps with minor variations in rhythm and amplitude, indicating slight hesitations or slowing but not significant enough for a higher score.
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's finger tapping test shows slight irregularities with an entropy of 1.4708 and a quartile range of 0.0625, indicating some rhythm variability but not enough for a higher score. The single extra tap suggests minimal interruption without significant amplitude issues.
+
+**Score: 1**
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping performance shows moderate irregularity in tap intervals but doesn't meet the criteria for higher scores. They completed the task with slight over-tapping, indicating mild issues consistent with a score of 1.
+
+1
+
+
+============================================================
+445817794_20200720_Hands_R_12-_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's performance shows slight deviations in tapping rhythm and amplitude, fitting the criteria for a mild impairment score.
+
+**Score: 1**
+
+1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's finger tapping features indicate a score of 1 due to slight irregularities in rhythm and potentially minor hesitations, but no significant slowing or amplitude decrement.
+
+**Score: 1**
+
+--- Evaluation 3 (Score: 1) ---
+The subject's finger tapping test shows 11 taps with period features matching those of a score 1 example, indicating slight slowing or minor interruptions without significant amplitude issues. 
+
+1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping features show very consistent timing (low stdev and quartile range) but have a periodEntropy matching the score 1 example. This suggests slight irregularities in rhythm, warranting a score of 1.
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping features show slight irregularities with periodEntropy and low quartile range indicating minor rhythm breaks. Amplitude suggests a slight decrement near the end. These align with Score 1 criteria for mild issues.
+
+1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping test shows slight irregularities. With 11 taps instead of 10, indicating a minor hesitation. The period features suggest regularity with low variability, pointing to only slight slowing. Amplitude is consistent without significant decrementing.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping test results show slight deviations from normal performance. The periodEntropy and quartile range indicate a regular rhythm with minimal variation, suggesting only slight issues. The number of taps is close to the target, and timing consistency is high. Therefore, the score is 1.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's features show slight irregularities with consistent tap intervals and possible minor amplitude decrement, fitting the criteria for a mild impairment.
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's performance shows minor inconsistencies with slight slowing and possible amplitude decrement near the end, fitting the criteria for a mild impairment.
+
+Score: 1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's performance shows slight variations in tapping rhythm and minor slowing but maintains good amplitude and completes the task adequately.
+
+Score: **1**
+
+
+============================================================
+759859453_20210104_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 3) ---
+The subject's performance shows significant tap interval variability (periodEntropy = 1.8344), similar to a Score 3 example, indicating moderate interruptions or hesitations. Despite completing 11 taps, suggesting ability without severe halts, the high entropy and moderate PQR suggest more than mild issues but not severe enough for a higher score.
+
+3
+
+--- Evaluation 2 (Score: 1) ---
+The subject's features indicate mild irregularities in tapping rhythm without significant amplitude issues, fitting the criteria for Score 1.
+
+1
+
+--- Evaluation 3 (Score: 2) ---
+The subject's features show some irregularity in tapping rhythm with high periodEntropy (1.8344) suggesting possible hesitations or interruptions. However, the low period_stdev (0.0758) indicates consistent timing, pointing to only mild issues rather than moderate. The number of taps is close to 10, and without clear evidence of significant amplitude decrement early on, the score leans towards mild impairment.
+
+Score: 2
+
+--- Evaluation 4 (Score: 3) ---
+The subject's finger tapping performance shows significant variability in tap intervals (high periodEntropy) and a notable quartile range, suggesting moderate disruptions. The amplitude is maintained well. These factors align most closely with a score of 3.
+
+3
+
+--- Evaluation 5 (Score: 2) ---
+The subject's data shows high periodEntropy similar to Score3 but better quartile range, indicating some irregularity without severe variability. The number of taps is close to required, and amplitude isn't clearly decrementing. Considering these factors, the score is likely a 2.
+
+2
+
+--- Evaluation 6 (Score: 1) ---
+The subject's performance shows some irregularity in tap intervals (periodEntropy: 1.8344) but maintains consistent amplitudes without decrementing. The number of taps exceeds the required 10, indicating possible minor hesitation. These factors suggest slight slowing and a few interruptions, fitting the criteria for a Score 1.
+
+1
+
+--- Evaluation 7 (Score: 3) ---
+The subject's tap count is slightly above the required 10, indicating possible hesitations. Period entropy and stdev suggest significant variability in tapping intervals, aligning with moderate interruptions. Although amplitude details are limited, the rhythmic irregularities point towards a more severe issue than mild. Therefore, the score is:
+
+3
+
+--- Evaluation 8 (Score: 1) ---
+The subject's finger tapping performance shows some irregularity in rhythm with periodEntropy at 1.8344 and a moderate quartile range of 0.0813, indicating mild inconsistencies. However, the number of taps is adequate (11), suggesting no significant halts. Amplitude remains relatively consistent without notable decrementing. These factors align most closely with slight slowing and minor rhythm issues, corresponding to a score of 1.
+
+1
+
+--- Evaluation 9 (Score: 3) ---
+The subject's features show significant irregularity in tapping rhythm and possible early amplitude decrementing, aligning with moderate issues.
+
+3
+
+--- Evaluation 10 (Score: 1) ---
+The subject's performance shows slight irregularities in tapping rhythm with minimal slowing and possible minor amplitude changes towards the end. 
+
+Score: 1
+
+
+============================================================
+051331512_20200406_Hands_R_9-_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's finger tapping features indicate slight variability in tap intervals and possible amplitude decrements towards the end. These factors correspond to a mild impairment.
+
+1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's finger tapping test shows slight variability in periods and no significant amplitude decrement, indicating minimal impairment.
+
+**Score: 1**
+
+--- Evaluation 3 (Score: 1) ---
+The subject's features show 11 taps with slightly higher period entropy and quartile range than normal, indicating mild rhythm irregularity but no significant slowing or amplitude issues. This aligns with a score of 1 for slight impairment.
+
+1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's performance shows slight variability in tap intervals and minor interruptions, fitting the criteria for mild issues without significant slowing or amplitude loss. 
+
+Score: **1**
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping test shows 11 taps with some timing variability (periodEntropy: 1.2799) and a low period quartile range, indicating slight irregularity but no significant amplitude decrement. These features align most closely with a score of 1, reflecting minor hesitations or slight slowing.
+
+1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's tapping shows slight irregularities in rhythm without significant slowing or amplitude loss, fitting the criteria for a mild impairment.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping features indicate some variability in tap periods and slight interruptions, but amplitude remains high. The period entropy is higher than normal, suggesting more than slight hesitations but less than mild issues. 
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's finger tapping test shows slight inconsistencies in tap intervals with a higher period entropy than normal but manageable within the mild range. There are signs of minor hesitation or rhythm breaks and possible amplitude decrease near the end.
+
+Score: 1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's performance shows slight slowing with 11 taps in 10 seconds, moderate period entropy suggesting mild variability, low IQR and stdev indicating consistent timing, and possible slight amplitude decrement. These factors align with a score of 1.
+
+1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's tapping shows slight irregularities in timing and minor variability in periods but no significant amplitude issues. These factors align with a score indicating slight hesitation or slowing.
+
+1
+
+
+============================================================
+281628421_20201130_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's finger tapping features indicate slight irregularities in rhythm and possible amplitude decrement near the end, fitting the criteria for a score of 1.
+
+1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's finger tapping shows slight irregularities in tap intervals but no significant slowing or amplitude decrementing. The periodEntropy and quartile range suggest mild variations without severe interruptions or decrements, fitting the criteria for a Score 1.
+
+1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's performance shows slight variability in tap intervals with minimal interruptions, consistent timing, and possible minor amplitude decrement. These factors align with a Score 1.
+
+1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's features indicate slight deviations from normal performance, such as minor increases in period entropy and quartile range, suggesting slight hesitations or mild slowing without significant amplitude decrement.
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's performance shows slight irregularities in tap intervals with some variability, but not enough to indicate more than mild issues. They managed close to the required number of taps and maintained decent amplitude consistency.
+
+1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's tapping shows slight irregularities. The number of taps is slightly over, suggesting a minor interruption. While periods are mostly consistent, the entropy suggests some variability. Amplitude data isn't sufficient to indicate significant decrementing. Overall, this aligns with a slight issue under MDS-UPDRS criteria.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's performance shows slight variability in tap periods but maintains consistent timing with no significant amplitude issues. 
+
+Score: 1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's finger tapping features show slight variability in timing with some hesitations, but overall performance is close to normal without significant amplitude decrementing.
+
+Score: 1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's finger tapping features show slight impairments with some variability in tap intervals and minimal amplitude decrementing, fitting the criteria for a mild impairment.
+
+1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's performance shows slight irregularities in rhythm and maintains amplitude without significant decrementing, fitting the criteria for a slight impairment.
+
+1
+
+
+============================================================
+879885247_20200608_Hands_R_11_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's finger tapping features show slight hesitations, minimal slowing, and consistent amplitudes. These characteristics align with the criteria for a mild impairment.
+
+1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's finger tapping test shows slight variability in tap intervals with some hesitations but maintained good speed and consistent amplitudes.
+
+**Score: 1**
+
+--- Evaluation 3 (Score: 1) ---
+The subject's features indicate slight irregularities in tapping rhythm with no significant amplitude decrements. The period metrics suggest some variability, consistent with a mild issue.
+
+Score: 1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping performance shows slight variability in tap intervals and an extra tap, indicating minor hesitations or slowing without significant amplitude issues. 
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's performance shows slight slowing with some tap interval variability but well-maintained amplitudes. 
+
+1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's performance shows increased variability in tapping intervals (periodEntropy: 1.5571) compared to normal, indicating slight irregularities. However, the amplitude remains high with minimal decrementing. This aligns with a score of 1 due to slight hesitations or slowing.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's tap count is slightly above the required 10, indicating completion with minor deviation. Period features show moderate variability, suggesting some hesitations or mild slowing. Amplitude remains relatively stable without significant decrementing.
+
+Score: 1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's finger tapping test shows slight irregularities with some variability in tap intervals, indicating minor hesitations or slowing without significant amplitude issues.
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's features show slight irregularities in tap intervals with some period variability and possible amplitude decrement towards the end. They completed more than the required taps, indicating minor hesitation or slowing.
+
+**Score: 1**
+
+--- Evaluation 10 (Score: 2) ---
+The subject's features show mild slowing and rhythmic irregularities but no severe issues like halts or significant amplitude decrements early on.
+
+2
+
+
+============================================================
+403773045_20210201_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's finger tapping features show slight variability in tap intervals (periodEntropy: 1.3592) and a slightly higher quartile range (0.0479), indicating minor irregularities. The number of taps is 11, suggesting a possible small hesitation. However, amplitude remains consistent with a high minimum value, showing no significant decrement. These factors point to slight issues without severe slowing or interruptions.
+
+1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's finger tapping performance shows moderate variability in rhythm with some slight slowing. The periodEntropy and other metrics suggest mild issues without severe decrements, fitting the criteria for a Score 1.
+
+1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's finger tapping test shows slight variability in timing with some irregularity in periods and a slightly higher number of taps than required. However, the amplitudes remain consistent without significant decrementing. These factors align with minor issues as described for a score of 1.
+
+1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping test shows mild irregularities in rhythm, with slightly variable periods and a tap count just above the instructed amount. These factors indicate minor issues consistent with a score of 1.
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping features indicate minor issues with slight interruptions and possible slowing. The period entropy and quartile range show some variability without significant amplitude decrementing.
+
+Score: 1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping features show mild variability in tap intervals and amplitude, indicating slight hesitations or slowing. The number of taps is close to the target with minimal excess, suggesting minor interruptions.
+
+**Score: 1**
+
+--- Evaluation 7 (Score: 1) ---
+The subject's features show slight irregularities in tapping rhythm and amplitude, fitting the criteria for mild impairment. 
+
+Score: 1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's tapping shows slight irregularities with 11 taps, higher entropy and quartile range indicating mild variability, but no severe issues. 
+
+Score: **1**
+
+--- Evaluation 9 (Score: 1) ---
+The subject's features show slight irregularities in tap periods and a normal number of taps with minimal amplitude decrement. These factors align with a Score 1, indicating mild slowing or minor hesitations.
+
+**Score: 1**
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping performance shows slight deviations from normal, including moderate variability in tap intervals and possible minor amplitude decrement near the end. These factors align with the criteria for a mild impairment.
+
+**Score: 1**
+
+
+============================================================
+553661824_20201116_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The subject's finger tapping performance is evaluated based on regularity and consistency in both rhythm and amplitude. With low variability in tap periods (periodEntropy: 0.6109, period_quartile_range: 0.0135, period_stdev: 0.0095) and a consistent number of taps (11), the subject demonstrates a regular rhythm without significant interruptions or slowing. Amplitude shows minimal decrementing, which is within normal limits. 
+
+Score: 0
+
+--- Evaluation 2 (Score: 0) ---
+The subject's performance shows minimal deviation from normal with consistent timing and only slight variations in amplitude. The low period entropy and quartile range indicate regularity, and the number of taps is close to the target without significant slowing.
+
+0
+
+--- Evaluation 3 (Score: 0) ---
+The subject's finger tapping test shows regular periods with low variability, consistent timing, and maintained amplitudes, indicating no significant issues.
+
+0
+
+--- Evaluation 4 (Score: 0) ---
+The subject's performance shows regular rhythm with low variability in tap intervals (low periodEntropy, IQR, and stdev), steady speed, and no significant signs of amplitude decrement. Despite an extra tap, the overall features align closely with a normal score.
+
+0
+
+--- Evaluation 5 (Score: 0) ---
+The kinematic features for this subject demonstrate normal performance in the finger tapping test. The number of taps is close to the target (11 vs. 10), indicating good accuracy. The periodEntropy is low, suggesting consistent timing between taps. The period_quartile_range and period_stdev are also very low, showing minimal variability in tap intervals. Additionally, there's no mention of significant amplitude decrementing, hesitations, or freezes, which would indicate higher scores. Therefore, the performance meets the criteria for a score of 0.
+
+**Score: 0**
+
+--- Evaluation 6 (Score: 0) ---
+The subject's features indicate a high level of performance. The number of taps is close to the target, and both timing consistency and amplitude are well within normal ranges without any signs of decrementing or hesitations.
+
+0
+
+--- Evaluation 7 (Score: 0) ---
+The subject's finger tapping features show regularity and consistency without signs of slowing, hesitations, or amplitude decrement. The period metrics indicate very stable intervals, and the high amplitude suggests large movements. These factors align with a normal performance.
+
+0
+
+--- Evaluation 8 (Score: 0) ---
+The subject's performance shows consistent tapping with low variability in timing and no significant amplitude decrement. The features suggest regularity and absence of hesitations or slowing, meeting the criteria for a normal score.
+
+0
+
+--- Evaluation 9 (Score: 0) ---
+The subject's kinematic features indicate a high level of performance with regular tapping rhythm and consistent amplitudes. They completed nearly the required taps efficiently.
+
+**Score: 0**
+
+--- Evaluation 10 (Score: 0) ---
+The subject's performance shows regularity in tapping with low variability in timing and consistent amplitudes, indicating no significant issues.
+
+0
+
+
+============================================================
+879885247_20200803_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's features show slight deviations from normal performance, including an extra tap and increased variability in intervals, but without significant amplitude decrementing. This fits the criteria for a slight impairment.
+
+**Score: 1**
+
+1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's performance shows slight irregularities in tap intervals and a minor excess in the number of taps, indicating a mild deviation from normal performance.
+
+1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's data shows slight variability in tapping intervals and possible minor amplitude decrementing near the end. These factors align with a Score 1.
+
+1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's performance shows slight variability in tapping rhythm with an extra tap, but no significant amplitude issues. 
+
+Score: 1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping performance shows slight irregularities in rhythm without significant amplitude issues. The period entropy and quartile range indicate some variability but not enough to suggest moderate problems. With mild slowing or minor hesitations, this aligns with a score of 1.
+
+1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's performance shows slight variability in tap intervals and one extra tap, indicating minor hesitation or slowing without significant amplitude decrement. This aligns with the criteria for a slight impairment.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping test shows slight issues with rhythm and speed, fitting the criteria for mild impairment.
+
+Score: 1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's features show slight variability in tap intervals and a regular performance overall, fitting the criteria for mild impairment.
+
+**Score: 1**
+
+--- Evaluation 9 (Score: 1) ---
+The subject's performance shows mild slowing with some variability in tapping intervals but no significant amplitude issues or major hesitations. 
+
+Score: 1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping test is scored based on the analysis of kinematic features. The number of taps (11) indicates completion without major halts. Period entropy (1.0549) suggests moderate variability in timing, pointing to slight hesitations. Amplitude min (121.8675) doesn't indicate significant decrementing. Overall, the performance shows slight irregularities but no severe issues.
+
+1
+
+
+============================================================
+751297988_20200824_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's performance shows slight variability in tap timing, with an extra tap suggesting a minor hesitation. The inter-tap intervals are fairly consistent, indicating mild issues without significant slowing or amplitude decrement beyond what's expected for a Score 1.
+
+1
+
+--- Evaluation 2 (Score: 1) ---
+The subject performed well with minimal deviations. They completed nearly the required taps with moderate variability in timing and consistent amplitudes. 
+
+Score: 1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's performance shows slightly increased period entropy and a small quartile range, indicating mild variability in timing but consistent overall. The number of taps is just one over, suggesting minimal hesitation without significant slowing. This aligns with a slight impairment.
+
+1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping features show slight irregularities with moderate variability in timing but not enough to indicate more severe issues. 
+
+Score: 1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's performance shows slight irregularities in tapping intervals with higher entropy and IQR compared to Score 0 examples, indicating some hesitations or mild slowing. However, other features like low period stdev suggest good consistency, and there's no clear evidence of significant amplitude decrementing beyond the minimum value provided. These factors align most closely with a Score 1.
+
+1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping test was analyzed based on the provided features. The number of taps (11) indicates a slight deviation from the instructed 10, suggesting a possible minor hesitation. The periodEntropy (1.4708) and period_quartile_range (0.0385) show mild variability in timing but maintain a relatively consistent rhythm. The amplitude_min (136.2211) suggests that amplitudes were maintained without significant decrementing.
+
+Considering these factors, the performance aligns with slight issues such as minor hesitations or slight slowing, fitting the criteria for a score of 1.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's performance shows slight deviations from normal with an extra tap, moderate period entropy, consistent intervals, and a possible minor amplitude drop near the end. These factors align with mild issues corresponding to a score of 1.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's features indicate slight variability in tap intervals and consistent timing. The periodEntropy suggests moderate variability, while low stdev shows consistency. Likely, there are slight issues like minimal hesitations or slowing, warranting a score of 1.
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's performance shows slight irregularities in tapping rhythm and some amplitude decrement towards the end, fitting the criteria for a mild impairment.
+
+**Score: 1**
+
+--- Evaluation 10 (Score: 1) ---
+The subject's performance shows slight variability in tap timing, indicated by higher period entropy than normal but consistent intervals otherwise. There are no significant hesitations or amplitude decrements beyond what's expected for a score of 1.
+
+1
+
+
+============================================================
+281628421_20200323_Hands_L_10-_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's finger tapping performance shows some variability in tap periods but maintains relatively consistent amplitudes and only a slight increase in the number of taps. These factors align with a score indicating slight issues.
+
+**Score: 1**
+
+--- Evaluation 2 (Score: 1) ---
+The subject's features show slight variability in tapping intervals with moderate entropy and quartile range but low standard deviation, indicating minor irregularities without severe slowing or amplitude issues.
+
+1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's finger tapping test shows slight irregularities in tap intervals and minimal amplitude variation but doesn't meet the criteria for higher scores. The periodEntropy and quartile range indicate some hesitation, but the number of taps is close to normal, and there's no significant slowing or decrementing.
+
+1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's performance shows some variability in tapping intervals (periodEntropy: 1.2799) and a slightly higher quartile range (0.0521), indicating minor irregularities. However, the low period_stdev (0.0342) suggests consistent timing, and the high amplitude_min (165.2172) implies well-maintained amplitudes without significant decrementing. The number of taps (11) is slightly over, possibly due to a minor hesitation. These factors align most closely with a score of 1, indicating slight issues such as brief hesitations or minimal slowing.
+
+**Score: 1**
+
+--- Evaluation 5 (Score: 1) ---
+The subject performed 11 taps, slightly exceeding the target of 10. The periodEntropy and quartile range suggest mild variability in tap timing, indicating slight hesitations or slowing. However, the low standard deviation points to overall consistency without major interruptions. Amplitude-wise, there's a notable minimum, hinting at possible decrementing towards the end. These factors align with Score 1 criteria: slight issues like minor slowing or amplitude decrement near the end.
+
+1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping test shows minor irregularities in rhythm and slight slowing but maintains consistent amplitudes. These factors align with the criteria for a slight impairment.
+
+**Score: 1**
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping features indicate slight irregularities in rhythm, possibly due to minor hesitations and some amplitude decrement towards the end. These characteristics align with the criteria for a Score 1.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's tapping shows slight irregularities with some variability in periods and possible mild slowing or minor amplitude decrement. These factors align with the criteria for a Score 1.
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's finger tapping test shows slight variability in tap intervals with moderately increased entropy and quartile range compared to normal. However, the low standard deviation indicates consistent periods overall. This suggests minor issues, aligning with a score of 1.
+
+1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's performance shows slight irregularities in tapping rhythm with 11 taps instead of 10, higher period entropy, and quartile range. These indicate minor hesitations or slowing, fitting the criteria for a Score 1.
+
+**Score: 1**
+
+
+============================================================
+575614042_20200615_Hands_R_9-_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+The subject's finger tapping performance shows 11 taps with significant period entropy and some spread in intervals. This suggests more than slight issues, likely mild with a few hesitations, fitting a Score 2.
+
+2
+
+--- Evaluation 2 (Score: 2) ---
+The subject's performance shows moderate irregularity in tapping rhythm with some amplitude decrease. These factors align most closely with a mild impairment.
+
+2
+
+--- Evaluation 3 (Score: 2) ---
+The subject's performance shows mild disruptions in tapping rhythm and amplitude, consistent with a Score 2. 
+
+Score: 2
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping test shows 11 taps with moderate period entropy (1.8867) indicating some timing variability but not severe enough to suggest significant interruptions. The quartile range and stdev of periods are within a moderate range, showing some spread in tap intervals without extreme inconsistency. Amplitude data isn't fully detailed, but the min amplitude is high, suggesting decent movement size.
+
+Considering these factors, the subject's performance aligns with slight issues such as minor hesitations or mild slowing, fitting the criteria for a score of 1.
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping features show slight irregularities in rhythm with period entropy indicating some variability, but not severe. The amplitude is well-maintained without significant decrementing. These factors align most closely with a score of 1.
+
+1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's features show high period entropy indicating some irregularity in tapping rhythm but not severe enough for higher scores. The quartile range suggests moderate variability without significant slowing. Amplitude remains relatively consistent. These factors point to slight issues, fitting a Score 1.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's features show some variation in tapping periods but not enough to indicate severe issues. With period entropy higher than normal but lower than more severe cases, and consistent amplitude, the score is likely 1.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's finger tapping test shows slight variability in tap intervals but maintains consistent timing and strong amplitudes. These factors correspond to minor issues as described for a score of 1.
+
+1
+
+--- Evaluation 9 (Score: 2) ---
+The subject's finger tapping performance shows moderate irregularities in rhythm and some variability in tap intervals. The high period entropy suggests more interruptions than slight hesitations, but not to the extent of a severe issue. Amplitude remained relatively consistent without significant decrementing. These factors align most closely with mild to moderate impairments.
+
+2
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping test shows slight irregularities in rhythm with an entropy of 1.8867 but consistent tap intervals (low stdev) and maintained amplitudes. These factors indicate minor issues, aligning with a score of 1.
+
+1
+
+
+============================================================
+207795468_20200810_Hands_L_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's finger tapping performance shows slightly irregular periods with some variability, indicating minor issues but not significant enough for a higher score. The features suggest slight slowing and possibly a small number of hesitations, aligning with the criteria for a score of 1.
+
+1
+
+--- Evaluation 2 (Score: 0) ---
+The subject's performance shows minimal issues with regularity and amplitude, fitting the criteria for a normal score without significant problems.
+
+0
+
+--- Evaluation 3 (Score: 1) ---
+The subject performed 11 taps with moderate period entropy (1.4185) and quartile range (0.0854), indicating some variability in tapping intervals but not severe enough to suggest more than mild issues. The low period stdev (0.0607) points to consistent timing, and the high amplitude min suggests amplitudes were maintained without significant decrementing. These factors align with slight slowing or minor hesitations, fitting a score of 1.
+
+1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's performance shows slight irregularities in rhythm and minor variability in tap intervals, indicating some hesitation but not significant enough for a higher score.
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject performed 11 taps in 10 seconds, indicating good speed with minimal interruptions. The period entropy and quartile range suggest mild variability, consistent with slight hesitations but not enough for a higher score. Amplitude data is insufficient to confirm decrements. Overall, the performance aligns with slight issues, scoring as:
+
+1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping features show slight variability in periods and consistent amplitudes, indicating minimal issues. 
+
+**Score: 1**
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping performance shows some variability in timing with moderate entropy and quartile range, indicating mild inconsistencies. However, the amplitude is well-maintained without significant decrement. These factors align most closely with slight slowing and minor hesitations.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+Based on the analysis of the provided kinematic features and comparison with examples, the subject's performance shows some variability in tap intervals beyond what is considered normal but not significant enough for a higher score. The slight increase in periodEntropy and quartile range suggests minor hesitations or slowing, aligning with the criteria for a Score 1.
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's finger tapping shows slight variability in timing with mild amplitude changes, fitting the criteria for a slight impairment.
+
+1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's features show slight irregularities in tapping rhythm with minor variations in period consistency and an extra tap, indicating minimal hesitation but not enough for a higher score.
+
+1
+
+
+============================================================
+553661824_20210503_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The subject's finger tapping performance is evaluated based on the extracted features. The number of taps (11) is close to the required 10, indicating good compliance. The low periodEntropy (0.6109), minimal period_quartile_range (0.0146), and low period_stdev (0.0151) suggest consistent timing with little variability. The amplitude_min (180.5693) indicates no significant decrement in tap size throughout the test. These metrics collectively point to a normal performance without notable issues.
+
+0
+
+--- Evaluation 2 (Score: 0) ---
+The subject performed the finger tapping test with 11 taps, slightly exceeding the requested 10. The periodEntropy (0.6109) and period_quartile_range (0.0146) indicate consistent timing without significant variability. The amplitude_min (180.5693) suggests no notable decrementing. These features align closely with a normal performance, scoring as:
+
+0
+
+--- Evaluation 3 (Score: 0) ---
+The subject demonstrated consistent and regular tapping with minimal variability in periods, no significant interruptions, and maintained amplitude without noticeable decrementing. These factors align with a normal performance.
+
+0
+
+--- Evaluation 4 (Score: 1) ---
+The subject's performance shows slight slowing with minor interruptions and regular rhythm. The features indicate consistency in tapping intervals without significant amplitude decrement. 
+
+Score: **1**
+
+--- Evaluation 5 (Score: 0) ---
+The subject's features indicate regular and consistent tapping with no significant issues, aligning with normal performance.
+
+0
+
+--- Evaluation 6 (Score: 0) ---
+The subject's finger tapping test shows regular and consistent performance across all evaluated features, indicating no issues with speed, amplitude, or rhythm. 
+
+Score: 0
+
+--- Evaluation 7 (Score: 0) ---
+The subject's performance shows consistent tapping with regular intervals and no significant issues in speed or amplitude. 
+
+Score: 0
+
+--- Evaluation 8 (Score: 0) ---
+The subject's performance shows consistent tap intervals with low variability (period_stdev: 0.0151) and a quartile range matching slight issues but lower entropy indicating regularity. The amplitude suggests no significant decrement. Thus, the score is:
+
+0
+
+--- Evaluation 9 (Score: 0) ---
+The subject's performance shows a tap count close to the target with highly regular intervals and consistent amplitudes, indicating no significant issues.
+
+0
+
+--- Evaluation 10 (Score: 1) ---
+The subject's features show consistent tap intervals with low variability (periodEntropy: 0.6109, period_quartile_range: 0.0146, period_stdev: 0.0151), indicating regularity and minimal hesitations or slowing. However, the amplitude_min suggests a slight decrement near the end, fitting the criteria for a score of 1.
+
+**1**
+
+
+============================================================
+403773045_20200427_Hands_L_13_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's finger tapping test shows slight variability in tap intervals and an extra tap beyond the instructed 10, indicating minor hesitations. The low standard deviation suggests consistent timing, and amplitudes remained sufficiently large without significant decrementing. These factors align with a score of 1.
+
+1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's performance shows slight variability in tapping intervals and possibly minor amplitude decrementing towards the end, fitting the criteria for a mild impairment.
+
+1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's features show slight irregularities in tapping rhythm with some variability, but not enough to meet the criteria for a higher score. The number of taps is slightly over, indicating possible minor hesitations. 
+
+Score: 1
+
+--- Evaluation 4 (Score: 2) ---
+The subject's finger tapping data shows some irregularity in tap periods and slightly increased variability compared to normal cases but doesn't reach moderate levels. The period entropy (1.47) and quartile range (0.055) suggest more than slight issues, aligning with mild slowing or a few interruptions.
+
+2
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping performance shows slight irregularities in rhythm and tap intervals without significant slowing or amplitude decrementing. The periodEntropy and PQR indicate moderate variability, suggesting a few hesitations. However, the low period_stdev points to consistent intervals, and the number of taps is slightly above average. Amplitude features don't show severe decrementing. These factors align with slight issues, fitting a score of 1.
+
+1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's performance shows slight irregularities in tapping rhythm and minor slowing without significant amplitude issues. 
+
+**Score: 1**
+
+--- Evaluation 7 (Score: 1) ---
+The subject's features show moderate variability in tap intervals but not enough to indicate severe interruptions or significant slowing. The period entropy and quartile range suggest more than slight issues, so the score is 1.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's tapping shows slight irregularities in rhythm with periodEntropy and quartile range higher than normal, indicating minor hesitations or slowing. However, the amplitude remains consistent without significant decrementing.
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's finger tapping performance shows slight irregularities in rhythm and possible mild slowing, with minimal amplitude decrementing towards the end. These factors align with the criteria for a score of 1.
+
+**Score: 1**
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping test features show moderate variability in tap intervals but maintained amplitudes. While periodEntropy (1.4708) and quartile range (0.0552) suggest some irregularity beyond slight, the amplitude is well-maintained without significant decrementing. This aligns with a Score 1 for slight slowing or minor hesitations.
+
+1
+
+
+============================================================
+161568408_20200601_Hands_R_13_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's performance shows slight irregularities in tapping rhythm and a small number of hesitations, fitting the criteria for mild impairment.
+
+1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's finger tapping performance shows slight variability in tap timing with a periodEntropy of 1.2799 and period_quartile_range of 0.0854, indicating minor hesitations or slowing. The amplitude is consistent with no significant decrementing, as evidenced by the high amplitude_min. These factors align with the criteria for a score of 1.
+
+1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's finger tapping features show slight irregularities in tap intervals and a minor excess in the number of taps, indicating minimal hesitation or mild slowing without significant amplitude issues.
+
+1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's performance shows slight irregularities in tapping rhythm and period consistency without significant amplitude issues or major interruptions.
+
+**Score: 1**
+
+--- Evaluation 5 (Score: 1) ---
+The subject's performance shows slight irregularities in tap intervals but doesn't meet the criteria for higher scores. 
+
+Score: **1**
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping test results are analyzed based on the provided features and MDS-UPDRS criteria. The period entropy and quartile range indicate mild variability, but not enough to suggest significant hesitations or slowing. The number of taps is slightly above average, and there's no evidence of severe amplitude decrementing.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's features show slightly more tapping interval variability and an extra tap compared to normal. This suggests minor hesitations or slight slowing, fitting the criteria for a score of 1.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's kinematic features show some irregularities in tap periods and slightly higher entropy than normal, indicating mild disruptions but no significant amplitude decrements or severe slowing. These factors align with a score of 1, reflecting slight hesitations or slowing.
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's finger tapping performance shows slight irregularities in rhythm with some hesitations and mild slowing, but amplitudes are well-maintained without significant decrementing.
+
+1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's performance shows slight variability in tapping intervals and a small decrease in amplitude towards the end, fitting the criteria for mild impairment.
+
+**Score: 1**
+
+
+============================================================
+879885247_20201123_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's performance shows slight variations in tapping rhythm and moderate amplitude consistency but doesn't meet the criteria for a higher score due to lack of significant decrements or multiple hesitations.
+
+1
+
+--- Evaluation 2 (Score: 1) ---
+The subject performed slightly above the required taps, indicating minor irregularity. The period features show moderate variability suggesting mild slowing or a couple of hesitations. Amplitude was well-maintained. This aligns with score 1.
+
+**Score: 1**
+
+--- Evaluation 3 (Score: 1) ---
+The subject's finger tapping features show moderate variability in tap intervals and slight amplitude changes, fitting the criteria for mild impairment.
+
+Score: 1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping test shows slight variations in period consistency and amplitude, indicating minor issues without severe interruptions or significant slowing.
+
+**Score: 1**
+
+--- Evaluation 5 (Score: 0) ---
+The subject performed the finger tapping test with 11 taps, showing high amplitude and consistent timing. The periodEntropy (1.3592), low quartile range (0.0667), and low standard deviation (0.075) indicate regular rhythm without significant hesitations or slowing. Amplitude remained large throughout.
+
+0
+
+--- Evaluation 6 (Score: 1) ---
+The subject's tapping shows slight variability in rhythm and some hesitations but doesn't meet the criteria for higher scores. 
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject performed 11 taps with some variability in periods but no significant amplitude decrementing. The period features indicate mild irregularities consistent with a slight hesitation or slowing, fitting the criteria for a score of 1.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's finger tapping features show minimal irregularities with a periodEntropy of 1.3592 and low variability, indicating mostly consistent performance without significant hesitations or slowing.
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's performance shows slight variability in tap intervals with higher periodEntropy than normal, suggesting minor hesitations. However, the low standard deviation and quartile range indicate consistent timing overall. With 11 taps completed and no severe issues, the score is 1.
+
+1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping performance shows slight irregularities in period entropy and quartile range compared to normal examples, indicating minor variability in rhythm and possible mild slowing without significant amplitude decrementing.
+
+1
+
+
+============================================================
+759859453_20210426_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+The subject's features show significant variability in tapping intervals (high entropy and quartile range) and slight amplitude concerns but don't indicate severe issues like decrementing amplitudes. This aligns with mild to moderate symptoms.
+
+2
+
+--- Evaluation 2 (Score: 2) ---
+The subject's finger tapping features indicate some variability in tap intervals and hesitations, suggesting mild slowing or interruptions without severe amplitude decrement. This aligns with the criteria for a score of 2.
+
+2
+
+--- Evaluation 3 (Score: 2) ---
+The subject's finger tapping data shows a tap count close to normal, moderate period entropy, and consistent amplitudes. The irregularity in timing suggests mild issues.
+
+Score: 2
+
+--- Evaluation 4 (Score: 2) ---
+The subject's finger tapping data shows high variability in tap intervals with periodEntropy and period_quartile_range higher than typical for lower scores, indicating some hesitations. However, completing 11 taps suggests mild slowing without severe interruptions or freezes. Amplitudes are well-maintained.
+
+2
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping test shows slight irregularities in tap timing with some variability, but no significant amplitude issues. The number of taps is slightly over, indicating minor rhythm issues without severe slowing or interruptions.
+
+Score: 1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's performance shows slight hesitations with a tap count close to normal, moderate variability in timing, and well-maintained amplitude without significant decrementing.
+
+Score: 1
+
+--- Evaluation 7 (Score: 2) ---
+The subject's finger tapping test shows 11 taps with increased period variability (periodEntropy: 1.7481 and period_quartile_range: 0.1208) indicating some hesitations or interruptions beyond slight slowing. The amplitude doesn't show significant decrementing, but the rhythm issues suggest mild to moderate impairment.
+
+Score: 2
+
+--- Evaluation 8 (Score: 2) ---
+The subject's performance shows moderate variability in tap intervals with some hesitations but no significant amplitude decrement. This aligns with the criteria for a Score 2.
+
+2
+
+--- Evaluation 9 (Score: 2) ---
+The subject's finger tapping features show some variability in tap intervals and slightly higher amplitude consistency. Comparing these to the examples and criteria, the features align most closely with mild slowing and moderate variability, indicating a score of 2.
+
+2
+
+--- Evaluation 10 (Score: 2) ---
+The subject's features show some variability in tap intervals (entropy:1.7481, quartile range:0.1208) but maintained consistent amplitude. This suggests mild issues without severe decrements or significant slowing, aligning with score 2.
+
+2
+
+
+============================================================
+759859453_20200914_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's finger tapping features show slight variability in tap intervals and a minor increase in the number of taps, indicating some hesitations or slowing without significant amplitude decrement.
+
+1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's tapping shows some variability in periods but not enough to indicate more than slight issues. The periodEntropy is higher than Score 0 and 1 examples but lower than Score 2, suggesting mild irregularities. The quartile range indicates moderate spread, but the low stdev points to consistent intervals overall. Likely, there were minor hesitations or slight slowing, fitting a Score 1.
+
+1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's features indicate some irregularity in tapping rhythm and speed but not to the extent of mild issues. The entropy is higher than normal but lower than more severe cases, suggesting slight disruptions. With no significant amplitude decrementing and only minor speed variations, the score is determined as slight impairment.
+
+1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping test results are evaluated based on the provided features. The number of taps (11) indicates good speed, while periodEntropy and stdev suggest minor irregularities in rhythm, likely from slight hesitations or slowing. Amplitudes remain consistent without decrementing. These factors align with a score of 1, reflecting slight issues but no significant impairment.
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping features indicate mild irregularities in rhythm and speed without significant amplitude decrementing, fitting the criteria for a slight impairment.
+
+1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping features show moderate variability in tap intervals and a slightly higher number of taps than instructed. The period entropy and quartile range indicate some hesitation or slowing, but not to the extent required for a higher score. Amplitude shows minimal decrementing. Therefore, the score is 1.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping features show slight variability in periods and consistent amplitudes, indicating minimal disruption. The number of taps slightly exceeds the required 10, suggesting efficiency without significant hesitation.
+
+Score: 1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's finger tapping test is analyzed with the following considerations:
+
+1. **Number of Taps (11):** Slightly exceeds the required 10, suggesting possible mild slowing or slight hesitation.
+2. **Period Entropy (1.5571):** Indicates some variability in tap intervals, more than normal but less than moderate cases.
+3. **Period Quartile Range (0.0625) and Stdev (0.0713):** Show moderate variability, suggesting mild rhythm irregularities.
+
+Given these factors, the score is determined to be 1, indicating slight slowing or hesitations without significant amplitude issues based on available data.
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's finger tapping features show some variability in tap intervals but no significant amplitude decrementing. The periodEntropy and quartile range suggest minor hesitations without severe slowing. This aligns with slight issues under the scoring criteria.
+
+1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's tap count is within acceptable range (11 taps), and while there's some variability in tap timing, it doesn't reach the threshold for higher scores. Amplitude remains consistent without significant decrementing.
+
+1
+
+
+============================================================
+546503158_20200310_Hands_R_9_L_redo.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+The subject's performance shows high tap count and maintained amplitudes but significant period variability. This suggests mild slowing and interruptions, fitting a score of 2.
+
+2
+
+--- Evaluation 2 (Score: 3) ---
+The subject's finger tapping performance shows significant variability in tap periods, indicated by high entropy and quartile range, suggesting multiple hesitations or interruptions. Additionally, the amplitude min might indicate early decrements, aligning with moderate issues.
+
+3
+
+--- Evaluation 3 (Score: 2) ---
+The subject's finger tapping performance shows moderate variability in tap intervals and some inconsistency in rhythm, with slight slowing but no significant amplitude issues. Based on the criteria, this aligns most closely with a mild impairment.
+
+2
+
+--- Evaluation 4 (Score: 3) ---
+The subject's finger tapping performance shows significant variability in tap intervals, with high periodEntropy and period_quartile_range indicating frequent hesitations or interruptions. However, the amplitude is relatively well-maintained compared to examples for higher scores. Considering these factors, the score is determined based on moderate disruptions without severe amplitude decrement.
+
+3
+
+--- Evaluation 5 (Score: 3) ---
+The subject's tapping performance shows high variability in tap intervals and potential amplitude issues, indicating moderate impairment.
+
+3
+
+--- Evaluation 6 (Score: 3) ---
+The subject's finger tapping performance shows significant variability in tap intervals (periodEntropy: 1.8867) and a notable spread in periods (PQR: 0.249), suggesting moderate slowing or hesitations beyond slight issues. These metrics align with criteria for more severe interruptions and amplitude concerns, leading to a score of 3.
+
+3
+
+--- Evaluation 7 (Score: 3) ---
+The subject's finger tapping features indicate moderate slowing and significant hesitations or interruptions. The high period entropy (1.8867) and quartile range (0.249) suggest substantial variability in tap intervals, pointing to more than mild issues.
+
+3
+
+--- Evaluation 8 (Score: 3) ---
+The subject performed 11 taps with significant period entropy (1.8867) and quartile range (0.249), indicating considerable variability and interruptions. While amplitude didn't decrement much, the timing issues suggest more than mild impairment.
+
+3
+
+--- Evaluation 9 (Score: 2) ---
+The subject's finger tapping test shows moderate variability in tap timing and some amplitude consistency. The period entropy and quartile range indicate more than slight hesitations, aligning with mild to moderate issues.
+
+**Score: 2**
+
+--- Evaluation 10 (Score: 3) ---
+The subject's finger tapping performance shows significant variability in tap intervals, with high period entropy and quartile range, suggesting multiple hesitations beyond mild issues. The amplitude remains relatively consistent, but the rhythmic irregularities point to moderate to severe disruptions.
+
+3
+
+
+============================================================
+292801541_20201221_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's finger tapping data shows slight irregularities in tap timing (periodEntropy: 1.5571) and a small spread in intervals (Q-range: 0.0604), but these variations are mild and not indicative of more significant disruptions. The amplitude data doesn't clearly show decrementing, and the number of taps is only slightly above required. These factors align with slight issues, such as minor hesitations or slowing.
+
+1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's finger tapping performance shows slight irregularities. The number of taps is 11, indicating a minor deviation from the instructed 10. The period entropy (1.5571) suggests some variability but not to the extent of mild cases. Amplitude might slightly decrease near the end, aligning with criteria for Score 1.
+
+1
+
+--- Evaluation 3 (Score: 1) ---
+The subject performed slightly above the required taps, indicating possible minor hesitations. The higher periodEntropy suggests rhythm irregularities beyond slight issues, but not excessively. Amplitude features don't clearly indicate significant decrementing. Overall, this points to mild slowing or slight interruptions.
+
+1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping performance shows slight hesitations and mild slowing, with well-maintained amplitudes. These factors align with the criteria for a score of 1.
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's features show slight irregularities in tapping rhythm and moderate amplitude consistency. The period entropy and quartile range suggest some variability beyond normal but not enough for a higher score. Therefore, the score is:
+
+1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping features show slight variability in tap intervals but maintain consistent timing. There may be minor hesitations or slowing, with amplitude decrements possibly occurring near the end.
+
+**Score: 1**
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping test shows 11 taps with moderate variability in timing (entropy 1.5571) but consistent intervals (low IQR and stdev). The amplitude min is high, suggesting no significant decrementing. These factors indicate slight issues, fitting a Score 1.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's features show slight variability in tapping intervals with a period entropy of 1.5571 and quartile range of 0.0604, indicating mild irregularity but not significant slowing or interruptions. The amplitude shows minimal decrementing towards the end without notable hesitations. This aligns with criteria for a score of 1.
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's performance shows slight variability in tap timing with periodEntropy and stdev higher than normal, indicating minor hesitations. However, there's no significant slowing or amplitude issues.
+
+1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping features show slight irregularities in rhythm and timing, along with possible minor amplitude decay near the end, fitting the criteria for a mild impairment.
+
+**Score: 1**
+
+
+============================================================
+161568408_20210208_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's finger tapping test features indicate mild abnormalities. With 11 taps, close to the target of 10, suggesting minimal issue with count. Period entropy is higher than normal, indicating some variability in rhythm. The quartile range and stdev suggest moderate inconsistency. Amplitude-wise, the min is high but without trend data, it's unclear if there's significant decrementing. Overall, these factors align most closely with a slight impairment.
+
+1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's performance shows a slightly above-average tap count, moderate variability in tapping intervals, but without significant amplitude decrements. The features suggest minor interruptions or slight slowing, fitting the criteria for a Score 1.
+
+1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's performance shows slight deviations in amplitude and period consistency. The number of taps is slightly above target, indicating some speed. Period entropy and quartile range show moderate variability, while low stdev suggests overall consistent tapping. Amplitude min indicates possible slight decrementing near the end.
+
+**Score: 1**
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping features show slight variations in timing with minimal impact on performance. While the period entropy is slightly higher, indicating some irregularity, the low standard deviation suggests consistent intervals. The high minimum amplitude indicates maintained tap size without significant decrementing. These factors align most closely with a Score 1, reflecting minor issues like slight slowing or one or two hesitations.
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's features show slight irregularities in rhythm with minimal impact on performance, fitting the criteria for mild issues.
+
+**Score: 1**
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping data shows some irregularity in periods and a slightly higher number of taps. The period entropy and quartile range indicate more variability than normal but not enough to suggest mild issues. This aligns with slight hesitations or slowing, fitting a Score 1.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping demonstrates slight irregularities with moderate variability but doesn't meet higher severity criteria. 
+
+Score: **1**
+
+--- Evaluation 8 (Score: 1) ---
+The subject's finger tapping test shows slight irregularities with higher period entropy and quartile range, indicating some hesitation or mild slowing without significant amplitude decrementing. These factors align with the criteria for a slight impairment.
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's performance shows slight variability in tap timing (periodEntropy=1.2799) and a moderate quartile range (0.0812), indicating minor irregularities but without significant slowing or amplitude decrementing. These factors align most closely with a Score 1.
+
+1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's features show slight variability in tapping intervals with consistent timing and good amplitude maintenance, fitting the criteria for a mild impairment.
+
+1
+
+
+============================================================
+445817794_20201109_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's tap count is within the acceptable range, and while there's some variability in timing and moderate amplitude, these don't meet the higher criteria for scores 2 or above.
+
+1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's features show increased period entropy and IQR compared to lower scores but not as severe as higher scores. The slight variability suggests mild issues, leading to a score of 1.
+
+1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's tapping performance shows slight irregularities in rhythm and timing, indicating minor difficulties that align with a score of 1.
+
+1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping test shows mild variability in tap intervals without significant amplitude issues, indicating slight slowing or minor hesitations.
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject performed 11 taps with some variability in periods and amplitudes. PeriodEntropy and stdev indicate slight inconsistencies but not to the extent of higher scores. Amplitude shows no significant decrementing.
+
+**Score: 1**
+
+--- Evaluation 6 (Score: 1) ---
+The subject's tapping showed slight hesitations and variability in rhythm but not enough to indicate more severe issues. The features align most closely with minor disruptions, fitting a Score 1.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's performance shows slight variability in tapping rhythm with some minor interruptions or hesitations but does not meet the criteria for higher scores.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's features show slight variations in tapping intervals and a possible minor decrement in amplitude towards the end, fitting the criteria for a mild impairment.
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's performance shows slight slowing, with 11 taps in 10 seconds and moderate period entropy indicating some irregularity. However, the amplitude is well-maintained. This aligns with a score of 1.
+
+1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping features show mild variability in rhythm and possible slight amplitude decrements near the end, fitting the criteria for a score of 1.
+
+**Score: 1**
+
+
+============================================================
+421326689_20200706_Hands_R_13_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The subject's finger tapping test shows regular and consistent performance with low variability in tap intervals, no evidence of hesitations, and sufficient amplitude without clear signs of decrementing. The features align closely with a normal, healthy performance.
+
+0
+
+--- Evaluation 2 (Score: 0) ---
+The subject's finger tapping test shows consistent tap intervals with low variability, indicating regular rhythm without significant hesitations or slowing. Amplitude remains steady throughout the taps.
+
+0
+
+--- Evaluation 3 (Score: 0) ---
+The subject's finger tapping test shows 11 taps with low variability in periods and high amplitude consistency. The regularity in timing and maintained amplitude indicate no significant issues.
+
+0
+
+--- Evaluation 4 (Score: 0) ---
+The subject's finger tapping features indicate consistent and regular performance. With low period entropy, quartile range, and standard deviation, along with a high minimum amplitude, there are no signs of hesitations, slowing, or amplitude decrement. This aligns with the criteria for a Score 0.
+
+0
+
+--- Evaluation 5 (Score: 0) ---
+The subject's performance shows 11 taps with low period entropy (0.673) and quartile range (0.0281), indicating consistent rhythm and timing. The amplitude remains high without decrementing, suggesting strong performance.
+
+0
+
+--- Evaluation 6 (Score: 0) ---
+The subject demonstrates regular tapping rhythm with minimal variability in timing and no significant amplitude decrements, indicating normal performance.
+
+Score: 0
+
+--- Evaluation 7 (Score: 0) ---
+The subject's finger tapping data shows very consistent periods with minimal variation (low quartile range and standard deviation), indicating no significant hesitations or slowing. Without evidence of amplitude decrement and given the regular rhythm, the performance aligns with normal functioning.
+
+0
+
+--- Evaluation 8 (Score: 0) ---
+The subject's performance shows 11 taps, low period variation (entropy=0.673, quartile range=0.0281, stdev=0.0162), and consistent amplitude without significant decrementing. These metrics indicate normal speed, rhythm, and movement regularity.
+
+**Score: 0**
+
+--- Evaluation 9 (Score: 0) ---
+The subject's data shows 11 taps with low period entropy (0.673) and quartile range (0.0281), indicating regular and consistent tapping without significant hesitations or slowing. The amplitude is consistent, showing no signs of decrementing. These factors align with normal performance.
+
+Score: 0
+
+--- Evaluation 10 (Score: 0) ---
+The subject's finger tapping data shows high regularity in periods with low entropy and quartile range, indicating consistent timing without significant hesitations or interruptions. The number of taps slightly exceeds the instructed 10, but this doesn't indicate a problem. Amplitude data, though limited, doesn't suggest severe decrementing. Therefore, the performance aligns with normal function.
+
+0
+
+
+============================================================
+553661824_20200921_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's finger tapping features show a slight deviation from normal, with 11 taps instead of 10, mild variability in intervals, but consistent timing. These factors align with a slight slowing or minimal amplitude decrement, fitting the criteria for Score 1.
+
+1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's finger tapping performance shows regular rhythm with low variability in timing and consistent amplitudes, indicating only slight issues.
+
+Score: 1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's finger tapping test shows slight deviations from normal performance, including mild variability in tap intervals and a possible minor amplitude decrement near the end. These factors align with the criteria for a score of 1.
+
+1
+
+--- Evaluation 4 (Score: 0) ---
+The subject's performance shows 11 taps with low variability in periods and consistent amplitudes, indicating minimal deviation from normal.
+
+0
+
+--- Evaluation 5 (Score: 1) ---
+The subject's performance shows slight deviations from normal, including consistent timing with minor variability and potentially slight slowing. The features indicate regular rhythm and no significant interruptions or decrements beyond minimal slowing, aligning with a score of 1.
+
+1
+
+--- Evaluation 6 (Score: 0) ---
+The subject's features indicate normal performance without significant issues in speed, rhythm, or amplitude, fitting the criteria for a score of 0.
+
+0
+
+--- Evaluation 7 (Score: 1) ---
+The subject's features show slight variability in tap intervals and minimal slowing but no significant decrements in amplitude. 
+
+Score: 1
+
+--- Evaluation 8 (Score: 0) ---
+The subject's finger tapping performance shows regular rhythm with minimal variability, consistent timing, and sustained amplitudes without significant decrement. These factors align most closely with normal performance.
+
+Score: 0
+
+--- Evaluation 9 (Score: 1) ---
+The subject's features indicate slight irregularities in tapping rhythm without significant slowing or amplitude issues. The entropy is between Score 0 and 1 examples, with a slightly higher quartile range suggesting minor variability. Low period stdev shows consistent timing. These factors point to a slight impairment.
+
+1
+
+--- Evaluation 10 (Score: 0) ---
+The subject performed well with regular tapping intervals and consistent amplitude, showing no significant signs of hesitation or slowing. 
+
+0
+
+
+============================================================
+403773045_20201012_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's performance shows slight hesitations and minor rhythm irregularities, with an increase in period entropy indicating some variability. The number of taps exceeds the required 10 by one, suggesting mild urgency. Amplitude features don't show significant decrementing, pointing to a slight issue rather than more severe problems.
+
+1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's performance shows slight slowing and minor irregularities in the tapping rhythm, with an increase in period entropy and quartile range compared to normal. However, these issues are minimal and do not meet the criteria for a higher score.
+
+1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's finger tapping performance shows minor variability in tap intervals but maintains consistent timing and adequate amplitude. These factors align with slight issues under the MDS-UPDRS criteria.
+
+1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping performance shows 11 taps in 10 seconds with moderate period entropy and quartile range, suggesting slight hesitations without significant amplitude issues. 
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's features show slight variability in tap intervals (periodEntropy and period_quartile_range) indicating minor hesitations but no significant slowing. The number of taps is within the expected range, suggesting good speed.
+
+**Score:** 1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping performance shows some variability in tap intervals with periodEntropy higher than Score0 and 1 examples but lower stdev indicating consistent timing. Considering the criteria, this suggests slight issues without significant interruptions, aligning with a Score1.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping features indicate slight issues with rhythm and amplitude. The period entropy and quartile range suggest mild variability, and the extra tap hints at a minor interruption. These factors align with a Score 1.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's finger tapping features show moderate period entropy and low quartile range, indicating some timing variability but overall consistency. With no significant amplitude decrement and only slight potential slowing, the score is:
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's features show close to normal performance with slight hesitations or mild slowing but maintained amplitude.
+
+1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's performance shows slight variability in tapping periods and minor amplitude changes without significant interruptions or freezes. Based on the features provided and comparing them to the examples, the score is determined to be:
+
+1
+
+
+============================================================
+051331512_20200406_Hands_L_9-_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's finger tapping performance shows some variability in periods and slight slowing but doesn't meet the criteria for higher scores. The periodEntropy and quartile range indicate mild interruptions without severe decrements or arrests.
+
+1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's features show slight variability in tapping intervals without significant amplitude decrementing. The periodEntropy and quartile range are higher than normal but not severely so, indicating minor issues.
+
+Score: 1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's finger tapping data indicates slight abnormalities in amplitude and timing. The period entropy suggests some irregularity, while the quartile range and low standard deviation indicate mostly consistent intervals but with minor variability. These factors align with a score of 1.
+
+1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping performance shows slight irregularities in rhythm and speed without significant amplitude issues. The period entropy and IQR suggest mild variability, fitting the criteria for a slight impairment.
+
+**Score: 1**
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping performance shows slight slowing with moderate variability in tap intervals. There's no evidence of significant hesitations or amplitude decrementing beyond what qualifies as slight.
+
+Score: 1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's performance shows slight variability in tapping rhythm, indicated by higher period entropy compared to normal examples. However, there are no significant interruptions or amplitude decrements beyond mild slowing. 
+
+Score: 1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's features show moderate irregularity in tapping rhythm with some variability but no significant amplitude issues or severe slowing, aligning with a slight impairment.
+
+Score: 1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's features show slight deviations from normal performance. The period entropy and quartile range indicate some variability in tapping rhythm, suggesting minor hesitations or slowing. Amplitude remains relatively consistent without significant decrementing. These factors align with a score of 1.
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's finger tapping performance shows slight irregularities in rhythm and possible minor slowing, with no significant amplitude decrement. These factors align with the criteria for a slight impairment.
+
+1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's features show they completed the task as instructed with 10 taps. The period entropy and quartile range indicate some irregularity in timing, suggesting mild hesitations or slight slowing. However, these irregularities are not severe enough to warrant a higher score. There is no indication of significant amplitude decrementing beyond what might be expected for a score of 1.
+
+1
+
+
+============================================================
+759859453_20210104_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+The subject's features indicate moderate variability in tap intervals and some hesitations, fitting the criteria for mild issues without severe decrements or multiple interruptions beyond mild slowing.
+
+2
+
+--- Evaluation 2 (Score: 2) ---
+The subject's finger tapping performance shows some signs of mild slowing and variability in tap intervals. The number of taps (11) suggests they managed more than the required 10 but with potential mild slowing. The periodEntropy and quartile range indicate some hesitations or interruptions but not to a severe degree. Amplitude remains relatively consistent without significant decrementing.
+
+2
+
+--- Evaluation 3 (Score: 3) ---
+The subject's finger tapping performance shows significant variability in tap intervals (high periodEntropy and stdev) and possible amplitude decrementing early on. These factors align with moderate issues as per the criteria.
+
+3
+
+--- Evaluation 4 (Score: 3) ---
+The subject's finger tapping test shows high period entropy (2.0253) indicating significant irregularity in tap intervals, suggesting multiple hesitations or interruptions beyond what is typical for a mild score. The quartile range and slightly elevated number of taps (11 instead of 10) support the presence of more than a few interruptions, aligning with criteria for moderate issues.
+
+3
+
+--- Evaluation 5 (Score: 2) ---
+The subject's finger tapping test shows moderate variability in tap intervals and a slight excess in the number of taps, suggesting some hesitations or interruptions. While there isn't clear evidence of significant amplitude decrementing, the rhythm irregularities align with mild slowing and interruptions typical of a score 2.
+
+2
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping performance shows slight hesitations and variability in rhythm but doesn't meet the criteria for a higher score due to the absence of significant interruptions or freezes.
+
+1
+
+--- Evaluation 7 (Score: 2) ---
+The subject's finger tapping features show moderate irregularity in rhythm with higher period entropy and quartile range compared to lower scores. However, without clear evidence of severe amplitude decrements or longer freezes, the score is determined to be 2.
+
+2
+
+--- Evaluation 8 (Score: 2) ---
+The subject's finger tapping performance shows increased tap interval variability (higher periodEntropy) and some inconsistency in rhythm, but not to the extent of moderate issues. The number of taps is normal, suggesting no severe problems. Based on the criteria, this aligns most closely with mild disruptions.
+
+Score: 2
+
+--- Evaluation 9 (Score: 2) ---
+The subject's performance shows 11 taps with moderate period entropy (2.0253) and quartile range (0.1094), indicating some irregularity in rhythm. The amplitude features suggest minimal decrementing. These factors align most closely with mild issues, such as hesitations and possible mid-task amplitude decrements.
+
+2
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping data shows 11 taps with higher period entropy and quartile range, indicating some variability in rhythm but no significant amplitude decrement. This aligns with slight issues, so the score is 1.
+
+1
+
+
+============================================================
+445817794_20200720_Hands_L_12-_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's finger tapping performance shows slight irregularities in tap intervals with minimal interruptions and possible minor slowing, fitting the criteria for a mild impairment.
+
+Score: 1
+
+--- Evaluation 2 (Score: 0) ---
+The subject's finger tapping performance is evaluated based on the provided features:
+
+- **Number of Taps**: 11 (close to the instructed 10)
+- **Period Features**: Low variability (periodEntropy=1.0889, period_quartile_range=0.0323, period_stdev=0.0408) indicates consistent and regular tapping intervals.
+- **Amplitude**: The amplitude_min is 184.7102, suggesting no significant decrementing as only the minimum value is provided without context of maximum or mean.
+
+The features show a regular rhythm with minimal interruptions and consistent speed, leading to a score of:
+
+0
+
+--- Evaluation 3 (Score: 0) ---
+The subject's finger tapping test is evaluated based on provided kinematic features and MDS-UPDRS criteria. The features indicate consistent tap intervals, stable amplitudes, and minimal irregularities in rhythm, aligning with a normal performance.
+
+0
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping features indicate slight variability in rhythm and possible minor hesitations, fitting the criteria for mild impairment.
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's performance shows mild variability in tapping rhythm with slightly more than the required taps and some consistency in periods, but not enough to indicate higher scores.
+
+**Score: 1**
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping features show slight variability in timing and an extra tap, indicating minor hesitation but overall consistent performance with maintained amplitudes. 
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping features show slight variability in periods and possible amplitude decrement, fitting the criteria for mild impairment.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's finger tapping performance shows minor deviations with slight irregularity in rhythm and mild variability in tap intervals but maintains good speed and amplitude consistency. 
+
+Score: 1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's performance shows a slight increase in period entropy and quartile range compared to a perfect score, indicating minor hesitations without significant slowing or amplitude issues.
+
+1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping shows slight irregularities in rhythm and possibly minor amplitude issues, fitting the criteria for a mild impairment.
+
+1
+
+
+============================================================
+879885247_20200608_Hands_L_11_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+The subject's finger tapping performance shows mild slowing and some hesitations, along with amplitude decrements starting around the midpoint of the taps.
+
+2
+
+--- Evaluation 2 (Score: 1) ---
+The subject's performance shows slight irregularities in tapping rhythm with some variability in periods and possible mild amplitude decrementing near the end. This aligns most closely with a score of 1 due to minor hesitations or slowing.
+
+1
+
+--- Evaluation 3 (Score: 2) ---
+The subject's tapping shows high variability in timing, suggesting hesitations and possible mild slowing, but without significant amplitude decrementing.
+
+Score: 2
+
+--- Evaluation 4 (Score: 2) ---
+The subject's tapping shows slight irregularities in rhythm with some hesitations and mild slowing, consistent with criteria for a score indicating mild impairment.
+
+2
+
+--- Evaluation 5 (Score: 2) ---
+The subject's features indicate some variability in tapping rhythm but not severe enough to warrant a higher score. The period entropy and quartile range match those of a mild impairment.
+
+2
+
+--- Evaluation 6 (Score: 2) ---
+The subject's data shows 12 taps, which is slightly above the instructed 10, indicating possibly good speed but not necessarily problematic. The periodEntropy (1.9722) and period_quartile_range (0.1146) suggest some variability in tap intervals, pointing to mild hesitations or irregular rhythm. These metrics align with a score of 2, which indicates mild slowing or a few interruptions.
+
+2
+
+--- Evaluation 7 (Score: 2) ---
+The subject's finger tapping performance shows mild disruptions with possible hesitations and speed variations, fitting the criteria for a moderate but not severe impairment. The period entropy and quartile range indicate some inconsistency, but it doesn't reach the threshold for higher scores.
+
+2
+
+--- Evaluation 8 (Score: 2) ---
+The subject's finger tapping test shows 12 taps with moderate period variability but no severe issues. The features suggest mild interruptions and slowing without significant amplitude decrement.
+
+2
+
+--- Evaluation 9 (Score: 2) ---
+The subject's performance shows mild slowing and slight hesitations with some amplitude decrementing, fitting the criteria for a score of 2.
+
+2
+
+--- Evaluation 10 (Score: 2) ---
+The subject's kinematic features show moderate variability in tap timing (periodEntropy: 1.9722, period_quartile_range: 0.1146) and completed more taps than required, indicating mild difficulties consistent with a Score 2.
+
+2
+
+
+============================================================
+281628421_20201130_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The subject's performance shows 11 taps with low variability in periods (stdev: 0.026) and a slight entropy increase but still consistent intervals. Amplitude is maintained well, suggesting no significant issues.
+
+Score: **0**
+
+--- Evaluation 2 (Score: 1) ---
+The subject's finger tapping features show slight irregularity with higher period entropy, indicating some hesitation. However, other metrics like quartile range and standard deviation suggest consistent timing. Amplitude is well-maintained without decrementing.
+
+1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's performance shows slight hesitations and minor variability in tap intervals but maintains consistent rhythm otherwise. The amplitude might have slightly decremented near the end. These factors align with a slight impairment.
+
+**Score: 1**
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping performance shows slight irregularities in tap intervals and an extra tap beyond the instructed 10, indicating minor issues consistent with a score of 1.
+
+1
+
+--- Evaluation 5 (Score: 0) ---
+The provided kinematic features show that the subject completed 11 taps with low period entropy (1.0297), indicating regular rhythm, and a small period quartile range (0.0271) suggesting consistent timing. These metrics align with a normal performance without significant issues.
+
+**Score: 0**
+
+--- Evaluation 6 (Score: 1) ---
+The subject's tapping shows slight irregularity in timing but maintains consistent intervals and amplitude. The slightly higher entropy suggests minor issues, but overall performance aligns with slight deviations from normal.
+
+Score: 1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's performance shows consistent timing with minimal variability, indicating no significant slowing or hesitations. However, the period entropy is slightly higher than normal, suggesting minor irregularities. This aligns with a slight issue under the criteria for score 1.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject performed the finger tapping test with 11 taps, slightly exceeding the requested 10. The period features show low variability, indicating consistent and regular tapping without significant slowing or hesitations. The high amplitude_min suggests maintained amplitude throughout. These factors point to a slight deviation from normal performance.
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's features show slight irregularities in tapping rhythm with periodEntropy slightly above normal and QQR a bit higher than Score 0, but no significant amplitude decrement. This aligns with mild issues characteristic of a Score 1.
+
+1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping performance shows slight variability in tap intervals and a minor increase in period entropy compared to the score 0 example. However, the quartile range and standard deviation indicate consistent timing, and there's no evidence of early amplitude decrementing. The number of taps is slightly more than required, suggesting possible mild slowing. These factors align with a Score 1.
+
+1
+
+
+============================================================
+553661824_20201116_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The subject's finger tapping shows 11 taps with low variability in timing (low entropy, quartile range, stdev) indicating a regular rhythm without significant hesitations or slowing. The minimum amplitude alone doesn't indicate notable decrementing. These features align most closely with a normal performance.
+
+0
+
+--- Evaluation 2 (Score: 0) ---
+The subject's finger tapping test shows regular rhythm, consistent speed, and sustained amplitude without any signs of hesitation or decrement. 
+
+Score: 0
+
+--- Evaluation 3 (Score: 0) ---
+The subject's finger tapping test shows 11 taps, slightly exceeding the target but not significantly. The periods are very regular with low entropy and stdev, indicating consistent speed and no hesitations or interruptions. Amplitude remains high throughout, showing no signs of decrementing.
+
+0
+
+--- Evaluation 4 (Score: 0) ---
+The subject's performance shows consistent tapping with 11 taps, low period entropy (0.673), tight quartile range (0.0198), and stable amplitude. These metrics indicate regular rhythm without significant slowing or decrementing.
+
+**Score: 0**
+
+--- Evaluation 5 (Score: 0) ---
+The subject's features show low period entropy and quartile range, indicating consistent tapping with minimal variation. The high amplitude_min suggests maintained amplitude throughout the test without decrementing. All criteria align with a normal performance.
+
+0
+
+--- Evaluation 6 (Score: 0) ---
+The subject's performance shows 11 taps with low period entropy and quartile range, indicating regular rhythm and consistent intervals. Amplitude remained steady with minimal decrementing. These features align with normal performance without issues.
+
+0
+
+--- Evaluation 7 (Score: 0) ---
+The subject's kinematic features show a high level of regularity and consistency. With periodEntropy at 0.673, it's lower than both Score 0 and Score 1 examples, indicating very consistent tap intervals. The period_quartile_range is 0.0198, which is small and suggests uniform periods without much variation. Period_stdev of 0.0131 is also low, pointing to a regular rhythm with minimal interruptions or hesitations.
+
+Amplitude_min being 166.6546 does not indicate any decrementing amplitudes; instead, it suggests that the amplitude remains relatively consistent throughout the tapping sequence. The number of taps (11) is very close to the instructed 10 taps, which further supports the idea that there are no significant issues with hesitations or slowing.
+
+Based on these features and their alignment with the MDS-UPDRS criteria for a score of 0, which indicates no problems, the subject's performance is considered normal.
+
+0
+
+--- Evaluation 8 (Score: 0) ---
+The subject's performance shows consistent tapping intervals with low entropy, quartile range, and standard deviation, indicating regular rhythm without hesitations. The amplitude remains high throughout, and only a slight excess in tap count is noted but doesn't affect the overall performance negatively. All criteria align with a normal score.
+
+0
+
+--- Evaluation 9 (Score: 0) ---
+The subject's finger tapping features show regularity and consistency in timing with minimal amplitude variation, fitting the criteria for a normal performance.
+
+0
+
+--- Evaluation 10 (Score: 0) ---
+The subject's performance shows high regularity in tapping intervals with low entropy, quartile range, and standard deviation, indicating minimal hesitation or slowing. The amplitude is maintained well throughout, suggesting no significant decrementing. These factors align closely with the criteria for a normal performance.
+
+0
+
+
+============================================================
+403773045_20210201_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's performance shows slight deviations with moderate variability in tap intervals but minimal amplitude decrement and consistent timing. 
+
+Score: 1
+
+--- Evaluation 2 (Score: 1) ---
+The target kinematic features show slight irregularities in tapping rhythm and minimal amplitude decrement, fitting the criteria for a score of 1.
+
+Score: **1**
+
+--- Evaluation 3 (Score: 1) ---
+The subject's performance shows slight irregularities in tapping rhythm with moderate variability but no significant amplitude decrements. 
+
+Score: 1
+
+--- Evaluation 4 (Score: 2) ---
+The subject's kinematic features show moderate irregularities in tapping intervals and amplitude but without severe interruptions or significant slowing. The period entropy and quartile range indicate more variability than slight issues, suggesting a mild impairment.
+
+Score: 2
+
+--- Evaluation 5 (Score: 1) ---
+The subject performed the finger tapping test with 11 taps in 10 seconds, showing good speed. The periodEntropy (1.6957) and quartile range (0.074) suggest some variability but not severe enough for higher scores. There's no significant amplitude decrementing noted. These factors indicate slight irregularities, fitting a Score 1.
+
+1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping test shows mild variability in tap intervals and slight slowing without significant amplitude issues, fitting the criteria for a score of 1.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping features show increased variability in periods (entropy = 1.6957) compared to normal, indicating some hesitations or interruptions. The quartile range (0.074) suggests moderate spread in tap intervals. While the number of taps is close to target (11), the amplitude_min may indicate slight decrements. These factors point to mild slowing and possible amplitude decrement near the end, fitting a score of 1.
+
+1
+
+--- Evaluation 8 (Score: 2) ---
+The subject's finger tapping features show moderate variability in tap intervals (period entropy: ~1.70) and a slightly higher than normal period quartile range (~0.074), suggesting mild slowing and some hesitations. The minimum amplitude is notable, but without more data on progression, it hints at possible decrements. Considering these factors and comparing to examples, the score aligns with mild issues.
+
+2
+
+--- Evaluation 9 (Score: 1) ---
+The subject's finger tapping test shows slight variability in tap periods and an extra tap but maintained amplitudes. These factors indicate mild issues, scoring as 1.
+
+1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping features show slight irregularities in timing and possible minor amplitude changes, fitting the criteria for mild impairment.
+
+**Score: 1**
+
+
+============================================================
+879885247_20200803_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's finger tapping features show slight variability in timing and minimal amplitude concerns without significant interruptions or slowing, fitting the criteria for mild impairment.
+
+**Score: 1**
+
+--- Evaluation 2 (Score: 1) ---
+The subject's finger tapping performance shows some variability in tap intervals with a period entropy of 1.0297, which is higher than the Score 0 example but lower than Score 2. This suggests slight hesitations or slowing without significant interruptions. The number of taps (11) indicates minor irregularity beyond the required 10. Therefore, the score is 1.
+
+1
+
+--- Evaluation 3 (Score: 1) ---
+The subject performed slightly above normal with minor irregularities in tapping rhythm and possible amplitude decrease towards the end. 
+
+1
+
+**Score: 1**
+
+--- Evaluation 4 (Score: 1) ---
+The subject's performance shows slight variability in tapping intervals and rhythm, with some minor hesitations or slowing, but no significant issues. The amplitude is well-maintained.
+
+**Score: 1**
+
+--- Evaluation 5 (Score: 1) ---
+The subject performed slightly above the required taps with some variability in tapping intervals and no significant amplitude decrementing. This indicates minor hesitations and slowing.
+
+Score: **1**
+
+--- Evaluation 6 (Score: 1) ---
+The subject's performance shows slight hesitations or mild slowing but maintains consistent amplitude. The number of taps is close to target with minimal period variability and high amplitude consistency.
+
+**Score: 1**
+
+--- Evaluation 7 (Score: 1) ---
+The subject's performance shows slight irregularities in tapping rhythm with minimal impact on speed and amplitude. 
+
+Score: 1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's finger tapping performance shows mild irregularities in rhythm and slight amplitude decrementing towards the end, fitting the criteria for a score of 1.
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's performance shows minimal deviation from normal tapping patterns. The number of taps is adequate, and while there's some variability in tap intervals, it doesn't indicate significant slowing or interruptions. Amplitude remains consistent without decrementing.
+
+Score: 1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping test shows slight irregularities in tap intervals and rhythm, indicating mild variability. The number of taps is slightly over, suggesting possible minor hesitations or slowing. While there's no clear evidence of significant amplitude decrementing, the increased period entropy and quartile range point to some mild issues consistent with a score of 1.
+
+1
+
+
+============================================================
+973565404_20200622_Hands_L_11_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's finger tapping performance shows slight hesitations and variability in tap intervals, meeting the criteria for mild impairment.
+
+1
+
+--- Evaluation 2 (Score: 2) ---
+The subject's finger tapping features show moderate variability in periods and some amplitude consistency, fitting the criteria for mild to moderate impairment. 
+
+Score: 2
+
+--- Evaluation 3 (Score: 1) ---
+The subject's features indicate moderate variability in tap intervals and possible slight amplitude decrementing near the end, but overall timing is consistent. This fits the criteria for mild impairment.
+
+1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's performance shows slight variability in tapping consistency and amplitude towards the end, fitting the criteria for mild impairment.
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping performance shows moderate variability in tap intervals with some potential for amplitude decrementing, but not severe enough to indicate higher scores. The features suggest mild disruptions, aligning most closely with a Score 2 due to the entropy and quartile range indicating more than slight issues.
+
+1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's performance shows slight irregularities in tapping rhythm with moderate entropy and quartile range, indicating some variability but not severe enough for higher scores. Amplitude remains consistent, suggesting minimal issues. The number of taps is close to the target, and while there's some slowing, it doesn't meet the criteria for a higher score.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping test shows slight irregularities in tap intervals and mild variability, indicating a score of 1 based on the criteria.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's finger tapping features show moderate variability in periods, indicating some hesitations or interruptions beyond slight issues. The number of taps is slightly over the target, suggesting minor rhythm issues. However, amplitude remains relatively consistent without significant decrementing. Based on these factors, the score leans towards mild severity.
+
+1
+
+--- Evaluation 9 (Score: 2) ---
+The subject's tap count is within the acceptable range (11/10). The periodEntropy and quartile range indicate moderate variability in tapping intervals, suggesting some hesitations without severe slowing or significant amplitude decrement early on.
+
+Score: 2
+
+--- Evaluation 10 (Score: 1) ---
+The subject's features show slight variability in tapping periods and manageable amplitude. They completed the task adequately but with minor irregularities in rhythm.
+
+1
+
+
+============================================================
+865123482_20200713_Hands_R_12_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's features indicate slight issues with finger tapping, including possible minor hesitations and some slowing, but overall performance is close to normal.
+
+Score: 1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's finger tapping performance shows slight irregularities in rhythm with minimal impact on speed and amplitude consistency, fitting the criteria for mild impairment.
+
+**Score: 1**
+
+--- Evaluation 3 (Score: 1) ---
+The subject performed the finger tapping test with 11 taps instead of 10, indicating a possible slight hesitation. The period entropy was moderate, suggesting some variability in timing, but both quartile range and standard deviation were low, showing consistent tap intervals. These factors point to only minor issues, such as slight slowing or hesitations.
+
+1
+
+--- Evaluation 4 (Score: 1) ---
+The subject performed the finger tapping test with 11 taps in 10 seconds. The periodEntropy (1.3592) and period_quartile_range (0.0531) indicate mild irregularities, suggesting slight hesitations or slowing without significant interruptions or amplitude decrementing. These metrics align with a Score 1.
+
+**Score: 1**
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping performance shows slight irregularities in rhythm with 11 taps, moderate period entropy (1.3592), mild variability in intervals, and possible amplitude decrementing towards the end. These factors align with the criteria for a slight impairment.
+
+**Score: 1**
+
+--- Evaluation 6 (Score: 1) ---
+The subject's performance shows slight deviations with moderate period variability and some amplitude decrease towards the end.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping test shows slight variability in tap intervals and minimal amplitude decrementing. The period entropy and quartile range indicate some irregularity without severe disruptions. The number of taps suggests adequate speed, fitting criteria for a slight impairment.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's finger tapping performance shows slight variability in periods and a small number of taps beyond the instructed count, indicating minor hesitations or slowing without significant interruptions. The amplitude suggests no major decrementing.
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's tapping shows some variability in intervals with higher entropy and quartile range than normal, indicating mild hesitations or slight slowing. However, these factors don't reach the levels seen in moderate issues. Amplitude data is insufficient to confirm significant decrementing. Therefore, the score is 1.
+
+1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping performance shows a slight increase in tap count (11), moderate period entropy (1.3592), and some variability in intervals (period_quartile_range: 0.0531). These factors suggest minor hesitations or slowing, consistent with a score of 1.
+
+1
+
+
+============================================================
+751297988_20200824_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's finger tapping performance shows slight irregularities in rhythm, indicated by higher period entropy compared to a normal score but without significant timing variability. There are signs of minor slowing or hesitations but no substantial amplitude decrements. 
+
+Score: 1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's finger tapping features show slight variability in periods with mild entropy and quartile range, indicating some hesitation or slight slowing. However, the standard deviation is low, showing consistent timing, and amplitude doesn't significantly decrement.
+
+1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's finger tapping test shows 11 taps with period entropy and quartile range indicating some variability but not extreme. The features suggest slight hesitations or slowing, fitting the criteria for a Score 1.
+
+1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's performance shows slight irregularities in tapping rhythm with periodEntropy indicating some hesitations or variations. The number of taps is adequate, and while there's moderate variability, the overall performance doesn't meet higher severity criteria.
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's tapping shows some irregularity and slight slowing but doesn't meet the criteria for higher scores. The periodEntropy suggests mild variability, but the low stdev indicates consistent timing. There are no significant amplitude decrements. Therefore, a score of 1 is appropriate.
+
+1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's features indicate slight irregularities in tapping rhythm with moderate variability, aligning with criteria for mild impairment.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping performance shows mild irregularities in timing with periodEntropy of 1.47 and PQR of 0.0656, indicating some variability without severe interruptions. The amplitude is well-maintained (min 123), suggesting no significant decrementing. While there are slight hesitations or slowing, they don't meet the criteria for a higher score.
+
+**Score: 1**
+
+--- Evaluation 8 (Score: 1) ---
+The subject's performance shows slight irregularities in tap timing with moderate variability but consistent intervals and some amplitude decrementing near the end. These factors align with a score of 1, indicating slight slowing and minor issues.
+
+**Score: 1**
+
+--- Evaluation 9 (Score: 1) ---
+The subject's finger tapping performance shows slight variability in rhythm with mild interruptions but no significant amplitude decrement. 
+
+Score: **1**
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping features indicate slight irregularities with a moderate increase in period entropy and quartile range but low standard deviation, suggesting mild variability. They completed 11 taps, indicating a possible minor hesitation. Without clear signs of amplitude decrement or more severe disruptions, the score aligns with slight issues.
+
+1
+
+
+============================================================
+553661824_20200629_Hands_L_7-_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The subject's performance shows a normal result with consistent and regular tapping, no signs of hesitation or amplitude decrement, and a fast pace without issues.
+
+0
+
+--- Evaluation 2 (Score: 0) ---
+The subject's performance shows a regular rhythm with consistent tap intervals, minimal variability in periods, and maintained amplitude without significant decrements. These factors indicate no issues according to the MDS-UPDRS criteria.
+
+0
+
+--- Evaluation 3 (Score: 0) ---
+The subject's finger tapping test shows consistent performance with minimal deviations. The high number of taps (11) slightly exceeds the target but doesn't indicate significant issues. The low period quartile range and standard deviation suggest regular intervals, while the moderate entropy may reflect minor variability without major disruptions. Amplitudes remain relatively stable. These factors align most closely with a normal score.
+
+0
+
+--- Evaluation 4 (Score: 0) ---
+The subject's finger tapping test shows consistent performance with minimal variability. The tap count is close to 10, period entropy matches a score of 0 example, and both quartile range and stdev indicate stable tapping without significant slowing or decrements. Therefore, the score is:
+
+0
+
+--- Evaluation 5 (Score: 0) ---
+The subject's finger tapping test shows consistent timing with low variability (periodEntropy: 0.9433, period_quartile_range: 0.0292, period_stdev: 0.025) and a reasonable amplitude_min without significant decrementing. These metrics align with the score 0 criteria, indicating no problems.
+
+0
+
+--- Evaluation 6 (Score: 0) ---
+The subject's finger tapping features show regularity and consistency. With low variability in tap intervals and high amplitude maintained throughout, there are no signs of slowing, hesitations, or amplitude decrement. This performance matches the criteria for a normal score.
+
+0
+
+--- Evaluation 7 (Score: 0) ---
+The subject's performance shows regular rhythm with low variability in tap intervals and consistent amplitudes, meeting all criteria for a normal score.
+
+0
+
+--- Evaluation 8 (Score: 0) ---
+The subject's finger tapping performance shows consistent timing with minimal variation and only minor deviations in tap count, fitting within normal parameters.
+
+0
+
+--- Evaluation 9 (Score: 0) ---
+The subject's performance shows 11 taps with low timing variability (period stdev: 0.025) and consistent intervals (quartile range: 0.0292). Amplitude was maintained without significant decrementing. No interruptions were noted, and the period entropy matches that of a normal score.
+
+Score: 0
+
+--- Evaluation 10 (Score: 0) ---
+The subject's performance shows regularity in tapping with low variability (period_stdev: 0.025) and consistent rhythm (periodEntropy: 0.9433). The period_quartile_range is minimal at 0.0292, indicating uniform timing. Amplitude remains strong without significant decrementing. These factors align with a normal performance.
+
+0
+
+
+============================================================
+553661824_20210503_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's performance shows slight deviations from normal tapping, with 11 taps instead of 10, indicating a minor hiccup. The period quartile range matches the criteria for a score of 1, suggesting mild variability in intervals.
+
+**1**
+
+--- Evaluation 2 (Score: 1) ---
+The subject's finger tapping performance shows mostly regular timing with minor deviations. The period entropy and quartile range suggest consistent intervals, though not as perfect as a score 0 example. The number of taps being 11 indicates a possible slight hesitation. Without clear signs of significant slowing or amplitude decrementing, the performance aligns most closely with a score indicating slight issues.
+
+1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's features indicate a slight deviation from normal performance, with minor variability in tapping intervals and possible amplitude decrements towards the end. These factors align with the criteria for a score of 1.
+
+1
+
+--- Evaluation 4 (Score: 0) ---
+The subject's finger tapping test shows 11 taps with low variability in periods (period_stdev: 0.0139) and a low quartile range (0.0146), indicating consistent timing. There's no mention of amplitude decrementing, suggesting stable movement. These factors align with normal performance.
+
+0
+
+--- Evaluation 5 (Score: 1) ---
+The subject's performance shows slight slowing, minor amplitude decrement near the end, and regular rhythm with small variations. These factors align with the criteria for a score of 1.
+
+1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping performance shows slight irregularities in tap intervals and a minor excess in the number of taps, fitting the criteria for a mild impairment.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping test shows slight irregularities in period entropy and quartile range, but overall regularity is maintained with low standard deviation. Amplitude is consistent without significant decrementing. These factors align most closely with a score indicating slight issues.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's performance shows slight variability in tap timing with minimal slowing but no significant amplitude issues. The period entropy is higher than normal but not enough for a higher score. 
+
+Score: 1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's finger tapping test shows slight deviations from normal performance. The number of taps is slightly higher than required, indicating possible minor hesitation. The periodEntropy and PQR suggest regularity but with some minor variability. Amplitude likely decrements near the end, fitting the criteria for a slight issue.
+
+1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's performance shows slight deviations in rhythm and regularity but no significant amplitude issues, fitting the criteria for a mild impairment.
+
+1
+
+
+============================================================
+879885247_20201123_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's performance shows slight variations in tap rhythm and possible mild slowing but remains close to normal. 
+
+Score: 1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's finger tapping features indicate slight slowing and minor interruptions, with minimal amplitude decrementing. The number of taps is slightly above the required 10, suggesting possible hesitations. Period entropy and quartile range show moderate variability, but period stdev indicates consistent timing. These factors align most closely with a score of 1.
+
+1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's finger tapping performance shows slight irregularities in rhythm with higher entropy and quartile range, suggesting minor hesitations or slowing but no severe issues.
+
+Score: 1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's features show some variability in tapping intervals beyond normal but not to the extent of more severe scores. They completed 11 taps with moderate entropy and quartile range, suggesting slight hesitations or slowing but without significant interruptions or amplitude issues. This aligns most closely with a score of 1.
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's performance shows slight irregularities in tap timing with higher period entropy than normal but not excessively high. The amplitude doesn't show significant decrementing. These factors align with a Score 1.
+
+1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping test shows some irregularity in timing with periodEntropy and PQR higher than normal but not severe. They tapped 11 times with possible slight amplitude issues. This aligns with a score of 1 due to minor irregularities without significant slowing or multiple hesitations.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping features show slight irregularities in rhythm and possible mild slowing. The period entropy and quartile range indicate some hesitations, and the number of taps slightly exceeds the target, suggesting minor issues. These factors align with a score of 1.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's features show slight irregularities in tap rhythm with periodEntropy indicating some variability but not enough for a higher score. The quartile range and stdev suggest moderate consistency, and amplitudes don't show decrementing.
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's performance shows minor irregularities in tapping intervals (periodEntropy) and a slightly higher tap count, indicating mild hesitation or slowing. Amplitude data doesn't show significant decrementing. This aligns with Score 1 criteria.
+
+1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's performance shows slight irregularities in tap timing with higher entropy than normal but consistent amplitude. There are no significant decrements in amplitude or severe slowing, indicating minor issues.
+
+1
+
+
+============================================================
+161568408_20200601_Hands_L_13_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's features show slight variability in tapping regularity and amplitude but no severe issues. The period entropy and quartile range indicate mild irregularities, while the low stdev suggests consistent timing. This aligns with a score of 1 for slight hesitations or slowing.
+
+1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's performance shows minimal issues, with near-normal tap count, regular rhythm, low timing variability, and consistent amplitude. These factors align with slight deviations from normal, fitting the criteria for a score of 1.
+
+1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's finger tapping features show some irregularity in rhythm with higher periodEntropy and quartile range, suggesting slight issues but without significant interruptions or amplitude decrements. This aligns with a Score 1.
+
+**Score: 1**
+
+--- Evaluation 4 (Score: 2) ---
+The subject's performance shows moderate variability in tap timing with some hesitations and slightly more than required taps. The period entropy and quartile range indicate mild interruptions, fitting the criteria for a score of 2.
+
+2
+
+--- Evaluation 5 (Score: 0) ---
+The subject's finger tapping performance shows minimal disruptions with consistent tap intervals and high amplitudes, indicating no significant issues.
+
+0
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping performance shows slight variability in tap intervals and a minor excess in the number of taps, suggesting some hesitation but overall maintaining regularity. These factors align with the criteria for a slight impairment.
+
+1
+
+--- Evaluation 7 (Score: 2) ---
+The subject's finger tapping features show increased variability in periods (entropy and quartile range) indicating mild disruptions in rhythm, consistent with a Score 2.
+
+2
+
+--- Evaluation 8 (Score: 1) ---
+The subject's finger tapping performance shows slight irregularities in rhythm and mild variability in tap intervals without significant slowing or amplitude decrementing.
+
+**Score: 1**
+
+--- Evaluation 9 (Score: 1) ---
+The subject's finger tapping performance has been analyzed based on the provided features:
+
+- **Number of Taps**: 11 taps were recorded, which is slightly more than the requested 10. This suggests that while the task was completed, there might have been slight hesitations or interruptions.
+  
+- **Period Entropy (1.2799)**: This value indicates some irregularity in the rhythm of the tapping, suggesting mild variability in the intervals between taps.
+
+- **Period Quartile Range (0.0594)**: This metric shows a moderate range between the 25th and 75th percentiles of tap periods, indicating slight variability or hesitations during the task.
+
+- **Amplitude Min (138.8116)**: The minimum amplitude recorded suggests that there might be some decrement in amplitude towards the end of the tapping sequence, though not severely.
+
+Considering these factors, the performance aligns with a score of 1, as it exhibits slight slowing, mild variability in tap intervals, and possible amplitude decrements near the end without severe interruptions or significant slowing. 
+
+Score: **1**
+
+--- Evaluation 10 (Score: 1) ---
+The subject performed 11 taps with moderate period entropy and slight variability in intervals, indicating mild rhythm breaks but no significant amplitude decrement or severe interruptions.
+
+1
+
+
+============================================================
+759859453_20200914_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's performance shows minimal deviation from normal tapping patterns. They completed 11 taps, indicating good speed. The tap intervals were relatively consistent, with low quartile range and standard deviation. Amplitude remained high without decrementing. These factors align with a slight impairment.
+
+1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's tapping showed 11 taps with moderate period entropy (1.3592), indicating some interval variability, but a low quartile range and stdev suggest consistent timing. Amplitude was maintained without significant decrementing. These factors align with slight slowing or minor hesitations.
+
+1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's performance shows slight deviations from normal, with minor variability in tapping rhythm and possibly mild slowing, fitting the criteria for a score of 1.
+
+**Score: 1**
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping features indicate slight irregularities in rhythm and speed without significant amplitude decrement. The period entropy and quartile range suggest moderate variability, fitting the criteria for mild impairment.
+
+**Score: 1**
+
+--- Evaluation 5 (Score: 1) ---
+The subject's performance shows slight irregularities in tapping rhythm and amplitude. The period entropy and quartile range indicate mild variability, and the extra tap suggests a minor hesitation. Amplitude might decrease towards the end.
+
+1
+
+--- Evaluation 6 (Score: 0) ---
+The subject performed the finger tapping test with 11 taps, showing regular periods (low entropy and quartile range) and consistent amplitudes. There were no signs of slowing, hesitations, or amplitude decrementing.
+
+Score: **0**
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping features show slight irregularities in tap intervals (periodEntropy = 1.3592) without significant amplitude issues or major interruptions. These factors align with the criteria for Score 1.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject performed the finger tapping test with 11 taps, showing slight variability in timing (periodEntropy: 1.3592) and minimal amplitude decrement, indicating a slight performance issue but no significant slowing or hesitations.
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's finger tapping features show slightly elevated period entropy, indicating mild variability. The quartile range is low, suggesting consistent timing, and the amplitude doesn't significantly decrement. These factors point to minor issues but not enough for a higher score.
+
+1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping performance shows slight irregularities with a period entropy and quartile range indicating some variability, but not severe enough for higher scores. Amplitude is well-maintained except possibly near the end.
+
+1
+
+
+============================================================
+759859453_20210426_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's finger tapping shows minor irregularities in rhythm with some slowing and amplitude issues, fitting the criteria for a slight impairment.
+
+Score: 1
+
+--- Evaluation 2 (Score: 2) ---
+The subject's features show moderate variability in tapping intervals (periodEntropy: 1.6434) and a slight increase in period_quartile_range (0.1125), indicating some hesitations or slowing. The number of taps is slightly over the target, which might suggest mild difficulty. Considering these factors, the score aligns with mild impairment.
+
+2
+
+--- Evaluation 3 (Score: 1) ---
+The subject's finger tapping features show slight interruptions and amplitude decrements near the end, fitting the criteria for a mild impairment.
+
+1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's performance shows slight issues with rhythm and speed but doesn't meet the criteria for a higher score. The increased period entropy suggests some variability in tapping intervals, indicating possible hesitations beyond normal. However, without evidence of significant amplitude decrementing or more severe interruptions, the score aligns with mild impairment.
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping features show some variability in tap periods and a slight increase in entropy compared to normal (score 0). However, they managed to complete the task with minimal issues, indicating only slight slowing or minor hesitations without significant amplitude decrementing.
+
+1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's tapping shows slight irregularities in timing with some variability and minor slowing but no significant amplitude decrements. 
+
+Score: 1
+
+--- Evaluation 7 (Score: 2) ---
+The subject's features indicate mild slowing and some irregularity in tapping rhythm but not enough to warrant a higher score. The period entropy suggests slight hesitations, and the quartile range indicates moderate variability without severe interruptions or amplitude decrements. Therefore, the score is:
+
+2
+
+--- Evaluation 8 (Score: 2) ---
+The subject's finger tapping data shows increased timing variability with periodEntropy and period_quartile_range similar to Score 2 examples, suggesting mild slowing or interruptions.
+
+2
+
+--- Evaluation 9 (Score: 1) ---
+The subject's finger tapping test shows slight variability in tap intervals with no significant amplitude decrement. The number of taps is within normal range, and while there's some inconsistency in timing, it doesn't meet the criteria for higher scores.
+
+1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping data shows moderate variability in tap periods (periodEntropy: 1.6434, period_quartile_range: 0.1125) suggesting some hesitations. The number of taps is slightly above the instructed 10, indicating possible minor interruptions. However, without clear evidence of significant amplitude decrement early on, the score aligns more with mild to moderate issues rather than severe.
+
+1
+
+
+============================================================
+546503158_20200310_Hands_L_9_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 3) ---
+The subject's performance shows moderate issues with tap timing consistency and possible hesitations, fitting the criteria for a score of 3.
+
+3
+
+--- Evaluation 2 (Score: 3) ---
+The subject's kinematic features show high variability in tapping periods (entropy: 1.8344) and a significant spread in tap intervals (quartile range: 0.1125), indicating moderate hesitations or interruptions. These factors align with the criteria for a score of 3, reflecting moderate slowing and irregularity.
+
+3
+
+--- Evaluation 3 (Score: 2) ---
+The subject's finger tapping features show some variability in tap intervals (periodEntropy:1.8344) suggesting possible hesitations or interruptions beyond slight issues. However, the amplitude_min is high (89.3914), indicating maintained amplitudes without significant decrementing. Considering the scoring criteria and examples, while timing issues are notable, they don't meet the severity of score 3 due to better amplitude performance. Therefore, the score is 2.
+
+2
+
+--- Evaluation 4 (Score: 3) ---
+The subject's finger tapping test shows significant irregularity in tap intervals, indicated by high period entropy (1.8344) and quartile range (0.1125), aligning with criteria for a score of 3. Despite maintained amplitudes, the rhythm issues suggest moderate interruptions or slowing.
+
+3
+
+--- Evaluation 5 (Score: 3) ---
+The subject's finger tapping test shows high variability in tap intervals (periodEntropy: 1.8344, period_quartile_range: 0.1125) suggesting multiple interruptions or freezes, consistent with a score of 3. Amplitude is well-maintained, but the timing issues indicate moderate slowing and hesitations.
+
+3
+
+--- Evaluation 6 (Score: 3) ---
+The subject's tapping showed significant variability in timing (high entropy and stdev) and completed one extra tap, suggesting possible hesitations or interruptions beyond five instances. These indicators align with the criteria for a Score 3.
+
+3
+
+--- Evaluation 7 (Score: 3) ---
+The subject's finger tapping features show high variability in tap intervals (periodEntropy = 1.8344) and a significant spread in period quartiles (0.1125), indicating moderate hesitations or interruptions. Despite maintaining a high minimum amplitude, the timing irregularities align with criteria for score 3.
+
+3
+
+--- Evaluation 8 (Score: 3) ---
+The subject's finger tapping data shows high variability in tap intervals (periodEntropy:1.8344, period_stdev:0.1137), suggesting moderate slowing or interruptions. However, the amplitudes are well-maintained, with a relatively high minimum (89.3914). These features align most closely with score 3.
+
+3
+
+--- Evaluation 9 (Score: 3) ---
+The subject's tapping features show high period entropy and quartile range, indicating moderate rhythm irregularities. These metrics suggest more than slight issues but not severe enough for a higher score.
+
+3
+
+--- Evaluation 10 (Score: 1) ---
+The subject's performance shows some hesitations and variability in tap intervals but maintains good amplitude throughout. This indicates mild issues without significant amplitude decrement.
+
+1
+
+
+============================================================
+403773045_20200427_Hands_R_13_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's tapping shows some irregularity in rhythm with slightly higher variability than normal, indicating possible slight hesitations or slowing. The amplitude might have a slight decrement towards the end. These factors align most closely with a Score 1.
+
+1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's performance shows slight irregularities in tapping consistency but doesn't meet the criteria for higher scores. The period entropy and quartile range indicate some variability, suggesting minor hesitations or slight slowing without significant interruptions.
+
+Score: **1**
+
+--- Evaluation 3 (Score: 1) ---
+The subject's finger tapping test shows 11 taps with moderate period entropy and quartile range, indicating some variability but not severe. This aligns with slight issues, so the score is:
+
+1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping features show slight irregularities in rhythm and minimal amplitude concerns, fitting the criteria for mild impairment without significant decrements or interruptions.
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's performance shows slight amplitude decrement without significant slowing or interruptions, fitting the criteria for a mild impairment.
+
+1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's performance shows slight variations in tapping rhythm with minimal slowing or minor hesitations, but no significant amplitude decrementing. 
+
+Score: 1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's features show very consistent timing with low standard deviation and quartile range but slightly higher entropy than normal. This suggests minor rhythm variability, likely indicating slight hesitations without significant slowing or amplitude issues, aligning with a Score 1.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's finger tapping test shows slight variability in tap intervals without significant amplitude decrement, fitting the criteria for mild impairment.
+
+**Score: 1**
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's tapping shows slight variability in periods and possible minor amplitude decrements, fitting the criteria for mild impairment.
+
+Score: 1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping test shows 11 taps in 10 seconds with some variability in tap intervals but no significant amplitude decrement. The period entropy and quartile range indicate more irregularity than a score of 0 but less than scores 2 or 3. This suggests slight hesitations or slowing, aligning with the criteria for a score of 1.
+
+1
+
+
+============================================================
+292801541_20201221_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+The subject's finger tapping performance shows increased variability in tap intervals (periodEntropy: 1.5048, period_quartile_range: 0.1813) compared to lower scores and one extra tap beyond the required 10. This suggests mild issues such as hesitations or slowing, aligning with a Score of 2.
+
+2
+
+--- Evaluation 2 (Score: 2) ---
+The subject's tapping showed increased variability in tap intervals (higher periodEntropy and quartile range) and completed 11 taps, suggesting some hesitations. This aligns with mild issues under the criteria.
+
+2
+
+--- Evaluation 3 (Score: 1) ---
+The subject's performance shows some irregularity in tap intervals with periodEntropy of 1.5048 and period_quartile_range of 0.1813, indicating mild variability. However, they completed nearly the required taps (11) without significant amplitude decrementing. This aligns with slight slowing or minor hesitations, fitting a score of 1.
+
+1
+
+--- Evaluation 4 (Score: 2) ---
+The subject's features show moderate irregularity in tapping rhythm with some amplitude decrementing, indicating a score of 2.
+
+2
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping features show some variability in tap intervals but don't meet the threshold for moderate issues. The periodEntropy and quartile range suggest more than slight problems, but the overall performance doesn't indicate severe interruptions or slowing.
+
+1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's features indicate slight disruptions in tapping rhythm and speed without significant amplitude issues. The period entropy and quartile range suggest some variability, pointing towards minor hesitations or slowing, aligning with the criteria for a score of 1.
+
+**Score: 1**
+
+--- Evaluation 7 (Score: 2) ---
+The subject's finger tapping test results show more than slight slowing and hesitations. The period entropy (1.5048) and quartile range (0.1813) indicate variability in tap intervals, suggesting mild issues without meeting the criteria for a higher score.
+
+2
+
+--- Evaluation 8 (Score: 2) ---
+The subject's finger tapping performance shows mild disruptions in rhythm, with increased period entropy and quartile range indicating hesitations. The number of taps completed suggests the task was manageable but with some irregularity. Amplitude data is insufficient to confirm decrementing, but the period variability aligns with a mild score.
+
+2
+
+--- Evaluation 9 (Score: 2) ---
+The subject's kinematic features indicate some variability in tap intervals and possible amplitude decrementing, suggesting mild slowing and hesitations. 
+
+2
+
+--- Evaluation 10 (Score: 2) ---
+The subject's tapping shows some irregularity in rhythm with higher entropy and quartile range than normal, indicating mild issues without severe slowing or significant amplitude decrement early on.
+
+1. **Number of Taps**: 11 taps (close to required 10) suggest minor hesitation but no significant interruption.
+2. **Period Entropy**: 1.5048 indicates some irregularity in rhythm, more than slight but less than moderate.
+3. **Period Quartile Range and Stdev**: Show variability in tap intervals, suggesting mild slowing or hesitations.
+4. **Amplitude Min**: 152.2532 doesn't indicate early decrementing; amplitudes are maintained relatively well.
+
+Based on the criteria, these factors align with mild issues such as a few interruptions or mild slowing, fitting a Score 2.
+
+**Answer:**  
+2
+
+
+============================================================
+281628421_20200323_Hands_R_10-_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+The subject's performance shows some variability in tapping intervals, with periodEntropy (1.6094) and period_quartile_range (0.1156) close to those of a Score 2 example. These metrics suggest mild hesitations or slowing beyond slight issues but not reaching moderate levels. Therefore, the score is:
+
+2
+
+--- Evaluation 2 (Score: 1) ---
+The subject's performance shows minor variability in tapping consistency and a slight reduction in amplitude towards the end, fitting the criteria for mild issues without more severe signs.
+
+1
+
+--- Evaluation 3 (Score: 2) ---
+The subject's tap count was 11, slightly exceeding the requested 10. The periodEntropy (1.6094) and period_quartile_range (0.1156) indicate significant variability in tap timing, suggesting hesitations or interruptions. These metrics align closely with the score 2 example, which had similar quartile range and higher entropy. This variability points to mild slowing and several interruptions, fitting the criteria for a score of 2.
+
+2
+
+--- Evaluation 4 (Score: 2) ---
+The subject's finger tapping data shows moderate variability in tap intervals and a slight increase in the number of taps. The periodEntropy (1.6094) and period_quartile_range (0.1156) are close to the Score 2 example, indicating mild hesitations or slowing without severe decrements.
+
+2
+
+--- Evaluation 5 (Score: 2) ---
+The subject's tapping shows increased irregularity in rhythm and some amplitude variation but not to the extent of severe impairment.
+
+Score: 2
+
+--- Evaluation 6 (Score: 1) ---
+The subject's performance shows slight irregularities in tapping rhythm with minimal slowing, fitting the criteria for a slight impairment.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping test shows some irregularities with higher period entropy and quartile range compared to normal, indicating slight hesitations or interruptions. However, these issues are not severe enough to classify beyond a slight impairment.
+
+1
+
+--- Evaluation 8 (Score: 2) ---
+The subject's features show some variability in tapping intervals (periodEntropy: 1.6094) and a moderate spread in periods (PQR: 0.1156), both of which suggest mild inconsistencies. However, the amplitude remains relatively consistent with a high minimum value, indicating no significant decrementing. These factors align most closely with mild slowing or hesitations, fitting the criteria for a score of 2.
+
+2
+
+--- Evaluation 9 (Score: 2) ---
+The subject's finger tapping features show some variability in tap intervals and possible amplitude decrementing. The higher periodEntropy and quartile range suggest mild disruptions in rhythm, aligning with a score of 2.
+
+2
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping features show slight variability in tap intervals and a consistent number of taps without significant amplitude decrement. These characteristics align with mild issues such as slight slowing or minor hesitations.
+
+Score: 1
+
+
+============================================================
+207795468_20200810_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+The subject's performance shows moderate variability in tapping periods and some decrement in amplitude starting midway through the sequence. These factors align most closely with the criteria for a score of 2.
+
+2
+
+--- Evaluation 2 (Score: 2) ---
+The subject's finger tapping performance shows moderate variability in tap timing with some hesitations but doesn't meet the more severe criteria. 
+
+Score: 2
+
+--- Evaluation 3 (Score: 1) ---
+The subject's finger tapping test shows minor variability in tap intervals and a slight excess in the number of taps, indicating some hesitations or slowing. However, the amplitude remains stable, and there are no significant signs of decrementing or more severe issues. This aligns with the criteria for a score of 1.
+
+1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's performance shows 11 taps with some rhythm irregularity but good amplitude. The period entropy and quartile range suggest slight hesitations or slowing, fitting the criteria for mild impairment.
+
+1
+
+--- Evaluation 5 (Score: 2) ---
+The subject's performance shows variability in tapping intervals (periodEntropy and PQR) indicating some hesitations, but maintained amplitude without significant decrementing. Score: 2.
+
+2
+
+--- Evaluation 6 (Score: 1) ---
+The subject's tap count is within the expected range, but the increased period entropy and quartile range suggest minor irregularities in timing, indicating slight hesitations or slowing without significant amplitude decrement. These factors align with a score of 1.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping performance shows slight slowing, minimal hesitations, and consistent amplitudes without significant decrementing. These characteristics align with the criteria for a mild impairment.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's features show slight deviations in tapping rhythm and amplitude, fitting the criteria for mild impairment. The number of taps is slightly over, indicating minor hesitation. Period measures show moderate variability without severe slowing or significant decrements in amplitude.
+
+**Score: 1**
+
+--- Evaluation 9 (Score: 2) ---
+The subject's performance shows signs of mild slowing and increased variability in tapping intervals. The periodEntropy is higher than what's typical for a score of 1 but not as high as scores 2 or 3, indicating some irregularity. The period quartile range is close to examples with higher scores, suggesting more variability between taps. Although the number of taps exceeds the required count by one, which might indicate slight hesitation, the overall features align most closely with mild impairments.
+
+Score: 2
+
+--- Evaluation 10 (Score: 1) ---
+The subject's features indicate mild variability in tapping periods and consistent amplitude, suggesting slight issues such as minor hesitations or slowing. 
+
+1
+
+
+============================================================
+575614042_20200615_Hands_L_9-_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's performance shows slight variability in tap intervals with period entropy at 1.5048, indicating some irregularity but not significant enough for a higher score. The quartile range and stdev suggest minor hesitations or slowing, but amplitude remains consistent without notable decrementing. Number of taps is close to normal.
+
+Score: **1**
+
+--- Evaluation 2 (Score: 1) ---
+The subject's performance shows slight irregularities in tap rhythm with periodEntropy of 1.5048, indicating some variability beyond normal but without significant interruptions or slowing. The low quartile range and stdev suggest consistent intervals. Amplitude is maintained without notable decrement. This aligns with a score of 1 for slight hesitations or slowing.
+
+**Score: 1**
+
+--- Evaluation 3 (Score: 1) ---
+The subject's performance shows slight irregularities in tapping rhythm with moderate period variability but doesn't meet the criteria for a higher score. 
+
+Score: **1**
+
+--- Evaluation 4 (Score: 1) ---
+The target kinematic features show 11 taps with moderate period entropy (1.5048), low quartile range (0.0437), and low stdev (0.053). The higher entropy suggests some irregularity in tap intervals, while the low quartile range and stdev indicate consistent spacing between taps. This points to slight hesitations or slowing without significant interruptions or amplitude decrementing, aligning with a score of 1.
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping performance shows slight irregularities in timing with some variability in tap intervals and higher entropy, indicating mild slowing or hesitations. However, these issues do not reach the level of moderate impairment.
+
+1
+
+--- Evaluation 6 (Score: 2) ---
+The subject performed 11 taps with moderate entropy (1.5048) indicating some irregularity beyond slight but less than moderate issues. The quartile range was slightly higher than Score1 examples, suggesting mild variability. Amplitude remained consistent without significant decrement. Considering these factors, the score is 2.
+
+2
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping features show moderate variability in tap intervals with some slight hesitations, fitting the criteria for a mild impairment.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's features show slight variability in tap timing with minimal impact on performance, fitting the criteria for a score of 1.
+
+**Score: 1**
+
+--- Evaluation 9 (Score: 1) ---
+The subject's tapping shows slight irregularities with some hesitations and mild slowing but no significant amplitude decrement. 
+
+Score: 1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's features indicate some variability in tapping intervals with periodEntropy of 1.5048 and quartile range of 0.0437, suggesting slight hesitations or mild slowing without significant amplitude decrementing. These factors align most closely with a score of 1.
+
+1
+
+
+============================================================
+161568408_20210208_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's finger tapping features show slight irregularities in tap intervals but overall consistency. With periodEntropy (1.0889) slightly higher than normal, indicating minor variability, and a PQR (0.0437) close to the lower end, suggesting minimal spread in tap timing. The amplitude_min is high, implying consistent amplitudes without significant decrementing. These factors align with a score of 1 for slight slowing or hesitations.
+
+1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's performance shows slight irregularity in tapping rhythm and some variability in periods but doesn't meet the criteria for higher scores. 
+
+Score: 1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's finger tapping performance shows slight irregularities in timing with a higher period entropy, indicating mild variability. They completed 11 taps instead of 10, suggesting a minor hesitation. However, amplitude was well-maintained without significant decrementing, and timing consistency remained good. These factors align with the criteria for a score of 1.
+
+1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping features show slight irregularities in rhythm with a periodEntropy of 1.0889 and PQR of 0.0437, indicating some variability but not severe. The number of taps is 11, suggesting a possible minor hesitation. These factors align most closely with a Score 1.
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping performance shows slight irregularities in rhythm and speed, fitting the criteria for a score of 1 due to minor hesitations and slowing without significant amplitude issues.
+
+1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping features show low period variability (period_stdev: 0.0458 and period_quartile_range: 0.0437), indicating consistent tapping intervals without significant hesitations or interruptions. Although the periodEntropy is slightly higher than a score 1 example, the overall regularity suggests minor issues. The amplitude_min might indicate slight decrements near the end, fitting the criteria for a score of 1.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's tapping shows slight variability in intervals and mild slowing, with well-maintained amplitudes. These factors align with the criteria for a Score 1.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's features show slight variability in tap intervals and an extra tap, indicating minor hesitation. The period entropy and stdev are higher than normal but not severely so. These signs point to a slight impairment without significant slowing or amplitude issues.
+
+**Score: 1**
+
+--- Evaluation 9 (Score: 0) ---
+The subject's performance shows 11 taps with low variability in intervals (periodEntropy=1.0889, period_quartile_range=0.0437, period_stdev=0.0458) and consistent amplitudes (amplitude_min=150.8068), indicating no significant hesitations or slowing.
+
+0
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping features show mild irregularities in tap intervals, with higher periodEntropy and quartile range than normal but not severe enough for a higher score. The slight increase in taps suggests minor hesitations.
+
+1
+
+
+============================================================
+445817794_20201109_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The subject's performance shows regularity in tapping intervals and maintained amplitude, with no signs of hesitation or slowing.
+
+Score: 0
+
+--- Evaluation 2 (Score: 1) ---
+The subject's finger tapping test shows slight irregularities in rhythm and timing but maintains amplitude well. With 11 taps, there's a minor hesitation or interruption, and moderate entropy suggests some variability without significant slowing or decrements.
+
+1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's performance shows slight irregularities in tapping rhythm with moderate variability but no significant amplitude decrementing until the end. These factors align with the criteria for a score of 1.
+
+**Score: 1**
+
+--- Evaluation 4 (Score: 1) ---
+The subject's performance shows some variability in tapping periods beyond normal but doesn't reach the level of mild issues. The period entropy and quartile range suggest slight disruptions, warranting a score of 1.
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's performance shows slight variability in tapping rhythm and possible minor amplitude decrement near the end. They completed 11 taps with moderate period entropy and quartile range, indicating some inconsistency but not severe enough for a higher score.
+
+1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger-tapping test shows mild variability in tap intervals but no significant slowing or amplitude decrement. The period entropy and IQR indicate some irregularity, fitting the criteria for a slight impairment.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping test shows mild variability in tap intervals without significant amplitude decrementing, fitting the criteria for a slight impairment.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's performance shows slight irregularities in tapping rhythm with minimal slowing and no significant amplitude decrementing. These factors align with the criteria for a mild impairment.
+
+**Score: 1**
+
+--- Evaluation 9 (Score: 1) ---
+The subject's features show slight variability in tapping periods and consistent timing, indicating minor issues such as slight slowing. There's no evidence of significant interruptions or amplitude decrementing beyond what's expected for a score of 1.
+
+1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's performance shows slight variability in tap intervals and a minor amplitude decrease near the end, fitting the criteria for mild impairment.
+
+1
+

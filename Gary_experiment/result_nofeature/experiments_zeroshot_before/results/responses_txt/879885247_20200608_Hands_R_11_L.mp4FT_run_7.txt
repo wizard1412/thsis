@@ -1,0 +1,88 @@
+To determine the motor skill level based on the CSV data of thumb and index finger movements, follow these steps:
+
+1. **Read the Data**: Import the CSV file into a pandas DataFrame.
+2. **Calculate Distances**: Compute the Euclidean distance between the thumb and index finger for each frame.
+3. **Identify Taps**: Use local minima in the distance data to identify when a tap occurs.
+4. **Compute Intervals**: Determine the time intervals between consecutive taps and assess hesitation by comparing these intervals to an average threshold.
+5. **Evaluate Amplitudes**: Calculate the amplitude of each tap as the maximum extension after the tap and check for decrementing amplitudes over time.
+6. **Determine Score**: Based on the number of hesitations, interval lengths, and amplitude trends, assign a score from 0 (normal) to 4 (severe difficulty).
+
+Here is the Python code implementing this approach:
+
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Read CSV data
+df = pd.read_csv('data.csv')
+
+# Calculate distances between thumb and index finger
+distances = np.sqrt((df['X_index'] - df['X_thumb'])**2 + (df['Y_index'] - df['Y_thumb'])**2)
+
+# Function to find local minima as taps
+def count_taps(distances, frame_step=1/240):
+    taps = []
+    for i in range(1, len(distances)-1):
+        if distances[i] < distances[i-1] and distances[i] < distances[i+1]:
+            taps.append(i)
+    return taps
+
+# Identify tap frames
+taps = count_taps(distances)
+
+# Convert tap frames to time (seconds)
+time_per_frame = 1/240  # Assuming frame rate is 240 FPS
+tap_times = [frame * time_per_frame for frame in taps]
+
+# Calculate intervals between taps
+if len(tap_times) < 2:
+    print("Not enough taps to analyze")
+else:
+    intervals = np.diff(tap_times)
+    average_interval = np.mean(intervals)
+
+    # Count hesitations (intervals > 1.5 * average_interval)
+    hesitation_threshold = 1.5 * average_interval
+    count_hesitations = sum(1 for interval in intervals if interval > hesitation_threshold)
+
+    # Calculate amplitudes
+    amplitudes = []
+    for i in range(len(taps) - 1):
+        start_frame = taps[i]
+        end_frame = taps[i+1]
+        subset = distances[start_frame:end_frame]
+        peak_val = np.max(subset)
+        trough_val = distances[taps[i]]
+        amplitude = peak_val - trough_val
+        amplitudes.append(amplitude)
+
+    # Check for decrementing amplitudes
+    is_decrementing = False
+    if len(amplitudes) > 1:
+        slope, _ = np.polyfit(range(len(amplitudes)), amplitudes, 1)
+        is_decrementing = slope < 0
+
+    # Determine the score based on hesitations, intervals, and amplitude trend
+    if count_hesitations == 0 and not is_decrementing:
+        score = 0
+    elif count_hesitations <= 2 and not is_decrementing:
+        score = 1
+    elif (count_hesitations <=4) and not is_decrementing:
+        score = 2
+    else:
+        score = min(3, count_hesitations)
+
+    print(f"Motor Skill Score: {score}")
+```
+
+**Step-by-Step Explanation**:
+
+1. **Data Reading**: The CSV file containing the coordinates of thumb and index movements is read into a DataFrame.
+2. **Distance Calculation**: For each frame, compute the Euclidean distance between the thumb and index to identify when they touch (tap) or extend.
+3. **Tap Identification**: Taps are identified as local minima in the distance data, indicating contact between fingers.
+4. **Interval Analysis**: Calculate the time intervals between taps. Hesitations are counted based on intervals exceeding 1.5 times the average interval.
+5. **Amplitude Calculation**: For each tap, determine the maximum extension (amplitude) after the tap and check if there's a decreasing trend in amplitudes over time.
+6. **Score Determination**: Based on the number of hesitations, interval lengths, and amplitude trends, assign a score from 0 to 4.
+
+This approach quantifies motor skill performance by analyzing taps, movement intervals, and extension amplitudes, providing an objective assessment based on the recorded data.

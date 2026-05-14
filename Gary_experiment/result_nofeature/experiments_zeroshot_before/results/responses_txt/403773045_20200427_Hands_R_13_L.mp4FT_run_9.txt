@@ -1,0 +1,23 @@
+To determine the subject's score based on the MDS-UPDRS finger tapping criteria, follow these steps:
+
+1. **Read and Process Data**: Extract frame numbers and coordinates from the CSV file.
+
+2. **Calculate Distance**: Compute the Euclidean distance between thumb and index stickers for each frame to assess amplitude.
+
+3. **Count Taps**: Use the provided method to identify peaks in the distance data, each peak representing a tap.
+
+4. **Assess Rhythm and Hesitations**: Analyze intervals between taps to detect hesitations or interruptions. Variability in tap intervals indicates rhythm issues.
+
+5. **Evaluate Amplitude Over Time**: Check if the amplitude of taps decreases over time and when this decrement starts.
+
+6. **Apply MDS-UPDRS Criteria**:
+   - **Score 0**: Normal performance with no hesitations, consistent speed, and amplitude.
+   - **Score 1**: Slight issues like 1-2 hesitations, slight slowing, or late amplitude decrease.
+   - **Score 2**: Mild issues such as 3-5 hesitations, noticeable slowing, or mid-sequence amplitude drop.
+   - **Score 3**: Moderate issues with more than 5 hesitations, longer freezes, moderate slowing, or early amplitude decrement.
+   - **Score 4**: Severe difficulty in performing the task.
+
+After processing the data and analyzing each factor, assign the score based on the criteria met. For example, if there are two hesitations, slight slowing, and amplitude decrements near the end, the score would be 1.
+
+**Answer**:  
+1

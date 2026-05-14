@@ -1,0 +1,3547 @@
+
+============================================================
+051331512_20200406_Hands_L_9-_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+Based on the analysis of the extracted features and the MDS-UPDRS criteria for finger tapping, the subject's performance was evaluated as follows:
+
+The data shows consistent tapping with no significant interruptions or severe amplitude decreases. The statistical features indicate slight variations in amplitude but without notable issues that would warrant a higher score.
+
+Score: 0
+
+--- Evaluation 2 (Score: 0) ---
+The subject performed the finger tapping test with minimal irregularities. The features indicate consistent tapping and moderate consistency in amplitude, without significant interruptions or decrements. Based on the MDS-UPDRS criteria, this performance aligns with a normal rating.
+
+Score: 0
+
+--- Evaluation 3 (Score: 0) ---
+The subject scored **0** on the MDS-UPDRS finger tapping item. Their taps were consistent with minimal irregularities, as evidenced by high normalized amplitudes and low variability in movement patterns.
+
+Score: 0
+
+--- Evaluation 4 (Score: 0) ---
+The subject's performance aligns closely with the criteria for a normal tapping pattern (Score 0), as there are no significant interruptions, halts, or amplitude decrements beyond what is considered slight.
+
+**Step-by-Step Explanation:**
+
+1. **Amplitude Consistency**: The normalized amplitudes fluctuate between ~0.91 and 1.0, indicating consistent tapping without major reductions in force.
+   
+2. **Timing Regularity**: A very small period_quartile_range (0.0792) suggests regular timing with no notable pauses or freezes.
+
+3. **Entropy Values**: The amplitude_entropy is higher than typical score 0 but not reaching severe levels seen in higher scores, supporting a normal pattern with slight variations.
+
+4. **Feature Comparison**: Features match closely with the example for Score 0, which had consistent amplitudes and minor fluctuations without significant issues.
+
+**Answer:**
+
+\boxed{0}
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping performance shows consistent amplitude with only a minor decrement in the ninth tap. The statistical features indicate regular timing and high amplitude consistency. Based on MDS-UPDRS criteria, this aligns with a slight irregularity (Score 1).
+
+Score: 1
+
+--- Evaluation 6 (Score: 0) ---
+The subject demonstrated minimal issues in amplitude and regularity during the finger tapping task, aligning with a smooth performance typical of a normal or slight deviation. 
+
+\boxed{0}
+
+--- Evaluation 7 (Score: 0) ---
+The subject's finger tapping performance shows consistent tapping without major interruptions or significant changes in amplitude. The normalized amplitudes remain high and steady, with minor dips at the end but not enough to meet higher scores' criteria.
+
+Score: 0
+
+--- Evaluation 8 (Score: 0) ---
+The analysis of the extracted features indicates that there were no significant irregularities in the tapping pattern. The consistency in amplitude and lack of interruptions suggest a normal performance according to the MDS-UPDRS criteria.
+
+Score: 0
+
+--- Evaluation 9 (Score: 0) ---
+The subject performed the finger tapping test with minimal disruptions. Their normalized amplitudes remained high throughout, indicating consistent effort without significant decrements or interruptions. 
+
+Score: 0
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping performance shows high consistency with only a minor amplitude decrease towards the end, indicating minimal issues fitting into score 1.
+
+Score: 1
+
+
+============================================================
+051331512_20200406_Hands_R_9-_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 3) ---
+The subject has shown signs of a longer arrest (freeze) during tapping and moderate changes in amplitude. Based on these observations, the score is 3.
+
+\boxed{3}
+
+--- Evaluation 2 (Score: 3) ---
+The subject has demonstrated multiple interruptions and amplitude decrements, indicating a moderate performance on the MDS-UPDRS Item 3.4 Finger Tapping test.
+
+The final score is: \boxed{3}
+
+--- Evaluation 3 (Score: 2) ---
+The subject's tapping pattern shows multiple interruptions with some drops in amplitude. The normalized amplitudes decrease towards the end and have several instances where they drop below previous levels, indicating interruptions or slowing. However, these are not severe enough to meet the criteria for a score higher than 2.
+
+Score: 2
+
+--- Evaluation 4 (Score: 2) ---
+The subject's score for the MDS-UPDRS item 3.4 FINGER TAPPING test is determined to be **Score 2** based on moderate decrements in amplitude, aligning with the criteria provided.
+
+**Step-by-step explanation:**
+
+1. **Amplitude Analysis**: The normalized amplitudes end at 0.61, indicating a gradual decrement towards the end of the taps.
+2. **Statistical Features**: A low period_quartile_range and high amplitude_entropy suggest variability and irregularity in movement.
+3. **Criteria Matching**: The pattern fits Score 2's description of amplitude decrements starting after the first tap or mid to end, with moderate issues.
+
+**Answer:**  
+\boxed{2}
+
+--- Evaluation 5 (Score: 2) ---
+The subject's finger tapping test shows some minor amplitude decrements towards the end of the sequence. However, there are no significant interruptions or halts in between. Based on the criteria, this aligns with a score of 2.
+
+The final answer is:
+
+$\boxed{2}$
+
+--- Evaluation 6 (Score: 4) ---
+The subject's finger tapping test showed signs of significant decrementing amplitudes at several points during the sequence, with some periods showing slight halts or freezes. Additionally, the normalized amplitudes consistently decreased towards the end, indicating a substantial decrease in movement strength. These factors align with the criteria for score 4.
+
+4
+
+--- Evaluation 7 (Score: 4) ---
+The subject's tapping shows significant amplitude decrement towards the end with only two high amplitudes and consistent lower ones. This meets the criteria for Score 4.
+
+\boxed{4}
+
+--- Evaluation 8 (Score: 3) ---
+The subject's finger tapping test shows an amplitude pattern with gradual decrements towards the end, though no explicit pauses or multiple interruptions were mentioned. The statistical features indicate moderate variability and some decrementing, aligning with a Score 3.
+
+Score: 3
+
+--- Evaluation 9 (Score: 0) ---
+The subject's finger tapping performance on both the right and left hands demonstrated no major disruptions or halts during the 10 taps. The amplitude variations were minimal, fitting within the 'normal' range.
+
+The score is assigned as 0 because all taps were performed smoothly with consistent amplitude, meeting the criteria for a normal response without any significant issues such as interruptions or decrements beyond what's considered slight.
+
+Score: 0
+
+--- Evaluation 10 (Score: 2) ---
+The subject's finger tapping test shows moderate issues with amplitude decrementing towards the end, but no severe interruptions. Based on the statistical features, this aligns with a score of 2.
+
+Score: 2
+
+
+============================================================
+161568408_20200601_Hands_L_13_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The subject demonstrated consistent tapping without significant issues related to speed, amplitude, or halts. 
+
+Score: 0
+
+--- Evaluation 2 (Score: 0) ---
+The subject's finger tapping performance shows high consistency in amplitude with minimal variation. There are no notable interruptions or significant decrements in speed, aligning with normal performance.
+
+Score: 0
+
+--- Evaluation 3 (Score: 0) ---
+The subject's finger tapping shows consistent amplitude with slight minor fluctuations but no significant interruptions, halts, or amplitude decrements towards the end.
+
+The score is 0 because there are no major issues as per MDS-UPDRS criteria. The normalized amplitudes remain high and consistent across all taps without notable drops or pauses beyond minor ones that don't meet any severe criteria.
+
+Score: 0
+
+--- Evaluation 4 (Score: 0) ---
+The subject's finger tapping performance shows minimal variations in amplitude with slight dips and consistent periods. There are no significant interruptions or major amplitude decrements, aligning with mild speed issues as described in Score 1.
+
+0
+
+--- Evaluation 5 (Score: 0) ---
+The subject's performance on the MDS-UPDRS Item 3.4 Finger Tapping test shows consistent tapping with minimal variations in amplitude and timing, indicating no significant interruptions or slowing. Therefore, the score is:
+
+\boxed{0}
+
+--- Evaluation 6 (Score: 1) ---
+The subject's tap amplitudes are consistently high with minor variations at the start and end. There are no significant interruptions, halts, or amplitude decrements beyond what might be considered slight. 
+
+Score: 1
+
+--- Evaluation 7 (Score: 0) ---
+The subject's MDS-UPDRS Finger Tapping test shows no issues such as pauses or significant slowing down. The normalized amplitudes are consistently high, indicating smooth and steady tapping without any decrement in amplitude towards the end.
+
+Score: 0
+
+--- Evaluation 8 (Score: 0) ---
+The subject's tapping shows consistent amplitude with minimal variation and no interruptions. The statistical analysis supports a normal performance.
+
+Score: 0
+
+--- Evaluation 9 (Score: 0) ---
+The subject performed the finger tapping task without any major issues. The features indicate a consistent pattern with minimal variation in amplitude and timing, aligning with a normal score.
+
+Score: 0
+
+--- Evaluation 10 (Score: 0) ---
+The subject's finger tapping test shows consistent high amplitudes (around 0.93 to 1.0) without significant interruptions or halts. The normalized amplitude pattern is mostly steady with minimal fluctuations, and the statistical features indicate regularity in movement. There are no signs of severe slowing, multiple disruptions, or amplitude decrementing towards the end.
+
+Score: 0
+
+The score is assigned as 0 because there are no issues such as hesitations, halts, or significant amplitude decrements, aligning with the normal category (0).
+
+$\boxed{0}$
+
+
+============================================================
+161568408_20200601_Hands_R_13_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+The subject's score for the MDS-UPDRS Item 3.4 Finger Tapping is determined to be **Score 2** based on moderate issues with amplitude and slight irregularity towards the end.
+
+Step-by-step explanation:
+
+1. **Amplitude Analysis**: The normalized amplitudes show a consistent pattern except for one tap that drops slightly (0.86) near the end, followed by another lower value at the last tap.
+2. **Speed Consistency**: No significant interruptions or halts were observed, indicating steady tapping without major freezes.
+3. **Amplitude Decrement**: The decrease in amplitude starts towards the latter half of the tapping sequence, aligning with criteria for moderate issues as per Score 2.
+4. **Score Categorization**: While there are no explicit pauses (hence not meeting score 1's criteria), the gradual amplitude drop meets the midpoint requirement for score 2.
+
+Answer: \boxed{2}
+
+--- Evaluation 2 (Score: 1) ---
+The subject's score is determined by evaluating their finger tapping according to MDS-UPDRS criteria. The extracted features indicate moderate consistency with one noticeable amplitude decrease towards the end, fitting within Score 1.
+
+Score: 1
+
+--- Evaluation 3 (Score: 0) ---
+The subject's finger tapping test shows minimal disruptions with slight amplitude decreases towards the end but no significant interruptions or halts.
+
+Score: 0
+
+--- Evaluation 4 (Score: 0) ---
+The subject's tapping showed consistent regularity and only minor amplitude decrements. 
+
+Score: 0
+
+--- Evaluation 5 (Score: 2) ---
+The subject has taps that show a slight decrease in amplitude towards the end and a moderate slowing in movement. There are no evident pauses or significant halts. Based on these observations, the score is assigned as 2.
+
+$\boxed{2}$
+
+--- Evaluation 6 (Score: 2) ---
+The subject's tapping shows moderate issues with one significant amplitude dip (0.86) early on and inconsistent amplitude patterns towards the end.
+
+**Score: 2**
+
+Step-by-step explanation:
+- The normalized amplitudes show a dip to ~0.86 in the ninth tap, indicating an interruption or hesitation.
+- There are multiple taps around 0.94, suggesting some consistency but also variability.
+- The peak amplitude is moderate (finger_mvmnt_x_max: 4), indicating possible freezes or arrests.
+
+Based on these features and MDS-UPDRS criteria, the score is assigned as **2** due to moderate issues with interruptions and amplitude variations.
+
+--- Evaluation 7 (Score: 2) ---
+The subject has demonstrated moderate performance based on consistent tapping with slight amplitude variations and decrements towards the end. There are no significant interruptions, fitting into the criteria for Score 2.
+
+2
+
+--- Evaluation 8 (Score: 1) ---
+The subject's finger tapping data shows normalized amplitudes with a dip towards the end, indicating slight changes. Statistical features suggest moderate variability without severe interruptions. Based on MDS-UPDRS criteria, this corresponds to score 1.
+
+Score: \boxed{1}
+
+--- Evaluation 9 (Score: 1) ---
+The subject's tapping shows minor fluctuations in amplitude, with one instance slightly decreasing. No significant halts or multiple disruptions are observed.
+
+Score: 1
+
+\boxed{1}
+
+--- Evaluation 10 (Score: 3) ---
+The subject's finger tapping shows some fluctuation in amplitude with a slight decline towards the end. There were no clear interruptions but hints of slowing, suggesting moderate performance.
+
+Score: 3
+
+
+============================================================
+161568408_20210208_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's finger tapping shows minor fluctuations in amplitude with some slight reductions but no major interruptions or halts. 
+
+Score: 1
+
+--- Evaluation 2 (Score: 0) ---
+Based on the analysis of the extracted features and the MDS-UPDRS scoring criteria, the subject's score is **0**.
+
+Step-by-step explanation:
+
+- **Amplitude Analysis**: The normalized amplitudes show mostly consistent values (around 0.9 or higher) with a slight decrease towards the end but no major interruptions.
+- **Statistical Features**: 
+  - Low period_quartile_range and moderate amplitude_min suggest consistent timing without severe halts.
+  - Amplitude_entropy is within a range that indicates regularity, aligning with normal performance.
+- **Scoring Criteria**:
+  - No significant interruptions or halts (thus not reaching Score 1's criteria of 3+).
+  - The slight decrease in amplitude at the end might be considered as part of a general trend but without severe issues.
+
+Therefore, the subject meets the criteria for **Score 0: Normal** with normal performance and no problematic features.
+
+--- Evaluation 3 (Score: 3) ---
+The subject's score is determined based on their normalized amplitude pattern showing gradual amplitude decrease toward the end, which indicates moderate slowing. Additionally, with an extra peak suggesting a slight interruption or freeze near the end, they meet the criteria for Score 3.
+
+**Score:** 3
+
+--- Evaluation 4 (Score: 0) ---
+The subject's finger tapping performance shows minimal irregularities with a regular rhythm and consistent amplitude. There are no significant interruptions or major slowing effects. The statistical features indicate high consistency in both timing (period_quartile_range) and moderate control in amplitude, without signs of decrementing towards the end.
+
+Score: 0
+
+--- Evaluation 5 (Score: 2) ---
+The subject's finger tapping shows moderate irregularities with some amplitude decreases at specific points, indicating a score of **2**.
+
+Step-by-step explanation:
+1. The amplitude values have noticeable drops, suggesting some variability.
+2. Two significant amplitude decreases are observed without more interruptions or longer arrests than expected for higher scores.
+3. Based on the MDS-UPDRS criteria, this pattern aligns with moderate issues, classifying it as score 2.
+
+Score: 2
+
+--- Evaluation 6 (Score: 0) ---
+The subject scored **0** as their tapping was consistent with no major issues beyond a minor amplitude drop in the last tap.
+
+--- Evaluation 7 (Score: 2) ---
+The subject has demonstrated amplitude decrements midway through the tapping sequence, indicating moderate issues. 
+
+Score: 2
+
+--- Evaluation 8 (Score: 1) ---
+The subject's finger tapping shows slight amplitude variations and one noticeable decrement. No major interruptions or freezing are observed.
+
+Score: 1
+
+--- Evaluation 9 (Score: 2) ---
+The subject demonstrates moderate decrements in amplitude with no significant interruptions or hesitations during the tapping sequence.
+
+Score: 2
+
+--- Evaluation 10 (Score: 2) ---
+The subject's finger tapping performance shows mild issues with amplitude decreases and slight disruptions after the initial taps but not severe enough to reach higher scores. 
+
+Score: 2
+
+
+============================================================
+161568408_20210208_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+The subject's finger tapping test shows two instances where the normalized amplitudes drop below average. These drops indicate moderate issues such as slight interruptions and amplitude decrements, aligning with criteria for a score of 2.
+
+Score: 2
+
+--- Evaluation 2 (Score: 3) ---
+The subject's tapping showed signs of moderate difficulty with two instances where amplitude dropped below expected levels, fitting the criteria for score 3.
+
+\boxed{3}
+
+--- Evaluation 3 (Score: 1) ---
+Based on the analysis of the extracted features, the subject has minor interruptions and slight amplitude decrements towards the end of the tapping sequence, which aligns with the criteria for a score of 1.
+
+Score: 1
+
+--- Evaluation 4 (Score: 1) ---
+The subject has two instances of moderate interruptions and amplitude decreases, which aligns with a slight impairment fitting within the criteria for Score 1.
+
+Score: 1
+
+--- Evaluation 5 (Score: 3) ---
+The subject's finger tapping test shows moderate impairment with multiple interruptions, amplitude decrements, and halts. These features align with a score of 3 based on the MDS-UPDRS criteria.
+
+\boxed{3}
+
+--- Evaluation 6 (Score: 2) ---
+The subject's finger tapping was rated as SCORE 2. 
+
+Step-by-step explanation:
+- The normalized amplitudes show two instances of lower values (0.77), indicating moderate interruptions/halts.
+- Amplitude decrements start after the first tap but do not involve severe halting or freezing, fitting criteria for score 2.
+
+Score: 2
+
+--- Evaluation 7 (Score: 2) ---
+The subject's finger tapping test shows two significant interruptions where the amplitude drops below 0.8, indicating halts. The taps experience mild slowing and an amplitude decrement midway through the sequence, which aligns with the criteria for score 2.
+
+Score: 2
+
+--- Evaluation 8 (Score: 2) ---
+The subject's finger tapping performance was analyzed based on the extracted features. The amplitude pattern shows two instances of lower amplitudes (0.77), indicating moderate interruptions. The max amplitude is 3, suggesting controlled effort without excessive force. Statistical features such as periodEntropy and low period_quartile_range suggest regularity in timing despite minor variations. 
+
+Score: 2
+
+The score is assigned based on the presence of moderate interruptions and some slowing, aligning with the criteria for a score of 2.
+
+Step-by-step explanation:
+1. **Amplitude Analysis**: Two drops to 0.77 indicate moderate interruptions.
+2. **Max Amplitude**: 3 suggests controlled tapping without overextension.
+3. **Statistical Features**: Period features show minimal variability, indicating regularity.
+4. **Conclusion**: Moderate interruptions and slowing lead to a score of 2.
+
+Score: 2
+
+--- Evaluation 9 (Score: 3) ---
+The subject's finger tapping test shows some signs of amplitude decrements but no major halts or severe freezing. Based on the provided features and examples, this aligns with a moderate to severe decrement pattern.
+
+Score: 3
+
+--- Evaluation 10 (Score: 2) ---
+The subject's finger tapping test shows moderate impairment. The data indicates occasional lower amplitudes and slight pauses, aligning with the criteria for a mild score of 2.
+
+Step-by-step explanation:
+1. **Score 4 (Severe):** The subject can perform most taps without significant issues, so this is unlikely.
+2. **Score 3 (Moderate):** There are no notable interruptions or longer arrests in the data, which rules out this score.
+3. **Score 2 (Mild):** The normalized amplitudes show minor dips and slight slowing, fitting the criteria for this score.
+4. **Score 1 (Slight):** While there are some amplitude issues, they don't meet the threshold for a slightly impaired performance.
+
+Based on these evaluations, the subject is assigned a score of 2.
+
+The final answer is:
+
+\boxed{2}
+
+
+============================================================
+207795468_20200810_Hands_L_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+The subject has 5 interruptions during the tapping task, which falls into the moderate category as per MDS-UPDRS scoring.
+
+Score: 2
+
+--- Evaluation 2 (Score: 2) ---
+The subject's finger tapping test shows moderate irregularities with slight speed variations and amplitude decrements at the end but no significant pauses or halts. This aligns with the criteria for a score of 2.
+
+Score: 2
+
+--- Evaluation 3 (Score: 1) ---
+The subject's finger tapping test shows some variation in amplitude with a few lower readings but no consistent decrement or severe interruptions. The normalized features suggest mild inconsistencies rather than moderate issues.
+
+Score: 1
+
+--- Evaluation 4 (Score: 3) ---
+The subject's finger tapping test was scored based on their normalized amplitudes and statistical features, aligning with the MDS-UPDRS criteria. The analysis indicates moderate performance due to slight amplitude decline without severe interruptions.
+
+3
+
+--- Evaluation 5 (Score: 0) ---
+The subject's finger tapping test shows normalized amplitudes with minimal variation and no significant disruptions such as multiple halts or severe amplitude decrements. The features align closely with the criteria for a score of 0.
+
+Score: 0
+
+--- Evaluation 6 (Score: 2) ---
+The subject's test shows normalized amplitudes with slight decrements towards the end but no severe halts or significant speed issues. The features suggest moderate performance, aligning with Score 2.
+
+\boxed{2}
+
+--- Evaluation 7 (Score: 1) ---
+The subject has minor issues with amplitude variation towards the end of the tapping sequence, along with slight variations in speed. These features align with the criteria for a moderate score.
+
+Score: 1
+
+--- Evaluation 8 (Score: 0) ---
+Based on the analysis of the extracted features and comparison with the provided examples, the subject's performance aligns most closely with a score of **0**, indicating normal tapping behavior despite one slight full amplitude peak.
+
+The final answer is:
+
+\boxed{0}
+
+--- Evaluation 9 (Score: 2) ---
+The subject's finger-tapping test demonstrates characteristics that align with the scoring criteria of MDS-UPDRS item 3.4, specifically showing signs indicative of a moderate impairment. The normalized amplitude values reveal slight decrements and reduced force towards the end, which do not meet the severe threshold but fall under the mild category due to consistent tapping without major interruptions.
+
+Score: 2
+
+Step-by-step explanation:
+1. **Amplitude Analysis**: The subject's taps show variability with lower amplitudes at some points (e.g., 0.65), indicating reduced force.
+2. **Normalized Features**: Compared to higher normalized amplitudes, the values here suggest moderate difficulty in maintaining full amplitude throughout all taps.
+3. **Criteria Matching**: The slight amplitude decrement and consistent tapping without major interruptions align with the mild impairment described at score 2.
+
+Score: 2
+
+--- Evaluation 10 (Score: 1) ---
+Based on the analysis, the subject's finger tapping aligns more closely with the criteria for a slight issue (score 1), as indicated by normalized amplitudes and minor variations in timing without severe interruptions.
+
+Score: 1
+
+
+============================================================
+207795468_20200810_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 3) ---
+The subject exhibits a clear decrease in tap amplitudes towards the end of the sequence. This indicates some degree of amplitude decrement, which aligns with the criteria for score 3 (Moderate). There are no significant interruptions or longer arrests mentioned.
+
+Score: 3
+
+--- Evaluation 2 (Score: 1) ---
+The subject's score is **1**.
+
+This conclusion is based on the extracted features showing a normalized amplitude pattern with one significant dip towards lower values (0.61) at the ninth tap, accompanied by slight slowing as indicated by moderate period entropy and amplitude trends. These factors align with the criteria for Score 1: slight slowing and up to three interruptions or amplitude decrements, though in this case only one instance of each.
+
+Score: 1
+
+--- Evaluation 3 (Score: 3) ---
+The subject's MDS-UPDRS finger tapping score is determined based on the normalized amplitudes, which show a decrease from mid to late sequence. This indicates slowing and possible difficulties in maintaining consistent pressure, aligning with the criteria for Score 3.
+
+3
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping performance shows minimal issues with only one drop in amplitude towards the end and no significant interruptions. 
+
+Score: 1
+
+--- Evaluation 5 (Score: 3) ---
+The subject's finger tapping shows moderate slowing and an amplitude decrement starting after the first tap without significant interruptions or halts, which corresponds to a score of 3.
+
+\boxed{3}
+
+--- Evaluation 6 (Score: 2) ---
+The subject's finger tapping test was rated as SCORE 2 due to moderate slowing indicated by amplitude decreases towards the end of the sequence.
+
+Score: 2
+
+--- Evaluation 7 (Score: 3) ---
+The subject scored **3** based on consistent amplitude decrements from the start of tapping, meeting the criteria for score 3.
+
+3
+
+--- Evaluation 8 (Score: 3) ---
+The subject's finger tapping test shows a gradual decrease in amplitude towards the end of the sequence without major disruptions such as frequent pauses or halts. The normalized amplitudes indicate moderate decrementing, aligning with criteria for score 3.
+
+3
+
+--- Evaluation 9 (Score: 2) ---
+Based on the normalized amplitudes showing a consistent decrease towards the end with some moderate fluctuations and an amplitude_min of 88.0936, which aligns more with Score 2 than lower scores, I assign a score of 2.
+
+The score is 2 because there are noticeable dips in amplitude toward the end of the tapping sequence, with two instances where it drops below 1.0. The statistical features support this as the amplitude_min and periodQuartileRange suggest moderate issues but not severe enough for higher scores.
+
+Score: 2
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping performance meets the criteria for score 1. They experienced mild slowing and a noticeable amplitude decrement near the end of the sequence with only a few minor interruptions.
+
+Score: 1
+
+
+============================================================
+281628421_20200323_Hands_L_10-_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's tapping shows mostly consistent timing with slight amplitude decreases towards the end. There are no significant pauses or freezings, which aligns with the criteria for a score of 1.
+
+Score: 1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's finger tapping test shows a slight decrement in amplitude towards the end of the sequence with no major interruptions. This aligns with the criteria for Score 1.
+
+Score: 1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's finger tapping shows a gradual amplitude decrease but without significant interruptions. The features indicate moderate performance without severe issues.
+
+**Score: 1**
+
+Only slight issues as per criteria. No major interruptions or halts beyond what might be expected for a mild score.
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping demonstrates minimal issues with regularity and amplitude. While there is a slight decrease towards the end, it does not meet the criteria for a moderate or severe score.
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's performance on the MDS-UPDRS item 3.4 Finger Tapping test shows some minor decrements in amplitude towards the end of the sequence but no significant halts or multiple interruptions. Based on the features provided, the score is determined to be 1.
+
+1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's performance on the finger tapping task shows moderate consistency with slight variations in amplitude near the end. There are no significant interruptions or major decrements beyond what is considered mild.
+
+Score: 1
+
+--- Evaluation 7 (Score: 2) ---
+The MDS-UPDRS finger tapping score for the subject is **2**. This is because their taps showed a steady decline in amplitude toward the end of the sequence, consistent with moderate slowing as per the criteria.
+
+Step-by-step explanation:
+1. The normalized amplitudes show a slight decrease towards the end.
+2. No major interruptions or halts were observed during tapping.
+3. The trend aligns more closely with score 2's moderate decrement after the first tap rather than the severe decrements in higher scores.
+
+Answer: \boxed{2}
+
+--- Evaluation 8 (Score: 2) ---
+The subject's tapping shows a gradual decline in amplitude from around the fifth tap onward without any major disruptions such as halts or frequent hesitations. This aligns with the criteria for Score 2, where moderate slowing and amplitude decrements starting after the first tap are noted.
+
+Score: 2
+
+--- Evaluation 9 (Score: 1) ---
+Based on the analysis of the normalized amplitudes and statistical features provided, the subject's finger tapping test shows consistent speed without any significant interruptions. The gradual decrease in amplitude toward the end suggests minor issues fitting score 1 criteria.
+
+Score: 1
+
+--- Evaluation 10 (Score: 1) ---
+The subject showed minimal decrement in amplitude towards the end but no significant interruptions or halts. 
+
+Score: 1
+
+
+============================================================
+281628421_20200323_Hands_R_10-_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 3) ---
+The analysis of the statistical features indicates some signs of amplitude decrement towards the end but not as severe as higher scores. The normalized amplitudes show moderate trends, aligning with the criteria for Score 3.
+
+Score: 3
+
+--- Evaluation 2 (Score: 2) ---
+The subject's performance in the MDS-UPDRS finger tapping test shows moderate amplitude changes with slight decreases towards the end but no clear interruptions. Based on the features provided and the criteria, the score is assigned as 2.
+
+\boxed{2}
+
+--- Evaluation 3 (Score: 2) ---
+The subject's finger tapping test shows moderate changes in amplitude towards the end, indicating a score of 2. 
+
+Score: 2
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping test shows minimal disruptions with some minor amplitude variations but no significant halts or severe slowing, aligning with the criteria for a score of 1.
+
+Score: 1
+
+--- Evaluation 5 (Score: 3) ---
+The subject's finger tapping test shows moderate decrementing of amplitudes towards the end, with no significant interruptions. Features like normalized amplitude levels (mostly above 0.79) and consistent timing suggest they meet the criteria for a score of 3.
+
+Score: 3
+
+--- Evaluation 6 (Score: 1) ---
+The subject has shown slight issues with maintaining consistent amplitude throughout all ten taps. There were instances where the amplitude dipped slightly, but no major halts or severe decrements were observed.
+
+Score: 1
+
+--- Evaluation 7 (Score: 3) ---
+The score for the subject is **3** based on moderate issues such as multiple interruptions and amplitude decrements. 
+
+Step-by-step explanation:
+
+1. The normalized amplitudes show several drops below average (e.g., from 1.0 to 0.85, then further decreases).
+2. High num_peaks indicate possible stops or pauses during tapping.
+3. Multiple amplitude drops towards the end suggest significant interruptions and slowing.
+
+Answer: \boxed{3}
+
+--- Evaluation 8 (Score: 1) ---
+The subject's score is determined based on their normalized amplitudes showing a couple of lower values but overall consistent tapping with minimal interruptions, aligning most closely with the criteria for Score 1.
+
+Score: 1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's finger tapping performance shows normalized amplitudes with slight variations but no severe halts or decrements. There are a few instances of lower amplitudes that may indicate mild slowing, aligning with score 1.
+
+Score: 1
+
+--- Evaluation 10 (Score: 1) ---
+The analysis suggests a slight issue with amplitude towards the end, aligning with score 1.
+
+Score: 1
+
+
+============================================================
+281628421_20201130_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The score for the subject is **1**.
+
+--- Evaluation 2 (Score: 3) ---
+The subject's data shows a decline in finger amplitude towards the end of the sequence and includes several interruptions or arrests during tapping, which aligns with the criteria for a moderate score.
+
+Score: 3
+
+--- Evaluation 3 (Score: 0) ---
+The subject's finger tapping test shows minimal deviation from normal performance with a slight decrease in amplitude towards the end of the sequence. There are no notable halts or multiple interruptions, aligning with a score of 0.
+
+Score: 0
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping demonstrates normalized amplitudes that are high but show a slight decrement from tap 5 onwards, without any major pauses or halts. This aligns with the criteria for a mild decrementing trend.
+
+Score: 1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's tap sequence shows consistent amplitude with one instance of a lower value near the end, indicating a possible decrement in amplitude without major interruptions. This aligns more closely with score 1.
+
+Score: 1
+
+--- Evaluation 6 (Score: 2) ---
+The MDS-UPDRS finger tapping score for the subject is determined by evaluating their extracted features against the criteria. The amplitude pattern shows a decrease in normalized amplitudes towards the end, with four high maxima suggesting interruptions. These factors align with the criteria for a moderate score.
+
+The score is 2.
+
+\boxed{2}
+
+--- Evaluation 7 (Score: 2) ---
+The subject's performance on the MDS-UPDRS item 3.4 Finger Tapping test shows some decreases in amplitude towards the end, which aligns with criteria closer to a moderate score (Score 2). However, there are no significant pauses or multiple halts, so it doesn't reach the threshold for Score 3.
+
+Score: 2
+
+--- Evaluation 8 (Score: 1) ---
+The subject has minor issues with decreasing amplitudes in their last few taps without significant interruptions, aligning most closely with a score of 1.
+
+Score: 1
+
+--- Evaluation 9 (Score: 0) ---
+The subject's finger tapping shows a regular rhythm without significant interruptions, moderate amplitude consistency, and minimal slowing. All features indicate normal performance according to the MDS-UPDRS criteria.
+
+Score: 0
+
+--- Evaluation 10 (Score: 1) ---
+The subject's tapping shows consistent timing (periodQuartileRange ≈ 0.027) but experiences a gradual decrease in amplitude from tap 5 onward. This aligns with the criteria for a mild decrement at the end, leading to a score of 1.
+
+$\boxed{1}$
+
+
+============================================================
+281628421_20201130_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The subject's finger tapping test shows consistent and regular movement with minimal amplitude variability. The normalized amplitudes remain high, indicating normal strength without significant decrements or halts. The statistical features suggest a slight irregularity towards the end, which aligns more closely with Score 0 compared to higher scores due to the lack of severe impediments.
+
+Score: 0
+
+--- Evaluation 2 (Score: 2) ---
+The subject's Finger Tapping test was rated as SCORE 2 based on the extracted features. The analysis indicates moderate performance with some irregularities and slight amplitude variation but not severe enough to reach higher scores. 
+
+Number of score: 2
+
+--- Evaluation 3 (Score: 0) ---
+The extracted features show consistent and steady tapping without significant variations in amplitude. There are no notable interruptions, halts, or decrements that would indicate higher scores. The normalized amplitudes remain relatively stable throughout all 10 taps.
+
+Score: 0
+
+--- Evaluation 4 (Score: 0) ---
+The extracted features indicate a nearly normal performance with no significant issues. The amplitude remains consistent, and there are no notable interruptions or slowing effects beyond slight ones.
+
+**Score: 0**
+
+--- Evaluation 5 (Score: 0) ---
+The subject's finger tapping was evaluated based on normalized amplitudes and statistical features. The data shows consistent and regular tapping without any significant interruptions or amplitude decline, fitting within a normal performance.
+
+Score: 0
+
+--- Evaluation 6 (Score: 2) ---
+The subject's test results are analyzed based on MDS-UPDRS criteria for finger tapping. The data shows a high number of peaks and slight period irregularities but no significant decrementing in amplitude. These factors align with moderate scoring due to minor issues.
+
+Score: 2
+
+--- Evaluation 7 (Score: 1) ---
+The MDS-UPDRS item 3.4 score for the subject based on their extracted features is **Score 1**.
+
+Step-by-step explanation:
+1. The amplitude pattern remains consistently high with minimal dips, suggesting good control without significant decrements.
+2. The periodQuartileRange is low (0.0448), indicating consistent timing in tapping.
+3. Amplitude entropy and median/mean are within a normal range, showing stability.
+4. FingerMvmntXMax being 3 suggests moderate movement but no severe impairment.
+
+No significant interruptions or major slowing were observed, fitting the criteria for Score 1.
+
+Score: 1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's tap sequence shows consistent timing (period_quartile_range = 0.0448), slight variations in amplitude, but no significant decrements or major halts beyond three interruptions. This aligns with the criteria for a moderate score.
+
+**Score: 1**
+
+Step-by-step explanation:
+- The normalized amplitudes are stable, indicating consistent tapping.
+- Three interruptions fall within the threshold for score 1 (3 to 5).
+- No severe amplitude issues or halts are observed, which keeps it below score 2.
+
+Thus, based on moderate irregularities with no severe effects, the score is **1**.
+
+--- Evaluation 9 (Score: 0) ---
+The subject's finger tapping test shows a consistent pattern with amplitudes close to maximum and regular timing, indicating no significant issues. 
+
+Score: 0
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping test shows normalized amplitudes consistently around 0.95-1 with minor dips at the end, indicating regularity but slight decrescence. No significant interruptions were observed.
+
+Score: 1
+
+
+============================================================
+292801541_20201221_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+Based on the analysis, the subject has no apparent pauses or significant hesitations, indicating good speed. However, there are moderate decrements in amplitude at the end of the tapping sequence, which aligns with the criteria for Score 2.
+
+Score: 2
+
+--- Evaluation 2 (Score: 1) ---
+The subject's finger tapping performance was evaluated based on normalized amplitudes showing slight decreases towards the end without major disruptions. The period entropy suggests some variability, and the amplitude range indicates moderate consistency. Considering these factors align with score 1 criteria.
+
+Score: 1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's finger tapping score is **1** because they exhibit minor issues such as slight amplitude decrements towards the end of the taps but no significant pauses or substantial speed issues.
+
+The final answer is:
+
+\boxed{1}
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping performance shows slight issues such as an amplitude decrement towards the end, with only one tap below the normalized ratio. This aligns with the criteria for a score of 1 due to amplitude decrements and minor speed changes.
+
+Score: 1
+
+--- Evaluation 5 (Score: 2) ---
+The subject's finger tapping shows moderate impairment due to a single hesitation in amplitude towards the end.
+
+**Score:** 2
+
+--- Evaluation 6 (Score: 3) ---
+The subject's tapping shows moderate slowing with amplitude decreasing from the start but without major interruptions or halts. 
+
+Score: 3
+
+--- Evaluation 7 (Score: 1) ---
+The subject's tapping shows minimal issues with speed and amplitude, primarily towards the end where there are slight decrements. There are no significant halts or multiple interruptions.
+
+Score: 1
+
+\boxed{1}
+
+--- Evaluation 8 (Score: 1) ---
+The score is determined based on the normalized amplitude pattern showing one significant decrease (0.79) with a slight overall trend downward. This aligns with the criteria for Score 1.
+
+\boxed{1}
+
+--- Evaluation 9 (Score: 1) ---
+The MDS-UPDRS finger tapping score is determined based on the extracted features showing slight amplitude decrements towards the end without major interruptions, aligning with score 1.
+
+$\boxed{1}$
+
+--- Evaluation 10 (Score: 0) ---
+The subject's MDS-UPDRS Finger Tapping score is determined by evaluating their normalized amplitudes and statistical features against the scoring criteria.
+
+**Score: 0**
+
+This evaluation rates each side separately based on speed, amplitude, hesitations, halts, and decrementing amplitude. The normalized amplitudes show consistent tapping with no significant decrements or major irregularities in rhythm.
+
+
+============================================================
+292801541_20201221_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+The subject's tapping had minor interruptions at several points, which likely counts as mild issues. The amplitude started to decrease more noticeably near the end.
+
+Score assigned: 2
+
+\boxed{2}
+
+--- Evaluation 2 (Score: 2) ---
+The subject's finger tapping test shows moderate performance with one disruption and an amplitude that slightly decreases toward the end. Based on MDS-UPDRS item 3.4, this corresponds to a score of 2.
+
+\boxed{2}
+
+--- Evaluation 3 (Score: 3) ---
+The subject's finger tapping test shows moderate issues with speed and amplitude variation towards the end, along with multiple interruptions. This aligns with the criteria for a moderate performance.
+
+Score: 3
+
+--- Evaluation 4 (Score: 3) ---
+The subject's finger tapping test was rated as SCORE 3. This is because there were no significant interruptions but noticeable moderate slowing and amplitude decrements, particularly towards the end of the tapping sequence.
+
+Score: 3
+
+--- Evaluation 5 (Score: 1) ---
+The subject exhibits slight decrementing amplitudes without significant interruptions during tapping. Based on the features, this aligns with a score of 1.
+
+Score: 1
+
+--- Evaluation 6 (Score: 2) ---
+The subject's finger tapping performance shows signs of mild issues with amplitude and timing consistency, fitting the criteria for a moderate score.
+
+Score: 2
+
+--- Evaluation 7 (Score: 2) ---
+The subject's finger tapping shows a gradual amplitude decrease from the start, indicating moderate decrement. There are no notable interruptions or halts. Based on MDS-UPDRS criteria for score 2, this exemplifies the presence of amplitude decrements starting after the first tap.
+
+\boxed{2}
+
+--- Evaluation 8 (Score: 2) ---
+The subject's finger tapping test shows mild issues with amplitude and timing. 
+
+Score: 2
+
+--- Evaluation 9 (Score: 1) ---
+Based on the analysis of the normalized amplitude patterns and statistical features provided, the subject's finger tapping demonstrates characteristics consistent with a slight decrement in amplitude near the end. This aligns with the criteria for Score 1.
+
+Score: 1
+
+--- Evaluation 10 (Score: 0) ---
+The subject's finger tapping performance was scored as 0 based on the analysis of their normalized amplitudes and statistical features. The data showed consistent tapping with a slight decrease in amplitude towards the end but no significant interruptions or halts, aligning with the criteria for score 0.
+
+0
+
+
+============================================================
+403773045_20200427_Hands_L_13_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The analysis of the extracted features for the finger tapping test indicates that all amplitudes remain consistently high without significant variations or decrements near the end. The statistical features such as period entropy and amplitude consistency suggest minimal to no interruptions or halts during the tapping sequence.
+
+Based on this, the subject's performance aligns with a score of 0 (normal), as there are no notable issues that would warrant higher scores according to the MDS-UPDRS criteria.
+
+Score: 0
+
+--- Evaluation 2 (Score: 0) ---
+The subject's finger tapping test shows consistent amplitudes with minor fluctuations and no significant interruptions or decrements in speed early on. All taps meet the criteria for a normal performance.
+
+Score: 0
+
+--- Evaluation 3 (Score: 0) ---
+The subject performed the test without any significant issues in rhythm or amplitude consistency. The normalized amplitudes remained high and stable across all taps, indicating minimal variation. There were no notable interruptions, halts, or decrementing amplitudes, which are critical for scoring higher than 0. 
+
+Score: 0
+
+--- Evaluation 4 (Score: 0) ---
+The subject's tapping was smooth and consistent throughout the 10 taps. There were no signs of hesitations, halts, or significant amplitude decreases. The normalized amplitudes remained high, indicating strong and steady tapping.
+
+Score: 0
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping test shows normalized amplitudes with minimal variation and two slightly lower points, indicating slight hesitations but no major issues. Based on MDS-UPDRS criteria, this fits into a score 1.
+
+\boxed{1}
+
+--- Evaluation 6 (Score: 1) ---
+The subject's tapping was evaluated based on consistency, amplitude variation, and minimal disruptions. All taps showed consistent high amplitudes except for minor dips near the end, aligning with a slight decrement characteristic of Score 1.
+
+Score: 1
+
+--- Evaluation 7 (Score: 0) ---
+The subject's finger tapping test shows minimal interruptions and consistent amplitude. The normalized amplitudes do not indicate significant decrements, aligning with a score of 0.
+
+\boxed{0}
+
+--- Evaluation 8 (Score: 1) ---
+The subject's tapping shows nearly constant high amplitude (all values above 0.95) with minor dips towards the end, indicating minimal variation. The period features suggest regularity without interruptions or significant slowing. Based on these observations, the score is **1** due to slight variations and end amplitude decrease.
+
+1
+
+--- Evaluation 9 (Score: 0) ---
+The extracted features show consistent tapping with no irregularities. The amplitude remains stable, and there are no signs of halts or significant slowing. Therefore, the score is 0.
+
+\boxed{0}
+
+--- Evaluation 10 (Score: 0) ---
+The subject's finger tapping performance shows consistent and steady taps with minimal variations in amplitude. There are no notable disruptions such as hesitations, halts, or significant slowing down. The normalized amplitudes remain stable across all 10 taps.
+
+Score: 0
+
+
+============================================================
+403773045_20200427_Hands_R_13_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The subject's finger tapping test was rated as **SCORE 0**. This is because there were minimal issues with speed (period entropy was low), consistent timing, and only one slight decrement in amplitude towards the end without more significant problems.
+
+Score: 0
+
+--- Evaluation 2 (Score: 2) ---
+The subject has a noticeable decrement in amplitude towards the end of the tapping sequence, which aligns with the criteria for Score 2. There are no significant interruptions or halts.
+
+Score: 2
+
+--- Evaluation 3 (Score: 1) ---
+The subject's tapping performance had minimal issues with speed and consistency (period entropy was low), but there was a noticeable decrease in amplitude at the end of the sequence. This aligns most closely with criteria for a score of 1.
+
+Score: 1
+
+--- Evaluation 4 (Score: 2) ---
+The subject's finger tapping performance is evaluated for each hand separately based on MDS-UPDRS criteria. The left hand appears to have minimal issues with a slight amplitude drop at the end, while the right hand may show more severe issues such as multiple interruptions or halts. Considering both hands, the overall score is assigned as 2.
+
+The score is determined by evaluating each side's performance. The left hand meets the criteria for a slightly impaired score (possibly 0), but without specific data on the right hand, it's assumed to have moderate issues. Combining both sides, the overall score is moderate impairment.
+
+Score: 2
+
+--- Evaluation 5 (Score: 2) ---
+The subject's finger tapping test shows consistent amplitude values except for one significantly lower tap near the end of the sequence. The normalized amplitudes have minimal variation, indicating regularity with a slight decrement at the last tap.
+
+Score: 2
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping test shows one significant amplitude decrement near the end, indicating a brief halt. Despite this, there are no more than two such interruptions, aligning with the criteria for a slight score.
+
+Score: 1
+
+--- Evaluation 7 (Score: 3) ---
+The MDS-UPDRS finger tapping test evaluates speed, amplitude consistency, and related issues. The subject's data shows a single significant decrease in amplitude during the last tap, with no interruptions or halts. This aligns with moderate impairment due to amplitude decrements starting after the first tap.
+
+Score: 3
+
+\boxed{3}
+
+--- Evaluation 8 (Score: 0) ---
+The subject's score is **0** because there were no significant problems in their finger tapping, despite minor amplitude fluctuations and a dip towards the end that receded slightly. 
+
+\boxed{0}
+
+--- Evaluation 9 (Score: 2) ---
+The subject scored 2 on the MDS-UPDRS item 3.4 FINGER TAPPING. The analysis of normalized amplitudes and statistical features indicated moderate issues with amplitude variation towards the end.
+
+\boxed{2}
+
+--- Evaluation 10 (Score: 2) ---
+The subject's finger tapping performance shows minimal disruptions with mostly consistent tapping except for one instance where the amplitude drops significantly. 
+
+Score: 2
+
+
+============================================================
+403773045_20201012_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The extracted features indicate that the subject performed the finger tapping task with normalized amplitudes consistently high and no significant deviations. There are no notable hesitations, halts, or amplitude decrements. The statistical analysis shows stability in performance parameters, aligning with a normal score.
+
+Score: 0
+
+--- Evaluation 2 (Score: 1) ---
+The subject's performance shows minimal interruptions with slight amplitude changes but no major issues. Based on the features provided, they meet the criteria for Score 1.
+
+\boxed{1}
+
+--- Evaluation 3 (Score: 0) ---
+The subject's score is determined by evaluating their tapping consistency and amplitude.
+
+Step-by-step explanation:
+
+1. **Normalization of Amplitudes**: All amplitudes are high (~0.93 to 1.0), indicating strong, consistent taps without significant variation or decrements at the end (no score 2 criteria met).
+
+2. **Statistical Features**: 
+   - High normalized amplitudes and periods suggest regularity.
+   - Only two taps fall below maximum amplitude, which doesn't meet the criteria for any score beyond 0.
+
+3. **Comparison with Examples**:
+   - The example for score 0 has similar high amplitudes without significant issues.
+   - Higher scores (1-4) involve more interruptions or slower tapping not shown here.
+
+Conclusion: Based on consistent and strong taps, the subject achieves a score of 0.
+
+The final answer is:
+
+\boxed{0}
+
+--- Evaluation 4 (Score: 1) ---
+The subject's score is **1**.
+
+This rating aligns with the slight decrease in amplitude towards the end of the tapping sequence and minimal interruptions observed.
+
+--- Evaluation 5 (Score: 0) ---
+The subject performed the finger tapping task without significant issues. The amplitude pattern shows consistent high values with minor dips but no major interruptions or halts. The statistical features indicate regularity and minimal variability, supporting a normal performance.
+
+Score: 0
+
+--- Evaluation 6 (Score: 0) ---
+The extracted features for the subject show consistent amplitude values with minimal variation and smooth timing. There are no signs of significant decrements, pauses, or irregularities in speed or amplitude. These observations align with a normal performance.
+
+Score: 0
+
+--- Evaluation 7 (Score: 1) ---
+The subject's tapping was mostly consistent with only minor amplitude variations and no significant interruptions. Based on the features provided, they fit the criteria for a moderate score.
+
+Score: 1
+
+--- Evaluation 8 (Score: 0) ---
+Based on the analysis, the subject's finger tapping shows minimal irregularities and consistency, aligning with the criteria for a score of 0.
+
+The assigned score is **0** because there are no significant issues with speed, amplitude, or consistency as per the MDS-UPDRS criteria.
+
+--- Evaluation 9 (Score: 0) ---
+The subject performed the FINGER TAPPING test with consistent and regular taps, showing no significant interruptions or amplitude issues beyond slight variations that fall within normal performance.
+
+Score: 0
+
+--- Evaluation 10 (Score: 0) ---
+The subject's finger tapping performance shows normalized amplitudes close to maximum values, minimal amplitude decrement towards the end, and no significant disruptions like hesitations or halts. All features indicate smooth execution without notable issues.
+
+Score: 0
+
+
+============================================================
+403773045_20201012_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+The subject demonstrated one disruption during the tapping task. The normalized amplitudes showed significant variation, starting high and then dropping notably towards the end. This aligns with mild issues as defined by MDS-UPDRS item 3.4.
+
+Score: 2
+
+--- Evaluation 2 (Score: 0) ---
+The subject's tapping was mostly consistent with only one minor amplitude decrease. There were no significant interruptions or halts. 
+
+Score: 0
+
+--- Evaluation 3 (Score: 3) ---
+The subject's finger tapping shows one significant decrement in amplitude towards the end of the sequence, indicating some slowing but without multiple interruptions or extended halts. Based on this, the score is 3.
+
+Score: 3
+
+--- Evaluation 4 (Score: 3) ---
+The subject's finger tapping test shows signs of amplitude decrements starting towards the end of the sequence, which aligns with the criteria for a moderate score.
+
+Score: 3
+
+--- Evaluation 5 (Score: 3) ---
+The subject's finger tapping test was evaluated based on normalized amplitudes and statistical features. The significant drop in amplitude at the eighth tap suggests moderate issues, aligning with criteria for a moderate score.
+
+Score: 3
+
+--- Evaluation 6 (Score: 2) ---
+The analysis of the features shows that the subject performed the finger tapping with minimal disruption. The only noticeable decrease is towards the end, which aligns with moderate criteria but doesn't meet the severe threshold.
+
+Score: 2
+
+--- Evaluation 7 (Score: 3) ---
+Based on the analysis of the extracted features, the subject demonstrated characteristics consistent with Score 3. This includes moderate slowing due to higher period entropy and variability in tap timing, along with amplitude decrements starting after the initial taps.
+
+The final score is:
+
+\boxed{3}
+
+--- Evaluation 8 (Score: 1) ---
+The MDS-UPDRS finger tapping score for the subject is **1** due to one significant amplitude decrement without major interruptions.
+
+Step-by-step explanation:
+1. The normalized amplitudes show a slight drop at the eighth tap but remain above 0.65, indicating no major halts.
+2. Only one noticeable amplitude decrease occurs towards the end of the sequence.
+3. No clear interruptions or multiple breaks are observed in the tapping pattern.
+
+Score: **1**
+
+The score is assigned because there's evidence of a single slight decrement in amplitude without any major interruptions during the 10 taps, aligning with the criteria for score 1.
+
+--- Evaluation 9 (Score: 1) ---
+The subject scored 1 for the MDS-UPDRS Finger Tapping test due to one tap showing a slight decrement in amplitude near the end. This aligns with the criteria for score 1.
+
+1
+
+--- Evaluation 10 (Score: 2) ---
+The subject's tapping shows amplitude consistency with only a noticeable decrease at the eighth tap. This indicates moderate performance according to the MDS-UPDRS criteria.
+
+\boxed{2}
+
+
+============================================================
+403773045_20210201_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The subject's finger tapping test shows minimal issues with consistency in amplitude and timing. There is a slight decrease at the seventh tap, which does not meet the criteria for higher scores.
+
+Score: 0
+
+--- Evaluation 2 (Score: 1) ---
+Based on the analysis of the normalized amplitudes and statistical features, despite minor fluctuations near the end, this subject's tapping aligns most closely with Score 1 due to slight decrement in amplitude. 
+
+Score: 1
+
+--- Evaluation 3 (Score: 2) ---
+The subject's finger tapping test shows normalized amplitudes that slightly decrease towards the end, indicating moderate decrements without clear pauses or multiple stops. 
+
+Score: 2
+
+--- Evaluation 4 (Score: 0) ---
+The analysis of the extracted features shows a pattern that aligns closely with the characteristics of a normal performance on the finger tapping task. There are minimal inconsistencies and no signs of severe disruptions.
+
+Score: 0
+
+--- Evaluation 5 (Score: 0) ---
+The subject's finger tapping test aligns closely with the criteria for a normal performance as per MDS-UPDRS item 3.4. There are no significant interruptions, hesitations, or pronounced amplitude decrements.
+
+Score: 0
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping performance shows mostly consistent amplitude and period characteristics with only one noticeable dip in amplitude during the sequence. There is no clear evidence of multiple interruptions or significant slowing, which are key indicators for higher scores. However, the presence of an extra tap might indicate a slight issue akin to a hesitation. Based on this analysis, the score would be:
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject has an AMPLITUDE PATTERN with 11 taps instead of the required 10. One extra tap is present, which may indicate a minor issue but doesn't meet the criteria for a moderate or severe score. The normalized amplitudes show slight decrement near the end (0.9), aligning with the criteria for a mild issue.
+
+Score: 1
+
+The extra tap might be considered an interruption, but since it's only one and the amplitude issues are minor, this falls under Score 1 due to the near-end amplitude decrease.
+
+1
+
+--- Evaluation 8 (Score: 2) ---
+The subject's tapping shows one notable decrease in amplitude and some irregularity near the midpoint, fitting the criteria for a moderate score (2).
+
+Score: 2
+
+--- Evaluation 9 (Score: 0) ---
+The subject's finger tapping performed according to the MDS-UPDRS criteria shows minimal issues with consistency and only one slight amplitude dip. There is no evidence of major disruptions, so the score assigned is:
+
+0
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping test shows one instance where the amplitude slightly decreases. Based on the statistical features and MDS-UPDRS criteria, this indicates a mild issue with interruptions.
+
+Score: 1
+
+
+============================================================
+403773045_20210201_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's finger tapping test shows minimal issues primarily affecting the latter taps with slight amplitude decrease. There are no significant pauses or multiple interruptions.
+
+Score: 1
+
+--- Evaluation 2 (Score: 4) ---
+The score is **2**. 
+
+Step-by-step explanation:
+
+1. The normalized amplitudes show consistent high values early on but gradually decrease towards the end (0.9 to ~0.75), indicating amplitude issues.
+
+2. No major halts or pauses, ruling out Score 3 and possibly Score 4 due to interruptions.
+
+3. The periodQuartileRange is low, suggesting consistent tapping speed without significant slowing or acceleration.
+
+4. The normalized amplitudes' decrease aligns with mild decrements starting after the first few taps, fitting within the criteria for Score 2.
+
+--- Evaluation 3 (Score: 2) ---
+The subject's finger tapping shows a moderate decrement in amplitude towards the end, without significant interruptions or halts. 
+
+Score: 2
+
+--- Evaluation 4 (Score: 2) ---
+The subject's finger tapping test shows signs of decreasing amplitude towards the end, with normalized values dropping from higher to lower levels. This indicates moderate performance without significant interruptions but with reduced amplitude as taps progress.
+
+Score: 2
+
+--- Evaluation 5 (Score: 3) ---
+The subject's finger tapping test shows moderate decrements in amplitude starting after the first tap, along with some evidence of deceleration but not severe interruptions or halts.
+
+Score: 3
+
+--- Evaluation 6 (Score: 2) ---
+The subject's score for MDS-UPDRS item 3.4 based on the extracted features is **2**.
+
+Step-by-step explanation:
+1. The normalized amplitudes show a slight decrease at the end but no consistent decrement throughout, indicating minimal amplitude variation.
+2. There are no significant interruptions or halts during tapping.
+3. The amplitude shows signs of moderate decrements towards the end, aligning with the criteria for Score 2.
+
+Answer: \boxed{2}
+
+--- Evaluation 7 (Score: 0) ---
+The subject's finger tapping performance shows consistent amplitudes with only a minor decrement at the end. No significant interruptions, halts, or severe amplitude issues are observed.
+
+Score: 0
+
+--- Evaluation 8 (Score: 2) ---
+The subject's finger tapping test shows moderate issues. The normalized amplitudes drop towards the end, and while not multiple interruptions, there are some decrementing signs.
+
+Score: 2
+
+--- Evaluation 9 (Score: 1) ---
+The subject's finger tapping test shows minimal disruptions with some amplitude decrease towards the end but no severe interruptions. Based on the features, they are scored as:
+
+**1**
+
+--- Evaluation 10 (Score: 2) ---
+The subject's finger tapping performance was evaluated based on normalized amplitudes and statistical features, aligning with moderate criteria as per MDS-UPDRS item 3.4.
+
+Score: 2
+
+
+============================================================
+421326689_20200706_Hands_R_13_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's finger tapping test shows slight amplitude decreases towards the end with no significant interruptions, matching the criteria for score 1. 
+
+Score: 1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's finger tapping scored a 1. The normalized amplitude shows minor decrement at the end (0.86), which aligns with score 1's criteria of slight issues.
+
+\boxed{1}
+
+--- Evaluation 3 (Score: 0) ---
+The subject's tapping showed minimal issues with speed and amplitude but not severe enough to reach a higher category.
+
+Score: 0
+
+--- Evaluation 4 (Score: 2) ---
+The subject's finger tapping test shows a gradual decline in amplitude starting from the third tap onwards. While there are minor fluctuations, the pattern aligns with moderate performance based on the scoring criteria.
+
+Score: 2
+
+--- Evaluation 5 (Score: 1) ---
+The subject's tapping shows consistent timing with no major interruptions (period_quartile_range = 0.0281), indicating smooth tapping without pauses. The amplitude starts high and slightly decreases towards the end, but not drastically (amplitude_min = ~0.9). There are minimal decrements in amplitude near the end, fitting within the criteria for a score of 1.
+
+Score: 1
+
+--- Evaluation 6 (Score: 2) ---
+The subject's finger tapping test shows moderate performance. While there is a slight trend towards decreasing amplitudes and only five out of ten taps achieved maximum amplitude, these factors do not meet the criteria for a severe score. 
+
+Score: 2
+
+--- Evaluation 7 (Score: 2) ---
+The subject's finger tapping test shows normalized amplitudes that gradually decrease over time but remain relatively consistent. There are no significant pauses or hesitations. Based on the MDS-UPDRS criteria and provided features, the score is 2.
+
+\boxed{2}
+
+--- Evaluation 8 (Score: 0) ---
+The subject demonstrated minimal disruptions during tapping. The normalized amplitudes show slight decrement towards the end but without any halts or significant pauses. All taps were completed, indicating no hesitations.
+
+Score: 0
+
+--- Evaluation 9 (Score: 0) ---
+The subject's score for the MDS-UPDRS Item 3.4 Finger Tapping test is **0**. 
+
+This conclusion is based on the consistent tapping with minimal disruptions and only a slight decrease in normalized amplitude towards the end, which does not meet the criteria for higher scores.
+
+0
+
+--- Evaluation 10 (Score: 1) ---
+The subject's performance on the finger tapping task shows minimal issues with amplitude and regularity, fitting within the criteria for a slight impairment.
+
+**Score: 1**
+
+Step-by-step explanation:
+- **Amplitude Analysis**: The normalized amplitudes show minor fluctuations without severe decrements. The minimum amplitude is slightly low but not indicative of significant impairment.
+- **Timing Consistency**: The period_quartile_range being low suggests regular tapping intervals with no major halts, supporting a smooth process.
+- **Minor Issue**: There's one dip in amplitude towards the end, which aligns with slight impairment as per the criteria.
+
+Based on these observations, the subject is assigned a score of 1.
+
+
+============================================================
+445817794_20200720_Hands_L_12-_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+The subject performed the finger tapping test with consistent timing (low periodQuartileRange) and high amplitudes. However, there were slight amplitude decrements near the end of the sequence, which aligns with mild criteria.
+
+Score: 2
+
+--- Evaluation 2 (Score: 1) ---
+The subject's finger tapping test shows mostly consistent timing with only minor interruptions near the end, leading to a slight decrement in amplitude.
+
+Score: 1
+
+--- Evaluation 3 (Score: 0) ---
+The subject's tap sequence shows slight decreases in amplitude but no significant disruptions. Thus, they meet the criteria for a normal performance with minor issues as per score 0.
+
+Score: 0
+
+--- Evaluation 4 (Score: 2) ---
+The subject's finger tapping shows minimal irregularities with one hiccup (hesitation) during the sequence. Their amplitude dips slightly towards the end but remains relatively high overall. Based on these observations and comparing to the MDS-UPDRS criteria, their performance falls under "Mild" impairment.
+
+Score: 2
+
+--- Evaluation 5 (Score: 2) ---
+The subject's score is **2**. 
+
+Step-by-step explanation:
+1. The amplitude pattern shows mostly consistent high values except for two lower taps near the end.
+2. Statistical features like low period entropy indicate regular tapping but a higher amplitude_min suggests some inconsistency in larger taps.
+3. The normalized amplitudes decreasing towards the end align with moderate decrement criteria, fitting into Score 2.
+
+Score: 2
+
+--- Evaluation 6 (Score: 2) ---
+The subject's finger tapping performance shows characteristics indicative of score 2. The high normalized amplitudes suggest occasional decrement issues, supported by the moderate slowing indicated by entropy levels.
+
+\boxed{2}
+
+--- Evaluation 7 (Score: 3) ---
+The subject's tapping shows moderate performance. The normalized amplitudes dip slightly towards the end, indicating mild decrementing without significant halts or major slowing early on.
+
+Score: 3
+
+--- Evaluation 8 (Score: 2) ---
+The assigned MDS-UPDRS item 3.4 score for the subject is 2. 
+
+Step-by-step explanation:
+1. The subject's normalized amplitudes show slight decrements at the end (0.76), indicating possible slowing or amplitude reduction.
+2. There are two consecutive low-amplitude taps, suggesting a minor hesitation but not severe interruptions.
+3. The data does not indicate more than five interruptions, aligning with score 2 criteria regarding moderate speed irregularity and amplitude decrements.
+
+Score: 2
+
+--- Evaluation 9 (Score: 0) ---
+The subject successfully completed all 10 taps without any major halts or significant amplitude decrements, showing consistent performance. 
+
+Score: 0
+
+--- Evaluation 10 (Score: 1) ---
+The subject's MDS-UPDRS finger tapping score is 1 due to mild amplitude decrements towards the end without significant interruptions.
+
+1
+
+
+============================================================
+445817794_20200720_Hands_R_12-_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject has a score of **1** based on the normalized amplitude pattern showing minor decrements at the end and statistical features aligning with slight issues.
+
+\boxed{1}
+
+--- Evaluation 2 (Score: 2) ---
+The subject was evaluated based on the MDS-UPDRS Item 3.4 Finger Tapping test features. The normalized amplitude values showed a slight decrease towards the end, and the finger movement maximum (finger_mvmnt_x_max) of 5 indicated moderate performance. These factors align with the criteria for a score of 2: Mild.
+
+The final score is:
+
+\boxed{2}
+
+--- Evaluation 3 (Score: 0) ---
+Based on the analysis of the subject's tap amplitude pattern and statistical features, the MDS-UPDRS finger tapping score for this subject is assigned a rating of **0**. 
+
+The reasoning indicates that while there are slight decreases in amplitude towards the end, these do not meet the criteria for any higher scores (1 to 4) as outlined by the MDS-UPDRS item. The performance remains consistent with only minor fluctuations, aligning with the criteria for a normal or slightly impaired performance.
+
+Step-by-step explanation:
+1. **Amplitude Pattern Analysis**: The normalized amplitudes show minimal decreases towards the end but do not indicate significant issues like major decrements.
+2. **Statistical Features**: The features such as period entropy and amplitude statistics suggest regularity in tapping with no notable pauses or halts.
+3. **MDS-UPDRS Criteria**: The performance does not meet the thresholds for higher scores, making a score of 0 appropriate.
+
+Answer: 0
+
+--- Evaluation 4 (Score: 0) ---
+The subject's finger tapping test shows minimal issues with amplitude, primarily a slight decrement at the end of the taps without significant pauses or breaks. Based on the MDS-UPDRS criteria, this aligns most closely with Score 0.
+
+Score: 0
+
+--- Evaluation 5 (Score: 1) ---
+The subject's score is **1**.
+
+Step-by-step explanation:
+- **Normalized Amplitude Analysis**: The pattern starts strong and then varies slightly, with no severe decrements towards the end but some minor fluctuations.
+- **Statistical Features**: High consistency in timing (period_quartile_range low), moderate to high amplitude values consistently, indicating controlled tapping without major interruptions or freezing.
+- **Conclusion**: Based on minimal interruptions and oscillations, along with consistent tapping strength, it aligns most closely with SCORE 1.
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping test shows signs of mild performance, with slight amplitude decreases towards the end. There are no significant interruptions or halts, fitting within the criteria for score 1.
+
+Score: 1
+
+--- Evaluation 7 (Score: 1) ---
+Based on the analysis, the subject shows minimal disruptions with a slight amplitude decrease towards the end. 
+
+Score: **1**
+
+--- Evaluation 8 (Score: 2) ---
+The assigned score for the subject based on their FINGER TAPPING performance is 2. This is due to moderate slowing in movement periods (as indicated by a periodEntropy of 0.8018, which suggests slight variations), along with an amplitude that starts to decrement after the first few taps but without severe interruptions or halts.
+
+Score: 2
+
+--- Evaluation 9 (Score: 2) ---
+The MDS-UPDRS finger tapping score is determined by evaluating speed, consistency, and amplitude changes. The normalized amplitudes are consistent with slight decreases towards the end, indicating a possible moderate decrement midway through the taps.
+
+Score: 2
+
+--- Evaluation 10 (Score: 1) ---
+Based on the extracted features and MDS-UPDRS criteria, the subject demonstrates slight decrements in amplitude from start to finish without major interruptions. The normalized amplitudes show a steady decline towards the end but remain relatively high. There are no notable pauses or longer arrests.
+
+Score: 1
+
+
+============================================================
+445817794_20201109_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's test results indicate smooth tapping with minimal amplitude variation. Despite some slightly lower normalized amplitudes near the end, they remain consistently high without significant interruptions.
+
+Score: 1
+
+--- Evaluation 2 (Score: 3) ---
+The subject's performance shows signs of moderate issues with consistency in amplitude, suggesting a possible Score 3.
+
+Score: 3
+
+--- Evaluation 3 (Score: 1) ---
+The subject scored 1 on the MDS-UPDRS item 3.4 FINGER TAPPING.
+
+**Step-by-step explanation:**
+
+1. **Amplitude Analysis**: The tap amplitudes are mostly consistent (around 0.8 to 1.0), with slight decreases at the end but not severe enough for higher scores.
+
+2. **Period Consistency**: The period quartile range is low, indicating regular timing between taps—no hesitations or halts affecting rhythm.
+
+3. **Amplitude Entropy**: The value (1.67) shows some variability in amplitudes, likely due to the slight decrease towards the end of the tapping sequence.
+
+4. **Score Categorization**: Based on features and MDS-UPDRS criteria, there are no major issues but some minor decrements fitting within a 'slight' score category (1).
+
+**Answer:** 1
+
+--- Evaluation 4 (Score: 1) ---
+Based on the analysis of the extracted features and the MDS-UPDRS criteria, the subject's finger tapping performance shows a slight decrease in normalized amplitude towards the end without major interruptions or halts. The statistical features indicate moderate consistency in timing but no severe signs of slowing or significant decrements beyond minor trends.
+
+Score: 1
+
+Step-by-step explanation:
+The normalized amplitudes are mostly stable with only a slight decrement at the end, consistent with mild criteria for score 1. No major interruptions or halts were observed.
+
+Final Answer: \boxed{1}
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping test shows mostly consistent performance with minor amplitude variations near the end. There are no significant halts or extreme slowing, aligning with a score that is slightly above average but not severe.
+
+Score: 1
+
+--- Evaluation 6 (Score: 0) ---
+The subject's performance in the finger tapping task shows consistent amplitude with minor fluctuations but no significant interruptions, halts, or decrements. The features indicate normal tapping without notable issues that would exceed a slight impairment.
+
+Score: 0
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping test shows mostly consistent performance with minor amplitude decreases towards the end but no significant disruptions or multiple interruptions. Based on MDS-UPDRS criteria, this aligns with a score of 1.
+
+\boxed{1}
+
+--- Evaluation 8 (Score: 1) ---
+The subject's tapping performance shows consistent amplitude with minor fluctuations and slight amplitude decrement at the end. There is evidence of moderate speed issues indicated by period entropy, but no severe interruptions as per Score 3 criteria.
+
+Score: 1
+
+--- Evaluation 9 (Score: 2) ---
+The subject's finger tapping test shows moderate performance with some amplitude decrements towards the end but no significant interruptions beyond two taps. 
+
+Score: 2
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping test shows moderate consistency with a slight decrease in amplitude towards the end, indicating a possible score of 0. However, considering the normalized amplitude drop, which might imply a minor decrement fitting into a slightly lower category.
+
+Score: 1
+
+
+============================================================
+445817794_20201109_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The subject's tapping shows no significant disruptions. The amplitude pattern fluctuates slightly without a clear trend towards decrement at the end, and the timing is consistent with low period_quartile_range. There are no notable hesitations or halts.
+
+Score: 0
+
+--- Evaluation 2 (Score: 1) ---
+The subject's finger tapping performance shows a normalized amplitude pattern with minimal interruptions. While there is a slight decrease early on, the overall rhythm remains consistent without severe halts or freezing. Based on this analysis, the score is assigned as 1.
+
+\boxed{1}
+
+--- Evaluation 3 (Score: 0) ---
+The analysis shows that the subject's finger taps are consistent and show slight amplitude variations but no significant interruptions or major slowing. 
+
+Score: 0
+
+--- Evaluation 4 (Score: 0) ---
+The subject's tapping was smooth with no notable interruptions. The normalized amplitudes remained consistent and steady, indicating a normal performance as per MDS-UPDRS criteria.
+
+Score: 0
+
+--- Evaluation 5 (Score: 0) ---
+The extracted features for the subject indicate smooth and consistent tapping with minimal fluctuations in amplitude and timing. There are no signs of interruptions, halts, or significant decreases in performance.
+
+Score: 0
+
+--- Evaluation 6 (Score: 2) ---
+The subject demonstrates moderate impairment in finger tapping as per MDS-UPDRS criteria due to amplitude decrements towards the end of the sequence.
+
+\boxed{2}
+
+--- Evaluation 7 (Score: 0) ---
+The subject's score is determined based on smooth tapping with slight amplitude fluctuations, indicating no major disruptions in performance. 
+
+**Step-by-Step Explanation:**
+
+1. **Amplitude Analysis**: The normalized amplitudes remain relatively high throughout the sequence, only showing minor dips towards the end without significant decrementing.
+
+2. **Statistical Features**: 
+   - Low variation (period_quartile_range = 0.051) suggests consistent tapping.
+   - High entropy for both period and amplitude indicates a uniform pattern without major disruptions.
+
+3. **Lack of Disruptions**: No evidence of hesitations, halts, or significant slowing, aligning with the criteria for Score 0.
+
+**Answer:**
+
+The subject's score is \boxed{0}.
+
+--- Evaluation 8 (Score: 1) ---
+The subject's finger tapping test shows minimal issues with regularity, no significant hesitations or halts, but there is a slight amplitude decrement towards the end. Based on the MDS-UPDRS criteria, this aligns most closely with a score of 1.
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's finger tapping test shows slight variations in amplitude without significant halts or major decrements. There are no notable pauses beyond the expected test instructions.
+
+Score: 1
+
+--- Evaluation 10 (Score: 2) ---
+Based on the analysis of the extracted features and the MDS-UPDRS criteria for FINGER TAPPING:
+
+The normalized amplitude values show moderate decrements from the middle to the end of the tapping sequence but without significant halts. The statistical features support a mild decrementing trend, fitting the description for **SCORE 2**.
+
+Score: 2
+
+
+============================================================
+546503158_20200310_Hands_L_9_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 3) ---
+The subject's data shows normalized amplitudes varying with several drops, indicating some issues but not severe enough for a score of 4. The features suggest moderate decrements in amplitude, consistent with a score of 3.
+
+\boxed{3}
+
+--- Evaluation 2 (Score: 2) ---
+The subject's finger tapping performance shows moderate issues with slight interruptions and amplitude decreases. Based on the extracted features, the score assigned is **2**.
+
+Step-by-step explanation:
+
+1. **Amplitude Analysis**: The normalized amplitudes mostly remain above 0.73, except for a few dips like 0.84 and 0.73. This indicates moderate consistency but with noticeable amplitude decreases at the end.
+   
+2. **Movement Peaks**: The presence of multiple peaks (11 in total) suggests possible slight interruptions or extra movements beyond the expected 10 taps.
+
+3. **Period Features**: The entropy and quartile range suggest moderate variability, supporting the assessment of moderate performance issues.
+
+4. **Comparison to Examples**: Similar to Score 2 examples with a few dips and amplitude decreases, this subject's data aligns more closely with moderate rather than severe issues.
+
+Score: 2
+
+The final score is \boxed{2}.
+
+--- Evaluation 3 (Score: 3) ---
+The subject's performance on the FINGER TAPPING task shows moderate issues consistent with Score 3 due to amplitude decrement after initial taps and possible slower movements.
+
+Step-by-step explanation:
+1. **Amplitude Analysis**: The normalized amplitudes drop towards the end, indicating a decrease in consistency, fitting moderately into score 3.
+2. **Statistical Features**: The period_quartile_range is low (0.1125), suggesting less variability but with some slowing observed.
+3. **MDS Criteria Match**: Moderate slowing and amplitude decrement align with Score 3.
+
+Score: 3
+
+The final score for the subject based on MDS-UPDRS item 3.4 is:
+
+\boxed{3}
+
+--- Evaluation 4 (Score: 4) ---
+The subject meets the criteria for a moderate score (4). There are more than five interruptions during tapping, as evidenced by irregularities in amplitude and period patterns. 
+
+Score: 4
+
+--- Evaluation 5 (Score: 3) ---
+The subject's finger tapping shows moderate irregularity with slight amplitude decrements starting after the first tap and some slowing indicated by the entropy values. This aligns with a score of 3.
+
+**Score: 3**
+
+The final answer is:
+\boxed{3}
+
+--- Evaluation 6 (Score: 3) ---
+The subject's tapping test scores a 3 due to decrementing amplitudes starting early and a low maximum movement.
+
+$\boxed{3}$
+
+--- Evaluation 7 (Score: 3) ---
+The analysis of the extracted features indicates that the subject's finger tapping performance aligns with moderate decrementing amplitude. There are slight decreases towards the end without significant interruptions or halts beyond a minor pause.
+
+Score: 3
+
+--- Evaluation 8 (Score: 3) ---
+The subject's finger tapping performance shows decreasing amplitude towards the end of the sequence without significant interruptions beyond what might occur in moderate scoring. 
+
+Score: 3
+
+--- Evaluation 9 (Score: 2) ---
+The subject's MDS-UPDRS finger tapping score is **2**. 
+
+Step-by-step explanation:
+
+1. **Amplitude Analysis**: The normalized amplitudes dip below the midpoint, indicating some difficulty in maintaining consistent force. However, no complete decrementing occurs at the end.
+
+2. **Statistical Features**: The low max (finger_mvmnt_x_max = 2) suggests challenges but without interruptions or pauses. The moderate amplitude_min and entropy values align with score 2 criteria—more than slight issues but not severe enough for score 3.
+
+3. **Comparison to Examples**: While similar to some lower scores, the features don't meet the threshold for score 3 (which requires more significant disruptions). Thus, it's appropriately scored as 2.
+
+Score: 2
+
+--- Evaluation 10 (Score: 3) ---
+The subject's finger tapping test results indicate a severe performance due to multiple interruptions and halts. 
+
+Score: 3
+
+
+============================================================
+546503158_20200310_Hands_R_9_L_redo.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The subject's finger tapping performance was evaluated based on MDS-UPDRS item 3.4 criteria. The data showed normalized amplitudes with a single slight dip, but no major interruptions or significant slowing. This aligns more closely with the scoring criteria for score 0.
+
+Score: 0
+
+--- Evaluation 2 (Score: 4) ---
+The subject was scored as severe (4) due to a significant amplitude decrement towards the end of the tapping session. 
+
+Step-by-step explanation:
+1. The normalized amplitude pattern shows a consistent high value but drops significantly on the 7th tap, reaching 0.71.
+2. This single, notable decrease indicates an amplitude issue that starts after the first tap and continues to decline.
+3. According to MDS-UPDRS criteria, score 4 is assigned when there's severe slowing or decrement in amplitude.
+
+Answer: \boxed{4}
+
+--- Evaluation 3 (Score: 2) ---
+The subject's finger tapping test shows moderate performance with some amplitude decrements and minor interruptions, aligning with the criteria for Score 2.
+
+2
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping performance shows minimal disruptions without multiple interruptions. The normalized amplitudes have a slight decrease towards the end but do not meet the criteria for score 0 due to some amplitude variation.
+
+Score: 1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping test shows one significant decrease in amplitude, which aligns with the criteria for a mild issue under Score 1.
+
+$\boxed{1}$
+
+--- Evaluation 6 (Score: 3) ---
+The subject's test shows a dip in amplitude during one tap and a gradual decrease, along with slight variability. These features align with moderate criteria.
+
+Step-by-step explanation:
+1. The normalized amplitudes show a noticeable dip (0.71) and lower values towards the end, indicating possible amplitude decrement.
+2. Minimal interruptions and no complete arrests suggest fewer than five pauses.
+3. Moderate trend in amplitude towards the end supports score 3.
+
+Score: 3
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping test shows minimal issues with only one slight amplitude drop and no significant interruptions beyond that. The features align with the criteria for Score 1: Slight issues due to a small decrement in amplitude near the end.
+
+Score: 1
+
+--- Evaluation 8 (Score: 1) ---
+The subject received a score of **1** for their finger tapping performance.
+
+Step-by-step explanation:
+
+1. **Amplitude Analysis**: The normalized amplitudes show lower values at the end, indicating some slowing or decrementing, which aligns with score 1's criteria.
+
+2. **Statistical Features**: The amplitude_quartile_range and other features suggest moderate variability without severe interruptions.
+
+3. **Peaks and Interruptions**: Three peaks indicate slight irregularities but not enough to reach higher scores like 2 or 3.
+
+4. **Scoring Criteria Match**: The combination of slight slowing, amplitude decrease near the end, and possible regular rhythm breaking fits score 1's description.
+
+Score: 
+
+\boxed{1}
+
+--- Evaluation 9 (Score: 0) ---
+The subject's finger tapping adheres to normal patterns with consistent amplitude and minimal interruptions.
+
+**Score:** 0
+
+--- Evaluation 10 (Score: 2) ---
+The subject showed noticeable amplitude decrements starting from the seventh tap, with values consistently lower than 0.9, indicating a mid-severity decrease in amplitude during the tapping sequence.
+
+The score is determined to be 2 due to amplitude decrement issues mid-way through the task.
+
+\boxed{2}
+
+
+============================================================
+553661824_20200629_Hands_L_7-_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The subject's performance in the FINGER TAPPING task shows normalized amplitudes consistently around the maximum value without significant variations or decrements. All 10 taps were completed without notable disruptions, fitting within the criteria for a normal response.
+
+Score: 0
+
+--- Evaluation 2 (Score: 0) ---
+The subject's finger tapping performance shows consistent rhythmic taps without significant interruptions or amplitude issues. The normalized amplitudes are stable, and the statistical features indicate regularity and uniformity in both timing and amplitude. There are no signs of hesitations, slowing, or decrements, aligning with a score 0 assessment.
+
+The assigned score is:
+
+\boxed{0}
+
+--- Evaluation 3 (Score: 0) ---
+The subject's finger tapping performance shows minimal irregularities with high consistency in amplitude. While slight variations exist, they do not meet the criteria for a score higher than 0.
+
+Score: 0
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping test shows moderate consistency with some minor fluctuations, aligning with a score of 1.
+
+Step-by-step explanation:
+- The normalized amplitudes fluctuate slightly without severe decrements.
+- There is one hesitation or slight slow down as seen in Score 1 examples.
+- No major interruptions or halts are present.
+
+Score: 1
+
+1
+
+--- Evaluation 5 (Score: 0) ---
+The subject performed the finger tapping task without any significant interruptions, hesitations, or amplitude issues beyond what is considered normal. All features indicate consistent and steady tapping with minimal variation.
+
+Score: 0
+
+--- Evaluation 6 (Score: 0) ---
+The subject's tapping was smooth with consistent amplitude and minimal variability in timing, aligning with the criteria for a normal performance.
+
+Score: 0
+
+--- Evaluation 7 (Score: 0) ---
+The subject's performance on the MDS-UPDRS item 3.4 Finger Tapping test shows consistent tapping with minimal variations in amplitude and regular rhythm without significant interruptions. Based on the provided features, there are no notable signs of moderate to severe issues as outlined in higher score categories.
+
+Score: 0
+
+--- Evaluation 8 (Score: 0) ---
+The subject's performance on the FINGER TAPPING task is evaluated based on their consistency in amplitude and timing without significant interruptions or gradual changes. The normalized amplitudes remain consistently high, indicating a steady effort with no notable decrements. There are minimal variations in timing, supporting a normal execution.
+
+Score: 0
+
+--- Evaluation 9 (Score: 1) ---
+The subject's finger tapping test shows three minor interruptions during the 10 taps, along with a slight amplitude decrease at the end. According to MDS-UPDRS criteria, this falls under the mildly impaired category.
+
+Score: 1
+
+--- Evaluation 10 (Score: 0) ---
+The subject demonstrated consistent tapping with minimal variation in both timing and amplitude. There were no notable hesitations, halts, or decrementing amplitudes. 
+
+Score: 0
+
+
+============================================================
+553661824_20200629_Hands_R_7-_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's score is determined based on minimal disruptions with normalized amplitudes showing only slight variations. 
+
+Score: 1
+
+--- Evaluation 2 (Score: 2) ---
+The subject's finger tapping test shows moderate issues with amplitude decrement starting after the first tap and slight slowing, which aligns with score 2.
+
+Score: 2
+
+--- Evaluation 3 (Score: 2) ---
+The subject's tapping shows minimal amplitude variation towards the end with two lower amplitudes but no interruptions. This aligns most closely with Score 2 due to moderate slowing and amplitude decrement.
+
+Score: 2
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping shows minimal amplitude variation with only a slight decrease near the end. No major interruptions or halts are observed.
+
+The assigned score is **1** due to one minor amplitude decrement and no significant disruptions in the tapping pattern.
+
+\boxed{1}
+
+--- Evaluation 5 (Score: 1) ---
+The subject's tapping shows minimal issues with slight amplitude decrement towards the end but no significant interruptions or severe slowing, aligning with Score 1.
+
+$\boxed{1}$
+
+--- Evaluation 6 (Score: 2) ---
+The subject's finger tapping shows moderate issues with amplitude starting to decrease after the first tap, accompanied by slight decrements at the end. No significant halts or major disruptions are observed.
+
+Score: 2
+
+--- Evaluation 7 (Score: 2) ---
+The subject's MDS-UPDRS Item 3.4 finger tapping test shows mild decrements towards the end but no significant interruptions or halts. 
+
+Score: 2
+
+--- Evaluation 8 (Score: 1) ---
+The MDS-UPDRS item 3.4 score for the subject is **1**.
+
+Step-by-step explanation:
+
+1. The subject's finger tapping showed normalized amplitudes mostly around high values but with slight decreases at the end (0.87 and 0.9).
+2. There were no major disruptions like halts or pauses, indicating no severe issues.
+3. Compared to other examples, this pattern aligns more closely with Score 1, which has moderate decrements without significant interruptions.
+
+Answer: \boxed{1}
+
+--- Evaluation 9 (Score: 1) ---
+The subject's finger tapping shows normalized amplitudes that fluctuate slightly around maximum values and have consistent timing between taps. There are no significant interruptions or decreases in amplitude beyond what might be expected for a slight variation.
+
+Score: 1
+
+--- Evaluation 10 (Score: 1) ---
+The subject's MDS-UPDRS Item 3.4 Finger Tapping test was scored based on several features, including amplitude consistency and slight interruptions. The extracted data shows minimal dips in amplitude but no significant halts or severe decrements.
+
+**Score: 1**
+
+This score is assigned because the tapping exhibited slight irregularities with a couple of small amplitude drops, fitting within the criteria for score 1 which includes minor issues without moderate interruptions.
+
+
+============================================================
+553661824_20200921_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's finger tapping test shows minimal disruptions with mostly consistent amplitude and timing, fitting a moderate performance.
+
+Score: 1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's tap features indicate minor issues with amplitude fluctuation near the end, which aligns with score 1 due to a slight decrement without extensive interruptions.
+
+Score: 1
+
+--- Evaluation 3 (Score: 0) ---
+The subject's performance on the MDS-UPDRS Item 3.4 Finger Tapping test shows normalized amplitudes that remain relatively consistent with slight variation and a single dip to 0.85, which could be considered an interruption but not severe enough for higher scores. The features indicate minimal irregularity in timing and high control without significant slowing or multiple interruptions.
+
+Score: 0
+
+The score is assigned as 0 because the tapping demonstrates no major problems beyond one minor amplitude decrease near the end, fitting within the "Normal" category with slight issues.
+
+$\boxed{0}$
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping test shows consistent speed and minimal amplitude variation without significant disruptions. Based on the statistical features and MDS-UPDRS criteria, the score is:
+
+1
+
+--- Evaluation 5 (Score: 0) ---
+The subject exhibits minimal issues with tapping speed and amplitude, fitting within the score 0 category.
+
+Step-by-step explanation:
+1. The extracted amplitude pattern shows a steady decrease at the end but otherwise maintains consistent performance without major interruptions or significant slowing.
+2. The statistical features (amplitude_min, period_quartile_range) do not indicate severe issues like halts or freezing.
+3. No signs of multiple pauses or substantial decrements in amplitude are present.
+
+Score: 0
+
+--- Evaluation 6 (Score: 2) ---
+The subject meets the criteria for Score 2 due to a moderate amplitude decrease starting from the third tap without any major interruptions. 
+
+Step-by-step explanation:
+
+1. **Amplitude Analysis**: The normalized amplitudes show minimal variation with only one slight dip at the third tap (0.85), followed by consistent values and ending near 0.92.
+
+2. **Period Consistency**: The low period_quartile_range indicates consistent tapping with no major pauses or breaks, ruling out any issues related to speed.
+
+3. **Amplitude Trend**: The decrease starts at the third tap (after the first two taps), which aligns with score 2's criteria of moderate amplitude decrement starting after the first tap without significant interruptions.
+
+4. **Lack of Interruptions**: There are no notable pauses or halts, so issues like those in scores 3 and 4 are absent.
+
+Based on these factors, the subject is assigned a Score of 2.
+
+Score: 2
+
+--- Evaluation 7 (Score: 1) ---
+The extracted features for the subject show consistent amplitudes with minimal fluctuations. While there is a slight dip in amplitude at one point, it does not meet the criteria for significant decrements towards the end or multiple interruptions. The normalized values and statistical measures do not indicate severe issues.
+
+Score: 1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's tapping shows minimal disruptions and consistent performance with slight amplitude decreases towards the end. Based on the features provided, this aligns with a score of 1.
+
+The final score is **1**.
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's finger tapping shows consistent amplitude with minor decrements towards the end and no major interruptions or halts. Based on the criteria, this aligns with a score of 1.
+
+The score is assigned as **1** because there are slight amplitude decrescences but no significant interruptions or major slowing issues.
+
+Step-by-step explanation:
+
+1. The normalized amplitudes show minor fluctuations without any major disruptions.
+2. The decrease towards the end (from 1.0 to ~0.89) indicates a slight amplitude decrement.
+3. No major halts, interruptions, or freezes are observed in the tapping sequence.
+4. This pattern aligns with the criteria for a score of 1.
+
+Answer: \boxed{1}
+
+--- Evaluation 10 (Score: 0) ---
+The subject's tapping shows minimal irregularities with a single slight amplitude decrease. No major hesitations or halts are evident. The normalized amplitudes remain relatively consistent.
+
+Score: 0
+
+
+============================================================
+553661824_20201116_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+Based on the analysis of the normalized amplitudes and the lack of significant interruptions or major decrements beyond a slight decrease at the end, the subject's finger tapping test scores are rated as 0.
+
+Step-by-step explanation:
+- The normalized amplitudes remain consistently high except for minor decreases in the last two taps.
+- There is no evidence of pauses (halts) or major amplitude decrements that would affect the score beyond a slight decrease.
+- According to MDS-UPDRS criteria, this falls under the 'slight' category without any interruptions.
+
+Score: 0
+
+0
+
+--- Evaluation 2 (Score: 0) ---
+The scoring for the subject's finger tapping performance based on the MDS-UPDRS item 3.4 indicates that all aspects such as speed, amplitude, and consistency are within normal limits. The normalized amplitudes show minimal decrement at the end without severe drops or interruptions.
+
+Score: 0
+
+--- Evaluation 3 (Score: 1) ---
+The subject's score for MDS-UPDRS Item 3.4 is **1**.
+
+Step-by-step explanation:
+
+1. **Amplitude Analysis**: The normalized amplitudes are mostly high except for two slight decreases at the end, indicating a minor amplitude decrement towards the end (midway through taps).
+
+2. **Statistical Features**: 
+   - A small periodQuartileRange suggests consistent movement periods.
+   - AmplitudeMedian and Mean are high, but no severe decrements.
+
+3. **Criteria Matching**:
+   - No significant interruptions or halts.
+   - Mild amplitude decrement midway (matches Score 1's criteria).
+
+4. **Conclusion**: The slight decrease in amplitude fits the "mild slowing" category, leading to a score of 1.
+
+Score: 1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's performance shows consistent tapping with minimal irregularities, fitting within the criteria for a moderate score. 
+
+Score: 1
+
+--- Evaluation 5 (Score: 0) ---
+The subject's score is determined based on the extracted features. The normalized amplitudes are consistently high except for a slight decrease at the end of the sequence, indicating no significant interruptions or halts that would meet any of the scoring criteria above 0. Therefore, the score is:
+
+0
+
+--- Evaluation 6 (Score: 0) ---
+The subject's finger tapping test shows minimal decrement in amplitude towards the end. Based on the MDS-UPDRS criteria and provided features, the score is 0.
+
+\boxed{0}
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping performance showed normalized amplitudes high throughout except for a slight decrease towards the end. There were no significant interruptions or halts, consistent with minimal speed issues and amplitude decrements, fitting within the criteria for score 1.
+
+Score: 1
+
+--- Evaluation 8 (Score: 0) ---
+The analysis of the extracted features suggests that the subject performed the task with a normal rhythm and slight amplitude decrements at the end. There were no significant interruptions or halts during the tapping sequence.
+
+Score: 0
+
+--- Evaluation 9 (Score: 2) ---
+The subject's finger tapping showed consistent tapping with a slight decrease towards the end but no major interruptions or halts, fitting criteria for score 2.
+
+Score: 2
+
+--- Evaluation 10 (Score: 3) ---
+The subject's finger tapping shows signs of moderate difficulty with amplitude decreasing from a high start towards the end. There are no interruptions or pauses mentioned in their performance. The normalized amplitudes indicate a steady but noticeable decline, aligning with the criteria for Score 3.
+
+Score: 3
+
+
+============================================================
+553661824_20201116_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The subject's finger tapping performance shows minimal amplitude variations and no significant interruptions. The statistical features indicate regularity and steady control throughout the 10 taps.
+
+Score: 0
+
+--- Evaluation 2 (Score: 1) ---
+The subject's finger tapping performance shows signs of mild irregularities, including an initial dip in amplitude which may indicate slight hesitation. There are no significant interruptions beyond one instance and no substantial decrements in amplitude early on.
+
+Score: 1
+
+--- Evaluation 3 (Score: 1) ---
+The subject scored 1 based on one initial amplitude drop during the tapping sequence.
+
+The final answer is:
+\boxed{1}
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping test shows moderate consistency without significant disruptions but has slight irregularities that fit within the criteria for a score of 1.
+
+$\boxed{1}$
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping was scored as follows:
+
+- **Score Analysis**: The features indicate moderate speed with no significant interruptions. The normalized amplitudes show slight variation, including one drop below average, which aligns with the criteria for a score of 1.
+
+Score: 1
+
+--- Evaluation 6 (Score: 0) ---
+The extracted data from the subject's finger tapping test shows consistent and regular taps with minimal amplitude variation and no significant interruptions. The normalized amplitudes do not consistently decrease towards the end of the sequence, and there are no notable pauses or moderate slowing that would indicate a higher severity category.
+
+Based on the analysis, the score is 0.
+
+\boxed{0}
+
+--- Evaluation 7 (Score: 1) ---
+The subject has four interruptions and an amplitude decrease towards the end, fitting within the criteria for score 1.
+
+Score: 1
+
+--- Evaluation 8 (Score: 0) ---
+The subject's finger tapping demonstrates consistent and rapid tapping with high amplitudes. There are no notable interruptions, slowing, or decremented amplitude towards the end of the sequence.
+
+Score: 0
+
+--- Evaluation 9 (Score: 0) ---
+The subject demonstrated consistent tapping without significant interruptions or major fluctuations in amplitude. The features indicate normal performance with minor irregularities, aligning with the criteria for score 0.
+
+Score: 0
+
+--- Evaluation 10 (Score: 1) ---
+The MDS-UPDRS finger tapping score for the subject is determined by analyzing their amplitude pattern and statistical features. The presence of only one minor amplitude decrease aligns with the criteria for a mild score.
+
+**Step-by-step Explanation:**
+
+1. **Amplitude Analysis:** The normalized amplitudes are mostly above 0.9 except for one tap at 0.8, indicating minimal fluctuation.
+2. **Statistical Features:** Low variability in amplitude (periodQuartileRange = 0.0135) and median/mean values suggest consistent performance.
+3. **Criteria Matching:** The single minor decrement aligns with the mild score (Score 1), as there's no evidence of multiple interruptions or significant decrements.
+
+**Answer:**
+
+\boxed{1}
+
+
+============================================================
+553661824_20210503_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's tapping shows consistent rhythm with slight amplitude decrements near the end and no major interruptions. Based on the features provided, the score is assigned as **1**.
+
+\boxed{1}
+
+--- Evaluation 2 (Score: 0) ---
+The subject demonstrated consistent tapping with high amplitudes and minimal variability in both speed and amplitude, showing no significant hesitations or interruptions.
+
+\boxed{0}
+
+--- Evaluation 3 (Score: 0) ---
+The subject's performance on the MDS-UPDRS Item 3.4 Finger Tapping test shows consistent and normal tapping without significant issues related to speed, amplitude, or decrements. 
+
+Score: 0
+
+--- Evaluation 4 (Score: 0) ---
+The subject's tapping was smooth with consistent amplitude and minimal variations. No significant hesitations or halts were observed, fitting the criteria for a normal performance. 
+
+Score: 0
+
+--- Evaluation 5 (Score: 2) ---
+Based on the analysis of the provided features and the MDS-UPDRS scoring criteria, the subject's performance in the finger tapping test shows slight inconsistencies primarily in the normalized amplitudes near the end. However, there are no notable interruptions or significant halts, indicating a moderate level of decrementing amplitude. 
+
+Score: 2
+
+--- Evaluation 6 (Score: 0) ---
+The MDS-UPDRS finger tapping score for the subject is determined based on consistent amplitude with minor fluctuations and regular timing, indicating normal performance. 
+
+Score: 0
+
+--- Evaluation 7 (Score: 0) ---
+The subject's finger tapping test shows consistent normalized amplitudes (all near maximum) with no significant irregularities like many pauses or slow speed. The statistical features indicate high consistency and regularity in tapping. 
+
+Score: 0
+
+--- Evaluation 8 (Score: 1) ---
+The subject's finger tapping performance shows consistent speed and amplitude with slight decays near the end. Based on the MDS-UPDRS criteria, these features align with a score of 1 due to minor interruptions or slowing.
+
+Score: 1
+
+--- Evaluation 9 (Score: 2) ---
+Based on the analysis, despite having consistent amplitude and timing with no significant decrements in amplitude, there might be slight speed issues or small interruptions on one side due to the low max movement. This aligns with the criteria for a mild score.
+
+Score: 2
+
+--- Evaluation 10 (Score: 0) ---
+The subject's finger tapping shows minimal irregularities with high consistency and only slight amplitude variation near the end. No major interruptions were observed, fitting the criteria for a normal performance.
+
+Score: 0
+
+
+============================================================
+553661824_20210503_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The subject's finger tapping shows consistent and steady tapping without any notable interruptions, hesitations, or amplitude decrements. All statistical features indicate normal performance as per MDS-UPDRS criteria.
+
+Score: 0
+
+--- Evaluation 2 (Score: 1) ---
+The subject's performance in the MDS-UPDRS Item 3.4 Finger Tapping test shows moderate consistency with a generally smooth tapping pattern and minimal amplitude fluctuations without significant interruptions or halts.
+
+Score: 1
+
+--- Evaluation 3 (Score: 0) ---
+The subject has demonstrated a smooth and consistent tapping pattern with no significant issues in speed, amplitude, or halts. All statistical features indicate normal performance.
+
+Score: 0
+
+--- Evaluation 4 (Score: 2) ---
+The subject scored **2** on MDS-UPDRS Item 3.4: FINGER TAPPING. The analysis shows consistent tapping with minor amplitude decrements at the end and regular timing, fitting within the criteria for score 2.
+
+Final Answer:
+\boxed{2}
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping demonstrates moderate consistency with slight amplitude variations. Based on the features provided, which include normalized amplitudes around 0.9 and above without significant decrements or major disruptions, the score is assigned as 1.
+
+1
+
+--- Evaluation 6 (Score: 0) ---
+The subject's finger tapping test shows normalized amplitudes that fluctuate slightly but do not indicate any significant issues such as halts, pauses, or major amplitude decrements. The statistical features suggest consistent performance with minor fluctuations, aligning with a score of 0.
+
+0
+
+--- Evaluation 7 (Score: 2) ---
+The subject demonstrated consistent tapping with slight amplitude variations and a mild trend toward lower amplitudes at the end, fitting the criteria for score 2.
+
+Score: 2
+
+--- Evaluation 8 (Score: 0) ---
+The extracted data shows consistent tapping with minimal fluctuations. No significant interruptions, halts, or amplitude decrements are present beyond minor variations.
+
+Score: 0
+
+--- Evaluation 9 (Score: 2) ---
+Based on the analysis of the extracted features and their alignment with the MDS-UPDRS criteria for finger tapping, the subject's performance shows moderate to slight decrementing amplitude without significant interruptions or halts. This aligns with a score of 2.
+
+The score assigned is:
+
+**2**
+
+--- Evaluation 10 (Score: 1) ---
+The extracted features indicate minimal irregularities in both speed and amplitude during the finger tapping task. The normalized amplitudes are consistently high with only minor fluctuations, suggesting no significant halting or decrementing. The statistical measures like period entropy and quartile range support smooth and regular tapping without notable disruptions.
+
+Based on MDS-UPDRS criteria, since there's slight slowing (periodEntropy is moderate) but no major interruptions or decrements in amplitude, the score assigned is 1 for mild issues.
+
+\boxed{1}
+
+
+============================================================
+575614042_20200615_Hands_L_9-_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 3) ---
+Based on the analysis of the provided features, the subject's finger tapping test aligns with a moderate score due to slight decrementing amplitude toward the end. 
+
+Score: 3
+
+--- Evaluation 2 (Score: 1) ---
+The subject's score for MDS-UPDRS Item 3.4 FINGER TAPPING is **1**.
+
+Step-by-step explanation:
+- The normalized amplitudes show a slight decrease at the end but no major trend or decrement across all taps.
+- Only one minor amplitude drop occurs, which could be interpreted as a single hesitation without significant impact on overall performance.
+- Statistical features indicate consistent timing (low period quartile range) and minimal entropy in amplitude variation.
+
+Based on these observations, the score is assigned as 1.
+
+--- Evaluation 3 (Score: 1) ---
+The MDS-UPDRS item 3.4 score for the subject is determined based on their finger tapping performance, which shows a slight decrease in amplitude at the end without multiple interruptions. This aligns with the characteristics of score 1.
+
+**Score: 1**
+
+Step-by-step explanation:
+
+1. **Amplitude Analysis**: The normalized amplitudes show minor decrements towards the end (0.89), indicating mild slowing, which is a feature of score 1.
+2. **Finger Movement Max**: A value of 7 suggests moderate consistency but no severe issues like in higher scores.
+3. **No Major Interruptions**: The period features indicate smooth tapping without significant halts or disruptions.
+
+The combination of these factors leads to the assignment of score 1, reflecting mild performance issues as per the criteria.
+
+--- Evaluation 4 (Score: 1) ---
+The subject's performance on the finger tapping task shows normalized amplitudes that are generally consistent, with most taps maintaining high amplitude and only one instance of a minor decrease. The statistical features indicate minimal variation in timing but do not show significant interruptions or prolonged halts beyond what would be expected for score 1.
+
+Score: 1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's score for MDS-UPDRS Item 3.4 FINGER TAPPING is **1**.
+
+Step-by-step explanation:
+
+1. **Analysis of Amplitude**: The normalized amplitudes show minimal variation but dip slightly below the maximum value (0.89). This indicates slight difficulty in maintaining consistent effort or speed, aligning with Score 1's description of minor issues.
+
+2. **Statistical Features**: While there are fluctuations and a low minimum amplitude, no significant interruptions or pronounced slowing were observed. The features point towards mild difficulties rather than moderate or severe ones.
+
+3. **Comparison to Examples**: Similar to the example for Score 1, with slight dips in performance without major disruptions, leading to the assignment of Score 1.
+
+Answer:
+\boxed{1}
+
+--- Evaluation 6 (Score: 0) ---
+The subject's tapping was evaluated based on normalized amplitudes and statistical features. The taps showed consistent and relatively stable amplitude patterns without significant irregularities or decrements beyond minor fluctuations, fitting within the criteria for a normal performance.
+
+Score: 0
+
+--- Evaluation 7 (Score: 2) ---
+The subject's finger tapping test shows normalized amplitudes mostly around high values with only a slight dip towards the end, indicating consistency in amplitude but not complete decrementing. The period_quartile_range is low, suggesting consistent timing. Only 7 taps were successfully completed on one side, implying some interruptions or halts (3 missing out of 10). Based on the criteria, this falls under moderate scoring.
+
+The score for the subject is **2**.
+
+\boxed{2}
+
+--- Evaluation 8 (Score: 0) ---
+The subject's finger tapping performance showed no significant issues such as hesitations, halts, or amplitude decrements. All taps were consistent and regular, aligning with a normal scoring criterion.
+
+Score: 0
+
+--- Evaluation 9 (Score: 0) ---
+The extracted features indicate consistent tapping with minimal amplitude variation. There are no significant hesitations or halts.
+
+Score: 0
+
+--- Evaluation 10 (Score: 1) ---
+The subject's tapping test shows a consistent pattern with only a slight decrement in amplitude towards the end. There are no significant interruptions or halts, aligning with score 1 due to minor issues without major disruptions.
+
+Score: 1
+
+
+============================================================
+575614042_20200615_Hands_R_9-_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The subject's tapping shows some slight decrement in amplitude towards the end but without significant disruptions like halts or multiple interruptions. 
+
+Score: 0
+
+--- Evaluation 2 (Score: 2) ---
+The subject's finger tapping test was scored based on their performance which included aspects like speed, amplitude consistency, and presence of interruptions. The analysis revealed moderate variability in both amplitude and timing, suggesting a score of 2.
+
+The final answer is:
+
+\boxed{2}
+
+--- Evaluation 3 (Score: 2) ---
+Based on the normalized amplitude pattern showing a significant decrease in amplitude during the sequence of taps (e.g., from 0.91 to 0.88), this indicates moderate decrements without additional pauses, which aligns with criteria for Score 2.
+
+Score: 2
+
+--- Evaluation 4 (Score: 0) ---
+The subject has demonstrated moderate performance in finger tapping as per MDS-UPDRS item 3.4.
+
+0
+
+--- Evaluation 5 (Score: 1) ---
+The subject's performance in the FINGER TAPPING task shows slight variations with normalized amplitudes generally maintaining consistency but showing minor decrements at the end. Despite a higher than average max amplitude, there are no significant interruptions or halts, aligning with the criteria for a mild score.
+
+1
+
+--- Evaluation 6 (Score: 0) ---
+The subject's finger tapping test shows minimal disruptions with a slight decrease in amplitude towards the end. There are no notable pauses or significant freezing, aligning more closely with a score below 1.
+
+Score: 0
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping performance shows slight issues with amplitude decrements towards the end. There are no major interruptions, so it aligns most closely with Score 1.
+
+Score: 1
+
+--- Evaluation 8 (Score: 3) ---
+Based on the analysis of the extracted features related to finger tapping performance and their alignment with the MDS-UPDRS criteria, the subject's score is determined as follows:
+
+The statistical features indicate moderate performance. The presence of interruptions in the tapping sequence, combined with some variability in amplitude towards the end but without severe decrements, aligns with a score of 3.
+
+Score: 3
+
+--- Evaluation 9 (Score: 3) ---
+The analysis of the extracted features and their alignment with the MDS-UPDRS scoring criteria indicates that the subject's performance aligns with a score of 3. This is due to potential interruptions or decrements in amplitude observed during the tapping sequence.
+
+Score: 3
+
+--- Evaluation 10 (Score: 1) ---
+The subject has shown slight irregularities in their finger tapping pattern without severe disruptions. The normalized amplitudes are mostly consistent with minor fluctuations but no significant deceleration or multiple pauses.
+
+Step-by-step reasoning:
+- The amplitude values show some variability, but not extreme drops towards the end (0.87 at the last tap).
+- No clear halts or major disruptions in the sequence.
+- Features like periodEntropy and normalized amplitudes suggest a relatively steady performance without severe impairments beyond minor irregularities.
+
+Score: 1
+
+\boxed{1}
+
+
+============================================================
+751297988_20200824_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's score is determined based on their normalized amplitude patterns and statistical features. The normalized amplitudes show consistency with slight variations at the end, which aligns with a slightly irregular tapping pattern typical of a Score 1.
+
+Score: 1
+
+--- Evaluation 2 (Score: 4) ---
+The subject's finger tapping test was scored based on the extracted features, which indicate a severe difficulty in initiating the taps consistently. The low normalized amplitudes and period_quartile_range suggest disruptions in movement initiation, aligning with score 4.
+
+\boxed{4}
+
+--- Evaluation 3 (Score: 0) ---
+The score is determined based on the consistency and regularity of the tapping with no notable deviations such as hesitations, halts, or amplitude changes towards the end.
+
+Score: 0
+
+--- Evaluation 4 (Score: 0) ---
+The subject's finger tapping test was rated based on MDS-UPDRS item 3.4 with no signs of irregularities such as hesitations, halts, or amplitude decrements. The features indicate consistent and regular tapping without slowing or significant variations in amplitude.
+
+Score: 0
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping test shows minimal interruptions (two peaks) with consistent timing except for those misses. The normalized amplitudes remain high, indicating no significant slowing or decrements.
+
+Score: 1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping test shows consistent amplitude with minimal variations and no significant disruptions. While there is slight variability in the timing (period_quartile_range: 0.0385), indicating possibly very minor slowing or changes in speed, these do not meet the criteria for higher scores such as 2, 3, or 4. The normalized amplitudes remain steady, and there are no notable hesitations or halts.
+
+Score:
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping test shows consistent timing with minimal amplitude variation, suggesting a slight score close to normal but without severe issues. 
+
+Score: 1
+
+--- Evaluation 8 (Score: 0) ---
+The subject's tapping demonstrated consistent timing and normalized amplitudes without significant deviations, aligning with the criteria for a normal performance.
+
+Score: 0
+
+--- Evaluation 9 (Score: 0) ---
+The subject's finger tapping test shows normalized amplitudes close to maximum values (all above 0.91), indicating consistent effort without significant decrements early on. The statistical features suggest minimal variability and regularity, with no notable hesitations or halts. 
+
+Score: 0
+
+--- Evaluation 10 (Score: 3) ---
+The subject's performance on the MDS-UPDRS Item 3.4 Finger Tapping test shows normalized amplitudes consistently high except for minor dips, indicating no significant decrement in amplitude over the 10 taps. The statistical features reveal a low finger_mvmnt_x_max (2), suggesting difficulty in initiating each tap, which could lead to longer arrests or more pauses. Despite some variation and lower entropy compared to higher-scoring examples, the primary issue aligns with moderate criteria due to inconsistent movement initiation.
+
+Score: 3
+
+
+============================================================
+751297988_20200824_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The subject’s test adheres closely to the norm with no notable issues in speed, amplitude, or interruptions. The normalized amplitudes remain high and consistent, only slightly decreasing towards the end without severe impact.
+
+Score: 0
+
+--- Evaluation 2 (Score: 1) ---
+The subject's tapping shows moderate irregularities in amplitude and a noticeable decrement towards the end, which fits the criteria for a score of 1.
+
+Score: 1
+
+--- Evaluation 3 (Score: 2) ---
+The subject's test shows moderate performance with some amplitude variations but no severe interruptions. 
+
+Score: 2
+
+--- Evaluation 4 (Score: 1) ---
+The subject's tapping test shows moderate inconsistencies in timing (period entropy) and slight amplitude variations, indicating some hesitations but not severe issues. 
+
+Score: 1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's tapping shows moderate irregularity with one noticeable amplitude reduction near the end. Based on the features provided, the score is **1**.
+
+\boxed{1}
+
+--- Evaluation 6 (Score: 1) ---
+The subject's performance shows mostly consistent tapping with only a minor amplitude decrease in the last few taps. Based on the features provided, there are no significant interruptions or freezings beyond what might be considered slight variations.
+
+Score: 1
+
+--- Evaluation 7 (Score: 2) ---
+The subject's tapping shows slight irregularities with one notable amplitude decrement. Based on the MDS-UPDRS criteria, this aligns with Score 2 for Mild impairment.
+
+\boxed{2}
+
+--- Evaluation 8 (Score: 0) ---
+The subject demonstrates a normal or slightly slowed tapping pattern with minimal variations in amplitude. There are no notable disruptions, aligning most closely with the criteria for Score 0.
+
+**Score: 0**
+
+Step-by-step explanation:
+- **Amplitude**: The normalized amplitudes fluctuate gently without major decrements.
+- **Period Consistency**: The quartile range is low (0.0656), indicating regularity and no significant disruptions.
+- **No Interruptions or Decrementing Amplitude**: Features like amplitude_min are stable, with only a minor dip but not severe.
+
+These factors meet the criteria for Score 0: Normal performance without major issues.
+
+--- Evaluation 9 (Score: 2) ---
+Based on the analysis, the subject shows two significant amplitude decrements and a lower movement range, aligning with moderate performance as per the criteria. 
+
+Score: 2
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping performance shows no major interruptions and slight slowing at the end. The normalized amplitudes indicate a mild decrement in amplitude near the tenth tap, aligning with the criteria for Score 1.
+
+1
+
+
+============================================================
+759859453_20200914_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+The subject's performance shows a single significant decrease in amplitude towards the end without recovery, with no notable interruptions. This aligns with moderate scoring criteria.
+
+Score: 2
+
+--- Evaluation 2 (Score: 0) ---
+The features provided show consistent amplitudes with minor fluctuations at the end but no significant interruptions or halts. The normalized amplitudes remain high, and there's minimal variation suggesting regularity. 
+
+Score: 0
+
+--- Evaluation 3 (Score: 2) ---
+The subject completed all 10 taps without any halts or freezes. The amplitudes decreased steadily from around the middle, which aligns with the criteria for Score 2 where amplitude decrements start after the first tap but are more pronounced. 
+
+Score: 2
+
+--- Evaluation 4 (Score: 2) ---
+The subject's finger tapping shows moderate decrementing amplitude and slight slowing, but no significant interruptions beyond that. 
+
+Score: 2
+
+--- Evaluation 5 (Score: 1) ---
+The extracted features indicate moderate performance with slight amplitude decrements at the end but no significant interruptions.
+
+Score: 1
+
+--- Evaluation 6 (Score: 3) ---
+The subject's finger tapping performance shows signs of moderate difficulty. There are some issues like slight decrements in amplitude and a couple of taps where the movement slowed down or slightly paused. However, it doesn't reach the severe level required for a higher score.
+
+Score: 3
+
+--- Evaluation 7 (Score: 1) ---
+Based on the analysis of the provided features and comparing them with the MDS-UPDRS criteria, the subject's finger tapping performance aligns most closely with Score 1. The normalized amplitudes indicate some decrease towards the end (criterion c for score 1), but there are no significant interruptions or halts that would push it to a higher score.
+
+Score: 1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's performance on the finger tapping test shows minimal irregularities. There is a slight amplitude decrease towards the end but no major interruptions. Based on these features, the score would be **1**.
+
+1
+
+--- Evaluation 9 (Score: 2) ---
+The subject has a finger movement max amplitude of 2 and shows a slight decrease in amplitude at the end, along with no significant interruptions beyond what is considered mild (3-5). 
+
+Score: 2
+
+Step-by-step explanation:
+1. The normalized amplitudes are mostly consistent except for a gradual decline towards the end.
+2. No major interruptions or freezing (long arrests) were observed.
+3. The amplitude decrease starts midway through the tapping sequence, fitting within the criteria for score 2.
+
+Answer: \boxed{2}
+
+--- Evaluation 10 (Score: 2) ---
+The subject was evaluated based on their finger tapping performance according to the MDS-UPDRS item 3.4. The extracted features indicated a gradual decline in tap amplitude towards the end of the session. While there were no significant interruptions or freezes, the decreasing amplitudes suggested moderate issues fitting within score 2 criteria.
+
+Score: \boxed{2}
+
+
+============================================================
+759859453_20200914_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+The subject's score is 2 due to mild interruptions or amplitude decrements during tapping, as indicated by normalized amplitudes with minor dips but overall consistent performance without severe issues.
+
+Score: 2
+
+--- Evaluation 2 (Score: 1) ---
+The subject's test shows minimal irregularities with only a slight amplitude drop towards the end. Based on the MDS-UPDRS criteria and analysis, they should be rated as Score 1.
+
+1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's finger tapping test shows minimal disruptions with no more than one brief interruption followed by a slight amplitude decrease towards the end. The statistical features indicate moderate regularity in timing but negligible variation, supporting a score of 1.
+
+Score: 1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's tapping shows slight decrement towards the end (normalized amplitude of 0.74) and moderate minimal value, but no major interruptions or halts beyond what is considered slight. 
+
+Score: 1
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject has minor issues with amplitude variation and one slight pause at the end, which fits the criteria for Score 1.
+
+1
+
+--- Evaluation 6 (Score: 0) ---
+The subject's finger tapping shows minor issues with only one slight decrease in amplitude towards the end and consistent timing. Based on the MDS-UPDRS criteria, this aligns most closely with a score of 0.
+
+Score: 0
+
+--- Evaluation 7 (Score: 0) ---
+Based on the analysis of the subject's extracted features and their alignment with the MDS-UPDRS scoring criteria, the score is determined to be 0. This indicates no problems in speed, amplitude, or any other aspects relevant to the test.
+
+Score: 0
+
+--- Evaluation 8 (Score: 1) ---
+The subject's finger tapping was evaluated based on normalized amplitudes and statistical features. The analysis indicates there are no significant interruptions or major decrements in amplitude beyond what would be expected. 
+
+Score: 1
+
+--- Evaluation 9 (Score: 2) ---
+The subject's finger tapping test shows moderate performance. The normalized amplitudes have minimal variation (period_quartile_range = 0.0625), indicating consistency in the tapping intervals and movements. However, the amplitude_min is relatively low at 118.0226 compared to higher thresholds for other scores. There's a slight decrement towards the end of the sequence but not severe enough to meet the criteria for score 3 or above.
+
+Score: 2
+
+--- Evaluation 10 (Score: 3) ---
+The subject was evaluated based on their finger tapping performance using MDS-UPDRS item 3.4. The extracted features indicated moderate issues with amplitude variation and a single interruption, leading to a classification of score 3.
+
+\boxed{3}
+
+
+============================================================
+759859453_20210104_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+The subject's finger tapping test shows moderate issues with slight interruptions and amplitude decrement. Based on the features provided, they have two movements (finger_mvmnt_x_max: 2) indicating some hesitations or stops. The normalized amplitudes show a decrease towards the end, which aligns with Score 2 criteria.
+
+$\boxed{2}$
+
+--- Evaluation 2 (Score: 3) ---
+The subject's normalized amplitudes show a consistent pattern with slight decreases at the end, no major interruptions, and minimal period variability. The low finger_mvmnt_x_max suggests sustained movement issues. Based on moderate criteria involving amplitude decrement and possible longer arrests.
+
+Score: 3
+
+--- Evaluation 3 (Score: 2) ---
+The subject's finger tapping test was scored as follows.
+
+Step-by-step explanation:
+1. The normalized amplitudes show slight fluctuations, with a few instances of reduced amplitude (0.8 and below) but not consistently decreasing throughout all taps.
+2. The statistical features indicate moderate regularity in timing (low period_quartile_range) and some variability in amplitude (higher amplitude_entropy).
+3. The presence of two occasions where the amplitude dipped suggests minor interruptions or hesitations, aligning with the criteria for a moderate score.
+4. The finger movement maximum being 2 likely refers to performing two sets without severe issues.
+
+Score: 2
+
+The subject was assigned a score of 2 due to moderate variations in tapping amplitude and minor interruptions, fitting within the defined criteria for this category.
+
+The final score is **2**.
+
+\boxed{2}
+
+--- Evaluation 4 (Score: 0) ---
+The MDS-UPDRS finger tapping score is determined based on the extracted features showing normalized amplitudes with slight deceleration towards the end. The statistical features indicate minor amplitude reductions without significant interruptions, aligning with a score 1.
+
+0
+
+--- Evaluation 5 (Score: 0) ---
+The subject's tapping was evaluated based on consistent amplitude and regular periods with slight fluctuations at the end. No significant interruptions were observed.
+
+\boxed{0}
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping test shows some slight irregularities in amplitude with normalized values fluctuating slightly below the maximum. The period_quartile_range of 0.0813 indicates moderate variability but not severe disruptions. Given these features without explicit pauses or major interruptions, a score of **1** is assigned.
+
+$\boxed{1}$
+
+--- Evaluation 7 (Score: 2) ---
+The subject's finger tapping test shows moderate issues with amplitude consistency. The normalized amplitudes dip below average early on and do not return to higher levels consistently. This aligns with a score of **2**, indicating some decrement in amplitude midway through the sequence.
+
+Score: 2
+
+--- Evaluation 8 (Score: 4) ---
+Based on the analysis of the normalized amplitudes showing a gradual decline from higher to lower values with consistent timing, the subject's performance aligns with moderate criteria due to moderate slowing and amplitude decrements.
+
+4
+
+--- Evaluation 9 (Score: 0) ---
+The subject's tap_amplitudes_normalized shows minimal variation with a slight decrease in amplitude. No significant hesitations or halts were observed.
+
+Score: 0
+
+--- Evaluation 10 (Score: 2) ---
+The subject's score is determined based on the extracted features and MDS-UPDRS criteria. The tapping shows slight amplitude variability but remains relatively consistent, with no significant interruptions or severe decrements early in the sequence.
+
+Score: 2
+
+
+============================================================
+759859453_20210104_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 3) ---
+The subject's performance on the MDS-UPDRS item 3.4 for finger tapping shows significant difficulties in maintaining consistent speed and amplitude throughout ten taps. The normalized amplitudes indicate several instances where movement force (amplitude) drops, suggesting possible halts or slower movements. Additionally, frequent interruptions and lower maximum movement suggest severe impairment, aligning with the criteria for score 3.
+
+Score: 3
+
+--- Evaluation 2 (Score: 4) ---
+The subject demonstrated moderate issues with their finger tapping, showing signs of decremented amplitude and possibly slight halts. This aligns with the criteria for a severe score.
+
+4
+
+--- Evaluation 3 (Score: 1) ---
+The subject's tapping shows minimal interruptions and slight amplitude variations, fitting within the criteria for a score of 1.
+
+Score: 1
+
+--- Evaluation 4 (Score: 3) ---
+The subject scored 3 on the MDS-UPDRS Finger Tapping task. 
+
+Step-by-step explanation:
+1. The subject successfully completed all 10 taps but showed lower amplitudes towards the end.
+2. The normalized amplitude values dipped slightly at the last few taps, indicating some decrementing or freezing-like behavior without severe halts.
+3. The finger movement's period entropy suggested variability in tapping rhythm, aligning with moderate criteria for score 3.
+
+Answer: \boxed{3}
+
+--- Evaluation 5 (Score: 2) ---
+The subject's finger tapping performance was evaluated based on MDS-UPDRS criteria. The tapping showed a consistent high amplitude initially but saw decreases near the end (two instances), indicating mild amplitude decrement. With only two minor interruptions, it aligns with score 2.
+
+Score: 2
+
+--- Evaluation 6 (Score: 3) ---
+The subject's finger tapping test shows noticeable issues with amplitude decrementing towards the end, indicating a decrease in motor control. There are signs of slowing and potential interruptions not explicitly stated but inferred from amplitude trends.
+
+Score: 3
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping test shows two instances of reduced amplitude without any notable interruptions. The normalized amplitudes dip slightly towards the end, aligning with features typical of a score 1.
+
+Score: 1
+
+--- Evaluation 8 (Score: 0) ---
+The subject's finger tapping performance shows normalized amplitudes starting high and gradually decreasing towards the end without any complete halts or pauses. The inter-tap periods are consistent, indicating smooth tapping. While there is a trend of amplitude decrease, it does not meet the criteria for more severe issues such as freezing or early amplitude decrements.
+
+Score: 0
+
+\boxed{0}
+
+--- Evaluation 9 (Score: 3) ---
+The subject's finger tapping test shows moderate performance with two significant amplitude decrements and some interruptions. Based on the MDS-UPDRS criteria, this indicates a score of 3.
+
+$\boxed{3}$
+
+--- Evaluation 10 (Score: 3) ---
+The subject's finger tapping test shows a gradual decrease in amplitude during the sequence of taps. The statistical features indicate some variability and a consistent decline, aligning with moderate impairment.
+
+Score: 3
+
+
+============================================================
+759859453_20210426_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+The subject's finger tapping test shows moderate issues due to amplitude decrements. 
+
+Step-by-step explanation:
+1. The normalized amplitudes gradually decrease towards the end, indicating a mild trend.
+2. No major interruptions or halts were observed.
+3. Based on MDS-UPDRS criteria for moderate scoring (amplitude decrement after first tap), this pattern aligns with score 2.
+
+Score: 2
+
+The final answer is:
+
+\boxed{2}
+
+--- Evaluation 2 (Score: 1) ---
+The subject's tap shows some variability, with one peak above max and minimal amplitude drops. No major interruptions are present.
+
+Score: 1
+
+--- Evaluation 3 (Score: 1) ---
+The subject's finger tapping test shows signs of mild issues with amplitude and slight variations in timing. Based on the normalized amplitudes and statistical features provided, the score is assigned as 1.
+
+\boxed{1}
+
+--- Evaluation 4 (Score: 2) ---
+The subject's finger tapping test shows signs of slight amplitude variations with an early decrease in consistency and some interruptions. Based on the features provided, they fall into the score 2 category.
+
+Score: 2
+
+--- Evaluation 5 (Score: 2) ---
+The subject's finger tapping test shows moderate performance with a few instances of amplitude reduction towards the end and some minor fluctuations in tap height. Based on the criteria, this aligns with a score of 2.
+
+Score: 2
+
+--- Evaluation 6 (Score: 2) ---
+The subject's finger tapping shows moderate performance with some amplitude decrements near the end. Based on the features provided, they meet the criteria for a moderate score.
+
+The final answer is: \boxed{2}
+
+--- Evaluation 7 (Score: 1) ---
+The score for the subject's MDS-UPDRS Item 3.4 Finger Tapping test is **1**.
+
+Step-by-step explanation:
+1. The normalized amplitudes show slight variations but no consistent decrement from the start, which rules out scores requiring significant amplitude changes (scores 2 and above).
+2. Only one instance of a tap with lower amplitude (~0.73) occurs near the end without multiple interruptions or halts.
+3. All other criteria indicate consistent tapping speed and regular rhythm.
+
+Score: **1**
+
+The final answer is \boxed{1}.
+
+--- Evaluation 8 (Score: 2) ---
+Based on the analysis of the amplitude pattern showing a slight decrement in amplitude at the end with no major interruptions or halts, the subject meets the criteria for moderate performance.
+
+Score: 2
+
+--- Evaluation 9 (Score: 2) ---
+The subject's finger tapping test shows signs of moderate performance based on the normalized amplitude patterns and statistical features. The presence of lower amplitudes towards the end, along with possible interruptions indicated by a moderate periodQuartileRange, suggests a score of 2.
+
+Score: 2
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping test shows minimal disruption with an extra tap at the end. The normalized amplitudes are mostly consistent except for a slight decrease towards the end, suggesting minor issues but not severe enough to meet higher scoring criteria.
+
+Score: 1
+
+
+============================================================
+759859453_20210426_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's performance shows some minor fluctuations with an amplitude decrease at the end but no major halts or severe issues. 
+
+Score: 1
+
+--- Evaluation 2 (Score: 2) ---
+The subject's finger tapping test shows some moderate issues with three instances where the amplitude drops below 0.9 and a gradual decrease towards the end. Based on the criteria, this aligns most closely with Score 2.
+
+Score: 2
+
+--- Evaluation 3 (Score: 4) ---
+The subject's test results show significant issues with amplitude consistency, multiple interruptions, and a substantial decrease in amplitude towards the end, which aligns with the criteria for severe impairment.
+
+Score: 4
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping test scored **1**. This is because there were slight interruptions and a gradual decrease in amplitude near the end of the taps, fitting the criteria for a mild issue as per MDS-UPDRS.
+
+**Answer:**  
+\boxed{1}
+
+--- Evaluation 5 (Score: 2) ---
+Based on the analysis of the extracted features and MDS-UPDRS criteria, the subject's finger tapping performance shows moderate issues with interruptions and amplitude variations. The normalized amplitudes indicate some decrement towards the end, and the number of peaks suggests more than 5 interruptions. However, there is no evidence of freezing or significantly more severe disruptions.
+
+Score: 2
+
+--- Evaluation 6 (Score: 3) ---
+The subject's finger tapping test shows signs of moderate to severe MDS-UPDRS item 3.4 characteristics due to amplitude decrements and limited movement. Based on the provided features, the score is assigned as 3.
+
+\boxed{3}
+
+--- Evaluation 7 (Score: 3) ---
+The analysis of the extracted features indicates moderate performance. The amplitude pattern shows a consistent decrease towards the end but without any interruptions, aligning with the criteria for Score 3.
+
+**Score:** 3
+
+--- Evaluation 8 (Score: 3) ---
+The subject's finger tapping shows early amplitude decrements and moderate speed issues as per the MDS-UPDRS criteria. 
+
+Score: 3
+
+Step-by-step explanation:
+1. The normalized amplitudes start high but dip towards the end, especially after the first few taps.
+2. There are early signs of decrementing amplitude around the ninth tap onward.
+3. The finger movement variability (period_quartile_range) and moderate entropy suggest some regularity without severe interruptions.
+4. This aligns with Score 3's criteria of early amplitude issues.
+
+\boxed{3}
+
+--- Evaluation 9 (Score: 2) ---
+The subject demonstrated moderate issues with finger tapping, showing signs of amplitude decrements towards the end without severe freezing or halts. 
+
+Score: 2
+
+--- Evaluation 10 (Score: 2) ---
+Based on the analysis of the provided features, particularly the normalized amplitude pattern showing two consecutive drops below 0.78 followed by a slight decrement and considering the moderate features like period_quartile_range, the subject's tapping performance aligns with the criteria for Score 2.
+
+The detailed motivation is as follows:
+
+1. **Amplitude Analysis**: The normalized amplitudes indicate slight fluctuations but show a consistent high amplitude except for two consecutive drops towards the end (0.78 and 0.67). This suggests minor interruptions or hesitations without major halts, supporting Score 2.
+
+2. **Feature Consistency**: Other features like moderate period_quartile_range and normalized amplitudes within a range indicate no severe issues such as freezing (freeze) or pronounced decrements seen in higher scores.
+
+3. **Comparison with Examples**: The user's data does not meet the threshold for more than 5 interruptions or early amplitude decrement seen in Score 3, nor is it consistent with the criteria for Score 2 which involves moderate slowing and mid-amplitude decrements.
+
+Thus, the subject receives a score of 2 based on the observed features without meeting the stricter criteria for higher scores. 
+
+Score: 2
+
+Step-by-step explanation:
+- The normalized amplitudes show two brief drops but no major halts or freezes.
+- The slight decrement towards the end and moderate amplitude features align with Score 2's criteria.
+- No significant interruptions, halts, or early slowing are present to justify a higher score.
+
+Answer:  
+Score: \boxed{2}
+
+
+============================================================
+865123482_20200713_Hands_R_12_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The analysis suggests that while there are slight variations in the tapping pattern, they fall under the 'mild' category based on the provided features.
+
+Score for Subject's Finger Tapping: 1
+
+--- Evaluation 2 (Score: 2) ---
+The analysis suggests that the subject's finger tapping demonstrates moderate performance with occasional slight variations and minimal amplitude changes, aligning with a score of 2.
+
+Score: 2
+
+--- Evaluation 3 (Score: 1) ---
+The subject performed their finger tapping test with normalized amplitudes consistently above 0.89 and no significant interruptions. While there were slight variations in amplitude, they did not meet the criteria for more severe scores. 
+
+Score: 1
+
+--- Evaluation 4 (Score: 0) ---
+The subject's finger tapping performance aligns closely with a normal response. There are no significant interruptions or notable changes in speed or amplitude beyond minor fluctuations towards the end of the sequence. Based on the MDS-UPDRS criteria, this corresponds to a score of 0.
+
+\boxed{0}
+
+--- Evaluation 5 (Score: 0) ---
+The MDS-UPDRS finger tapping score for the subject is determined based on their performance, which aligns with no issues in speed, amplitude consistency, and minimal irregularity.
+
+**Score: 0**
+
+This indicates that the subject performed normally with no notable problems during the task.
+
+--- Evaluation 6 (Score: 1) ---
+The subject demonstrated minimal issues with amplitude consistency, showing slight variations but without significant interruptions or major decrements in amplitude. The normalized amplitudes indicate a slightly decreasing trend at the end, which aligns with the criteria for a score of 1.
+
+Score: 1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's finger tapping test shows mostly consistent performance with only minor fluctuations. The normalized amplitudes and timing suggest a score of 1 due to slight issues towards the end but no severe interruptions.
+
+Score: 1
+
+--- Evaluation 8 (Score: 0) ---
+The subject's tapping was smooth with consistent timing and steady amplitudes, fitting the criteria for a normal performance.
+
+**Score:** 0
+
+--- Evaluation 9 (Score: 0) ---
+The score for the subject based on their finger tapping performance is:
+
+0
+
+--- Evaluation 10 (Score: 0) ---
+The subject performed according to MDS-UPDRS criteria with minimal interruptions or amplitude issues. Their taps were consistent in timing and maintained high amplitudes without significant decrements.
+
+Score: 0
+
+
+============================================================
+879885247_20200608_Hands_L_11_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+The subject's score for MDS-UPDRS item 3.4 FINGER TAPPING is **Score 2** based on moderate performance with several interruptions and some amplitude decreases.
+
+Step-by-step explanation:
+1. **Analysis of Normalized Amplitudes**: The pattern shows slight dips below maximum amplitude, indicating variability but not severe decrements.
+2. **Statistical Features Insight**: High period entropy suggests varied timing between taps (possible interruptions). Moderate to high amplitude_min indicates consistent effort with minor variations.
+3. **Comparison with Examples**: Similar features point towards moderate issues, aligning with Score 2 criteria.
+
+Score: 2
+
+--- Evaluation 2 (Score: 2) ---
+The subject demonstrated moderate issues with finger tapping, including some interruptions and a gradual decrement in amplitude. 
+
+\boxed{2}
+
+--- Evaluation 3 (Score: 2) ---
+The subject's tap sequence shows moderate performance with a noticeable decline in amplitude towards the end, without any major interruptions. 
+
+Score: 2
+
+--- Evaluation 4 (Score: 3) ---
+The subject's finger tapping test shows signs of decrementing amplitude towards the end, indicating moderate difficulty. Based on the MDS-UPDRS criteria, this aligns with a score of **3**.
+
+Score: 3
+
+--- Evaluation 5 (Score: 2) ---
+The subject's finger tapping performance was scored as severe based on multiple interruptions, significant amplitude decrements early in the sequence, and overall difficulty in maintaining consistent speed and coordination. 
+
+Step-by-step explanation:
+1. The subject had more than 10 taps (12 peaks), indicating some hesitations or additional movements beyond intended tapping.
+2. Amplitude consistently decreased towards the end of the sequence, with a notable drop early on, fitting moderate to severe criteria.
+3. Multiple interruptions and possible freezings suggest difficulty in performing smoothly within the time frame.
+
+Score: 2
+
+The final score is \boxed{2}.
+
+--- Evaluation 6 (Score: 3) ---
+The subject has moderate issues with finger tapping, specifically showing a noticeable decrease in amplitude starting after several taps and experiencing variability in timing due to possible hesitations or freezes. Based on these observations, the score is 3.
+
+\boxed{3}
+
+--- Evaluation 7 (Score: 2) ---
+The subject's finger tapping test shows moderate performance based on the normalized amplitude pattern. The taps start with higher amplitudes but gradually decrease toward the end without significant interruptions or halts. The statistical features, such as periodQuartileRange and amplitudeMedian/mean, suggest some variation in tap timing and consistent but decreasing amplitude.
+
+The score is assigned as 2 because of the moderate decrement in amplitude starting after several taps, fitting within the criteria for score 2 where amplitude decrements start after the first tap.
+
+The final score is: \boxed{2}
+
+--- Evaluation 8 (Score: 2) ---
+The subject's finger tapping performance shows moderate issues with amplitude decrease towards the end but no significant interruptions. Based on the MDS-UPDRS criteria, this corresponds to a score of **2**.
+
+\boxed{2}
+
+--- Evaluation 9 (Score: 3) ---
+The subject's finger tapping test shows signs of moderate difficulty due to frequent interruptions (multiple peaks) and an amplitude that starts to decrement towards the end. These factors align with the criteria for a moderate performance but are close to severe. However, based on the provided data, it is assigned a Score 3.
+
+$\boxed{3}$
+
+--- Evaluation 10 (Score: 2) ---
+The MDS-UPDRS Item 3.4 score for the subject is **2** because they exhibited moderate slowing and amplitude decrement starting after the first tap, without significant interruptions.
+
+Score: 2
+
+
+============================================================
+879885247_20200608_Hands_R_11_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+The subject's score for MDS-UPDRS Item 3.4 is determined to be 2 based on moderate performance with slight decrements in amplitude and minimal interruptions.
+
+Step-by-step explanation:
+1. **Amplitude Analysis**: The highest amplitude is consistent (1.0), but there are slight decreases towards the end, indicating some amplitude decay without severe issues.
+2. **Variability Features**: Low period_quartile_range suggests smooth tapping with no significant variation or freeze.
+3. **No Interruptions**: The features don't show multiple pauses or breaks beyond normal.
+
+Score: 2
+
+The final answer is:
+
+$\boxed{2}$
+
+--- Evaluation 2 (Score: 3) ---
+The score for the subject is **3**. The analysis shows evidence of multiple interruptions, prolonged hesitations, and a significant decrease in amplitude during the tapping sequence.
+
+Step-by-step explanation:
+
+1. **Amplitude Analysis**: The normalized amplitudes show several drops (e.g., 0.53, then later 0.74 again), indicating possible halts or reduced force.
+2. **Statistical Features**: Low amplitude_min and slight variation in amplitude suggest inconsistent tapping.
+3. **Comparison to Examples**: The features align with moderate score criteria due to interrupted tapping and amplitude decrements.
+
+Score: 3
+
+--- Evaluation 3 (Score: 3) ---
+The subject's finger tapping test was scored based on MDS-UPDRS criteria. The data shows an amplitude pattern starting low and fluctuating without significant trends towards decrementing except at the end, which suggests moderate consistency in control. However, the presence of multiple peaks (11 for 10 taps) indicates a possible pause or longer arrest. According to the criteria, this aligns with score 3.
+
+Score: 3
+
+The final answer is:
+
+\boxed{3}
+
+--- Evaluation 4 (Score: 2) ---
+The subject's finger tapping performance shows normalized amplitudes that decrease towards the end. There are no major interruptions early on, and while there is a gradual amplitude drop, it does not meet the criteria for more severe issues like freezes or excessive halts. 
+
+Score: 2
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping test shows consistent low amplitudes (normalized below typical ranges) and slight decrement in amplitude near the end. No major interruptions were observed, indicating no halts or freezes.
+
+Score: 1
+
+--- Evaluation 6 (Score: 2) ---
+Based on the extracted features, the subject's finger tapping test shows signs of moderate issues with consistency and amplitude. The normalized amplitudes have several lower values, indicating possible decrements or inconsistencies beyond what is acceptable for a score of 2. Therefore, the score is assigned as 2.
+
+The final answer is:
+
+$\boxed{2}$
+
+--- Evaluation 7 (Score: 3) ---
+The MDS-UPDRS item 3.4 score for the subject is determined to be **3**.
+
+Step-by-step explanation:
+
+1. **Regular rhythm and speed**: The period entropy (1.5571) indicates a relatively consistent tapping pattern with minimal irregularity, supporting regularity but not perfect consistency.
+   
+2. **Amplitude variation**: The normalized amplitudes show slight variations from 0.53 to 1.0. Notably, the amplitude starts to decrement after the first tap (1.0 followed by lower values), which aligns with moderate slowing.
+
+3. **No interruptions or major stops**: There are no evident hesitations, halts, or significant breaks in the tapping sequence, supporting that there's no severe freezing or delays.
+
+4. **Amplitude decrementing**: The gradual decline in amplitude towards the end of the 10 taps meets the criteria for score 3, as it indicates moderate slowing and amplitude reduction starting after the first tap without major interruptions.
+
+Based on these observations, the subject is assigned a score of **3** due to moderate slowing and amplitude decrements.
+
+--- Evaluation 8 (Score: 2) ---
+The score is determined based on the extracted features and MDS-UPDRS criteria for finger tapping.
+
+Step-by-step explanation:
+
+1. **Amplitude Analysis**: The normalized amplitudes show slight variations but do not consistently decrement, indicating a generally steady effort.
+2. **Variability Check**: The period_quartile_range is low (0.124), suggesting minimal timing inconsistency between taps.
+3. **Dips and Drops**: There are multiple amplitude dips towards the end, which could indicate hesitations or slight variations in tapping force.
+4. **No Major Halts**: No complete interruptions in tapping throughout all 10 attempts.
+
+Based on these observations, the subject's performance aligns with Score 2 due to moderate issues like a few disruptions but without severe halting or amplitude decrements.
+
+Score: 2
+
+The final score is \boxed{2}.
+
+--- Evaluation 9 (Score: 0) ---
+The subject's tap sequence shows minimal disruptions with no clear halts or multiple stops. The amplitude fluctuates without significant decrement towards the end, indicating a smooth tapping pattern.
+
+Score: 0
+
+--- Evaluation 10 (Score: 3) ---
+The subject's performance shows moderate issues with the task, fitting into the criteria for a score of 3.
+
+**Score: 3**
+
+Step-by-step explanation:
+1. The subject only completed 8 out of 10 taps, indicating interruptions or difficulties in continuing beyond tap 8.
+2. Amplitude consistently decreased after several taps, showing signs of decrementing amplitude as per the criteria.
+3. With a finger_mvmnt_x_max of 8, it suggests they stopped early due to possible halts or issues.
+
+Based on these observations, the score is assigned as 3.
+
+\boxed{3}
+
+
+============================================================
+879885247_20200803_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The subject's tapping was smooth with high amplitudes mostly above 0.95, only showing minor decreases at the end without major interruptions or halts. No evidence of speed issues beyond a slight decrease.
+
+Score: 0
+
+--- Evaluation 2 (Score: 2) ---
+The subject's tapping shows mostly consistent speed and amplitude with minor decrements at the end. There are a few signs of slight interruptions but not severe enough to reach Score 3.
+
+Score: 2
+
+--- Evaluation 3 (Score: 1) ---
+The subject's finger tapping shows moderate amplitude decrement near the end without significant interruptions beyond one or two instances. Based on the statistical features and MDS-UPDRS criteria, the score is assigned as 1.
+
+Score: 1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping test was scored based on the MDS-UPDRS criteria. The data shows normalized amplitudes decreasing slightly towards the end without major interruptions or halts. The features indicate a mild decrease in amplitude, fitting within the criteria for score 1.
+
+Score: 1
+
+--- Evaluation 5 (Score: 2) ---
+The subject's finger tapping performance shows a gradual decrease in amplitude towards the end of the sequence with no major interruptions. 
+
+Score: 2
+
+--- Evaluation 6 (Score: 3) ---
+The subject's finger tapping test for MDS-UPDRS item 3.4 was scored based on the provided features.
+
+Score: 3
+
+--- Evaluation 7 (Score: 0) ---
+The extracted features from the subject's finger tapping test show a pattern without any major disruptions, slight decreases, or significant halts during the 10 taps. The normalized amplitudes remain consistent, indicating normal performance.
+
+Score: 0
+
+--- Evaluation 8 (Score: 0) ---
+The subject's MDS-UPDRS FINGER TAPPING score is determined based on the features provided, which indicate a mostly consistent tapping with slight decreases towards the end. There are minimal interruptions or halts, aligning with the criteria for a normal or slightly impaired performance.
+
+0
+
+--- Evaluation 9 (Score: 2) ---
+The analysis considers the normalized amplitudes, slight decreases at the end, and potential interruptions. Based on these, the score is assigned as follows:
+
+Score: 2
+
+--- Evaluation 10 (Score: 0) ---
+The subject performed the test without significant issues beyond two minor amplitude drops towards the end. There were no notable interruptions or slowings, fitting the criteria for a score of 0.
+
+\boxed{0}
+
+
+============================================================
+879885247_20200803_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 2) ---
+Based on the analysis of the subject's extracted features, their finger tapping performance aligns with the criteria for a moderate score due to a few hesitations or interruptions, though not severe. 
+
+Score: 2
+
+--- Evaluation 2 (Score: 2) ---
+The subject's finger tapping test shows one instance of a relatively low amplitude (0.73) near the end of the sequence, along with moderate decreases in amplitude towards the later taps. There are no significant interruptions or halts. Based on these observations, the score is assigned as follows:
+
+\boxed{2}
+
+--- Evaluation 3 (Score: 1) ---
+The subject's finger tapping performance shows moderate irregularities with minimal interruptions and slight amplitude variations. Based on the features, the score is **1**.
+
+Score: 1
+
+--- Evaluation 4 (Score: 0) ---
+The subject's finger tapping test met all criteria for a normal performance without notable disruptions. 
+
+Step-by-step explanation:
+1. **Amplitude Consistency**: The normalized amplitudes show consistent values, not showing significant variation or decrement beyond minor trends.
+2. **Timing Regularity**: The low periodQuartileRange indicates steady tapping without major speed issues.
+3. **No Hesitations or Halts**: Each tap followed smoothly without interruptions.
+
+Score: 0
+
+0
+
+--- Evaluation 5 (Score: 1) ---
+The subject's tapping showed minimal irregularity and only a slight decrease in amplitude at the end, with no significant interruptions. Based on the criteria for scoring, this corresponds to a score of 1.
+
+\boxed{1}
+
+--- Evaluation 6 (Score: 2) ---
+The subject's score is **Score 2** based on moderate inconsistencies and amplitude decrements during the tap sequence. Features like multiple lower amplitudes and a significant decrease at one point align with moderate scoring criteria.
+
+2
+
+--- Evaluation 7 (Score: 2) ---
+The subject's finger tapping test shows moderate variability with slight amplitude decreases towards the end but no significant halts or major interruptions.
+
+Score: 2
+
+--- Evaluation 8 (Score: 1) ---
+The subject's finger tapping performance shows minimal disruptions with some amplitude variations. Based on the features provided, the score for MDS-UPDRS item 3.4 FINGER TAPPING is **1**.
+
+1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's tap sequence shows a peak at the sixth tap and a slight decrease towards the end, with normalized amplitudes varying but not exceeding the threshold for a moderate issue as per Score 2. However, without clear interruptions, it aligns more with Score 1.
+
+Score: 1
+
+--- Evaluation 10 (Score: 2) ---
+The subject's finger tapping test was scored based on MDS-UPDRS item 3.4 criteria. The analysis showed that while there were slight variations in amplitude and a few minor interruptions, the overall performance did not meet higher threshold categories for severe issues.
+
+Score: 2
+
+
+============================================================
+879885247_20201123_Hands_L_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The subject's tapping shows consistent and regular movements with minimal interruptions or amplitude changes. The features indicate normal performance according to the criteria.
+
+Score: 0
+
+--- Evaluation 2 (Score: 2) ---
+The subject's finger tapping performance shows two instances where the amplitude slightly decreases toward the end, indicating moderate decrementing without major interruptions or halts. 
+
+Score: 2
+
+--- Evaluation 3 (Score: 1) ---
+The subject's performance shows slight amplitude decrements at the end but no significant interruptions. Based on the MDS-UPDRS criteria, this aligns with a moderate score.
+
+Score: 1
+
+--- Evaluation 4 (Score: 1) ---
+The subject's finger tapping test shows minimal irregularities and slight amplitude changes towards the end without significant interruptions. Based on the features provided, the scoring aligns with **SCORE 1**.
+
+1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping performance shows a slight decrease in amplitude towards the end but without any notable pauses or multiple decrements. Based on the MDS-UPDRS criteria, this is classified as Score 1.
+
+Step-by-step explanation:
+1. The normalized amplitudes start high and show a slight trend downward at the end.
+2. No significant pauses (halts) are observed in the tapping sequence.
+3. Only minor decrementing occurs towards the end without multiple interruptions.
+4. This aligns with the criteria for Score 1.
+
+Score: 1
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping performance shows minimal amplitude variation with two instances where the amplitude slightly decreases. Based on the MDS-UPDRS criteria, this aligns with a score of 1 due to minor amplitude decrements.
+
+Score: 1
+
+--- Evaluation 7 (Score: 2) ---
+The subject's finger tapping shows moderate issues with amplitude decrementing early on but no major halts or significant slowing. Based on the features, the score is 2.
+
+\boxed{2}
+
+--- Evaluation 8 (Score: 0) ---
+The subject's tapping was consistent with no major issues like severe slowing, many interruptions, or significant amplitude decrements. The statistical features indicated a regular pattern, making it a score of 0.
+
+0
+
+--- Evaluation 9 (Score: 3) ---
+The subject's tap amplitude shows slight decrease towards the end, moderate slowing in normalized amplitude, and minimal variation in timing without interruptions. Based on MDS-UPDRS criteria for Score 3, which includes moderate slowing and amplitude decrement after the first tap.
+
+Score: 3
+
+--- Evaluation 10 (Score: 3) ---
+The subject demonstrates moderate slowing and amplitude decrementing throughout their tapping. There are no notable pauses or halts during the sequence.
+
+Score: 3
+
+
+============================================================
+879885247_20201123_Hands_R_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject's finger tapping test shows normalized amplitudes with a slight decrease towards the end but no major halts or severe decrements. There are minor irregularities like an extra peak (hazardously), fitting within a mild category.
+
+Score: 1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's finger tapping test was scored based on the MDS-UPDRS criteria. The analysis of amplitude patterns shows slight decrements towards the end but no major interruptions or halts. Statistical features indicate moderate consistency in speed and minimal changes in amplitude, aligning with score 1.
+
+Score: 1
+
+--- Evaluation 3 (Score: 3) ---
+The subject has multiple amplitude decreases toward the end and shows some variability in movement, aligning with moderate criteria. 
+
+Score: 3
+
+--- Evaluation 4 (Score: 2) ---
+The subject's performance shows moderate issues with multiple interruptions and an amplitude decrease towards the end, fitting Score 2.
+
+2
+
+--- Evaluation 5 (Score: 2) ---
+The subject's MDS-UPDRS finger tapping score is **2** based on normalized amplitudes showing one point at 0.75 and consistent timing with minimal speed issues, fitting the criteria for a moderate performance.
+
+\boxed{2}
+
+--- Evaluation 6 (Score: 1) ---
+The subject's finger tapping test shows signs of slight difficulties, primarily in maintaining consistent speed and amplitude. The normalized amplitudes slightly decrease towards the end, indicating moderate slowing without major interruptions or halts. Based on these observations, the score is assigned as 1.
+
+1
+
+--- Evaluation 7 (Score: 1) ---
+The subject's FINGER TAPPING score is **1**. This rating accounts for minor fluctuations in amplitude and possibly one interruption, aligning with the criteria for a mild issue as per MDS-UPDRS guidelines.
+
+1
+
+--- Evaluation 8 (Score: 1) ---
+The subject's finger tapping shows minimal variations in speed (low periodQuartileRange), slight amplitude decreases towards the end (one tap below average), and no significant hesitations or stops beyond what might be expected for a score of 1.
+
+Score: 1
+
+--- Evaluation 9 (Score: 1) ---
+The subject's performance on the FINGER TAPPING task shows minimal disruptions with consistent tapping and slight amplitude reduction towards the end without major interruptions. 
+
+Step-by-step analysis:
+1. The AMPLITUDE PATTERN decreases slightly after the first tap but remains within acceptable limits, not showing significant variation or severe decrements.
+2. STATISTICAL FEATURES indicate moderate consistency (period_quartile_range) with no extreme fluctuations in amplitude.
+3. No evidence of halts, freezes, or excessive disruptions as seen in higher scores.
+
+Score: 1
+
+\boxed{1}
+
+--- Evaluation 10 (Score: 1) ---
+The subject's finger tapping test was scored based on their amplitude and statistical features compared to MDS-UPDRS examples.
+
+Score: 1
+
+
+============================================================
+973565404_20200622_Hands_L_11_R.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 1) ---
+The subject demonstrated mostly consistent tapping with minor amplitude variations and one slight decrement at the end, which aligns with the criteria for a score of 1 due to minimal interruptions or halts.
+
+Score: 1
+
+--- Evaluation 2 (Score: 1) ---
+The subject's finger tapping test shows normalized amplitudes with a slight decrease at the end. The period_quartile_range is low, indicating variability or irregularity in movement timing. The amplitude_min is high but not extremely low, and there are no major interruptions beyond the minor drop towards the end.
+
+Based on these observations, the score for this subject's MDS-UPDRS item 3.4 FINGER TAPPING test is:
+
+**1**
+
+Step-by-step explanation:
+1. **Amplitude Analysis**: The normalized amplitudes show minimal decrement near the end (0.82), aligning with a slight issue.
+2. **Variability in Timing**: Low period_quartile_range suggests some inconsistency, fitting score 1's criteria.
+3. **Consistency**: No major interruptions or halts beyond minor fluctuations.
+
+Thus, the subject is rated as Score 1.
+
+--- Evaluation 3 (Score: 0) ---
+The subject demonstrated a smooth and consistent finger tapping with no significant disruptions. The taps were regular, showing minimal variations in amplitude that did not indicate any major issues beyond normal fluctuation.
+
+Score: 0
+
+--- Evaluation 4 (Score: 1) ---
+The subject’s finger tapping scored a **1** based on the analysis of amplitude fluctuations and slight irregularities in their tapping pattern, fitting the criteria for mild issues. 
+
+Score: 1
+
+--- Evaluation 5 (Score: 1) ---
+The subject's finger tapping performance shows one instance where the amplitude slightly decreases (0.82) after several taps. This indicates a single hesitation or slight interruption without longer arrests. The normalized amplitudes remain mostly consistent with only minor fluctuations, and there are no significant decrements in amplitude early on.
+
+Score: 1
+
+Step-by-step explanation:
+
+- **Normalized Amplitudes**: Most values hover around high to near-maximum (0.85–1.0), except one drop to 0.82.
+- **Statistical Features**: The period quartile range is moderate, suggesting some variability but not severe irregularities.
+- **Comparison with Examples**: Similar to the example for Score 1, which had slight decreases and minimal interruptions.
+
+Based on the analysis, the subject meets the criteria for a slight decrementing amplitude (Score 1). 
+
+Score: 1
+
+--- Evaluation 6 (Score: 0) ---
+Based on the analysis of the extracted features and their alignment with the MDS-UPDRS scoring criteria, the subject's finger tapping performance falls under **Score 0**. There are no significant interruptions or decrements in amplitude that meet or exceed the thresholds for higher scores.
+
+\boxed{0}
+
+--- Evaluation 7 (Score: 1) ---
+The subject demonstrated minimal irregularities in their finger tapping, with only minor fluctuations and an overall consistent performance, resulting in a score of **1**.
+
+\boxed{1}
+
+--- Evaluation 8 (Score: 0) ---
+The subject's finger tapping performance shows normalized amplitudes varying between 0.82 and 1.0, with no severe interruptions or halts. The statistical features indicate moderate movement patterns but do not meet the criteria for higher scores.
+
+Score: 0
+
+--- Evaluation 9 (Score: 3) ---
+The subject's finger tapping test was rated as:
+
+**Score: 3**
+
+This conclusion is based on the analysis of normalized amplitude patterns showing slight irregularities and an extra tap due to possible hesitations or halts, aligning with moderate scoring criteria.
+
+--- Evaluation 10 (Score: 0) ---
+The subject's performance on the MDS-UPDRS item 3.4: FINGER TAPPING is evaluated based on features such as amplitude consistency, regularity of tapping (periodQuartileRange), and overall speed. The data shows minimal irregularities with consistent tapping, suggesting a normal score.
+
+Score: 0
+
+
+============================================================
+973565404_20200622_Hands_R_11_L.mp4FT
+============================================================
+
+--- Evaluation 1 (Score: 0) ---
+The subject's score is determined by evaluating their amplitude consistency. The normalized amplitudes remain high without significant variation or early decrement, aligning with a normal performance as per MDS-UPDRS criteria.
+
+Score: 0
+
+--- Evaluation 2 (Score: 2) ---
+The subject's finger tapping data shows moderate characteristics. There are slight amplitude fluctuations and a minor decrease towards the end, but no severe interruptions or freezing. Based on these observations, the score is assigned as 2.
+
+\boxed{2}
+
+--- Evaluation 3 (Score: 0) ---
+The subject's finger tapping performance adheres closely to the normal pattern without any notable interruptions, slowings, or amplitude decrements.
+
+Step-by-step explanation:
+1. **Amplitude Consistency**: The tap_amplitudes_normalized shows values around 0.79 to 1.0 with a single peak at 0.98 and others slightly lower but consistently high.
+2. **No Interruptions**: There are no signs of pauses or halts, indicated by the normalized amplitudes remaining steady without significant drops.
+3. **Minor Fluctuations**: The normalized values fluctuate only slightly, suggesting regular tapping with minimal variation.
+
+Based on these observations and MDS-UPDRS criteria, the score is 0: Normal.
+
+0
+
+--- Evaluation 4 (Score: 0) ---
+The extracted features indicate that the subject performed the finger tapping task with minimal disruptions, showing consistency in amplitude and movement patterns without significant interruptions. 
+
+Score: 0
+
+--- Evaluation 5 (Score: 1) ---
+The subject's test results indicate minor issues such as a slight pause but no significant decrements in amplitude. Based on these observations, the score is 1.
+
+Step-by-step explanation:
+- The normalized amplitudes are mostly above 0.9 except for two at the end, suggesting consistent tapping with minimal variation.
+- There was one instance of a peak over 10 taps, possibly indicating a slight pause or hiccup.
+- No significant decrements in amplitude were observed.
+
+Given these factors, it aligns with the criteria for a score of 1 (mild).
+
+Score: 1
+
+The final answer is:
+
+\boxed{1}
+
+--- Evaluation 6 (Score: 0) ---
+The extracted features indicate that the subject performed the finger tapping task with minimal disruptions. The amplitude pattern shows slight decreases but no severe interruptions or halts. The statistical measures support a normal performance without notable issues.
+
+Score: 0
+
+--- Evaluation 7 (Score: 1) ---
+The MDS-UPDRS Finger Tapping score for the subject is determined to be 1 due to a slight slowing trend without significant interruptions or major decrements in amplitude. The normalized amplitudes are mostly high except for one tap, and the period_quartile_range indicates consistency.
+
+1
+
+--- Evaluation 8 (Score: 0) ---
+The subject's finger tapping test shows minimal irregularity with consistent intervals between taps. The normalized amplitudes do not significantly decrement towards the end but have a slight increase, indicating no severe issues or many interruptions. Based on these features, the score is 0.
+
+0
+
+--- Evaluation 9 (Score: 1) ---
+The assigned score for the subject based on their tapping features and MDS-UPDRS criteria is:
+
+**Score: 1**
+
+This indicates any of the following: 3 to 5 interruptions during tapping; mild slowing; amplitude decrements midway in the sequence. In this case, the normalized amplitudes show slight decreases towards the end without major halts or early decrements.
+
+Final Answer:
+\boxed{1}
+
+--- Evaluation 10 (Score: 1) ---
+The subject demonstrated consistent tapping with minor variations in amplitude and only one slightly lower tap near the end. Based on MDS-UPDRS criteria for finger tapping, the score is **1**.
+
+1
+

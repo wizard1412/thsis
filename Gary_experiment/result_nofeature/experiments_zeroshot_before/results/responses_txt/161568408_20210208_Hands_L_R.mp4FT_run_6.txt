@@ -1,0 +1,18 @@
+To evaluate the subject's performance on the MDS-UPDRS finger tapping test, we follow a structured approach:
+
+1. **Data Visualization**: Plot the x and y coordinates of both thumb and index fingers over time to observe their movement patterns.
+
+2. **Tap Counting**: Use the provided method to count taps, likely based on identifying contact points where the distance between index and thumb is minimal.
+
+3. **Rhythm Analysis**: Check for regularity in tap intervals to identify hesitations or interruptions. Irregular intervals suggest motor issues.
+
+4. **Amplitude Assessment**: Measure the movement amplitude with each tap. A consistent decrease indicates possible bradykinesia.
+
+5. **Scoring Criteria**:
+   - **Speed and Rhythm**: Assess if there's slowing or interruptions.
+   - **Hesitations/Interruptions**: Count any pauses in tapping.
+   - **Amplitude Decrement**: Determine if the movement size decreases over time.
+
+Based on these analyses, we determine the score according to MDS-UPDRS criteria. The final evaluation considers all factors to assign a score from 0 (normal) to 4 (severe).
+
+Score: 2

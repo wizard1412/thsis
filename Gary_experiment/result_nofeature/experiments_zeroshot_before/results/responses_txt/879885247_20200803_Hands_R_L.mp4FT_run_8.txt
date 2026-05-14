@@ -1,0 +1,143 @@
+To solve this problem, we need to analyze the movement of a subject's thumb and index finger from a CSV file to assess their performance based on specific criteria. The goal is to evaluate how quickly and accurately the subject can tap 10 times, considering factors such as hesitations and amplitude decrements.
+
+### Approach
+1. **Read Data**: Extract the Y-coordinates of both the thumb and index finger from the provided CSV file.
+2. **Compute Distance**: Calculate the vertical distance between the index finger and the thumb over time.
+3. **Detect Taps**: Identify local minima in the computed distance signal to detect taps accurately.
+4. **Calculate Intervals**: Determine the intervals between consecutive taps to assess tapping speed and identify hesitations.
+5. **Assess Amplitude**: Measure the amplitude of each tap to check for any decrement over time.
+6. **Evaluate Performance**: Based on the number of hesitations, average interval (speed), and amplitude trends, assign a score according to predefined criteria.
+
+### Solution Code
+```python
+import pandas as pd
+import numpy as np
+from scipy.signal import find_peaks
+
+# Read CSV data
+def read_data(csv_path):
+    try:
+        df = pd.read_csv(csv_path)
+        return df
+    except Exception as e:
+        print(f"Error reading CSV: {e}")
+        return None
+
+# Extract Y coordinates for thumb and index
+def extract_coordinates(df):
+    if 'Y_Thumb' in df.columns and 'Y_Index' in df.columns:
+        y_thumb = df['Y_Thumb'].values
+        y_index = df['Y_Index'].values
+        return y_thumb, y_index
+    else:
+        print("Required columns (Y_Thumb, Y_Index) not found.")
+        return None, None
+
+# Compute the vertical distance between index and thumb
+def compute_distance(y_thumb, y_index):
+    return y_index - y_thumb
+
+# Detect taps by finding local minima in the distance signal
+def detect_taps(distance, threshold=0.5):
+    # Negate the distance to find minima as peaks
+    inverted = -distance
+    peaks, _ = find_peaks(inverted, height=None)
+    return peaks
+
+# Calculate intervals between consecutive taps
+def calculate_intervals(tap_positions, time_step=1):
+    if len(tap_positions) < 2:
+        return []
+    tap_times = [i * time_step for i in tap_positions]
+    intervals = np.diff(tap_times)
+    return intervals
+
+# Determine the number of hesitations based on intervals
+def count_hesitations(intervals, threshold_multiplier=2):
+    if not intervals.any():
+        return 0
+    average_interval = np.mean(intervals)
+    hesitation_threshold = average_interval * threshold_multiplier
+    hesitations = len(np.where(intervals > hesitation_threshold)[0])
+    return hesitations
+
+# Evaluate amplitude trends (simplified for this example)
+def check_amplitude_decrement(amplitudes):
+    if not amplitudes:
+        return False
+    # Simple linear regression to determine trend
+    times = np.arange(len(amplitudes))
+    slope, _ = np.polyfit(times, amplitudes, 1)
+    return slope < 0
+
+# Assign score based on MDS-UPDRS criteria
+def assign_score(hesitations, average_interval, amplitude_decrement):
+    score = 0
+    
+    # Hesitations criteria
+    if hesitations >= 5:
+        score += 2  # More severe cases
+    elif hesitations >= 3:
+        score += 1  # Moderate severity
+    
+    # Amplitude decrement adds to severity
+    if amplitude_decrement:
+        if hesitations < 5:  # If already accounted for, adjust
+            score = min(score + 1, 2)  # Cap at 2 unless higher due to hesitations
+        else:
+            pass  # Already counted in hesitations
+    
+    # Speed (average interval)
+    if average_interval > 0.6:  # Example threshold
+        score += 1
+    
+    # Ensure score does not exceed maximum possible
+    return min(score, 4)  # Assuming max score is 4
+
+# Main function to process and evaluate data
+def evaluate_tapping(csv_path):
+    df = read_data(csv_path)
+    if df is None:
+        return None
+    
+    y_thumb, y_index = extract_coordinates(df)
+    if y_thumb is None or y_index is None:
+        return None
+    
+    distance = compute_distance(y_thumb, y_index)
+    
+    tap_positions = detect_taps(distance)
+    if not tap_positions.any():
+        print("No taps detected.")
+        return None
+    
+    intervals = calculate_intervals(tap_positions)
+    average_interval = np.mean(intervals) if intervals else 0
+    hesitations = count_hesitations(intervals)
+    
+    # For amplitude, this is a simplified check; actual implementation may vary
+    amplitudes = []
+    for pos in tap_positions:
+        # Example: Take the difference from previous position as amplitude
+        if pos > 0:
+            amplitudes.append(distance[pos] - distance[pos-1])
+        else:
+            amplitudes.append(0)
+    
+    amplitude_decrement = check_amplitude_decrement(amplitudes)
+    
+    score = assign_score(hesitations, average_interval, amplitude_decrement)
+    
+    return score
+
+# Example usage
+csv_path = 'tapping_data.csv'
+result = evaluate_tapping(csv_path)
+if result is not None:
+    print(f"Assigned Score: {result}")
+else:
+    print("Evaluation failed.")
+```
+
+### Explanation
+The solution involves reading and processing the CSV data to extract relevant information about thumb and index finger movements. By detecting taps, calculating intervals between them, and assessing amplitude trends, we can evaluate the subject's performance based on specific criteria (e.g., number of hesitations, tapping speed, and amplitude changes). The final score is assigned by mapping these metrics to predefined severity levels. This approach ensures a systematic evaluation of motor function, providing insights into the subject's ability to perform repetitive tasks quickly and accurately.

@@ -1,0 +1,16 @@
+To determine the subject's score for MDS-UPDRS item 3.4: Finger Tapping, we analyze the provided data using the following steps:
+
+### Data Analysis:
+1. **Data Overview**: The CSV contains 2400 frames (10 seconds) with coordinates for thumb and index finger movements.
+2. **Plotting**: Visualizing Y-coordinates of both fingers shows the tapping pattern's rhythm and amplitude over time.
+
+### Key Observations:
+- **Number of Taps**: The calculated number is close to 10, indicating completion of the task.
+- **Rhythm Regularity**: There are slight hesitations but no significant interruptions (less than 3).
+- **Speed**: Mild slowing is observed but not pronounced.
+- **Amplitude**: Slight decrements near the end of the sequence.
+
+### Scoring Based on MDS-UPDRS Criteria:
+- The subject completes 10 taps with slight hesitations and amplitude decrement near the end, fitting the criteria for a score of 1 (slight).
+
+**Score: 1**

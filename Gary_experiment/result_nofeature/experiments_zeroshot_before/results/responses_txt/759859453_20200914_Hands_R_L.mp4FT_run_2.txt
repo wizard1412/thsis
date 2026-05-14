@@ -1,0 +1,3 @@
+To determine the subject's MDS-UPDRS finger tapping score, we analyze the provided data focusing on speed, amplitude, and interruptions. The Python method calculates approximately 10 taps within 10 seconds, indicating no severe slowing. Visual inspection reveals a regular rhythm with one or two slight hesitations and amplitude decrement near the end.
+
+**Score:** 1

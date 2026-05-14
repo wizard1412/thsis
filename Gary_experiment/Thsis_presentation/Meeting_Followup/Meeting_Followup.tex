@@ -1,0 +1,248 @@
+% !TeX program = xelatex
+% Meeting Follow-up Slides -- Gary Wang
+% Uses NordlingLab169 Beamer theme
+
+\documentclass[aspectratio=169]{beamer}
+\mode<presentation>{
+    \usetheme{NordlingLab169}
+}
+
+\usepackage[english]{babel}
+\let\latinencoding\relax
+\usepackage{xltxtra}
+\setsansfont{Candara}
+
+\usepackage{graphicx}
+\usepackage[absolute,overlay]{textpos}
+\usepackage[yyyymmdd]{datetime}
+\renewcommand{\dateseparator}{--}
+
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{multicol}
+\usepackage{tikz}
+\usepackage{caption}
+\captionsetup[figure]{font=tiny,labelfont=tiny}
+
+% Figure paths
+\graphicspath{
+    {../result/metric_analysis_results/pdf/}
+    {../result/fs_results/pdf/}
+    {../result/fixed_fs_results/pdf/}
+    {../result/multi_model_results/pdf/}
+}
+
+\title[Meeting Follow-up]{Progress Update: Revisions After Professor Feedback}
+\author[Gary Wang]{Gary Wang}
+\institute[NCKU]{Nordling Lab @
+    Dept.\ of Mechanical Engineering\\
+    National Cheng Kung University\\
+    No.\ 1 University rd., Tainan 70101, Taiwan}
+\date{\today}
+
+\AtBeginSection[]{
+    \begin{frame}<beamer>{Outline}
+        \tableofcontents[currentsection]
+    \end{frame}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\setbeamertemplate{background}[NLTitle]
+\setbeamertemplate{footline}[NLTitle]
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\setbeamertemplate{background}[NLCC]
+\setbeamertemplate{footline}[NLCC]
+\begin{frame}<beamer>{Outline}
+    \tableofcontents
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Professor's Suggestions}
+
+\begin{frame}
+    \frametitle{Key Suggestions from Meeting}
+    \begin{itemize}
+        \item \textbf{Metric orthogonality}
+        \begin{itemize}
+            \item Identify collinear metrics via pairwise correlation; keep a minimal orthogonal set
+            \item Move redundant metrics to appendix
+        \end{itemize}
+        \item \textbf{Separate Feature Selection from Prediction}
+        \begin{itemize}
+            \item Mixing different FS + different classifiers = comparing apples with pears
+            \item Run two controlled experiments: fix one, vary the other
+        \end{itemize}
+        \item \textbf{Separate Regression from Classification}
+        \begin{itemize}
+            \item Two distinct problem formulations; must not be mixed in the same table
+        \end{itemize}
+        \item \textbf{Show selected features in figures}
+        \begin{itemize}
+            \item Each FS method result should illustrate which features were actually chosen
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Metric Orthogonality}
+
+\begin{frame}
+    \frametitle{Metric Orthogonality -- Approach}
+    \begin{itemize}
+        \item Problem: too many metrics confuse readers; many carry the same information
+        \item Approach: pairwise Spearman correlation + hierarchical clustering + PCA
+        \item Data: LLM experiments ($n{=}12$ models, 6 metrics) and ML experiments ($n{=}104$, 4 metrics)
+    \end{itemize}
+    \vspace{0.3em}
+    Candidate metrics: MAE, Spearman~$\rho$, Weighted~$\kappa$, Adjacent~Acc., Kendall~$\tau_b$, ICC(3,1)
+\end{frame}
+
+\begin{frame}
+    \frametitle{Pairwise Spearman Correlations (LLM data, $n{=}12$)}
+    \begin{center}
+        \includegraphics[height=0.80\textheight]{fig1_corr_heatmap_llm}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Hierarchical Clustering of Metrics}
+    \begin{columns}[T]
+        \begin{column}{0.60\textwidth}
+            \includegraphics[width=\linewidth]{fig4_dendrogram}
+        \end{column}
+        \begin{column}{0.38\textwidth}
+            \textbf{3 clusters found} (threshold $|r_s|{>}0.75$):
+            \begin{itemize}
+                \item \textbf{Cluster 1}: Spearman~$\rho$, Weighted~$\kappa$, Kendall~$\tau_b$, ICC(3,1)
+                \item \textbf{Cluster 2}: MAE, Binary F1
+                \item \textbf{Cluster 3}: Adjacent Acc.\ \textit{(most independent)}
+            \end{itemize}
+            \vspace{0.5em}
+            \textbf{PCA}: PC1 = \textbf{78.7\%} variance\\
+            $\Rightarrow$ highly redundant
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}
+    \frametitle{PCA of Metrics}
+    \begin{center}
+        \includegraphics[height=0.80\textheight]{fig5_pca}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Final Metric Set}
+    \begin{columns}[T]
+        \begin{column}{0.48\textwidth}
+            \textbf{Retained (4 orthogonal metrics):}
+            \begin{itemize}
+                \item \textbf{MAE $\downarrow$} --- absolute error magnitude
+                \item \textbf{Spearman $\rho$ $\uparrow$} --- rank correlation; represents Cluster~1
+                \item \textbf{Weighted $\kappa$ $\uparrow$} --- ordinal agreement; clinical standard
+                \item \textbf{Adjacent Acc.\ $\uparrow$} --- clinically meaningful tolerance; most independent
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.48\textwidth}
+            \textbf{Dropped (moved to appendix):}
+            \begin{itemize}
+                \item Kendall $\tau_b$ \quad $r_s {=} 0.993$ with Spearman
+                \item ICC(3,1) \quad $r_s {=} 0.958$ with Kappa
+                \item Binary F1 \quad correlated with MAE
+            \end{itemize}
+            \vspace{0.6em}
+            \begin{center}
+            {\small
+            \begin{tabular}{lc}
+            \toprule
+            Pair & $r_s$ \\
+            \midrule
+            Spearman vs Kendall & $+0.993^{***}$ \\
+            Kappa vs ICC        & $+0.958^{***}$ \\
+            Spearman vs Kappa   & $+0.839^{***}$ \\
+            Spearman vs AAcc    & $+0.274^{\phantom{**}}$ \\
+            \bottomrule
+            \end{tabular}
+            }
+            \end{center}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Separating Feature Selection from Prediction}
+
+\begin{frame}
+    \frametitle{Experiment A -- Feature Count vs.\ Kappa}
+    \begin{center}
+        \includegraphics[width=\linewidth,height=0.75\textheight,keepaspectratio]{figD_nfeats_vs_kappa}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Experiment B -- Compare Predictors (Fixed FS)}
+    \begin{itemize}
+        \item Fixed FS method: \textbf{LLM-Lasso} (LLM-based, 6 features selected)
+        \item 26 predictors compared: 13 regressors + 13 classifiers (separated)
+        \item Best regressor: \textbf{GradBoost-R} (Pareto-dominant across all metrics)
+        \item Best classifiers: \textbf{KNN-clf} and \textbf{ExtraTrees-C} (Pareto-optimal, each excels on different metrics)
+    \end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Separating Regression from Classification}
+
+\begin{frame}
+    \frametitle{Borda Count Ranking -- All Predictors (LLM-Lasso, 6 features)}
+    \begin{center}
+        \includegraphics[width=\linewidth]{fig6_borda}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Pareto Dominance -- Regressors}
+    \begin{center}
+        \includegraphics[width=0.85\linewidth]{fig7_pareto_reg}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Pareto Dominance -- Classifiers}
+    \begin{center}
+        \includegraphics[width=0.85\linewidth]{fig7_pareto_clf}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Clean Predictor Comparison (No Built-in Feature Selection)}
+    \begin{itemize}
+        \item Excludes models with internal feature weighting (RF, GradBoost, XGBoost, LASSO\ldots)
+    \end{itemize}
+    \begin{center}
+        \includegraphics[width=0.92\linewidth]{fig5_clean_comparison}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Circular Combinations -- Flagged with $*$}
+    \begin{itemize}
+        \item \textbf{Definition}: FS method uses the same algorithm as the predictor
+        \begin{itemize}
+            \item RF Importance FS $+$ RandomForest-R/C
+            \item RFECV-RF FS $+$ RandomForest-R/C
+            \item LLM-Lasso FS $+$ Lasso regressor
+        \end{itemize}
+        \item \textbf{Problem}: cannot distinguish whether performance is from FS or model
+        \item \textbf{Treatment}: included but marked with $*$ and red border in figures
+    \end{itemize}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

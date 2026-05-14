@@ -1,0 +1,9 @@
+To determine the subject's score according to MDS-UPDRS item 3.4: FINGER TAPPING, the data from the CSV file was analyzed by plotting the movement and calculating key metrics such as tap count, amplitude consistency, and interruptions.
+
+The Euclidean distance between the thumb and index finger was plotted over time, revealing regular taps with slight hesitations and minor amplitude decrements near the end. The number of taps was within the expected range for 10 seconds, indicating acceptable speed. However, there were one or two brief interruptions in the rhythm and a slight slowing, which aligns with the criteria for a score of 1.
+
+**Score: 1**
+
+The motivation is based on the presence of slight slowing, one or two hesitations, and amplitude decrements near the end of the sequence. These factors fit the description for a score of 1 under the MDS-UPDRS guidelines.
+
+1

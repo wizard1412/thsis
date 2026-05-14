@@ -1,0 +1,14 @@
+To determine the subject's score based on the MDS-UPDRS finger tapping criteria, we analyze the following aspects:
+
+1. **Number of Taps**: The subject completed approximately 10 taps within the 10-second interval.
+
+2. **Speed**: There was slight slowing observed in the tapping rhythm.
+
+3. **Amplitude**: The amplitude showed a decrement near the end of the sequence.
+
+4. **Hesitations/Interruptions**: There were one or two interruptions during the tapping, indicating a broken rhythm.
+
+Based on these observations, the subject's performance aligns with the criteria for a score of 1: slight slowing, a couple of hesitations, and amplitude decrement near the end.
+
+**Score:**  
+1

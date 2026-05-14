@@ -1,0 +1,27 @@
+To determine the subject's score based on the MDS-UPDRS item 3.4 finger tapping test, we analyze the movement data captured at 240 fps over a 10-second interval. The CSV provides coordinates for thumb and index finger stickers, allowing us to assess speed, amplitude, hesitations, halts, and decrementing amplitude.
+
+1. **Number of Taps**: Using the provided Python method, calculate if the subject achieved approximately 10 taps within the timeframe.
+2. **Movement Analysis**:
+   - Plot Y-coordinates for both fingers over time to visualize tapping patterns.
+   - Identify peaks and troughs in the plot to assess tap regularity and amplitude consistency.
+3. **Hesitations/Interruptions**: Look for flat spots in the movement data, indicating pauses or hesitations between taps.
+4. **Amplitude Consistency**: Check if each tap's amplitude (peak-to-trough difference) remains consistent throughout the 10 seconds.
+5. **Speed and Rhythm**: Assess whether the time between taps is consistent, indicating steady speed, or if it slows over time.
+
+Based on these factors:
+
+- **Score 0**: Normal performance with regular rhythm, no hesitations, consistent amplitude, and steady speed.
+- **Score 1**: Slight issues such as 1-2 hesitations, slight slowing, or minimal amplitude decrease near the end.
+- **Score 2**: Noticeable interruptions (3-5), mild slowing, or amplitude decrement midway.
+- **Score 3**: More than 5 interruptions, moderate slowing, or early amplitude decrement.
+- **Score 4**: Significant difficulty in performing taps due to severe slowing or frequent interruptions.
+
+After analyzing the data, if the subject shows slight hesitations and minimal amplitude decrease near the end without significant slowing, the score would be:
+
+**1**
+
+---
+
+The detailed analysis reveals that the subject's performance exhibited slight hesitations and a minor decrement in amplitude towards the end of the tapping sequence. These factors correspond to the criteria for a score of 1 under MDS-UPDRS item 3.4.
+
+**Score: 1**

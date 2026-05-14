@@ -1,0 +1,7 @@
+To determine the MDS-UPDRS finger tapping score, I analyzed the provided data by first visualizing the movement patterns of both fingers. The thumb and index finger positions were plotted over time to observe the tapping rhythm and amplitude.
+
+Next, I calculated the distance between the two stickers across all frames. By applying a moving average to smooth the data, I detected taps when the distance dropped below a threshold, resulting in approximately 10 taps as instructed.
+
+The analysis revealed slight hesitations and minimal slowing, with a small decrement in amplitude near the end of the sequence. These factors align with the criteria for a score indicating slight impairment.
+
+**Score: 1**

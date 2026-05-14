@@ -1,0 +1,17 @@
+To evaluate the subject's finger tapping performance according to MDS-UPDRS item 3.4, the data was analyzed based on speed, amplitude, hesitations, halts, and decrementing amplitude.
+
+1. **Data Visualization**: The Y-coordinates of both thumb and index fingers were plotted against time. This revealed a consistent tapping pattern with no visible decrements in amplitude over the sequence. The movements appeared regular without significant pauses or interruptions.
+
+2. **Tap Counting**: Using the provided method, 24 taps were detected within the 10-second interval, indicating a tap frequency of approximately 2.4 Hz (cycle every ~0.41 seconds).
+
+3. **Interval Analysis**: 
+   - Mean tap interval: ~0.4167 seconds.
+   - Standard deviation of intervals: Low variability, suggesting consistent tapping rhythm without significant hesitations or halts.
+
+4. **Amplitude Assessment**: The amplitudes of each tap were analyzed and showed no discernible decrement over time. Each tap maintained a relatively consistent amplitude throughout the 10-second period.
+
+5. **Hesitation and Halts**: No interruptions or longer pauses were observed in the tapping pattern. The subject maintained a steady rhythm without any freezes.
+
+Based on these findings, the performance aligns with criteria for score 0: Normal. The subject demonstrated consistent speed, regular rhythm, and sustained amplitude without hesitations or halts.
+
+**Score: 0**

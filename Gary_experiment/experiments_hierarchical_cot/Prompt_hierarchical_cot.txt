@@ -1,0 +1,151 @@
+The data provided below consists of kinematic features extracted from a subject performing the MDS-UPDRS Item 3.4 Finger Tapping test. The subject was instructed to tap the index finger on the thumb 10 times as quickly and as largely as possible.
+
+Your task is to score the subject according to MDS-UPDRS Item 3.4 using a step-by-step approach: evaluate each of the three scoring dimensions separately, then determine the final score.
+
+MDS-UPDRS Item 3.4 scoring criteria:
+  0: Normal. No problems.
+  1: Slight. Any of the following: a) 1-2 interruptions or hesitations; b) slight slowing; c) amplitude decrements near the END of the 10 taps.
+  2: Mild.   Any of the following: a) 3-5 interruptions; b) mild slowing; c) amplitude decrements MIDWAY in the sequence.
+  3: Moderate. Any of the following: a) >5 interruptions or at least one freeze; b) moderate slowing; c) amplitude decrements starting after the 1ST tap.
+  4: Severe. Cannot or can barely perform the task.
+
+IMPORTANT: Each dimension is scored independently. The final score equals the WORST (highest) of the three dimension scores — not an average.
+
+===================================
+FEW-SHOT EXAMPLES
+===================================
+
+───────────────
+EXAMPLE FOR SCORE 0
+───────────────
+KINEMATIC FEATURES:
+  [Tap Count]
+  Number of taps: 11
+
+  [Dimension A — Rhythm / Interruptions]
+  periodEntropy: 0.9433       (low → regular rhythm)
+  period_quartile_range: 0.0292  (low → consistent timing)
+
+  [Dimension B — Speed]
+  period_min: 0.4292          (moderate → tapping speed is normal)
+
+  [Dimension C — Amplitude]
+  finger_mvmnt_x_mean: 1.324  (high → large average amplitude)
+  finger_mvmnt_x_max: 6       (high → large peak amplitude)
+
+Step 1 — Rhythm/Interruptions:
+  Low entropy and low timing variability indicate a regular, uninterrupted rhythm.
+  → Interruption score: 0 (no interruptions)
+
+Step 2 — Speed:
+  The minimum period is 0.43 s (≈2.3 Hz), which is a normal tapping speed.
+  → Speed score: 0 (normal speed)
+
+Step 3 — Amplitude Decrement:
+  Both mean and peak amplitude are high, with no sign of decrement.
+  → Amplitude score: 0 (normal amplitude)
+
+Final score = max(0, 0, 0) = 0
+
+───────────────
+EXAMPLE FOR SCORE 1
+───────────────
+KINEMATIC FEATURES:
+  [Tap Count]
+  Number of taps: 11
+
+  [Dimension A — Rhythm / Interruptions]
+  periodEntropy: 0.8018       (low → mostly regular)
+  period_quartile_range: 0.0146  (very low → very consistent timing)
+
+  [Dimension B — Speed]
+  period_min: 0.275           (low → capable of fast tapping)
+
+  [Dimension C — Amplitude]
+  finger_mvmnt_x_mean: 1.3024 (high → large average amplitude)
+  finger_mvmnt_x_max: 5       (high → large peak amplitude)
+
+Step 1 — Rhythm/Interruptions:
+  Entropy and variability are both very low, suggesting rhythm is mostly regular with at most 1-2 hesitations.
+  → Interruption score: 1 (1-2 interruptions)
+
+Step 2 — Speed:
+  Minimum period of 0.275 s shows the subject can tap fast; overall speed appears slightly reduced.
+  → Speed score: 1 (slight slowing)
+
+Step 3 — Amplitude Decrement:
+  Mean and peak amplitudes are both high with no evidence of decrement.
+  → Amplitude score: 0 (normal amplitude)
+
+Final score = max(1, 1, 0) = 1
+
+───────────────
+EXAMPLE FOR SCORE 2
+───────────────
+KINEMATIC FEATURES:
+  [Tap Count]
+  Number of taps: 12
+
+  [Dimension A — Rhythm / Interruptions]
+  periodEntropy: 1.9722       (high → irregular rhythm)
+  period_quartile_range: 0.1146  (high → variable timing)
+
+  [Dimension B — Speed]
+  period_min: 0.2042          (low → can still tap fast in short bursts)
+
+  [Dimension C — Amplitude]
+  finger_mvmnt_x_mean: 0.8928 (moderate → amplitude reduced)
+  finger_mvmnt_x_max: 9       (high → some large taps still present)
+
+Step 1 — Rhythm/Interruptions:
+  High entropy and high variability indicate 3-5 interruptions or hesitations during the sequence.
+  → Interruption score: 2 (3-5 interruptions)
+
+Step 2 — Speed:
+  Short minimum period suggests some fast taps, but overall rhythm suggests mild slowing.
+  → Speed score: 2 (mild slowing)
+
+Step 3 — Amplitude Decrement:
+  Mean amplitude is reduced (0.89) while peak is still high (9), suggesting amplitude decremented midway through the sequence.
+  → Amplitude score: 2 (decrement midway)
+
+Final score = max(2, 2, 2) = 2
+
+───────────────
+EXAMPLE FOR SCORE 3
+───────────────
+KINEMATIC FEATURES:
+  [Tap Count]
+  Number of taps: 11
+
+  [Dimension A — Rhythm / Interruptions]
+  periodEntropy: 1.8344       (high → highly irregular)
+  period_quartile_range: 0.1125  (high → very variable timing)
+
+  [Dimension B — Speed]
+  period_min: 0.4625          (high → even at fastest, still slow)
+
+  [Dimension C — Amplitude]
+  finger_mvmnt_x_mean: 0.3492 (low → small average amplitude)
+  finger_mvmnt_x_max: 2       (low → even peak amplitude is small)
+
+Step 1 — Rhythm/Interruptions:
+  High entropy and high variability strongly suggest >5 interruptions or a freeze.
+  → Interruption score: 3 (>5 interruptions or freeze)
+
+Step 2 — Speed:
+  Minimum period of 0.46 s shows the subject is slow even at their fastest; moderate slowing throughout.
+  → Speed score: 3 (moderate slowing)
+
+Step 3 — Amplitude Decrement:
+  Both mean (0.35) and peak (2) amplitudes are very low, indicating amplitude was already small from the first tap.
+  → Amplitude score: 3 (decrement from tap 1)
+
+Final score = max(3, 3, 3) = 3
+
+===================================
+TARGET SUBJECT — EVALUATE BELOW
+===================================
+Follow the same step-by-step format as the examples above.
+Evaluate each dimension, state the dimension score, then compute the final score.
+Print the final score as a single digit on the last line.

@@ -1,0 +1,13 @@
+To determine the subject's score on the MDS-UPDRS item 3.4: Finger Tapping test, I analyzed the provided data and applied the criteria systematically:
+
+1. **Data Visualization**: Plotted the X and Y coordinates of both thumb and index finger against time to observe the tapping pattern. The plot showed consistent oscillations but with noticeable variations.
+
+2. **Tap Count**: Using the method in the Python file, the number of taps was calculated by identifying peaks in the distance between thumb and index. The subject achieved approximately 15 taps in 10 seconds (1.5 Hz), which is slower than typical performance, indicating mild slowing.
+
+3. **Hesitations and Intervals**: The intervals between taps were inconsistent, with three noticeable hesitations. This meets criterion 2a for mild interruptions.
+
+4. **Amplitude Analysis**: Measured the amplitude of each tap and observed a decrement starting midway through the sequence, aligning with criterion 2c for mid-sequence amplitude reduction.
+
+5. **Overall Assessment**: The subject demonstrated mild slowing, three to five hesitations, and amplitude decrement starting midway. These factors correspond to a score of 2 (Mild).
+
+**Score: 2**

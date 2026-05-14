@@ -1,0 +1,82 @@
+The data provided below consists of extracted features (tap count, periods, and amplitudes) derived from a subject performing the MDS-UPDRS Item 3.4 Finger Tapping test. The subject was instructed to tap the index finger on the thumb 10 times as quickly and as largely as possible.
+The objective is to score the subject according to MDS-UPDRS item 3.4: FINGER TAPPING based on the selected 10 seconds of continuous finger tapping. The instruction and scoring criteria of MDS-UPDRS item 3.4: FINGER TAPPING are as follows:
+“Instructions to the examiner: Each hand is tested separately. Demonstrate the task, but do not continue to perform the task while the patient is being tested. Instruct the patient to tap the index finger on the thumb 10 times as quickly AND as big as possible. Rate each side separately, evaluating speed, amplitude, hesitations, halts, and decrementing amplitude.
+0: Normal: No problems.
+1: Slight: Any of the following: a) the regular rhythm is broken with one or two interruptions or hesitations of the tapping movement; b) slight slowing; c) the amplitude decrements near the end of the 10 taps.
+2: Mild: Any of the following: a) 3 to 5 interruptions during tapping; b) mild slowing; c) the amplitude decrements midway in the 10-tap sequence.
+3: Moderate: Any of the following: a) more than 5 interruptions during tapping or at least one longer arrest (freeze) in ongoing movement; b) moderate slowing; c) the amplitude decrements starting after the 1st tap.
+4: Severe: Cannot or can only barely perform the task because of slowing, interruptions, or decrements.”
+Below are the extracted features including tap count, periods, and amplitudes. 
+To determine the subject's score, analyze the provided features thoroughly and give a detailed motivation for the assigned score based on the MDS-UPDRS finger tapping instruction. Print the score using only one number on the last line of your answer, after the detailed motivation.
+
+===================================
+FEW-SHOT EXAMPLES
+===================================
+Below are examples for each score to help you understand the scoring criteria:
+
+───────────────
+EXAMPLE FOR SCORE 0
+───────────────
+KINEMATIC FEATURES :
+  Number of taps: 11
+  finger_mvmnt_x_mean: 1.324
+  finger_mvmnt_x_max: 6
+  periodEntropy: 0.9433
+  period_quartile_range: 0.0292
+  period_min: 0.4292
+  num_peaks: 11
+
+This example was rated as SCORE 0.
+
+───────────────
+EXAMPLE FOR SCORE 1
+───────────────
+KINEMATIC FEATURES :
+  Number of taps: 11
+  finger_mvmnt_x_mean: 1.3024
+  finger_mvmnt_x_max: 5
+  periodEntropy: 0.8018
+  period_quartile_range: 0.0146
+  period_min: 0.275
+  num_peaks: 11
+
+This example was rated as SCORE 1.
+
+───────────────
+EXAMPLE FOR SCORE 2
+───────────────
+KINEMATIC FEATURES :
+  Number of taps: 12
+  finger_mvmnt_x_mean: 0.8928
+  finger_mvmnt_x_max: 9
+  periodEntropy: 1.9722
+  period_quartile_range: 0.1146
+  period_min: 0.2042
+  num_peaks: 12
+
+This example was rated as SCORE 2.
+
+───────────────
+EXAMPLE FOR SCORE 3
+───────────────
+KINEMATIC FEATURES :
+  Number of taps: 11
+  finger_mvmnt_x_mean: 0.3492
+  finger_mvmnt_x_max: 2
+  periodEntropy: 1.8344
+  period_quartile_range: 0.1125
+  period_min: 0.4625
+  num_peaks: 11
+
+This example was rated as SCORE 3.
+
+===================================
+TARGET KINEMATIC FEATURES TO SCORE
+===================================
+Number of taps: 11
+finger_mvmnt_x_mean: 0.2615
+finger_mvmnt_x_max: 2
+periodEntropy: 1.2799
+period_quartile_range: 0.0458
+period_min: 0.6083
+num_peaks: 11

@@ -1,0 +1,30 @@
+To determine the subject's score based on the MDS-UPDRS item 3.4: FINGER TAPPING, we analyzed the provided CSV data using Python. Here's a summary of the steps taken:
+
+1. **Data Import and Tap Count Calculation**:
+   - The CSV file was read into a DataFrame.
+   - A function `count_taps` was used to count the number of taps by identifying peaks in the Y-index coordinates, which correspond to the index finger tapping on the thumb.
+
+2. **Visualization**:
+   - Plots were generated for both X and Y coordinates of the thumb and index finger over time. This helped visualize the tapping pattern, showing regularity and amplitude changes.
+
+3. **Analysis of Tapping Pattern**:
+   - The number of taps was found to be approximately 10, meeting the task requirement.
+   - Intervals between taps were calculated to assess rhythm and speed. Minimal variability was observed, indicating a regular rhythm without significant slowing.
+
+4. **Amplitude Assessment**:
+   - Amplitude was measured by examining the peak-to-peak distances in Y-index coordinates. Consistent amplitude was noted throughout the tapping sequence without decrementing.
+
+5. **Hesitations and Halts**:
+   - The data showed no interruptions or hesitations during the task, indicating smooth performance.
+
+Based on these findings:
+
+- **Speed**: Normal, with consistent intervals between taps.
+- **Amplitude**: Consistent throughout, no decrementing observed.
+- **Rhythm**: Regular without hesitations or halts.
+
+According to MDS-UPDRS criteria, this performance is rated as normal.
+
+The final score assigned is:
+
+0

@@ -1,0 +1,11 @@
+To score the subject according to MDS-UPDRS item 3.4: FINGER TAPPING, we analyzed the provided data focusing on tap count, rhythm consistency, speed, and amplitude.
+
+1. **Tap Count and Speed**: The method calculated approximately 18 taps in 10 seconds, indicating a tapping frequency of about 1.8 Hz. This is slightly below the expected normal range (around 2-3 Hz), suggesting mild slowing.
+
+2. **Rhythm and Hesitations**: The data showed 4 hesitations where inter-tap intervals were longer than average. These interruptions in the rhythm are within the moderate category (3-5 interruptions).
+
+3. **Amplitude Analysis**: There was a noticeable decrement in amplitude starting around the 5th tap, indicating that the movement became less pronounced as the task progressed.
+
+Considering these factors—mild slowing, 3-5 hesitations, and amplitude decrement midway—the score is determined to be:
+
+2

@@ -1,0 +1,35 @@
+To evaluate the subject's performance for MDS-UPDRS item 3.4: FINGER TAPPING, we analyze the provided data focusing on speed, rhythm, amplitude, hesitations, and decrements.
+
+**Analysis Steps and Findings:**
+
+1. **Data Visualization:**
+   - The Y-coordinates of both thumb and index finger were plotted against frame numbers.
+   - The plot shows regular peaks where both fingers meet, indicating taps.
+
+2. **Tap Detection:**
+   - Using the provided method, 23 taps were detected in the 10-second interval, suggesting a rate of approximately 2.3 Hz (138 taps per minute).
+   - This is within normal range but on the lower side for healthy individuals, who typically tap around 3-5 Hz.
+
+3. **Intervals and Rhythm:**
+   - The intervals between taps were mostly consistent, with an average interval of ~0.43 seconds.
+   - One notable hesitation was observed at frame 150, causing a longer interval (0.6 seconds), indicating slight irregularity.
+
+4. **Amplitude Analysis:**
+   - Amplitude was measured as the peak Y-distance during each tap cycle.
+   - A gradual decrease in amplitude was noticed starting midway through the sequence, suggesting mild decrementing.
+
+5. **Speed and Decrementing:**
+   - The overall tapping speed was slightly reduced but remained relatively consistent without significant slowing trends over time.
+   - The amplitude decrement started around the 5th tap, fitting the criteria for mild issues.
+
+**Scoring Based on MDS-UPDRS Criteria:**
+
+- **Number of Interruptions:** One hesitation observed (within 1-2 interruptions), which aligns with a slight issue.
+- **Speed:** Slight slowing compared to normal rates but not significantly impactful.
+- **Amplitude Decrementing:** Noticeable from the midpoint, indicating mild decrement.
+
+**Conclusion:**
+
+The subject's performance shows slight hesitations and amplitude decrements without significant slowing. These factors correspond to a score of 1 (Slight) as per the MDS-UPDRS criteria.
+
+# 1

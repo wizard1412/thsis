@@ -1,0 +1,15 @@
+To determine the subject's score for MDS-UPDRS item 3.4: FINGER TAPPING, we analyze the data from the 10-second finger-tapping task. The scoring is based on the following criteria:
+
+1. **Speed**: Slowing of the tapping movement.
+2. **Amplitude Consistency**: Decrementing amplitude during the taps.
+3. **Interruptions/Hesitations**: Number and duration of interruptions in the tapping rhythm.
+
+### Analysis:
+- **Regular Rhythm**: The data shows a consistent tapping pattern with slight variations but no significant breaks or hesitations.
+- **Slight Slowing**: There is minimal slowing in the tapping speed, but it does not significantly impact the overall performance.
+- **Amplitude Decrement**: A slight decrement in amplitude is observed near the end of the 10-tap sequence.
+
+### Conclusion:
+The subject's performance aligns with **"Slight"** impairment, as there are minor interruptions, minimal slowing, and a small decrement in amplitude toward the end. These factors correspond to a score of:
+
+1

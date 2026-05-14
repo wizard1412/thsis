@@ -1,0 +1,14 @@
+The data provided below consists of extracted features (tap count, periods, and amplitudes) derived from a subject performing the MDS-UPDRS Item 3.4 Finger Tapping test. The subject was instructed to tap the index finger on the thumb 10 times as quickly and as largely as possible.
+The objective is to score the subject according to MDS-UPDRS item 3.4: FINGER TAPPING based on the selected 10 seconds of continuous finger tapping. The instruction and scoring criteria of MDS-UPDRS item 3.4: FINGER TAPPING are as follows:
+“Instructions to the examiner: Each hand is tested separately. Demonstrate the task, but do not continue to perform the task while the patient is being tested. Instruct the patient to tap the index finger on the thumb 10 times as quickly AND as big as possible. Rate each side separately, evaluating speed, amplitude, hesitations, halts, and decrementing amplitude.
+0: Normal: No problems.
+1: Slight: Any of the following: a) the regular rhythm is broken with one or two interruptions or hesitations of the tapping movement; b) slight slowing; c) the amplitude decrements near the end of the 10 taps.
+2: Mild: Any of the following: a) 3 to 5 interruptions during tapping; b) mild slowing; c) the amplitude decrements midway in the 10-tap sequence.
+3: Moderate: Any of the following: a) more than 5 interruptions during tapping or at least one longer arrest (freeze) in ongoing movement; b) moderate slowing; c) the amplitude decrements starting after the 1st tap.
+4: Severe: Cannot or can only barely perform the task because of slowing, interruptions, or decrements.”
+Below are the extracted features including tap count, periods, and amplitudes. 
+To determine the subject's score, analyze the provided features thoroughly and give a detailed motivation for the assigned score based on the MDS-UPDRS finger tapping instruction. Print the score using only one number on the last line of your answer, after the detailed motivation.
+#EXTRACTED FEATURES
+Number of taps: 11
+Tap periods (frames): [106, 158, 96, 134, 152, 129, 139, 112, 133, 153]
+Tap amplitudes (pixels): [216.3631207022121, 213.92522057952868, 215.62931155109686, 219.49487465542333, 209.78083801910984, 203.8872237291979, 212.0, 217.13820483738002, 215.07673049402624, 210.27838690650069, 211.29126815843574]

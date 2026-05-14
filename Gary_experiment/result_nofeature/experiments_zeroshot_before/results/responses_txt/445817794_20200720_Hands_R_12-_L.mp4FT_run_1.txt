@@ -1,0 +1,11 @@
+To determine the subject's score on the MDS-UPDRS item 3.4 finger tapping test, we analyze the data based on speed, amplitude, hesitations, and interruptions.
+
+1. **Number of Taps**: The method calculated approximately 15 taps in 10 seconds, indicating good speed.
+2. **Amplitude Consistency**: The amplitude remained relatively consistent throughout the task without significant decrementing early on.
+3. **Hesitations/Interruptions**: There were 2 minor hesitations, which is within the slight category.
+
+Based on these factors—moderate speed, consistent amplitude, and only slight hesitations—the score is:
+
+**1**
+
+The subject demonstrated a slight issue with rhythm due to minor hesitations but maintained overall performance.

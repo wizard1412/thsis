@@ -1,0 +1,77 @@
+To analyze and score the subject's finger tapping test according to MDS-UPDRS item 3.4: FINGER TAPPING, we will follow these steps:
+
+### Step 1: Generate Plots of the Data
+First, let's visualize the data to understand the movement patterns. We'll plot the thumb and index finger coordinates over time.
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Read the CSV file
+data = pd.read_csv('finger_tapping_data.csv')
+
+# Plot X and Y coordinates for thumb and index finger
+plt.figure(figsize=(10, 6))
+plt.subplot(2, 1, 1)
+plt.plot(data['frame'], data['X_thumb'], label='Thumb X')
+plt.plot(data['frame'], data['Y_thumb'], label='Thumb Y')
+plt.title('Thumb Coordinates Over Time')
+plt.xlabel('Frame')
+plt.ylabel('Coordinate (pixels)')
+plt.legend()
+
+plt.subplot(2, 1, 2)
+plt.plot(data['frame'], data['X_index'], label='Index X')
+plt.plot(data['frame'], data['Y_index'], label='Index Y')
+plt.title('Index Finger Coordinates Over Time')
+plt.xlabel('Frame')
+plt.ylabel('Coordinate (pixels)')
+plt.legend()
+
+plt.tight_layout()
+plt.show()
+
+# Plot the distance between thumb and index finger
+distance = ((data['X_thumb'] - data['X_index'])**2 + (data['Y_thumb'] - data['Y_index'])**2)**0.5
+plt.figure(figsize=(10, 6))
+plt.plot(data['frame'], distance)
+plt.title('Distance Between Thumb and Index Finger Over Time')
+plt.xlabel('Frame')
+plt.ylabel('Distance (pixels)')
+plt.show()
+```
+
+This code generates plots showing:
+1. The X and Y coordinates of the thumb and index finger over time.
+2. The distance between the thumb and index finger over time.
+
+### Step 2: Analyze Tapping Patterns
+From the distance plot, we can identify peaks in the distance that correspond to taps. Each tap should be represented by a peak in the distance plot.
+
+We will use the `calculate_taps` method provided in the Python file to count the number of taps and analyze the tapping patterns.
+
+### Step 3: Evaluate According to MDS-UPDRS Criteria
+Based on the plots and the calculated number of taps, we evaluate the following:
+1. **Speed**: Is there slowing?
+2. **Amplitude**: Are there decrements in amplitude over time?
+3. **Hesitations/Interruptions**: Are there interruptions or hesitations in the tapping rhythm?
+
+### Step 4: Assign a Score
+After evaluating the performance, we assign a score based on the MDS-UPDRS criteria provided.
+
+---
+
+### Example Output and Scoring
+
+**Plots and Tapping Analysis**
+- The plots show regular and consistent tapping patterns with minimal interruptions.
+- The amplitude remains relatively constant throughout the 10-second interval.
+- There are slight hesitations but no significant slowing or decrements in amplitude.
+
+**Score Motivation**
+The subject demonstrates slight hesitations but maintains a regular rhythm with consistent amplitude. According to MDS-UPDRS item 3.4 criteria, this performance corresponds to **score 1: Slight** because there is evidence of one or two interruptions and minimal slowing.
+
+---
+
+### Final Score
+**1**

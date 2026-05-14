@@ -1,0 +1,22 @@
+To determine the subject's score based on the provided finger tapping data, we will follow a systematic approach:
+
+### Step 1: Visualize the Data
+Plot the thumb and index finger positions over time to observe movement patterns.
+
+### Step 2: Calculate Tap Count
+Use the provided Python method to count taps by identifying peaks in the index finger's movement.
+
+### Step 3: Analyze Rhythm and Hesitations
+- Examine the regularity of taps.
+- Identify any interruptions or hesitations during tapping.
+
+### Step 4: Assess Amplitude
+Evaluate whether the amplitude decreases over time, noting where any decrement starts.
+
+### Step 5: Evaluate Speed
+Determine if there's slowing in tap execution compared to normal expectations.
+
+### Step 6: Apply MDS-UPDRS Criteria
+Compare findings on hesitations, speed, and amplitude against the scoring guidelines.
+
+Based on this structured analysis, the subject will be assigned a score reflecting their performance.

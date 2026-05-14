@@ -1,0 +1,11 @@
+To determine the subject's score for MDS-UPDRS item 3.4 (Finger Tapping), we analyze the provided data based on the criteria:
+
+1. **Speed**: The subject completed approximately 11 taps in 10 seconds, indicating mild slowing compared to normal performance.
+
+2. **Amplitude**: The amplitude remains consistent throughout the task without significant decrementing.
+
+3. **Rhythm and Interruptions**: There are no major hesitations or interruptions observed in the tapping pattern.
+
+Based on these observations, the subject's performance aligns with a score of 2, reflecting mild slowing without notable interruptions or amplitude issues.
+
+**Score: 2**

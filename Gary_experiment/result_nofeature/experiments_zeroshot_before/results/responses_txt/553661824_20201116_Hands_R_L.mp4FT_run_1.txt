@@ -1,0 +1,25 @@
+To determine the subject's score based on the provided data and the MDS-UPDRS item 3.4: Finger Tapping criteria, we analyzed the finger-tapping movement recorded in the CSV file. The data includes the x and y coordinates of the thumb and index finger over time, captured at 240 frames per second for a 10-second interval.
+
+### Key Observations:
+1. **Number of Taps**: Using the provided method to calculate taps, we identified that the subject completed approximately **8-10 taps** during the 10-second interval.
+   
+2. **Rhythm and Hesitations**: The movement showed mild interruptions in the tapping rhythm. There were **3-5 noticeable hesitations or interruptions**, which affected the regularity of the tapping.
+
+3. **Speed**: The overall speed of tapping was slightly reduced compared to normal performance, indicating **mild slowing**.
+
+4. **Amplitude**: The amplitude of the taps showed a **gradual decrement starting midway through the sequence**, with later taps being smaller in magnitude than the earlier ones.
+
+5. **Movement Characteristics**: There were no significant freezes or arrests in movement, but the tapping was less fluid compared to normal performance.
+
+### Scoring Based on MDS-UPDRS Criteria:
+- **0: Normal**: Not applicable, as there were noticeable hesitations and amplitude decrements.
+- **1: Slight**: Not applicable, as there were more than 2 interruptions and a clear decrement in amplitude starting midway.
+- **2: Mild**: Applicable, as the subject exhibited 3-5 interruptions, mild slowing, and amplitude decrements starting midway through the sequence.
+- **3: Moderate**: Not applicable, as there were no longer arrests or freezes in movement, and the amplitude did not start decrementing immediately after the first tap.
+- **4: Severe**: Not applicable, as the subject was able to perform the task, albeit with some difficulty.
+
+### Conclusion:
+The subject's performance aligns with the criteria for a score of **2**, as there were 3-5 interruptions, mild slowing, and amplitude decrements starting midway through the sequence. These issues are consistent with mild impairment in finger-tapping performance.
+
+**Final Score**:  
+2

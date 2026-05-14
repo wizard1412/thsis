@@ -1,0 +1,21 @@
+To analyze the finger-tapping data and assign an MDS-UPDRS score, we follow these steps:
+
+1. **Load and Visualize Data**: Plot the thumb and index finger coordinates over time to observe movement patterns.
+
+2. **Calculate Tap Timings**: Use a peak detection method to identify when taps occur by analyzing the distance between fingers.
+
+3. **Analyze Rhythm and Speed**: Compute intervals between taps to check for hesitations or slowing. Regular, short intervals indicate normal performance, while longer or variable intervals suggest issues.
+
+4. **Assess Amplitude Consistency**: Track the maximum distance during each tap to see if amplitudes are consistent, decrease over time, or show significant variation.
+
+5. **Apply MDS-UPDRS Criteria**: Based on the number of hesitations, amplitude changes, and overall speed, assign a score from 0 (normal) to 4 (severe).
+
+After performing this analysis:
+
+- The subject's taps showed regular intervals with slight hesitations but consistent amplitudes.
+- There were no significant halts or freezes.
+- Amplitude remained steady without noticeable decrement.
+
+**Score: 1**
+
+The subject demonstrated slight slowing and minor hesitations, meeting the criteria for a score of 1.

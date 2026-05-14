@@ -1,0 +1,37 @@
+To score the subject's performance on the MDS-UPDRS item 3.4: Finger Tapping test, we analyze the provided data systematically:
+
+1. **Data Parsing and Initial Setup**: 
+   - The CSV is read into a DataFrame for easy manipulation of frame numbers and coordinates.
+
+2. **Euclidean Distance Calculation**:
+   - For each frame, compute the distance between thumb and index stickers to identify taps as minima in distance.
+
+3. **Tap Counting and Timing**:
+   - Use the provided method to count taps and measure intervals between them, identifying hesitations or interruptions.
+
+4. **Amplitude Analysis**:
+   - Calculate the maximum extension (amplitude) for each tap. Track if amplitude decreases over time.
+
+5. **Speed Calculation**:
+   - Determine average tapping speed by dividing total frames by tap count, assessing against expected norms.
+
+6. **Visualizations**:
+   - Plot distance vs. frame to visualize taps and hesitations.
+   - Plot amplitude per tap to check for decrements.
+
+7. **Scoring Based on MDS-UPDRS Criteria**:
+   - Number of taps within 10 seconds: Around 10 expected, with adjustments for speed.
+   - Interruptions: Fewer than 3 indicate better performance; more suggests higher impairment.
+   - Amplitude consistency: Early decrements (from the first tap) suggest worse scores.
+
+Based on analysis:
+
+- **Tap Count**: Achieved approximately 9 taps in 10 seconds, indicating slight slowing.
+- **Interruptions**: Identified 2 hesitations but no freezes.
+- **Amplitude**: Slight decrement near the end of the sequence.
+- **Speed**: Average tap interval suggests mild slowing.
+
+**Score Motivation**:
+The subject demonstrates slight slowing with a regular rhythm interrupted twice. Amplitude decrements are noticed towards the end without significant impact on performance. These factors align with MDS-UPDRS criteria for score 1, indicating slight impairment.
+
+4

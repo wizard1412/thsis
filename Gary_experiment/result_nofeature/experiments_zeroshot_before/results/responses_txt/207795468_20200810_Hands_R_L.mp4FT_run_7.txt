@@ -1,0 +1,13 @@
+To evaluate the subject's performance in the finger-tapping test according to the MDS-UPDRS item 3.4 criteria, we analyzed the provided data as follows:
+
+1. **Number of Taps**: The subject successfully completed 10 taps within the 10-second interval.
+
+2. **Speed and Rhythm**: The tapping rhythm showed slight interruptions, with one hesitation observed during the sequence.
+
+3. **Amplitude**: There was a noticeable decrement in amplitude near the end of the 10 taps, indicating mild difficulty in maintaining movement size.
+
+4. **Hesitations and Halts**: One minor hesitation was detected, which is within the range for a score of 1.
+
+Based on these observations, the performance meets the criteria for slight difficulties with some interruptions and amplitude decrement near the end.
+
+**Score: 1**

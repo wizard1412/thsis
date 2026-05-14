@@ -1,0 +1,16 @@
+To evaluate the subject's performance in the finger-tapping test according to MDS-UPDRS item 3.4, we analyzed the provided data focusing on speed, rhythm, amplitude, and interruptions.
+
+1. **Speed**: The number of taps within the 10-second interval was calculated using the provided method, indicating the tapping rate.
+
+2. **Rhythm and Interruptions**: By examining the intervals between taps, we identified hesitations or halts. Fewer than three interruptions were observed, suggesting a relatively regular rhythm with minor breaks.
+
+3. **Amplitude**: The movement's amplitude was assessed over time. A slight decrement in amplitude was noted towards the end of the tapping sequence, indicating mild fatigue but not significant enough to impact performance midway.
+
+Based on these observations:
+- **Speed** is slightly reduced.
+- **Rhythm** shows minor hesitations (1-2 interruptions).
+- **Amplitude** has a slight decrement near the end.
+
+These findings align with the MDS-UPDRS criteria for a score of 1, indicating slight issues without significant impairment.
+
+**Score: 1**

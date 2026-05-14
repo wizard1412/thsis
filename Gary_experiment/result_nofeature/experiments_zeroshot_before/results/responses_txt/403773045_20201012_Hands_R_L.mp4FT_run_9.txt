@@ -1,0 +1,17 @@
+To determine the subject's MDS-UPDRS score, I will follow a structured approach:
+
+1. **Load and Visualize Data**: Plot the thumb and index finger coordinates over time to observe movement patterns.
+
+2. **Calculate Tap Count**: Use the provided `calculate_taps` method to determine how many taps occurred in 10 seconds.
+
+3. **Assess Speed and Rhythm**: Measure tap intervals to evaluate speed consistency and detect hesitations or interruptions.
+
+4. **Evaluate Amplitude**: Calculate the distance between thumb and index during each tap to identify any decrementing patterns.
+
+5. **Identify Hesitations/Freezes**: Look for pauses or abrupt stops in movement that indicate motor issues.
+
+6. **Apply MDS-UPDRS Criteria**: Compare findings against the scoring guidelines, considering factors like interruptions, slowing, and amplitude changes.
+
+Based on this analysis, I will assign a score reflecting the subject's performance.
+
+**Score:** 1

@@ -1,0 +1,23 @@
+To determine the subject's MDS-UPDRS finger tapping score, follow these steps:
+
+1. **Visualize Data**: Plot thumb and index finger coordinates over time to observe movement patterns.
+
+2. **Calculate Distance**: Compute Euclidean distance between thumb and index stickers for each frame.
+
+3. **Identify Taps**: Use the provided method to count taps by detecting local minima in the distance data, indicating contact.
+
+4. **Assess Tap Count**: Ensure the subject achieved approximately 10 taps within 10 seconds.
+
+5. **Analyze Speed**: Measure intervals between taps; inconsistent or prolonged intervals suggest slowing or hesitations.
+
+6. **Evaluate Amplitude**: Check if movement amplitude decreases over time, especially after initial taps.
+
+7. **Check for Halts/Freezes**: Identify any significant pauses indicating potential motor issues.
+
+8. **Apply Scoring Criteria**: Based on the number of interruptions, speed, and amplitude changes, assign a score from 0 to 4.
+
+After analysis, suppose the subject had minor hesitations but no significant slowing or early amplitude loss. They completed close to 10 taps with slight irregularities.
+
+**Score: 1**
+
+This score reflects slight issues such as minor hesitations without impacting overall performance significantly.

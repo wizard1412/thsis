@@ -1,0 +1,10 @@
+To determine the subject's MDS-UPDRS finger tapping score, we analyzed the movement data for hesitations, speed, and amplitude decrements.
+
+1. **Hesitations**: The subject experienced between 3 to 5 interruptions during the tapping sequence.
+2. **Speed**: There was mild slowing observed in the tapping rhythm.
+3. **Amplitude**: The amplitude of taps started to decrement midway through the sequence.
+
+Based on these observations, the score is assigned according to the criteria provided.
+
+**Score:**  
+2

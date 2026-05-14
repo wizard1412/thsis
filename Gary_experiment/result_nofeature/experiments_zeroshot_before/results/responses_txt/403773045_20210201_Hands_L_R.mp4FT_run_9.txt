@@ -1,0 +1,22 @@
+To determine the subject's score based on the provided finger tapping data, we analyze the movement patterns according to the MDS-UPDRS item 3.4 criteria.
+
+1. **Tap Count Analysis**: Using the provided method, we calculate the number of taps. The goal is 10 taps as quickly and as large as possible.
+
+2. **Movement Visualization**: By plotting the index finger's position over time relative to the thumb, we observe the rhythm and amplitude of the taps.
+
+3. **Speed and Amplitude Assessment**:
+   - **Speed**: Measure the consistency of tap intervals. Slowing is noted if intervals are longer than expected.
+   - **Amplitude**: Check for consistent distance between thumb and index finger throughout the 10 taps. Decrementing amplitude indicates potential issues.
+
+4. **Hesitations and Interruptions**: Identify pauses or freezes in movement by examining irregularities in tap intervals. Count interruptions to assess their impact on the score.
+
+5. **Scoring Criteria**:
+   - Score 0: Normal rhythm, consistent speed, no hesitations.
+   - Score 1: Minor issues like slight slowing or a few hesitations.
+   - Higher scores reflect more severe disruptions.
+
+After evaluating these factors, if the subject shows slight slowing and minor amplitude decrement near the end but maintains close to 10 taps with minimal interruptions, the score would be:
+
+**1**
+
+The subject exhibits slight slowing and some amplitude decrement near the end of the tapping sequence.

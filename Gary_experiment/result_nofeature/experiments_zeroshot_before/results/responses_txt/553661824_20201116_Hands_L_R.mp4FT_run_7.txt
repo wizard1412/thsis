@@ -1,0 +1,13 @@
+To determine the score based on the MDS-UPDRS criteria for finger tapping:
+
+1. **Tap Count**: The number of taps within the 10-second interval was analyzed using peak detection on the Y_index data. A higher tap count indicates faster movement.
+
+2. **Intervals Between Taps**: The consistency of intervals between taps was assessed. Significant variations in intervals suggest hesitations or interruptions.
+
+3. **Amplitude Consistency**: Each tap's amplitude, measured as the distance from peak to trough in the Y_index data, was evaluated over time. A notable decrease in amplitude midway through the tapping sequence indicates fatigue or difficulty.
+
+4. **Speed and Rhythm**: The total number of taps and their intervals provided insights into the subject's speed and rhythm. Mild slowing with a few hesitations (3-5 interruptions) and amplitude decrementing midway through the sequence were observed.
+
+Based on these factors, the subject's performance aligns with a score of 2, indicating mild issues such as moderate slowing, several hesitations, and amplitude decrement starting around the midpoint.
+
+**Score: 2**

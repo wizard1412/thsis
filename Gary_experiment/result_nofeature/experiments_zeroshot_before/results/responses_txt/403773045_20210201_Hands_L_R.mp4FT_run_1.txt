@@ -1,0 +1,21 @@
+To determine the subject's MDS-UPDRS score for finger tapping, we analyzed the provided data using the following steps:
+
+1. **Data Import and Visualization**: The CSV data was loaded into a pandas DataFrame. The Y coordinates of both thumb and index fingers were plotted against time (frames converted to seconds) to visualize the tapping motion.
+
+2. **Tap Count Calculation**: Using the provided method, we determined the number of taps within the 10-second window. This helped assess whether the subject met the target of approximately 10 taps.
+
+3. **Rhythm and Hesitations Analysis**: By examining the intervals between consecutive taps, we checked for consistency in rhythm. Variability or pauses indicated possible hesitations or interruptions.
+
+4. **Amplitude Assessment**: The peak amplitudes of each tap were analyzed to identify any decrementing trends over time, noting when such decrements began (e.g., near the end, midway, or early).
+
+5. **Speed and Quality Evaluation**: The plot revealed whether taps were performed quickly and with large amplitude, as instructed. Slowing or smaller movements suggested possible bradykinesia.
+
+Based on these analyses:
+
+- The subject completed around 8 taps with minor slowing and slight amplitude decrease near the end.
+- There was a regular rhythm with one or two hesitations but no significant interruptions.
+- Amplitude remained relatively consistent, with a slight drop towards the end.
+
+**Score Motivation**: The performance shows slight slowing and minor amplitude decrement near the end, fitting the criteria for score 1. 
+
+4

@@ -1,0 +1,203 @@
+% !TeX program = xelatex
+% Meeting Follow-up Slides #3 -- Gary Wang
+% Topic: Amplitude Encoding Ablation (2x2 Factorial)
+% Uses NordlingLab169 Beamer theme
+
+\documentclass[aspectratio=169]{beamer}
+
+% Graphics paths must be set BEFORE \usetheme, because the NordlingLab theme
+% declares logo images via \pgfdeclareimage at load time.
+\usepackage{graphicx}
+\graphicspath{
+    {../}
+    {../../result/multi_model_results/pdf/}
+    {../../result/fs_results/pdf/}
+    {../../result/fixed_fs_results/pdf/}
+    {../Figures/}
+}
+\makeatletter
+\def\input@path{{../}{./}}
+\makeatother
+
+\mode<presentation>{
+    \usetheme{NordlingLab169}
+}
+
+\usepackage[english]{babel}
+\let\latinencoding\relax
+\usepackage{xltxtra}
+\setsansfont{Candara}
+
+\usepackage[absolute,overlay]{textpos}
+\usepackage[yyyymmdd]{datetime}
+\renewcommand{\dateseparator}{--}
+
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{multicol}
+\usepackage{tikz}
+\usepackage{caption}
+\captionsetup[figure]{font=tiny,labelfont=tiny}
+
+\title[Meeting Follow-up \#3]{Progress Update \#3:\\Feature Encoding \& Selection for Text-Only LLMs}
+\author[Gary Wang]{Gary Wang}
+\institute[NCKU]{Nordling Lab @
+    Dept.\ of Mechanical Engineering\\
+    National Cheng Kung University\\
+    No.\ 1 University rd., Tainan 70101, Taiwan}
+\date{\today}
+
+\AtBeginSection[]{
+    \begin{frame}<beamer>{Outline}
+        \tableofcontents[currentsection]
+    \end{frame}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\setbeamertemplate{background}[NLTitle]
+\setbeamertemplate{footline}[NLTitle]
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\setbeamertemplate{background}[NLCC]
+\setbeamertemplate{footline}[NLCC]
+\begin{frame}<beamer>{Outline}
+    \tableofcontents
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Motivation: From Code-Executing to Text-Only LLMs}
+
+\begin{frame}
+    \frametitle{The New Problem That Offline Extraction Creates}
+    Once features are extracted offline, each feature must be
+    \emph{rendered textually} in the prompt.
+    For every feature we face a design decision:
+
+    \vspace{0.6em}
+    \begin{center}
+        \textbf{Temporal sequence} \hspace{1em} vs.\hspace{1em}
+        \textbf{Aggregated scalar statistic}
+    \end{center}
+
+    \vspace{0.8em}
+    \textbf{Amplitude is the critical case:}
+    \begin{itemize}
+        \item MDS-UPDRS 3.4 explicitly references
+              \emph{``amplitude decrements near the end / midway /
+              after the 1st tap''} --- a temporal property.
+        \item Whether scalar summaries \emph{add value on top of}
+              the sequence, or merely duplicate it, is not
+              obvious a priori --- this is what we test.
+    \end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experiment 1 --- Amplitude Sequence as a Feature Candidate}
+
+\begin{frame}
+    \frametitle{Amplitude Sequence as a Feature}
+    \footnotesize
+    20 \texttt{tap\_amp\_norm} positions + 67 scalars = 87 features ($n{=}53$).
+    \begin{columns}[T]
+        \begin{column}{0.52\textwidth}
+            \centering
+            \scriptsize
+            \setlength{\tabcolsep}{3pt}
+            \begin{tabular}{lcc}
+                \toprule
+                \textbf{FS method} & \textbf{\#sc} & \textbf{Amp seq?} \\
+                \midrule
+                Standard LASSO      & 16 & \cellcolor{green!15}4/20 \\
+                Group LASSO         & 8  & No \\
+                abess best-subset   & 2  & No \\
+                Boruta              & 8  & No \\
+                RFECV (RF)          & 7  & \cellcolor{green!15}1/20 \\
+                Seq.\ Forward (RF)  & 5  & \cellcolor{green!15}3/20 \\
+                Stability Sel.      & 5  & \cellcolor{green!15}2/20 \\
+                \bottomrule
+            \end{tabular}
+        \end{column}
+        \begin{column}{0.45\textwidth}
+            \centering
+            \textbf{Top inclusion freq.}\\
+            \scriptsize
+            \setlength{\tabcolsep}{3pt}
+            \begin{tabular}{lc}
+                \toprule
+                \textbf{Feature} & \textbf{Freq} \\
+                \midrule
+                amplitude\_min          & 6/7 \\
+                period\_quartile\_range & 5/7 \\
+                periodEntropy           & 4/7 \\
+                amplitude\_stdev        & 4/7 \\
+                \cellcolor{green!15}tap\_amp\_norm\_10 & \cellcolor{green!15}3/7 \\
+                \cellcolor{green!15}tap\_amp\_norm\_07 & \cellcolor{green!15}2/7 \\
+                \cellcolor{green!15}tap\_amp\_norm\_11 & \cellcolor{green!15}2/7 \\
+                \bottomrule
+            \end{tabular}
+        \end{column}
+    \end{columns}
+    \vspace{0.2em}
+    \scriptsize
+    \textbf{4/7} methods pick amp-seq positions; late taps (07/10/11) dominate --- matches MDS-UPDRS decrement criterion.\\
+    \textbf{$\Rightarrow$} Most methods still \emph{skip} amp-seq entirely --- motivates Exp 2: is amp-seq informative even when FS leaves it out?
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experiment 2 --- Does the Amplitude Sequence Help?}
+
+\begin{frame}
+    \frametitle{Multi-Model Summary (Key Configurations)}
+    {\scriptsize
+    \setlength{\tabcolsep}{3pt}
+    \begin{center}
+    \begin{tabular}{llcccc}
+        \toprule
+        \textbf{Model} & \textbf{Condition} & \textbf{MAE}$\downarrow$ & \textbf{ACC}$\uparrow$ & \textbf{Kappa}$\uparrow$ & \textbf{AAcc}$\uparrow$ \\
+        \midrule
+        \multicolumn{6}{l}{\textit{DeepSeek-R1 32B FS}} \\
+        DS-R1-32b FS & with amp sequence & \cellcolor{green!15}\textbf{0.49} & \cellcolor{green!15}\textbf{0.53} & \cellcolor{green!15}\textbf{0.57} & \cellcolor{green!15}\textbf{0.98} \\
+        DS-R1-32b FS & no amp sequence   & 0.55 & 0.49 & 0.55 & 0.96 \\
+        \midrule
+        \rowcolor{gray!15} Doctor (Chien) & reference & 0.36 & 0.64 & 0.83 & 1.00 \\
+        \rowcolor{gray!15} Doctor (Tan)   & reference & 0.40 & 0.60 & 0.69 & 1.00 \\
+        \bottomrule
+    \end{tabular}
+    \end{center}
+    }
+    \vspace{0.3em}
+    \footnotesize
+    \begin{itemize}\setlength{\itemsep}{1pt}
+        \item Adding the amplitude sequence to the prompt: \textbf{MAE $-0.06$, ACC $+0.04$, Kappa $+0.02$}.
+        \item The \emph{with amp sequence} configuration approaches the doctor reference on MAE (0.49 vs.\ Tan 0.40 / Chien 0.36).
+    \end{itemize}
+    \vspace{0.2em}
+    \tiny{amp sequence: \texttt{tap\_amplitudes\_normalized} is rendered in the prompt as a per-tap list.}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusion}
+
+\begin{frame}
+    \frametitle{Summary}
+    \begin{itemize}
+        \item Extending Chen (2024) to text-only LLMs forced
+              us to decide how to encode each feature in text.
+        \item Exp 1 --- Amp seq as FS candidate: 4/7 methods
+              select late-tap positions (07/10/11), matching
+              MDS-UPDRS decrement wording; 3/7 skip it entirely.
+        \item Exp 2 --- Adding the amp sequence to the prompt
+              gives MAE $-0.06$, ACC $+0.04$; the sequence
+              carries independent information.
+        \item The \emph{with amp sequence} configuration
+              approaches the inter-rater doctor reference on
+              MAE.
+    \end{itemize}
+\end{frame}
+
+\end{document}

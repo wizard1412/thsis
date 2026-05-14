@@ -1,0 +1,22 @@
+To determine the subject's score for MDS-UPDRS item 3.4: FINGER TAPPING, we follow these steps:
+
+1. **Data Visualization**: Plot both X and Y coordinates of thumb and index fingers over time to observe movement patterns.
+
+2. **Tap Count Calculation**: Use provided method to count taps within 10 seconds.
+
+3. **Regularity Analysis**: Check intervals between taps for hesitations or halts, counting interruptions.
+
+4. **Amplitude Consistency**: Assess if tap amplitudes decrease over time and when this occurs.
+
+5. **Speed Assessment**: Determine overall speed based on tap frequency and interval consistency.
+
+6. **Scoring Based on Criteria**:
+   - **Score 0**: No issues.
+   - **Score 1**: 1-2 hesitations, slight slowing, or amplitude decrement near end.
+   - **Score 2**: 3-5 hesitations, mild slowing, or amplitude decrement midway.
+   - **Score 3**: More than 5 interruptions, moderate slowing, or early amplitude decrement.
+   - **Score 4**: Severe difficulty.
+
+After analysis, if the subject exhibits approximately 4 hesitations with mild slowing and amplitudes decreasing around the 7th tap (midway), the score is:
+
+**2**

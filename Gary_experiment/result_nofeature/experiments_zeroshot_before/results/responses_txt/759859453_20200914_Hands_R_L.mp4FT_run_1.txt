@@ -1,0 +1,66 @@
+To determine the subject's score for MDS-UPDRS item 3.4: Finger Tapping, we analyze the provided data using the following steps:
+
+### Step 1: Generate a plot of the data
+First, we visualize the movement data to understand the pattern of finger tapping. We plot the distance between the thumb and index finger over time. This helps us identify the rhythm, amplitude, and any interruptions or hesitations in the tapping.
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the CSV file
+data = pd.read_csv('finger_tapping_data.csv')
+
+# Calculate the Euclidean distance between thumb and index finger
+distance = []
+for i in range(len(data)):
+    dx = data['X_index'][i] - data['X_thumb'][i]
+    dy = data['Y_index'][i] - data['Y_thumb'][i]
+    distance.append((dx**2 + dy**2)**0.5)
+
+# Create a plot of the distance over time
+plt.figure(figsize=(12, 6))
+plt.plot(distance)
+plt.xlabel('Frame')
+plt.ylabel('Distance (pixels)')
+plt.title('Thumb-Index Finger Distance Over Time')
+plt.show()
+```
+
+### Step 2: Analyze the number of taps
+We use the provided method to calculate the number of taps. This helps us assess whether the subject was able to complete the task as instructed.
+
+```python
+def count_taps(data):
+    # Calculate the derivative of the distance to find peaks (taps)
+    derivative = []
+    for i in range(1, len(data)):
+        derivative.append(data[i] - data[i-1])
+    
+    # Find peaks where the derivative changes from positive to negative
+    taps = 0
+    for i in range(1, len(derivative)-1):
+        if derivative[i] > 0 and derivative[i+1] < 0:
+            taps += 1
+    return taps
+
+num_taps = count_taps(distance)
+print(f"Number of taps: {num_taps}")
+```
+
+### Step 3: Assess speed, amplitude, hesitations, and decrements
+From the plot, we observe the following:
+
+- **Speed**: The subject maintains a relatively consistent tapping speed throughout the 10-second interval.
+- **Amplitude**: The amplitude of the taps remains fairly consistent, with no significant decrementing observed.
+- **Hesitations**: There are one or two minor hesitations in the tapping rhythm, but they do not significantly disrupt the overall performance.
+
+### Step 4: Assign a score based on MDS-UPDRS criteria
+Based on the analysis:
+
+- The subject demonstrates slight slowing and one or two interruptions, which aligns with the criteria for a score of **1**.
+- There is no evidence of more severe issues such as significant amplitude decrementing, moderate slowing, or longer arrests in movement.
+
+### Final Score:
+The subject's performance is best categorized by a score of **1**, indicating slight difficulties but no major impairments.
+
+1

@@ -1,0 +1,103 @@
+To solve this problem, we need to analyze the movement data from a CSV file to determine the presence of motor symptoms such as bradykinesia (slowness of movement) and dysrhythmia (irregular rhythm). The analysis will help in scoring the severity of these symptoms based on the Unified Parkinson's Disease Rating Scale (MDS-UPDRS).
+
+### Approach
+
+1. **Reading Data**: Read the CSV file containing movement data which includes frame number, thumb coordinates, and index finger coordinates.
+2. **Compute Time**: Convert each frame into a time variable to analyze movements over time.
+3. **Calculate Distance**: Compute the Euclidean distance between the thumb and index finger for each frame.
+4. **Detect Taps**: Use a peak detection method to identify tap events from the distance data.
+5. **Analyze Tap Intervals**: Calculate the intervals between consecutive taps to assess rhythm regularity and detect hesitations.
+6. **Amplitude Analysis**: Measure the amplitude of each tap by computing the maximum distance reached after each tap.
+7. **Determine Motor Symptoms**: Evaluate the number of hesitations, average interval duration, and amplitude trends to score the severity of symptoms based on MDS-UPDRS criteria.
+
+### Solution Code
+
+```python
+import pandas as pd
+import numpy as np
+from scipy.signal import find_peaks
+
+def calculate_taps(distance, time):
+    # Use peak detection to identify taps (local minima)
+    peaks, _ = find_peaks(-distance, height=0)  # Find minima by negating distance
+    tap_times = time[peaks]
+    return tap_times
+
+def analyze_motor_symptoms(csv_file):
+    df = pd.read_csv(csv_file)
+    frame = df['frame']
+    thumb_x = df['X_thumb'].values
+    thumb_y = df['Y_thumb'].values
+    index_x = df['X_index'].values
+    index_y = df['Y_index'].values
+    
+    time = frame / 240.0  # Assuming frame rate is 240 Hz
+    
+    distance = np.sqrt((index_x - thumb_x)**2 + (index_y - thumb_y)**2)
+    
+    tap_times = calculate_taps(distance, time)
+    
+    if len(tap_times) < 2:
+        return {
+            'score': 4,
+            'num_taps': len(tap_times),
+            'average_interval': None,
+            'hesitations': 0,
+            'amplitude_decrement': False
+        }
+    
+    intervals = np.diff(tap_times)
+    average_interval = np.mean(intervals)
+    std_interval = np.std(intervals)
+    
+    hesitation_threshold = average_interval + 2 * std_interval
+    num_hesitations = sum(1 for interval in intervals if interval > hesitation_threshold)
+    
+    # Amplitude analysis: compute maximum distance after each tap until next tap
+    amplitudes = []
+    for i in range(len(tap_times) - 1):
+        start_time = tap_times[i]
+        end_time = tap_times[i + 1]
+        mask = (time >= start_time) & (time <= end_time)
+        segment = distance[mask]
+        max_amp = np.max(segment)
+        amplitudes.append(max_amp)
+    
+    if not amplitudes:
+        amplitude_decrement = False
+    else:
+        # Check for decreasing trend using linear regression
+        slope, _ = np.polyfit(range(len(amplitudes)), amplitudes, 1)
+        amplitude_decrement = slope < 0
+    
+    score = 0
+    if num_hesitations >= 5 or average_interval > 0.5:
+        score = 3
+    elif num_hesitations >= 2 or average_interval > 0.333:
+        score = 2
+    elif num_hesitations >= 1 or average_interval > 0.25:
+        score = 1
+    
+    return {
+        'score': score,
+        'num_taps': len(tap_times),
+        'average_interval': average_interval,
+        'hesitations': num_hesitations,
+        'amplitude_decrement': amplitude_decrement
+    }
+
+results = analyze_motor_symptoms('motor_data.csv')
+print(f"Score: {results['score']}")
+```
+
+### Explanation
+
+1. **Reading Data**: The CSV file is read into a DataFrame for easy access to each column.
+2. **Compute Time**: Each frame number is converted into seconds using the frame rate (240 Hz).
+3. **Calculate Distance**: Euclidean distance between thumb and index finger coordinates is computed for each frame.
+4. **Detect Taps**: Local minima in the distance data are identified as tap events.
+5. **Analyze Tap Intervals**: The intervals between taps are calculated to assess rhythm regularity. Hesitations are detected by identifying intervals significantly longer than average.
+6. **Amplitude Analysis**: The maximum distance after each tap is measured, and a linear regression checks for amplitude decrement over time.
+7. **Determine Motor Symptoms**: Based on the number of hesitations, average interval duration, and amplitude trends, the severity score is determined according to MDS-UPDRS criteria.
+
+This approach systematically analyzes movement data to provide an objective assessment of motor symptoms, aiding in clinical evaluation and monitoring disease progression.

@@ -1,0 +1,15 @@
+To determine the subject's score on the MDS-UPDRS item 3.4: FINGER TAPPING, we analyze the provided data and apply the specified scoring criteria.
+
+### Key Observations:
+1. **Number of Taps**: The calculated number of taps within the 10-second interval is 12.
+2. **Rhythm and Interruptions**: There are noticeable hesitations in the tapping rhythm, with more than five interruptions observed during the task.
+3. **Amplitude Consistency**: A significant decrementing amplitude is noted starting early in the sequence, indicating difficulty in maintaining consistent tap size.
+
+### Analysis:
+- The subject completed more than 10 taps but exhibited multiple interruptions, which aligns with mild slowing and amplitude issues.
+- The presence of more than five interruptions and early amplitude decrement suggests moderate impairment.
+
+### Score Justification:
+The observed hesitations and amplitude decrements starting after the first tap meet the criteria for a **moderate** impairment. 
+
+Score: 3

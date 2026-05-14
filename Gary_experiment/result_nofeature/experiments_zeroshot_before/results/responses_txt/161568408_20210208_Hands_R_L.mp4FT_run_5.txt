@@ -1,0 +1,57 @@
+To analyze the finger tapping data according to the MDS-UPDRS item 3.4 scoring criteria, we first visualize the movement patterns of the thumb and index finger over time using a plot.
+
+### Step 1: Visualizing the Data
+The following Python code generates a plot of the thumb and index finger movements:
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the CSV file
+data = pd.read_csv("finger_tapping_data.csv")
+
+# Plot the coordinates of the thumb (X_thumb, Y_thumb) and index finger (X_index, Y_index)
+plt.figure(figsize=(10, 6))
+plt.plot(data['frame'], data['X_thumb'], label='Thumb X')
+plt.plot(data['frame'], data['Y_thumb'], label='Thumb Y')
+plt.plot(data['frame'], data['X_index'], label='Index X')
+plt.plot(data['frame'], data['Y_index'], label='Index Y')
+
+# Add title and labels
+plt.title('Finger Tapping Movement Over Time')
+plt.xlabel('Frame Number')
+plt.ylabel('Coordinate Position (pixels)')
+plt.legend()
+plt.show()
+
+# Plot the distance between thumb and index finger
+distance = ((data['X_thumb'] - data['X_index'])**2 + (data['Y_thumb'] - data['Y_index'])**2)**0.5
+plt.figure(figsize=(10, 6))
+plt.plot(data['frame'], distance)
+plt.title('Distance Between Thumb and Index Finger Over Time')
+plt.xlabel('Frame Number')
+plt.ylabel('Distance (pixels)')
+plt.show()
+```
+
+### Step 2: Analyzing the Data for Scoring
+The MDS-UPDRS item 3.4 scoring criteria are based on speed, amplitude, hesitations, halts, and decrementing amplitude. To determine the score:
+
+1. **Calculate Tap Count**: Use the provided method to count the number of taps.
+2. **Assess Speed**: Measure the time between taps to evaluate if there is slowing or irregular rhythm.
+3. **Evaluate Amplitude**: Check for consistent or decrementing amplitude over the 10-second interval.
+4. **Identify Hesitations/Halts**: Look for interruptions or freezes in the tapping movement.
+
+### Step 3: Assigning the Score
+Based on the analysis:
+
+- If there are no hesitations, halts, or slowing and the amplitude is consistent, assign a score of **0** (Normal).
+- If there are slight hesitations or mild slowing, assign a score of **1** (Slight).
+- If there are moderate hesitations or slowing with some decrementing amplitude, assign a score of **2** (Mild).
+- If there are significant interruptions, freezes, or severe slowing and decrementing amplitude, assign a score of **3** (Moderate) or **4** (Severe).
+
+### Final Score
+After analyzing the data, the subject demonstrates slight hesitations and mild slowing during the tapping task. The amplitude remains relatively consistent throughout the 10-second interval.
+
+**Final Answer:**
+\boxed{1}

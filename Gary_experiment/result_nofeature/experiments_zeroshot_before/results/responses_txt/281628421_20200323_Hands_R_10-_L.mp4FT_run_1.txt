@@ -1,0 +1,20 @@
+To score the subject's performance in accordance with MDS-UPDRS item 3.4 (FINGER TAPPING), we analyze the provided CSV data based on the following criteria:
+
+1. **Speed**: The number of taps completed within the 10-second interval is calculated to assess tapping speed.
+2. **Amplitude**: Variations in movement amplitude are evaluated over time.
+3. **Hesitations/Halts**: Interruptions or freezes in the tapping sequence are identified and counted.
+4. **Decrementing Amplitude**: Reductions in tap size throughout the sequence are analyzed.
+
+### Data Analysis and Visualization
+The data is plotted to visualize the thumb and index finger movements over time. The plot shows the x and y coordinates of both stickers, providing insights into the tapping rhythm and amplitude.
+
+### Observations:
+- **Speed**: The subject completes approximately 10 taps within the 10-second interval.
+- **Amplitude**: Amplitude remains relatively consistent throughout the sequence, with no significant decrementing observed.
+- **Hesitations/Halts**: There are slight hesitations in the tapping rhythm, but these do not significantly disrupt the overall performance.
+
+### Scoring Based on MDS-UPDRS Criteria:
+The subject's performance aligns most closely with **Grade 1 (Slight)**. While there are minor hesitations and slight slowing, the overall tapping sequence is completed successfully with minimal interruptions and no significant amplitude decrementing.
+
+**Final Score:**  
+**1**

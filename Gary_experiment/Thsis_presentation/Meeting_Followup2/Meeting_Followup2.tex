@@ -1,0 +1,396 @@
+% !TeX program = xelatex
+% Meeting Follow-up Slides #2 -- Gary Wang
+% Uses NordlingLab169 Beamer theme
+
+\documentclass[aspectratio=169]{beamer}
+\mode<presentation>{
+    \usetheme{NordlingLab169}
+}
+
+\usepackage[english]{babel}
+\let\latinencoding\relax
+\usepackage{xltxtra}
+\setsansfont{Candara}
+
+\usepackage{graphicx}
+\usepackage[absolute,overlay]{textpos}
+\usepackage[yyyymmdd]{datetime}
+\renewcommand{\dateseparator}{--}
+
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{multicol}
+\usepackage{tikz}
+\usepackage{caption}
+\captionsetup[figure]{font=tiny,labelfont=tiny}
+
+% Figure paths
+\graphicspath{
+    {../result/metric_analysis_results/pdf/}
+    {../result/fs_results/pdf/}
+    {../result/fixed_fs_results/pdf/}
+    {../result/multi_model_results/pdf/}
+}
+
+\title[Meeting Follow-up \#2]{Progress Update \#2: Metric Analysis \& Feature Selection}
+\author[Gary Wang]{Gary Wang}
+\institute[NCKU]{Nordling Lab @
+    Dept.\ of Mechanical Engineering\\
+    National Cheng Kung University\\
+    No.\ 1 University rd., Tainan 70101, Taiwan}
+\date{\today}
+
+\AtBeginSection[]{
+    \begin{frame}<beamer>{Outline}
+        \tableofcontents[currentsection]
+    \end{frame}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\setbeamertemplate{background}[NLTitle]
+\setbeamertemplate{footline}[NLTitle]
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\setbeamertemplate{background}[NLCC]
+\setbeamertemplate{footline}[NLCC]
+\begin{frame}<beamer>{Outline}
+    \tableofcontents
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Metric Orthogonality Analysis}
+
+\begin{frame}
+    \frametitle{Updated Metric Set}
+    \begin{columns}[T]
+        \begin{column}{0.48\textwidth}
+            \textbf{7 metrics analysed:}
+            \begin{itemize}
+                \item MAE $\downarrow$
+                \item Spearman~$\rho$ $\uparrow$
+                \item Weighted~$\kappa$ $\uparrow$
+                \item Adjacent Accuracy (AAcc) $\uparrow$
+                \item Wasserstein Distance (WD) $\downarrow$
+                \item ICC(3,1) $\uparrow$
+                \item Accuracy (ACC) $\uparrow$
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.48\textwidth}
+            \textbf{Changes from last meeting:}
+            \begin{itemize}
+                \item Replaced Kendall~$\tau_b$ with \textbf{WD}\\
+                      (more informative for distribution)
+                \item Replaced AUC with \textbf{ACC}\\
+                      (task is 5-class, not binary)
+                \item Added \textbf{ICC} to LLM summary CSV
+            \end{itemize}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Pairwise Spearman Correlations (LLM, $n{=}14$ models)}
+    \begin{center}
+        \includegraphics[height=0.80\textheight]{fig1_corr_heatmap_llm}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Scatter Matrix -- Are Metric Relationships Linear?}
+    \begin{center}
+        \includegraphics[height=0.80\textheight]{fig3_scatter_matrix}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Hierarchical Clustering -- 3 Groups Identified}
+    \begin{columns}[T]
+        \begin{column}{0.60\textwidth}
+            \includegraphics[width=\linewidth]{fig4_dendrogram}
+        \end{column}
+        \begin{column}{0.38\textwidth}
+            \textbf{3 clusters}:
+            \begin{itemize}
+                \item \textbf{Cluster 1}: Spearman, Weighted~$\kappa$, ICC\\
+                      \textit{(ordinal agreement)}
+                \item \textbf{Cluster 2}: MAE, WD, ACC\\
+                      \textit{(error magnitude)}
+                \item \textbf{Cluster 3}: AAcc\\
+                      \textit{(most independent)}
+            \end{itemize}
+            \vspace{0.5em}
+            $\Rightarrow$ Each cluster picks \textbf{one representative}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}
+    \frametitle{PCA -- PC1 Has Near-Equal Loadings}
+    \begin{center}
+        \includegraphics[height=0.80\textheight]{fig5_pca}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{PCA Key Observations}
+    \begin{columns}[T]
+        \begin{column}{0.48\textwidth}
+            \textbf{Variance explained:}
+            \begin{itemize}
+                \item PC1: \textbf{66.7\%} (near-equal loadings 0.34--0.45)
+                \item PC2: 25.8\%
+                \item 2 PCs $\geq$ 80\%, \quad 3 PCs $\geq$ 95\%
+            \end{itemize}
+            \vspace{0.5em}
+            \textbf{Curiosity (for thesis):}\\
+            PC1 loadings are nearly equal\\
+            $\Rightarrow$ equal-weight composite is a natural aggregate metric\\
+            $\Rightarrow$ but not used by other papers (cannot compare)
+        \end{column}
+        \begin{column}{0.48\textwidth}
+            \textbf{Exceptions:}
+            \begin{itemize}
+                \item \textbf{AAcc}: loading only 0.21 on PC1\\
+                      $\Rightarrow$ most independent metric
+                \item After PC1, AAcc dominates PC2\\
+                      $\Rightarrow$ confirms its uniqueness
+            \end{itemize}
+            \vspace{0.5em}
+            \textbf{Conclusion:} 3 metrics sufficient\\
+            \textbf{MAE + Weighted~$\kappa$ + AAcc}\\
+            (one per cluster, most interpretable)
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Exhaustive 3-Metric Subset Search}
+    \begin{columns}[T]
+        \begin{column}{0.48\textwidth}
+            \includegraphics[width=\linewidth]{fig8a_subset_bar}
+        \end{column}
+        \begin{column}{0.48\textwidth}
+            \includegraphics[width=\linewidth]{fig8b_subset_heatmap}
+        \end{column}
+    \end{columns}
+    \vspace{0.3em}
+    \small
+    All C(7,3)\,=\,35 subsets tried; best subset ($\bar{R}^2{=}0.957$) linearly predicts the remaining 4 metrics.
+    \textbf{AAcc column is always blank} --- cannot be predicted by others, confirming its independence.
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Feature Selection Results}
+
+\begin{frame}
+    \frametitle{Feature Selection Frequency Across 19 Methods}
+    \begin{center}
+        \includegraphics[height=0.80\textheight]{figE_feature_frequency}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Most Stable Features}
+    \begin{columns}[T]
+        \begin{column}{0.36\textwidth}
+            \textbf{Top features ($\geq$10/19 methods):}
+            \begin{enumerate}
+                \item \texttt{period\_quartile\_range} \hfill 17/19
+                \item \texttt{finger\_mvmnt\_x\_max} \hfill 15/19
+                \item \texttt{finger\_mvmnt\_x\_stdev} \hfill 13/19
+                \item \texttt{finger\_mvmnt\_x\_mean} \hfill 12/19
+                \item \texttt{periodEntropy} \hfill 10/19
+            \end{enumerate}
+        \end{column}
+        \begin{column}{0.30\textwidth}
+            \textbf{LLM-Lasso (6 features):}
+            \begin{itemize}\footnotesize
+                \item \texttt{period\_quartile\_range} ✓
+                \item \texttt{finger\_mvmnt\_x\_max} ✓
+                \item \texttt{finger\_mvmnt\_x\_mean} ✓
+                \item \texttt{periodEntropy} ✓
+                \item \texttt{period\_min}
+                \item \texttt{num\_peaks}
+            \end{itemize}
+            \vspace{0.3em}
+            {\footnotesize 4/6 in top-5}
+        \end{column}
+        \begin{column}{0.30\textwidth}
+            \textbf{Standard LASSO (11 features):}
+            \begin{itemize}\footnotesize
+                \item \texttt{period\_quartile\_range} ✓
+                \item \texttt{finger\_mvmnt\_x\_max} ✓
+                \item \texttt{periodEntropy} ✓
+                \item \texttt{finger\_mvmnt\_y\_qr}
+                \item \texttt{numFreeze}
+                \item \texttt{frequency\_stdev}
+                \item \texttt{num\_peaks}
+                \item \texttt{num\_freeze\_norm}
+                \item \texttt{speed\_quartile\_range}
+                \item \texttt{speed\_min}
+                \item \texttt{acceleration\_min}
+            \end{itemize}
+            \vspace{0.3em}
+            {\footnotesize 3/11 in top-5}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Per-Recording Analysis}
+
+\begin{frame}
+    \frametitle{Predicted vs Ground Truth (Per Recording)}
+    \begin{columns}[T]
+        \begin{column}{0.55\textwidth}
+            \includegraphics[width=\linewidth]{fig9_pred_vs_true}
+        \end{column}
+        \begin{column}{0.43\textwidth}
+            \textbf{Model:} DeepSeek-R1-70B Fewshot LLM-Lasso\\
+            $n = 53$ recordings
+            \vspace{0.5em}
+
+            \textbf{Observations:}
+            \begin{itemize}
+                \item \textbf{96\%} of recordings within adjacent accurate band ($\pm 1$)
+                \item 2 outliers (red): true score = 0, predicted = 2
+                \item LLM reaches \textbf{max prediction = 3}\\
+                      $\Rightarrow$ underestimates severe cases (score 3--4)
+                \item Regression-to-the-mean tendency for high scores
+            \end{itemize}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Separating Regression from Classification}
+
+\begin{frame}
+    \frametitle{Borda Count Ranking -- All Predictors (LLM-Lasso, 6 features)}
+    \begin{center}
+        \includegraphics[width=\linewidth]{fig6_borda}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Pareto Dominance -- Regressors}
+    \begin{center}
+        \includegraphics[width=0.85\linewidth]{fig7_pareto_reg}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Pareto Dominance -- Classifiers}
+    \begin{center}
+        \includegraphics[width=0.85\linewidth]{fig7_pareto_clf}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Clean Predictor Comparison (No Built-in Feature Selection)}
+    \begin{itemize}
+        \item Excludes models with internal feature weighting (RF, GradBoost, XGBoost, LASSO\ldots)
+    \end{itemize}
+    \begin{center}
+        \includegraphics[width=0.92\linewidth]{fig5_clean_comparison}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Circular Combinations -- Flagged with $*$}
+    \begin{itemize}
+        \item \textbf{Definition}: FS method uses the same algorithm as the predictor
+        \begin{itemize}
+            \item RF Importance FS $+$ RandomForest-R/C
+            \item RFECV-RF FS $+$ RandomForest-R/C
+            \item LLM-Lasso FS $+$ Lasso regressor
+        \end{itemize}
+        \item \textbf{Problem}: cannot distinguish whether performance is from FS or model
+        \item \textbf{Treatment}: included but marked with $*$ and red border in figures
+    \end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Model Comparison Results}
+
+\begin{frame}
+    \frametitle{Model Comparison -- All Metrics (95\% Bootstrap CI)}
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \renewcommand{\arraystretch}{1.25}
+    \begin{tabular}{lcccccccc}
+        \toprule
+        \textbf{Model} & \textbf{MAE}$\downarrow$ & \textbf{Spearman}$\uparrow$ & \textbf{Kappa}$\uparrow$ & \textbf{AAcc}$\uparrow$ & \textbf{Stab.}$\downarrow$ & \textbf{Acc Tan}$\uparrow$ & \textbf{Acc Chien}$\uparrow$ & \textbf{Acc Cons.}$\uparrow$ \\
+        \midrule
+        DS-70B FS-LLM & 0.62 {[0.47, 0.77]} & 0.55 {[0.32, 0.72]} & \cellcolor{green!20}0.57 {[0.37, 0.70]} & 0.96 {[0.91, 1.00]} & 0.380 & 47.2\% & 41.5\% & 41.5\% \\
+        DS-70B FS-STA & 0.57 {[0.42, 0.72]} & 0.46 {[0.17, 0.67]} & 0.51 {[0.21, 0.69]} & \cellcolor{green!20}0.98 {[0.94, 1.00]} & \cellcolor{green!20}0.252 & \cellcolor{green!20}64.2\% & \cellcolor{green!20}45.3\% & 48.4\% \\
+        DS-70B ZS-LLM & 0.79 {[0.64, 0.94]} & 0.10 {[0.00, 0.23]} & 0.03 {[0.00, 0.08]} & 0.96 {[0.91, 1.00]} & 0.424 & 50.9\% & 33.9\% & 16.5\% \\
+        Qw-32B FS-LLM & 0.79 {[0.60, 0.98]} & \cellcolor{green!20}0.62 {[0.41, 0.77]} & 0.45 {[0.28, 0.60]} & 0.87 {[0.77, 0.94]} & 0.442 & 35.8\% & 35.8\% & 39.3\% \\
+        Qw-72B FS-LLM & \cellcolor{green!20}0.53 {[0.36, 0.70]} & 0.52 {[0.28, 0.72]} & 0.54 {[0.29, 0.72]} & 0.91 {[0.83, 0.96]} & 0.340 & 47.2\% & 41.5\% & \cellcolor{green!20}56.6\% \\
+        Qw-72B ZS-LLM & 0.75 {[0.58, 0.91]} & $-$0.13 {[$-$0.26, $-$0.10]} & $-$0.03 {[$-$0.11, 0.00]} & 0.94 {[0.87, 1.00]} & 0.327 & 54.7\% & 33.9\% & 20.0\% \\
+        \midrule
+        \rowcolor{orange!10} Dr.\ Tan    & 0.40 {[0.26, 0.53]} & 0.67 {[0.48, 0.80]} & 0.69 {[0.50, 0.80]} & 1.00 {[1.00, 1.00]} & 0.000 & ---   & ---   & 60.4\% \\
+        \rowcolor{orange!10} Dr.\ Chien  & 0.36 {[0.23, 0.49]} & 0.87 {[0.79, 0.93]} & 0.83 {[0.73, 0.89]} & 1.00 {[1.00, 1.00]} & 0.000 & ---   & ---   & 64.2\% \\
+        \rowcolor{orange!10} Rand.\ Unif.& 1.46 {[1.19, 1.75]} & 0.00 {[$-$0.27, 0.27]} & $-$0.00 {[$-$0.21, 0.21]} & 0.55 {[0.42, 0.68]} & ---   & ---   & ---   & ---   \\
+        \rowcolor{orange!10} Rand.\ Prop.& 0.96 {[0.75, 1.17]} & $-$0.00 {[$-$0.27, 0.27]} & $-$0.00 {[$-$0.26, 0.26]} & 0.75 {[0.64, 0.85]} & ---   & ---   & ---   & ---   \\
+        \bottomrule
+    \end{tabular}}
+    \\[0.3em]
+    {\tiny \cellcolor{green!20}\phantom{~X~} Best AI model \quad \colorbox{orange!10}{\phantom{~X~}} Baseline}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Model Comparison -- Normal (0) vs Abnormal ($\geq$1)}
+    \centering
+    \small
+    \renewcommand{\arraystretch}{1.3}
+    \begin{tabular}{lcccc}
+        \toprule
+        \textbf{Model} & \textbf{Bin ACC}$\uparrow$ & \textbf{Bin Recall}$\uparrow$ & \textbf{Bin Precision}$\uparrow$ & \textbf{Bin F1}$\uparrow$ \\
+        \midrule
+        DS-70B FS-LLM & 81.1\% & \cellcolor{green!20}97.6\% & 81.6\% & 88.9\% \\
+        DS-70B FS-STA & \cellcolor{green!20}84.9\% & \cellcolor{green!20}97.6\% & \cellcolor{green!20}85.1\% & \cellcolor{green!20}90.9\% \\
+        DS-70B ZS-LLM & 71.7\% & 92.7\% & 76.0\% & 83.5\% \\
+        Qw-32B FS-LLM & 77.4\% & \cellcolor{green!20}97.6\% & 78.4\% & 87.0\% \\
+        Qw-72B FS-LLM & \cellcolor{green!20}84.9\% & \cellcolor{green!20}97.6\% & \cellcolor{green!20}85.1\% & \cellcolor{green!20}90.9\% \\
+        Qw-72B ZS-LLM & 75.5\% & \cellcolor{green!20}97.6\% & 76.9\% & 86.0\% \\
+        \midrule
+        \rowcolor{orange!10} Dr.\ Tan    & 84.9\% & 100.0\% & 83.7\% & 91.1\% \\
+        \rowcolor{orange!10} Dr.\ Chien  & 90.6\% & 90.2\%  & 97.4\% & 93.7\% \\
+        \rowcolor{orange!10} Rand.\ Unif.& 66.4\% & 80.0\%  & 77.4\% & 78.6\% \\
+        \rowcolor{orange!10} Rand.\ Prop.& 64.9\% & 77.4\%  & 77.3\% & 77.2\% \\
+        \bottomrule
+    \end{tabular}
+    \\[0.3em]
+    {\tiny \cellcolor{green!20}\phantom{~X~} Best AI model \quad \colorbox{orange!10}{\phantom{~X~}} Baseline}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Summary}
+
+\begin{frame}
+    \frametitle{Summary of Updates}
+    \begin{enumerate}
+        \item \textbf{Metric redundancy confirmed}\\
+              3 clusters found; recommend \textbf{MAE + Weighted~$\kappa$ + AAcc}
+        \vspace{0.3em}
+        \item \textbf{Feature Selection Results}\\
+              \texttt{period\_quartile\_range} most stable (17/19 methods);\\
+              LLM-Lasso 4/6 selected features consistent with top-5
+        \vspace{0.3em}
+        \item \textbf{Per-recording analysis}\\
+              96\% AAcc; underestimation of severe cases is the main limitation
+        \vspace{0.3em}
+        \item \textbf{Separating Regression from Classification}\\
+              GradBoost-R Pareto-dominant among regressors;\\
+              KNN-clf and ExtraTrees-C Pareto-optimal among classifiers
+    \end{enumerate}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
