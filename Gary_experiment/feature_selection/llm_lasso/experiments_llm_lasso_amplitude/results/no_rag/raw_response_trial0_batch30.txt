@@ -1,93 +1,93 @@
-Here is the list of penalty factors assigned to each feature based on their relevance to predicting MDS-UPDRS Item 3.4 scores:
+Here is the list of features with their assigned penalty factors based on clinical relevance to MDS-UPDRS Item 3.4 Finger Tapping severity:
 
-1. **frequency_median**: 2  
-   - Directly related to tapping speed, a key criterion.
+1. **finger_mvmnt_index_dist_median**: 3  
+   Reasoning: Measures median finger movement, somewhat relevant but not directly tied to specific scoring criteria.
 
-2. **frequency_quartile_range**: 3  
-   - Indicates consistency in frequency, relevant but less direct.
+2. **finger_mvmnt_index_dist_quartile_range**: 3  
+   Reasoning: Indicates variability in movement, moderately relevant to rhythm and amplitude issues.
 
-3. **frequency_mean**: 2  
-   - Important for overall speed assessment.
+3. **finger_mvmnt_index_dist_mean**: 4  
+   Reasoning: Average distance less directly tied to progression or specific severity aspects.
 
-4. **frequency_min**: 3  
-   - Indicates slowest tapping moments, relevant to speed.
+4. **finger_mvmnt_index_dist_min**: 3  
+   Reasoning: Reflects minimum movement, more relevant for amplitude decrements.
 
-5. **frequency_max**: 3  
-   - Indicates fastest tapping, showing range.
+5. **finger_mvmnt_index_dist_max**: 4  
+   Reasoning: Maximum distance less about progression, so less directly relevant.
 
-6. **frequency_stdev**: 2  
-   - Measures rhythm variability, crucial for regularity.
+6. **finger_mvmnt_index_dist_stdev**: 2  
+   Reasoning: Variability indicates inconsistencies in tapping, strongly tied to rhythm and amplitude issues.
 
-7. **frequency_lr_fitness_r2**: 3  
-   - Assesses trend consistency in frequency.
+7. **aperiodicity**: 2  
+   Reasoning: Directly measures rhythm irregularity, key for scoring.
 
-8. **frequency_lr_slope**: 2  
-   - Directly relates to progressive slowing.
+8. **periodEntropy**: 2  
+   Reasoning: Higher entropy means more rhythm irregularity, crucial for assessment.
 
-9. **frequency_fit_min_degree**: 4  
-   - Less critical compared to other features.
+9. **periodVarianceNorm**: 2  
+   Reasoning: Variability in tap timing directly relates to rhythm and interruptions.
 
-10. **num_peaks**: 4  
-    - Basic count, less nuanced than others.
+10. **numInterruptions**: 2  
+    Reasoning: Directly related to scoring criteria, especially higher severity scores.
 
-11. **num_interruptions_norm**: 2  
-    - Directly tied to rhythm regularity.
+11. **numFreeze**: 2  
+    Reasoning: Freezing events are significant indicators of severity.
 
-12. **num_freeze_norm**: 2  
-    - Indicates severe symptoms like freezing.
+12. **maxFreezeDuration**: 2  
+    Reasoning: Longer freezes indicate more severe issues, highly relevant.
 
-13. **speed_median**: 2  
-    - Important for movement speed assessment.
+13. **period_median**: 3  
+    Reasoning: Central tendency of rhythm but less about variability.
 
-14. **speed_quartile_range**: 3  
-    - Shows consistency in movement speed.
+14. **period_quartile_range**: 3  
+    Reasoning: Shows consistency, tied to rhythm regularity.
 
-15. **speed_mean**: 2  
-    - Relevant for overall speed.
+15. **period_mean**: 4  
+    Reasoning: Less robust than median for indicating rhythm issues.
 
-16. **speed_min**: 3  
-    - Indicates slowest movements.
+16. **period_min**: 4  
+    Reasoning: Shortest interval less indicative of overall rhythm.
 
-17. **speed_max**: 3  
-    - Shows peak velocity.
+17. **period_max**: 3  
+    Reasoning: Indicates hesitations or freezes, more relevant than min.
 
-18. **speed_stdev**: 2  
-    - Measures speed variability, tied to rhythm.
+18. **period_stdev**: 2  
+    Reasoning: Measures variability, crucial for rhythm assessment.
 
-19. **acceleration_median**: 3  
-    - Relates to movement initiation.
+19. **frequency_median**: 2  
+    Reasoning: Directly related to slowing, key for scoring.
 
-20. **acceleration_quartile_range**: 3  
-    - Indicates acceleration consistency.
+20. **frequency_quartile_range**: 3  
+    Reasoning: Variability in frequency, less direct than median or mean.
 
-21. **acceleration_mean**: 3  
-    - Affects movement vigor.
+21. **frequency_mean**: 2  
+    Reasoning: Average speed directly tied to slowing.
 
-22. **acceleration_min**: 3  
-    - Peak deceleration indicator.
+22. **frequency_min**: 3  
+    Reasoning: Indicates slowest points but less critical than mean.
 
-23. **acceleration_max**: 3  
-    - Peak acceleration measure.
+23. **frequency_max**: 4  
+    Reasoning: Highest frequency less indicative of overall slowing.
 
-24. **acceleration_stdev**: 2  
-    - Relates to rhythm irregularity.
+24. **frequency_stdev**: 2  
+    Reasoning: Variability in speed ties to rhythm and consistency.
 
-25. **amplitude_median**: 2  
-    - Directly related to tap size.
+25. **frequency_lr_fitness_r2**: 3  
+    Reasoning: Fit indicates consistent slowing but more about model fit.
 
-26. **amplitude_quartile_range**: 3  
-    - Indicates amplitude consistency.
+26. **frequency_lr_slope**: 2  
+    Reasoning: Slope shows change over time, directly tied to severity.
 
-27. **amplitude_mean**: 2  
-    - Relevant for overall amplitude assessment.
+27. **frequency_fit_min_degree**: 5  
+    Reasoning: More about model complexity than clinical relevance.
 
-28. **amplitude_min**: 3  
-    - Shows smallest taps, indicating decrements.
+28. **num_peaks**: 5  
+    Reasoning: Minimal direct tie to MDS-UPDRS criteria.
 
-29. **amplitude_max**: 3  
-    - Shows largest taps, part of range.
+29. **num_interruptions_norm**: 2  
+    Reasoning: Direct measure of interruption frequency, highly relevant.
 
-30. **amplitude_stdev**: 2  
-    - Measures tap size variability.
+30. **num_freeze_norm**: 2  
+    Reasoning: Directly related to severity, especially in higher scores.
 
-Each penalty factor reflects the feature's relevance to rhythm, speed, or amplitude criteria, with more direct measures receiving lower penalties.
+This structured approach ensures each feature's relevance is considered based on clinical criteria for accurate model tuning.

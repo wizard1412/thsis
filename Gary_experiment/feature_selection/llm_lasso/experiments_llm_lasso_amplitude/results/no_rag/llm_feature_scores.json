@@ -1,70 +1,5 @@
 {
-  "finger_mvmnt_x_median": {
-    "scores": [
-      4.0,
-      4.0,
-      4.0,
-      4.0,
-      4.0
-    ],
-    "median": 4.0,
-    "mean": 4.0,
-    "std": 0.0,
-    "description": "Median horizontal movement of thumb between consecutive frames"
-  },
-  "finger_mvmnt_x_quartile_range": {
-    "scores": [
-      5.0,
-      5.0,
-      5.0,
-      5.0,
-      5.0
-    ],
-    "median": 5.0,
-    "mean": 5.0,
-    "std": 0.0,
-    "description": "Interquartile range of horizontal thumb movement"
-  },
-  "finger_mvmnt_x_mean": {
-    "scores": [
-      4.0,
-      4.0,
-      4.0,
-      4.0,
-      4.0
-    ],
-    "median": 4.0,
-    "mean": 4.0,
-    "std": 0.0,
-    "description": "Mean horizontal thumb movement amplitude per frame"
-  },
-  "finger_mvmnt_x_min": {
-    "scores": [
-      5.0,
-      5.0,
-      5.0,
-      5.0,
-      5.0
-    ],
-    "median": 5.0,
-    "mean": 5.0,
-    "std": 0.0,
-    "description": "Minimum horizontal thumb movement (closest to stationary)"
-  },
-  "finger_mvmnt_x_max": {
-    "scores": [
-      4.0,
-      4.0,
-      4.0,
-      4.0,
-      4.0
-    ],
-    "median": 4.0,
-    "mean": 4.0,
-    "std": 0.0,
-    "description": "Maximum horizontal thumb movement in a single frame"
-  },
-  "finger_mvmnt_x_stdev": {
+  "finger_mvmnt_thumb_x_median": {
     "scores": [
       3.0,
       3.0,
@@ -75,9 +10,9 @@
     "median": 3.0,
     "mean": 3.0,
     "std": 0.0,
-    "description": "Variability of horizontal thumb movement across frames"
+    "description": "median frame-to-frame thumb x displacement"
   },
-  "finger_mvmnt_y_median": {
+  "finger_mvmnt_thumb_x_quartile_range": {
     "scores": [
       2.0,
       2.0,
@@ -88,35 +23,9 @@
     "median": 2.0,
     "mean": 2.0,
     "std": 0.0,
-    "description": "Median vertical movement of thumb between consecutive frames"
+    "description": "finger_mvmnt_thumb_x_quartile_range"
   },
-  "finger_mvmnt_y_quartile_range": {
-    "scores": [
-      3.0,
-      3.0,
-      3.0,
-      3.0,
-      3.0
-    ],
-    "median": 3.0,
-    "mean": 3.0,
-    "std": 0.0,
-    "description": "Interquartile range of vertical thumb movement"
-  },
-  "finger_mvmnt_y_mean": {
-    "scores": [
-      2.0,
-      2.0,
-      2.0,
-      2.0,
-      2.0
-    ],
-    "median": 2.0,
-    "mean": 2.0,
-    "std": 0.0,
-    "description": "Mean vertical thumb movement amplitude per frame"
-  },
-  "finger_mvmnt_y_min": {
+  "finger_mvmnt_thumb_x_mean": {
     "scores": [
       4.0,
       4.0,
@@ -127,9 +36,9 @@
     "median": 4.0,
     "mean": 4.0,
     "std": 0.0,
-    "description": "Minimum vertical thumb movement"
+    "description": "mean frame-to-frame thumb x displacement"
   },
-  "finger_mvmnt_y_max": {
+  "finger_mvmnt_thumb_x_min": {
     "scores": [
       3.0,
       3.0,
@@ -140,9 +49,9 @@
     "median": 3.0,
     "mean": 3.0,
     "std": 0.0,
-    "description": "Maximum vertical thumb movement in a single frame"
+    "description": "finger_mvmnt_thumb_x_min"
   },
-  "finger_mvmnt_y_stdev": {
+  "finger_mvmnt_thumb_x_max": {
     "scores": [
       3.0,
       3.0,
@@ -153,9 +62,9 @@
     "median": 3.0,
     "mean": 3.0,
     "std": 0.0,
-    "description": "Variability of vertical thumb movement across frames"
+    "description": "max frame-to-frame thumb x displacement"
   },
-  "finger_mvmnt_dist_median": {
+  "finger_mvmnt_thumb_x_stdev": {
     "scores": [
       2.0,
       2.0,
@@ -166,9 +75,9 @@
     "median": 2.0,
     "mean": 2.0,
     "std": 0.0,
-    "description": "Median Euclidean distance of thumb movement between frames"
+    "description": "std of frame-to-frame thumb x displacement"
   },
-  "finger_mvmnt_dist_quartile_range": {
+  "finger_mvmnt_thumb_y_median": {
     "scores": [
       3.0,
       3.0,
@@ -179,9 +88,9 @@
     "median": 3.0,
     "mean": 3.0,
     "std": 0.0,
-    "description": "Interquartile range of thumb movement distance"
+    "description": "finger_mvmnt_thumb_y_median"
   },
-  "finger_mvmnt_dist_mean": {
+  "finger_mvmnt_thumb_y_quartile_range": {
     "scores": [
       2.0,
       2.0,
@@ -192,9 +101,9 @@
     "median": 2.0,
     "mean": 2.0,
     "std": 0.0,
-    "description": "Mean thumb-index distance (overall movement amplitude)"
+    "description": "finger_mvmnt_thumb_y_quartile_range"
   },
-  "finger_mvmnt_dist_min": {
+  "finger_mvmnt_thumb_y_mean": {
     "scores": [
       4.0,
       4.0,
@@ -205,9 +114,9 @@
     "median": 4.0,
     "mean": 4.0,
     "std": 0.0,
-    "description": "Minimum thumb movement distance"
+    "description": "finger_mvmnt_thumb_y_mean"
   },
-  "finger_mvmnt_dist_max": {
+  "finger_mvmnt_thumb_y_min": {
     "scores": [
       3.0,
       3.0,
@@ -218,9 +127,9 @@
     "median": 3.0,
     "mean": 3.0,
     "std": 0.0,
-    "description": "Maximum thumb movement distance in a single frame"
+    "description": "finger_mvmnt_thumb_y_min"
   },
-  "finger_mvmnt_dist_stdev": {
+  "finger_mvmnt_thumb_y_max": {
     "scores": [
       3.0,
       3.0,
@@ -231,7 +140,332 @@
     "median": 3.0,
     "mean": 3.0,
     "std": 0.0,
-    "description": "Variability of thumb movement distance"
+    "description": "finger_mvmnt_thumb_y_max"
+  },
+  "finger_mvmnt_thumb_y_stdev": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "finger_mvmnt_thumb_y_stdev"
+  },
+  "finger_mvmnt_thumb_dist_median": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "finger_mvmnt_thumb_dist_median"
+  },
+  "finger_mvmnt_thumb_dist_quartile_range": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "IQR of frame-to-frame thumb trajectory distance"
+  },
+  "finger_mvmnt_thumb_dist_mean": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "finger_mvmnt_thumb_dist_mean"
+  },
+  "finger_mvmnt_thumb_dist_min": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "finger_mvmnt_thumb_dist_min"
+  },
+  "finger_mvmnt_thumb_dist_max": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "finger_mvmnt_thumb_dist_max"
+  },
+  "finger_mvmnt_thumb_dist_stdev": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "std of frame-to-frame thumb trajectory distance"
+  },
+  "finger_mvmnt_index_x_median": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "median frame-to-frame index finger x displacement"
+  },
+  "finger_mvmnt_index_x_quartile_range": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "finger_mvmnt_index_x_quartile_range"
+  },
+  "finger_mvmnt_index_x_mean": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "mean frame-to-frame index finger x displacement"
+  },
+  "finger_mvmnt_index_x_min": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "finger_mvmnt_index_x_min"
+  },
+  "finger_mvmnt_index_x_max": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "max frame-to-frame index finger x displacement"
+  },
+  "finger_mvmnt_index_x_stdev": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "std of frame-to-frame index finger x displacement"
+  },
+  "finger_mvmnt_index_y_median": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "finger_mvmnt_index_y_median"
+  },
+  "finger_mvmnt_index_y_quartile_range": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "finger_mvmnt_index_y_quartile_range"
+  },
+  "finger_mvmnt_index_y_mean": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "finger_mvmnt_index_y_mean"
+  },
+  "finger_mvmnt_index_y_min": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "finger_mvmnt_index_y_min"
+  },
+  "finger_mvmnt_index_y_max": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "finger_mvmnt_index_y_max"
+  },
+  "finger_mvmnt_index_y_stdev": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "finger_mvmnt_index_y_stdev"
+  },
+  "finger_mvmnt_index_dist_median": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "finger_mvmnt_index_dist_median"
+  },
+  "finger_mvmnt_index_dist_quartile_range": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "IQR of frame-to-frame index finger trajectory distance"
+  },
+  "finger_mvmnt_index_dist_mean": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "finger_mvmnt_index_dist_mean"
+  },
+  "finger_mvmnt_index_dist_min": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "finger_mvmnt_index_dist_min"
+  },
+  "finger_mvmnt_index_dist_max": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "finger_mvmnt_index_dist_max"
+  },
+  "finger_mvmnt_index_dist_stdev": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "std of frame-to-frame index finger trajectory distance"
   },
   "aperiodicity": {
     "scores": [
@@ -244,20 +478,20 @@
     "median": 2.0,
     "mean": 2.0,
     "std": 0.0,
-    "description": "FFT power spectrum entropy measuring rhythm irregularity (higher = more irregular)"
+    "description": "aperiodicity score of tapping rhythm"
   },
   "periodEntropy": {
     "scores": [
-      3.0,
-      3.0,
-      3.0,
-      3.0,
-      3.0
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
     ],
-    "median": 3.0,
-    "mean": 3.0,
+    "median": 2.0,
+    "mean": 2.0,
     "std": 0.0,
-    "description": "Entropy of inter-tap interval distribution (higher = more complex rhythm)"
+    "description": "entropy of inter-tap period distribution"
   },
   "periodVarianceNorm": {
     "scores": [
@@ -270,7 +504,7 @@
     "median": 2.0,
     "mean": 2.0,
     "std": 0.0,
-    "description": "Normalized variance of tap periods (rhythm stability measure)"
+    "description": "variance of periods normalized by mean period"
   },
   "numInterruptions": {
     "scores": [
@@ -283,7 +517,7 @@
     "median": 2.0,
     "mean": 2.0,
     "std": 0.0,
-    "description": "Count of interruptions/hesitations during tapping sequence"
+    "description": "numInterruptions"
   },
   "numFreeze": {
     "scores": [
@@ -296,7 +530,7 @@
     "median": 2.0,
     "mean": 2.0,
     "std": 0.0,
-    "description": "Count of freeze episodes (movement arrest) during tapping"
+    "description": "numFreeze"
   },
   "maxFreezeDuration": {
     "scores": [
@@ -309,7 +543,7 @@
     "median": 2.0,
     "mean": 2.0,
     "std": 0.0,
-    "description": "Duration of the longest freeze episode in seconds"
+    "description": "maxFreezeDuration"
   },
   "period_median": {
     "scores": [
@@ -322,7 +556,7 @@
     "median": 3.0,
     "mean": 3.0,
     "std": 0.0,
-    "description": "Median inter-tap interval in seconds"
+    "description": "period_median"
   },
   "period_quartile_range": {
     "scores": [
@@ -335,20 +569,20 @@
     "median": 3.0,
     "mean": 3.0,
     "std": 0.0,
-    "description": "Interquartile range of tap intervals (rhythm consistency)"
+    "description": "period_quartile_range"
   },
   "period_mean": {
     "scores": [
-      2.0,
-      2.0,
-      2.0,
-      2.0,
-      2.0
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
     ],
-    "median": 2.0,
-    "mean": 2.0,
+    "median": 4.0,
+    "mean": 4.0,
     "std": 0.0,
-    "description": "Mean inter-tap interval in seconds (inversely related to tapping speed)"
+    "description": "period_mean"
   },
   "period_min": {
     "scores": [
@@ -361,7 +595,7 @@
     "median": 4.0,
     "mean": 4.0,
     "std": 0.0,
-    "description": "Shortest inter-tap interval in seconds"
+    "description": "period_min"
   },
   "period_max": {
     "scores": [
@@ -374,7 +608,7 @@
     "median": 3.0,
     "mean": 3.0,
     "std": 0.0,
-    "description": "Longest inter-tap interval in seconds (may indicate hesitation)"
+    "description": "period_max"
   },
   "period_stdev": {
     "scores": [
@@ -387,7 +621,7 @@
     "median": 2.0,
     "mean": 2.0,
     "std": 0.0,
-    "description": "Standard deviation of tap intervals (rhythm stability, higher = more unstable)"
+    "description": "period_stdev"
   },
   "frequency_median": {
     "scores": [
@@ -400,7 +634,7 @@
     "median": 2.0,
     "mean": 2.0,
     "std": 0.0,
-    "description": "Median tapping frequency in Hz"
+    "description": "frequency_median"
   },
   "frequency_quartile_range": {
     "scores": [
@@ -413,7 +647,7 @@
     "median": 3.0,
     "mean": 3.0,
     "std": 0.0,
-    "description": "Interquartile range of tapping frequency"
+    "description": "frequency_quartile_range"
   },
   "frequency_mean": {
     "scores": [
@@ -426,7 +660,7 @@
     "median": 2.0,
     "mean": 2.0,
     "std": 0.0,
-    "description": "Mean tapping frequency in Hz (higher = faster tapping)"
+    "description": "frequency_mean"
   },
   "frequency_min": {
     "scores": [
@@ -439,20 +673,20 @@
     "median": 3.0,
     "mean": 3.0,
     "std": 0.0,
-    "description": "Minimum tapping frequency (slowest tapping moment)"
+    "description": "frequency_min"
   },
   "frequency_max": {
     "scores": [
-      3.0,
-      3.0,
-      3.0,
-      3.0,
-      3.0
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
     ],
-    "median": 3.0,
-    "mean": 3.0,
+    "median": 4.0,
+    "mean": 4.0,
     "std": 0.0,
-    "description": "Maximum tapping frequency (fastest tapping moment)"
+    "description": "frequency_max"
   },
   "frequency_stdev": {
     "scores": [
@@ -465,7 +699,7 @@
     "median": 2.0,
     "mean": 2.0,
     "std": 0.0,
-    "description": "Variability of tapping frequency across the sequence"
+    "description": "frequency_stdev"
   },
   "frequency_lr_fitness_r2": {
     "scores": [
@@ -478,7 +712,7 @@
     "median": 3.0,
     "mean": 3.0,
     "std": 0.0,
-    "description": "R-squared of linear fit to frequency over time (frequency trend goodness)"
+    "description": "R^2 of linear fit of frequency vs tap index"
   },
   "frequency_lr_slope": {
     "scores": [
@@ -491,33 +725,33 @@
     "median": 2.0,
     "mean": 2.0,
     "std": 0.0,
-    "description": "Slope of linear fit to frequency over time (negative = slowing down)"
+    "description": "slope of tap frequency over time (negative = slowing)"
   },
   "frequency_fit_min_degree": {
     "scores": [
-      4.0,
-      4.0,
-      4.0,
-      4.0,
-      4.0
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
     ],
-    "median": 4.0,
-    "mean": 4.0,
+    "median": 5.0,
+    "mean": 5.0,
     "std": 0.0,
-    "description": "Minimum polynomial degree to fit frequency trend"
+    "description": "min polynomial degree for frequency fit"
   },
   "num_peaks": {
     "scores": [
-      4.0,
-      4.0,
-      4.0,
-      4.0,
-      4.0
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
     ],
-    "median": 4.0,
-    "mean": 4.0,
+    "median": 5.0,
+    "mean": 5.0,
     "std": 0.0,
-    "description": "Total number of detected taps in the sequence"
+    "description": "num_peaks"
   },
   "num_interruptions_norm": {
     "scores": [
@@ -530,7 +764,7 @@
     "median": 2.0,
     "mean": 2.0,
     "std": 0.0,
-    "description": "Normalized count of interruptions (interruptions per tap)"
+    "description": "interruption events per second"
   },
   "num_freeze_norm": {
     "scores": [
@@ -543,85 +777,85 @@
     "median": 2.0,
     "mean": 2.0,
     "std": 0.0,
-    "description": "Normalized count of freeze episodes (freezes per tap)"
+    "description": "freeze events per second"
   },
   "speed_median": {
     "scores": [
-      2.0,
-      2.0,
-      2.0,
-      2.0,
-      2.0
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
     ],
-    "median": 2.0,
-    "mean": 2.0,
+    "median": 3.0,
+    "mean": 3.0,
     "std": 0.0,
-    "description": "Median finger movement speed in degrees/second"
+    "description": "speed_median"
   },
   "speed_quartile_range": {
     "scores": [
-      3.0,
-      3.0,
-      3.0,
-      3.0,
-      3.0
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
     ],
-    "median": 3.0,
-    "mean": 3.0,
+    "median": 4.0,
+    "mean": 4.0,
     "std": 0.0,
-    "description": "Interquartile range of movement speed"
+    "description": "speed_quartile_range"
   },
   "speed_mean": {
     "scores": [
-      2.0,
-      2.0,
-      2.0,
-      2.0,
-      2.0
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
     ],
-    "median": 2.0,
-    "mean": 2.0,
+    "median": 3.0,
+    "mean": 3.0,
     "std": 0.0,
-    "description": "Mean finger movement speed (higher = more vigorous tapping)"
+    "description": "speed_mean"
   },
   "speed_min": {
     "scores": [
-      3.0,
-      3.0,
-      3.0,
-      3.0,
-      3.0
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
     ],
-    "median": 3.0,
-    "mean": 3.0,
+    "median": 5.0,
+    "mean": 5.0,
     "std": 0.0,
-    "description": "Minimum movement speed"
+    "description": "speed_min"
   },
   "speed_max": {
     "scores": [
-      3.0,
-      3.0,
-      3.0,
-      3.0,
-      3.0
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
     ],
-    "median": 3.0,
-    "mean": 3.0,
+    "median": 5.0,
+    "mean": 5.0,
     "std": 0.0,
-    "description": "Maximum movement speed (peak velocity)"
+    "description": "speed_max"
   },
   "speed_stdev": {
     "scores": [
-      2.0,
-      2.0,
-      2.0,
-      2.0,
-      2.0
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
     ],
-    "median": 2.0,
-    "mean": 2.0,
+    "median": 4.0,
+    "mean": 4.0,
     "std": 0.0,
-    "description": "Variability of movement speed"
+    "description": "speed_stdev"
   },
   "acceleration_median": {
     "scores": [
@@ -634,20 +868,20 @@
     "median": 3.0,
     "mean": 3.0,
     "std": 0.0,
-    "description": "Median finger movement acceleration"
+    "description": "acceleration_median"
   },
   "acceleration_quartile_range": {
     "scores": [
-      3.0,
-      3.0,
-      3.0,
-      3.0,
-      3.0
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
     ],
-    "median": 3.0,
-    "mean": 3.0,
+    "median": 4.0,
+    "mean": 4.0,
     "std": 0.0,
-    "description": "Interquartile range of acceleration"
+    "description": "acceleration_quartile_range"
   },
   "acceleration_mean": {
     "scores": [
@@ -660,35 +894,48 @@
     "median": 3.0,
     "mean": 3.0,
     "std": 0.0,
-    "description": "Mean finger acceleration"
+    "description": "acceleration_mean"
   },
   "acceleration_min": {
     "scores": [
-      3.0,
-      3.0,
-      3.0,
-      3.0,
-      3.0
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
     ],
-    "median": 3.0,
-    "mean": 3.0,
+    "median": 5.0,
+    "mean": 5.0,
     "std": 0.0,
-    "description": "Minimum acceleration (peak deceleration)"
+    "description": "acceleration_min"
   },
   "acceleration_max": {
     "scores": [
-      3.0,
-      3.0,
-      3.0,
-      3.0,
-      3.0
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
     ],
-    "median": 3.0,
-    "mean": 3.0,
+    "median": 5.0,
+    "mean": 5.0,
     "std": 0.0,
-    "description": "Maximum acceleration (peak acceleration)"
+    "description": "acceleration_max"
   },
   "acceleration_stdev": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "acceleration_stdev"
+  },
+  "speed_norm_median": {
     "scores": [
       2.0,
       2.0,
@@ -699,7 +946,150 @@
     "median": 2.0,
     "mean": 2.0,
     "std": 0.0,
-    "description": "Variability of acceleration across the sequence"
+    "description": "median tapping speed in Norm_Distance/s"
+  },
+  "speed_norm_quartile_range": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "speed_norm_quartile_range"
+  },
+  "speed_norm_mean": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "mean tapping speed in Norm_Distance/s"
+  },
+  "speed_norm_min": {
+    "scores": [
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "median": 5.0,
+    "mean": 5.0,
+    "std": 0.0,
+    "description": "speed_norm_min"
+  },
+  "speed_norm_max": {
+    "scores": [
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "median": 5.0,
+    "mean": 5.0,
+    "std": 0.0,
+    "description": "max tapping speed in Norm_Distance/s"
+  },
+  "speed_norm_stdev": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "std of tapping speed in Norm_Distance/s"
+  },
+  "acceleration_norm_median": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "median tapping acceleration in Norm_Distance/s²"
+  },
+  "acceleration_norm_quartile_range": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "acceleration_norm_quartile_range"
+  },
+  "acceleration_norm_mean": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "mean tapping acceleration in Norm_Distance/s²"
+  },
+  "acceleration_norm_min": {
+    "scores": [
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "median": 5.0,
+    "mean": 5.0,
+    "std": 0.0,
+    "description": "acceleration_norm_min"
+  },
+  "acceleration_norm_max": {
+    "scores": [
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "median": 5.0,
+    "mean": 5.0,
+    "std": 0.0,
+    "description": "acceleration_norm_max"
+  },
+  "acceleration_norm_stdev": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "acceleration_norm_stdev"
   },
   "amplitude_median": {
     "scores": [
@@ -712,7 +1102,7 @@
     "median": 2.0,
     "mean": 2.0,
     "std": 0.0,
-    "description": "Median tap amplitude (finger-thumb distance at each peak)"
+    "description": "amplitude_median"
   },
   "amplitude_quartile_range": {
     "scores": [
@@ -725,48 +1115,61 @@
     "median": 3.0,
     "mean": 3.0,
     "std": 0.0,
-    "description": "Interquartile range of tap amplitudes (amplitude consistency)"
+    "description": "amplitude_quartile_range"
   },
   "amplitude_mean": {
     "scores": [
-      2.0,
-      2.0,
-      2.0,
-      2.0,
-      2.0
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
     ],
-    "median": 2.0,
-    "mean": 2.0,
+    "median": 3.0,
+    "mean": 3.0,
     "std": 0.0,
-    "description": "Mean tap amplitude (overall tapping size)"
+    "description": "amplitude_mean"
   },
   "amplitude_min": {
     "scores": [
-      3.0,
-      3.0,
-      3.0,
-      3.0,
-      3.0
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
     ],
-    "median": 3.0,
-    "mean": 3.0,
+    "median": 5.0,
+    "mean": 5.0,
     "std": 0.0,
-    "description": "Minimum tap amplitude (smallest tap in sequence)"
+    "description": "amplitude_min"
   },
   "amplitude_max": {
     "scores": [
-      3.0,
-      3.0,
-      3.0,
-      3.0,
-      3.0
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
     ],
-    "median": 3.0,
-    "mean": 3.0,
+    "median": 5.0,
+    "mean": 5.0,
     "std": 0.0,
-    "description": "Maximum tap amplitude (largest tap in sequence)"
+    "description": "amplitude_max"
   },
   "amplitude_stdev": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "amplitude_stdev"
+  },
+  "amplitude_cv": {
     "scores": [
       2.0,
       2.0,
@@ -777,7 +1180,7 @@
     "median": 2.0,
     "mean": 2.0,
     "std": 0.0,
-    "description": "Standard deviation of tap amplitudes (amplitude variability)"
+    "description": "amplitude_cv"
   },
   "amplitude_entropy": {
     "scores": [
@@ -790,7 +1193,85 @@
     "median": 3.0,
     "mean": 3.0,
     "std": 0.0,
-    "description": "Entropy of tap amplitude distribution (complexity of amplitude pattern)"
+    "description": "amplitude_entropy"
+  },
+  "amplitude_norm_median": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "median tap amplitude normalized by subject's full distance range"
+  },
+  "amplitude_norm_quartile_range": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "IQR of normalized tap amplitudes"
+  },
+  "amplitude_norm_mean": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "mean normalized tap amplitude"
+  },
+  "amplitude_norm_min": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "min normalized tap amplitude"
+  },
+  "amplitude_norm_max": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "max normalized tap amplitude"
+  },
+  "amplitude_norm_stdev": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "std of normalized tap amplitudes"
   },
   "amplitude_decrement_fitness_r2": {
     "scores": [
@@ -803,7 +1284,7 @@
     "median": 2.0,
     "mean": 2.0,
     "std": 0.0,
-    "description": "R-squared of linear fit to amplitude over time (how well decrement is linear)"
+    "description": "R^2 of linear fit of amplitude vs tap index"
   },
   "amplitude_decrement_slope": {
     "scores": [
@@ -816,20 +1297,20 @@
     "median": 2.0,
     "mean": 2.0,
     "std": 0.0,
-    "description": "Slope of linear fit to amplitude over time (negative = decrementing amplitude)"
+    "description": "slope of amplitude decrement fit"
   },
   "amplitude_decrement_end_to_mean": {
     "scores": [
-      2.0,
-      2.0,
-      2.0,
-      2.0,
-      2.0
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
     ],
-    "median": 2.0,
-    "mean": 2.0,
+    "median": 3.0,
+    "mean": 3.0,
     "std": 0.0,
-    "description": "Ratio of final tap amplitude to mean amplitude (end decrement severity)"
+    "description": "ratio last-tap amplitude / mean amplitude"
   },
   "amplitude_decrement_fit_min_degree": {
     "scores": [
@@ -842,7 +1323,7 @@
     "median": 4.0,
     "mean": 4.0,
     "std": 0.0,
-    "description": "Minimum polynomial degree to fit amplitude trend"
+    "description": "min polynomial degree for amplitude decrement fit"
   },
   "amplitude_decrement_last_to_first_half": {
     "scores": [
@@ -855,6 +1336,604 @@
     "median": 2.0,
     "mean": 2.0,
     "std": 0.0,
-    "description": "Ratio of second-half mean amplitude to first-half mean (progressive decrement)"
+    "description": "mean(last half) / mean(first half) of amplitudes"
+  },
+  "A_early": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "mean amplitude of the first 3 taps"
+  },
+  "A_late": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "mean amplitude of the last 3 taps"
+  },
+  "R_A_3_3": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "ratio A_late / A_early (1=no decrement, <1=decrement)"
+  },
+  "D_A_pct": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "relative drop from A_early to A_late (0=none, 1=full collapse)"
+  },
+  "D_A_max": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "max relative amplitude drop across the sequence"
+  },
+  "k_collapse": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "tap index where amplitude first drops below 0.5*A_early (-1 if none)"
+  },
+  "tilde_A_median": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "median of amplitudes normalized by A_early"
+  },
+  "beta_tilde_A": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "linear slope of normalized amplitudes over tap index"
+  },
+  "CV_tilde_A": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "coefficient of variation of normalized amplitudes"
+  },
+  "amplitude_MAD": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "median absolute deviation of tap amplitudes"
+  },
+  "amplitude_skew": {
+    "scores": [
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "median": 5.0,
+    "mean": 5.0,
+    "std": 0.0,
+    "description": "amplitude_skew"
+  },
+  "amplitude_kurtosis": {
+    "scores": [
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "median": 5.0,
+    "mean": 5.0,
+    "std": 0.0,
+    "description": "amplitude_kurtosis"
+  },
+  "I_ITI": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "inter-tap-interval irregularity index"
+  },
+  "I_ITI_norm": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "ITI irregularity normalized by mean ITI"
+  },
+  "ITI_MAD": {
+    "scores": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "median": 4.0,
+    "mean": 4.0,
+    "std": 0.0,
+    "description": "median absolute deviation of inter-tap intervals"
+  },
+  "ITI_skew": {
+    "scores": [
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "median": 5.0,
+    "mean": 5.0,
+    "std": 0.0,
+    "description": "ITI_skew"
+  },
+  "ITI_kurtosis": {
+    "scores": [
+      5.0,
+      5.0,
+      5.0,
+      5.0,
+      5.0
+    ],
+    "median": 5.0,
+    "mean": 5.0,
+    "std": 0.0,
+    "description": "ITI_kurtosis"
+  },
+  "S_halt": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "total halt duration during the tapping (seconds)"
+  },
+  "F_halt": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "halt frequency (events per second)"
+  },
+  "N_valid": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "number of valid taps"
+  },
+  "C_10": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "1 if completed 10 taps, else 0"
+  },
+  "T_10": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "time to complete 10 taps (seconds)"
+  },
+  "F_incomplete": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "fraction of expected taps missing"
+  },
+  "V_open_median": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "median opening-phase peak velocity in pixels/s (finger lifting)"
+  },
+  "V_open_mean": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "mean opening-phase peak velocity in pixels/s"
+  },
+  "V_open_std": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "std of opening-phase peak velocity across taps"
+  },
+  "V_close_median": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "median closing-phase peak velocity in pixels/s (finger tapping down)"
+  },
+  "V_close_mean": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "mean closing-phase peak velocity in pixels/s"
+  },
+  "V_close_std": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "std of closing-phase peak velocity across taps"
+  },
+  "V_open_norm_median": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "median opening-phase velocity normalized by distance range"
+  },
+  "V_open_norm_mean": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "mean opening-phase velocity normalized by distance range"
+  },
+  "V_open_norm_std": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "std of normalized opening-phase velocity"
+  },
+  "V_close_norm_median": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "median closing-phase velocity normalized by distance range"
+  },
+  "V_close_norm_mean": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "mean closing-phase velocity normalized by distance range"
+  },
+  "V_close_norm_std": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "std of normalized closing-phase velocity"
+  },
+  "T_open_median": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "median opening-phase duration (seconds)"
+  },
+  "T_open_mean": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "mean opening-phase duration"
+  },
+  "T_open_std": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "std of opening-phase duration"
+  },
+  "T_close_median": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "median closing-phase duration"
+  },
+  "T_close_mean": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "mean closing-phase duration"
+  },
+  "T_close_std": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "std of closing-phase duration"
+  },
+  "R_OC_median": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "median ratio opening/closing duration"
+  },
+  "R_OC_mean": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "mean ratio opening/closing duration"
+  },
+  "R_OC_std": {
+    "scores": [
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "median": 3.0,
+    "mean": 3.0,
+    "std": 0.0,
+    "description": "std of ratio opening/closing duration"
+  },
+  "R_V_open": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "opening-velocity decrement ratio (late/early taps)"
+  },
+  "R_V_close": {
+    "scores": [
+      2.0,
+      2.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "median": 2.0,
+    "mean": 2.0,
+    "std": 0.0,
+    "description": "closing-velocity decrement ratio (late/early taps)"
   }
 }

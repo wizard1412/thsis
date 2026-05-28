@@ -1,0 +1,93 @@
+Here is the list of features with their assigned penalty factors based on their relevance to predicting MDS-UPDRS Item 3.4 scores:
+
+1. **amplitude_cv**: 2  
+   Reasoning: High variability in amplitude indicates potential issues with rhythm and consistency, which are key scoring criteria.
+
+2. **amplitude_entropy**: 3  
+   Reasoning: Measures unpredictability of amplitudes, relating to rhythm regularity but less directly than other features.
+
+3. **amplitude_norm_median**: 2  
+   Reasoning: Indicates overall tap size relative to the subject's range, crucial for assessing amplitude criteria.
+
+4. **amplitude_norm_quartile_range**: 3  
+   Reasoning: Variability in tap sizes relates to amplitude decrements and rhythm issues.
+
+5. **amplitude_norm_mean**: 2  
+   Reasoning: Average tap size is directly relevant to amplitude scoring.
+
+6. **amplitude_norm_min**: 3  
+   Reasoning: Smallest tap size indicates potential severity in amplitude decrement.
+
+7. **amplitude_norm_max**: 4  
+   Reasoning: Maximum tap size provides context but is less indicative of decrement patterns.
+
+8. **amplitude_norm_stdev**: 3  
+   Reasoning: Variability in normalized amplitudes relates to consistency and rhythm.
+
+9. **amplitude_decrement_fitness_r2**: 2  
+   Reasoning: High R-squared indicates consistent amplitude decrement, crucial for scoring.
+
+10. **amplitude_decrement_slope**: 2  
+    Reasoning: Rate of amplitude decrease is a key factor in severity assessment.
+
+11. **amplitude_decrement_end_to_mean**: 3  
+    Reasoning: Indicates significant decrement by the end, relevant but not as direct as slope.
+
+12. **amplitude_decrement_fit_min_degree**: 4  
+    Reasoning: Less directly tied to clinical relevance compared to other decrement features.
+
+13. **amplitude_decrement_last_to_first_half**: 2  
+    Reasoning: Directly measures amplitude drop during the sequence, crucial for scoring.
+
+14. **A_early**: 3  
+    Reasoning: Baseline amplitude; lower values may indicate severity but less direct than late measures.
+
+15. **A_late**: 2  
+    Reasoning: Directly relevant as it shows end amplitude, key for assessing decrement.
+
+16. **R_A_3_3**: 2  
+    Reasoning: Ratio of late to early amplitudes directly quantifies decrement.
+
+17. **D_A_pct**: 2  
+    Reasoning: Relative drop from early to late is crucial for severity assessment.
+
+18. **D_A_max**: 3  
+    Reasoning: Maximum relative drop indicates the worst decrement point, important but slightly less direct.
+
+19. **k_collapse**: 2  
+    Reasoning: Early collapse indicates severe issues, very relevant.
+
+20. **tilde_A_median**: 3  
+    Reasoning: Central tendency of normalized amplitudes, useful but not as direct.
+
+21. **beta_tilde_A**: 2  
+    Reasoning: Slope indicates trend in amplitude over taps, important for assessment.
+
+22. **CV_tilde_A**: 3  
+    Reasoning: Variability relates to rhythm and consistency, relevant but less direct.
+
+23. **amplitude_MAD**: 4  
+    Reasoning: Measures spread but is less directly tied to scoring criteria.
+
+24. **amplitude_skew**: 5  
+    Reasoning: Asymmetry in distribution is less directly relevant to severity.
+
+25. **amplitude_kurtosis**: 5  
+    Reasoning: Peakedness of distribution is least relevant among these features.
+
+26. **I_ITI**: 2  
+    Reasoning: Directly measures rhythm regularity, crucial for scoring.
+
+27. **I_ITI_norm**: 3  
+    Reasoning: Important for assessing rhythm but slightly less direct than I_ITI.
+
+28. **ITI_MAD**: 4  
+    Reasoning: Measures consistency but is less directly tied to severity.
+
+29. **ITI_skew**: 5  
+    Reasoning: Shape of interval distribution is less relevant to scoring criteria.
+
+30. **ITI_kurtosis**: 5  
+    Reasoning: Peakedness of intervals is least directly relevant among these features.
+
+These penalty factors reflect the relevance of each feature in predicting MDS-UPDRS Item 3.4 scores, balancing clinical significance and statistical importance.

@@ -15,8 +15,16 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).parent
 EXPERIMENT_ROOT = PROJECT_ROOT.parent
 
-# User dataset (53 sessions, 2 raters)
-USER_DATASET_PATH = PROJECT_ROOT / "features_dataset.csv"
+# User dataset (53 sessions, 2 raters) — v2: thumb/index split + extended amplitude features
+# Search upward from PROJECT_ROOT to support different directory structures across machines
+def _find_dataset(name: str) -> Path:
+    for ancestor in [PROJECT_ROOT, EXPERIMENT_ROOT, EXPERIMENT_ROOT.parent, EXPERIMENT_ROOT.parent.parent]:
+        p = ancestor / name
+        if p.exists():
+            return p
+    return EXPERIMENT_ROOT.parent / name  # fall back with original path so error is descriptive
+
+USER_DATASET_PATH = _find_dataset("features_dataset_v2.csv")
 
 # Output
 OUTPUT_DIR = PROJECT_ROOT / "results"
@@ -46,80 +54,94 @@ EXCLUDE_COLS = {"hand", "filename", "Rating1", "Rating2", "Rating"}
 
 # Human-readable descriptions for each feature (used in LLM prompt)
 FEATURE_DESCRIPTIONS = {
-    # Movement features
-    "finger_mvmnt_x_median":           "Median horizontal movement of thumb between consecutive frames",
-    "finger_mvmnt_x_quartile_range":   "Interquartile range of horizontal thumb movement",
-    "finger_mvmnt_x_mean":             "Mean horizontal thumb movement amplitude per frame",
-    "finger_mvmnt_x_min":              "Minimum horizontal thumb movement (closest to stationary)",
-    "finger_mvmnt_x_max":              "Maximum horizontal thumb movement in a single frame",
-    "finger_mvmnt_x_stdev":            "Variability of horizontal thumb movement across frames",
-    "finger_mvmnt_y_median":           "Median vertical movement of thumb between consecutive frames",
-    "finger_mvmnt_y_quartile_range":   "Interquartile range of vertical thumb movement",
-    "finger_mvmnt_y_mean":             "Mean vertical thumb movement amplitude per frame",
-    "finger_mvmnt_y_min":              "Minimum vertical thumb movement",
-    "finger_mvmnt_y_max":              "Maximum vertical thumb movement in a single frame",
-    "finger_mvmnt_y_stdev":            "Variability of vertical thumb movement across frames",
-    "finger_mvmnt_dist_median":        "Median Euclidean distance of thumb movement between frames",
-    "finger_mvmnt_dist_quartile_range":"Interquartile range of thumb movement distance",
-    "finger_mvmnt_dist_mean":          "Mean thumb-index distance (overall movement amplitude)",
-    "finger_mvmnt_dist_min":           "Minimum thumb movement distance",
-    "finger_mvmnt_dist_max":           "Maximum thumb movement distance in a single frame",
-    "finger_mvmnt_dist_stdev":         "Variability of thumb movement distance",
-    # Rhythm features
-    "aperiodicity":                    "FFT power spectrum entropy measuring rhythm irregularity (higher = more irregular)",
-    "periodEntropy":                   "Entropy of inter-tap interval distribution (higher = more complex rhythm)",
-    "periodVarianceNorm":              "Normalized variance of tap periods (rhythm stability measure)",
-    "numInterruptions":                "Count of interruptions/hesitations during tapping sequence",
-    "numFreeze":                       "Count of freeze episodes (movement arrest) during tapping",
-    "maxFreezeDuration":               "Duration of the longest freeze episode in seconds",
-    # Period features
-    "period_median":                   "Median inter-tap interval in seconds",
-    "period_quartile_range":           "Interquartile range of tap intervals (rhythm consistency)",
-    "period_mean":                     "Mean inter-tap interval in seconds (inversely related to tapping speed)",
-    "period_min":                      "Shortest inter-tap interval in seconds",
-    "period_max":                      "Longest inter-tap interval in seconds (may indicate hesitation)",
-    "period_stdev":                    "Standard deviation of tap intervals (rhythm stability, higher = more unstable)",
-    # Frequency features
-    "frequency_median":                "Median tapping frequency in Hz",
-    "frequency_quartile_range":        "Interquartile range of tapping frequency",
-    "frequency_mean":                  "Mean tapping frequency in Hz (higher = faster tapping)",
-    "frequency_min":                   "Minimum tapping frequency (slowest tapping moment)",
-    "frequency_max":                   "Maximum tapping frequency (fastest tapping moment)",
-    "frequency_stdev":                 "Variability of tapping frequency across the sequence",
-    "frequency_lr_fitness_r2":         "R-squared of linear fit to frequency over time (frequency trend goodness)",
-    "frequency_lr_slope":              "Slope of linear fit to frequency over time (negative = slowing down)",
-    "frequency_fit_min_degree":        "Minimum polynomial degree to fit frequency trend",
-    # Count features
-    "num_peaks":                       "Total number of detected taps in the sequence",
-    "num_interruptions_norm":          "Normalized count of interruptions (interruptions per tap)",
-    "num_freeze_norm":                 "Normalized count of freeze episodes (freezes per tap)",
-    # Speed features
-    "speed_median":                    "Median finger movement speed in degrees/second",
-    "speed_quartile_range":            "Interquartile range of movement speed",
-    "speed_mean":                      "Mean finger movement speed (higher = more vigorous tapping)",
-    "speed_min":                       "Minimum movement speed",
-    "speed_max":                       "Maximum movement speed (peak velocity)",
-    "speed_stdev":                     "Variability of movement speed",
-    # Acceleration features
-    "acceleration_median":             "Median finger movement acceleration",
-    "acceleration_quartile_range":     "Interquartile range of acceleration",
-    "acceleration_mean":               "Mean finger acceleration",
-    "acceleration_min":                "Minimum acceleration (peak deceleration)",
-    "acceleration_max":                "Maximum acceleration (peak acceleration)",
-    "acceleration_stdev":              "Variability of acceleration across the sequence",
-    # Amplitude features
-    "amplitude_median":                "Median tap amplitude (finger-thumb distance at each peak)",
-    "amplitude_quartile_range":        "Interquartile range of tap amplitudes (amplitude consistency)",
-    "amplitude_mean":                  "Mean tap amplitude (overall tapping size)",
-    "amplitude_min":                   "Minimum tap amplitude (smallest tap in sequence)",
-    "amplitude_max":                   "Maximum tap amplitude (largest tap in sequence)",
-    "amplitude_stdev":                 "Standard deviation of tap amplitudes (amplitude variability)",
-    "amplitude_entropy":               "Entropy of tap amplitude distribution (complexity of amplitude pattern)",
-    "amplitude_decrement_fitness_r2":  "R-squared of linear fit to amplitude over time (how well decrement is linear)",
-    "amplitude_decrement_slope":       "Slope of linear fit to amplitude over time (negative = decrementing amplitude)",
-    "amplitude_decrement_end_to_mean": "Ratio of final tap amplitude to mean amplitude (end decrement severity)",
-    "amplitude_decrement_fit_min_degree": "Minimum polynomial degree to fit amplitude trend",
-    "amplitude_decrement_last_to_first_half": "Ratio of second-half mean amplitude to first-half mean (progressive decrement)",
+    # Amplitude decrement
+    "A_early":                            "mean amplitude of the first 3 taps",
+    "A_late":                             "mean amplitude of the last 3 taps",
+    "R_A_3_3":                            "ratio A_late / A_early (1=no decrement, <1=decrement)",
+    "D_A_pct":                            "relative drop from A_early to A_late (0=none, 1=full collapse)",
+    "D_A_max":                            "max relative amplitude drop across the sequence",
+    "k_collapse":                         "tap index where amplitude first drops below 0.5*A_early (-1 if none)",
+    "tilde_A_median":                     "median of amplitudes normalized by A_early",
+    "beta_tilde_A":                       "linear slope of normalized amplitudes over tap index",
+    "CV_tilde_A":                         "coefficient of variation of normalized amplitudes",
+    "amplitude_MAD":                      "median absolute deviation of tap amplitudes",
+    "amplitude_decrement_fitness_r2":     "R^2 of linear fit of amplitude vs tap index",
+    "amplitude_decrement_slope":          "slope of amplitude decrement fit",
+    "amplitude_decrement_end_to_mean":    "ratio last-tap amplitude / mean amplitude",
+    "amplitude_decrement_last_to_first_half": "mean(last half) / mean(first half) of amplitudes",
+    "amplitude_decrement_fit_min_degree": "min polynomial degree for amplitude decrement fit",
+    # ITI / rhythm
+    "I_ITI":                              "inter-tap-interval irregularity index",
+    "I_ITI_norm":                         "ITI irregularity normalized by mean ITI",
+    "ITI_MAD":                            "median absolute deviation of inter-tap intervals",
+    # Halt / freeze / completion
+    "S_halt":                             "total halt duration during the tapping (seconds)",
+    "F_halt":                             "halt frequency (events per second)",
+    "N_valid":                            "number of valid taps",
+    "C_10":                               "1 if completed 10 taps, else 0",
+    "T_10":                               "time to complete 10 taps (seconds)",
+    "F_incomplete":                       "fraction of expected taps missing",
+    "num_interruptions_norm":             "interruption events per second",
+    "num_freeze_norm":                    "freeze events per second",
+    # Opening / closing phase
+    "V_open_median":                      "median opening-phase peak velocity in pixels/s (finger lifting)",
+    "V_open_mean":                        "mean opening-phase peak velocity in pixels/s",
+    "V_open_std":                         "std of opening-phase peak velocity across taps",
+    "V_close_median":                     "median closing-phase peak velocity in pixels/s (finger tapping down)",
+    "V_close_mean":                       "mean closing-phase peak velocity in pixels/s",
+    "V_close_std":                        "std of closing-phase peak velocity across taps",
+    "V_open_norm_median":                 "median opening-phase velocity normalized by distance range",
+    "V_open_norm_mean":                   "mean opening-phase velocity normalized by distance range",
+    "V_open_norm_std":                    "std of normalized opening-phase velocity",
+    "V_close_norm_median":                "median closing-phase velocity normalized by distance range",
+    "V_close_norm_mean":                  "mean closing-phase velocity normalized by distance range",
+    "V_close_norm_std":                   "std of normalized closing-phase velocity",
+    "T_open_median":                      "median opening-phase duration (seconds)",
+    "T_open_mean":                        "mean opening-phase duration",
+    "T_open_std":                         "std of opening-phase duration",
+    "T_close_median":                     "median closing-phase duration",
+    "T_close_mean":                       "mean closing-phase duration",
+    "T_close_std":                        "std of closing-phase duration",
+    "R_OC_median":                        "median ratio opening/closing duration",
+    "R_OC_mean":                          "mean ratio opening/closing duration",
+    "R_OC_std":                           "std of ratio opening/closing duration",
+    "R_V_open":                           "opening-velocity decrement ratio (late/early taps)",
+    "R_V_close":                          "closing-velocity decrement ratio (late/early taps)",
+    # Period / frequency
+    "aperiodicity":                       "aperiodicity score of tapping rhythm",
+    "periodEntropy":                      "entropy of inter-tap period distribution",
+    "periodVarianceNorm":                 "variance of periods normalized by mean period",
+    "frequency_lr_fitness_r2":            "R^2 of linear fit of frequency vs tap index",
+    "frequency_lr_slope":                 "slope of tap frequency over time (negative = slowing)",
+    "frequency_fit_min_degree":           "min polynomial degree for frequency fit",
+    # Finger movement — thumb
+    "finger_mvmnt_thumb_x_median":        "median frame-to-frame thumb x displacement",
+    "finger_mvmnt_thumb_x_mean":          "mean frame-to-frame thumb x displacement",
+    "finger_mvmnt_thumb_x_max":           "max frame-to-frame thumb x displacement",
+    "finger_mvmnt_thumb_x_stdev":         "std of frame-to-frame thumb x displacement",
+    "finger_mvmnt_thumb_dist_stdev":      "std of frame-to-frame thumb trajectory distance",
+    "finger_mvmnt_thumb_dist_quartile_range": "IQR of frame-to-frame thumb trajectory distance",
+    # Finger movement — index
+    "finger_mvmnt_index_x_median":        "median frame-to-frame index finger x displacement",
+    "finger_mvmnt_index_x_mean":          "mean frame-to-frame index finger x displacement",
+    "finger_mvmnt_index_x_max":           "max frame-to-frame index finger x displacement",
+    "finger_mvmnt_index_x_stdev":         "std of frame-to-frame index finger x displacement",
+    "finger_mvmnt_index_dist_stdev":      "std of frame-to-frame index finger trajectory distance",
+    "finger_mvmnt_index_dist_quartile_range": "IQR of frame-to-frame index finger trajectory distance",
+    # Normalized amplitude
+    "amplitude_norm_median":              "median tap amplitude normalized by subject's full distance range",
+    "amplitude_norm_mean":                "mean normalized tap amplitude",
+    "amplitude_norm_min":                 "min normalized tap amplitude",
+    "amplitude_norm_max":                 "max normalized tap amplitude",
+    "amplitude_norm_stdev":               "std of normalized tap amplitudes",
+    "amplitude_norm_quartile_range":      "IQR of normalized tap amplitudes",
+    # Speed / acceleration (normalized)
+    "speed_norm_median":                  "median tapping speed in Norm_Distance/s",
+    "speed_norm_mean":                    "mean tapping speed in Norm_Distance/s",
+    "speed_norm_max":                     "max tapping speed in Norm_Distance/s",
+    "speed_norm_stdev":                   "std of tapping speed in Norm_Distance/s",
+    "acceleration_norm_median":           "median tapping acceleration in Norm_Distance/s²",
+    "acceleration_norm_mean":             "mean tapping acceleration in Norm_Distance/s²",
 }
 
 # ===========================

@@ -1,0 +1,90 @@
+Here is the list of features with their assigned penalty factors based on their relevance to predicting MDS-UPDRS Item 3.4 scores:
+
+1. **S_halt**: 2  
+   Reasoning: Directly measures rhythm irregularity through total halt duration, a key criterion.
+
+2. **F_halt**: 2  
+   Reasoning: Indicates how often halts occur, crucial for assessing rhythm issues.
+
+3. **N_valid**: 3  
+   Reasoning: Reflects the ability to perform taps but is less direct than specific motor symptoms.
+
+4. **C_10**: 3  
+   Reasoning: Inability to complete taps is indicative of severity but lacks nuance.
+
+5. **T_10**: 2  
+   Reasoning: Time taken reflects speed, a primary criterion for scoring.
+
+6. **F_incomplete**: 3  
+   Reasoning: Indicates missing taps, reflecting overall performance but less specific.
+
+7. **V_open_median**: 2  
+   Reasoning: Opening velocity is crucial for assessing bradykinesia.
+
+8. **V_open_mean**: 2  
+   Reasoning: Average opening speed directly relates to motor severity.
+
+9. **V_open_std**: 3  
+   Reasoning: Variability in opening speed is important but less direct than mean or median.
+
+10. **V_close_median**: 2  
+    Reasoning: Closing velocity reflects motor function similarly to opening.
+
+11. **V_close_mean**: 2  
+    Reasoning: Average closing speed is a key indicator of bradykinesia.
+
+12. **V_close_std**: 3  
+    Reasoning: Variability in closing speed, while important, is less direct than mean measures.
+
+13. **V_open_norm_median**: 2  
+    Reasoning: Normalized opening velocity provides robust relevance to motor function.
+
+14. **V_open_norm_mean**: 2  
+    Reasoning: Robust measure of average opening speed.
+
+15. **V_open_norm_std**: 3  
+    Reasoning: Variability in normalized opening speed is relevant but less direct.
+
+16. **V_close_norm_median**: 2  
+    Reasoning: Normalized closing velocity is a strong indicator.
+
+17. **V_close_norm_mean**: 2  
+    Reasoning: Robust measure of average closing speed.
+
+18. **V_close_norm_std**: 3  
+    Reasoning: Variability in normalized closing speed, while relevant, is less direct.
+
+19. **T_open_median**: 2  
+    Reasoning: Opening phase duration directly relates to slowing.
+
+20. **T_open_mean**: 2  
+    Reasoning: Average opening time reflects motor slowing.
+
+21. **T_open_std**: 3  
+    Reasoning: Variability in opening duration is relevant but less direct.
+
+22. **T_close_median**: 2  
+    Reasoning: Closing phase duration indicates motor speed.
+
+23. **T_close_mean**: 2  
+    Reasoning: Average closing time reflects slowing.
+
+24. **T_close_std**: 3  
+    Reasoning: Variability in closing duration is relevant but less direct.
+
+25. **R_OC_median**: 3  
+    Reasoning: Ratio of opening to closing times provides insight into rhythm and speed.
+
+26. **R_OC_mean**: 3  
+    Reasoning: Average ratio reflects timing aspects of movement.
+
+27. **R_OC_std**: 3  
+    Reasoning: Variability in the ratio is relevant but more derived.
+
+28. **R_V_open**: 2  
+    Reasoning: Velocity decrement directly relates to speed criterion.
+
+29. **R_V_close**: 2  
+    Reasoning: Closing velocity decrement is crucial for assessing motor severity.
+
+This structured approach ensures each feature's relevance is considered based on clinical criteria, guiding the Lasso model effectively.

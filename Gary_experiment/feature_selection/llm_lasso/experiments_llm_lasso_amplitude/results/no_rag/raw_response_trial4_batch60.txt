@@ -1,21 +1,93 @@
-Here are the penalty factors for each feature based on their relevance to predicting MDS-UPDRS Item 3.4 scores:
+Here is the list of penalty factors for each feature based on their relevance to predicting MDS-UPDRS Item 3.4 Finger Tapping severity scores:
 
-1. **amplitude_entropy**: 3  
-   - Amplitude entropy measures variability, which is relevant but less direct than specific decrement patterns.
+1. **speed_median**: 3  
+   Reasoning: Median speed reflects central tendency, indicating overall tapping speed, which is crucial for assessing slowing.
 
-2. **amplitude_decrement_fitness_r2**: 2  
-   - Directly indicates how well the amplitude follows a decrement pattern, crucial for scoring.
+2. **speed_quartile_range**: 4  
+   Reasoning: Measures variability in speed, which can indicate hesitations but is less direct than median or mean.
 
-3. **amplitude_decrement_slope**: 2  
-   - The slope's steepness reflects the rate of amplitude decrease, directly tied to severity.
+3. **speed_mean**: 3  
+   Reasoning: Average speed is directly relevant to the MDS-UPDRS criteria for assessing slowing.
 
-4. **amplitude_decrement_end_to_mean**: 2  
-   - Shows the difference from mean, indicating potential decrements relevant to scoring.
+4. **speed_min**: 5  
+   Reasoning: Extreme minimum speed is less indicative of overall performance compared to central measures.
 
-5. **amplitude_decrement_fit_min_degree**: 4  
-   - Relates to model complexity rather than direct clinical criteria, so less relevant.
+5. **speed_max**: 5  
+   Reasoning: Maximum speed, while interesting, is less critical than median or mean for assessing slowing.
 
-6. **amplitude_decrement_last_to_first_half**: 2  
-   - Directly measures amplitude change over time, crucial for assessing decrements.
+6. **speed_stdev**: 4  
+   Reasoning: Standard deviation indicates variability in speed, which relates to rhythm but is not as direct as mean.
 
-These factors balance the clinical relevance of each feature in predicting finger-tapping severity scores.
+7. **acceleration_median**: 3  
+   Reasoning: Median acceleration reflects the central tendency of movement initiation and stopping.
+
+8. **acceleration_quartile_range**: 4  
+   Reasoning: Variability in acceleration can indicate hesitations or irregularities, relevant but less direct.
+
+9. **acceleration_mean**: 3  
+   Reasoning: Average acceleration is important for assessing movement dynamics related to speed and rhythm.
+
+10. **acceleration_min**: 5  
+    Reasoning: Minimum acceleration is an extreme value, less indicative of overall performance.
+
+11. **acceleration_max**: 5  
+    Reasoning: Maximum acceleration, while notable, is less critical than central measures.
+
+12. **acceleration_stdev**: 4  
+    Reasoning: Variability in acceleration relates to rhythm but is not as direct as mean or median.
+
+13. **speed_norm_median**: 2  
+    Reasoning: Normalized speed accounts for individual differences, making it highly relevant for assessing performance.
+
+14. **speed_norm_quartile_range**: 3  
+    Reasoning: Variability in normalized speed is important but slightly less critical than the median.
+
+15. **speed_norm_mean**: 3  
+    Reasoning: Average normalized speed is crucial as it reflects overall tapping speed adjusted for individual differences.
+
+16. **speed_norm_min**: 5  
+    Reasoning: Minimum normalized speed is an extreme and less indicative of overall performance.
+
+17. **speed_norm_max**: 5  
+    Reasoning: Maximum normalized speed, while interesting, is less critical than central measures.
+
+18. **speed_norm_stdev**: 4  
+    Reasoning: Variability in normalized speed relates to rhythm but is not as direct as mean or median.
+
+19. **acceleration_norm_median**: 2  
+    Reasoning: Normalized acceleration reflects movement dynamics adjusted for individual differences, highly relevant.
+
+20. **acceleration_norm_quartile_range**: 3  
+    Reasoning: Variability in normalized acceleration is important but less critical than the median.
+
+21. **acceleration_norm_mean**: 3  
+    Reasoning: Average normalized acceleration is crucial for assessing movement dynamics.
+
+22. **acceleration_norm_min**: 5  
+    Reasoning: Minimum normalized acceleration is an extreme value, less indicative of overall performance.
+
+23. **acceleration_norm_max**: 5  
+    Reasoning: Maximum normalized acceleration, while notable, is less critical than central measures.
+
+24. **acceleration_norm_stdev**: 4  
+    Reasoning: Variability in normalized acceleration relates to rhythm but is not as direct as mean or median.
+
+25. **amplitude_median**: 2  
+    Reasoning: Median amplitude directly reflects tap size, crucial for assessing amplitude decrement.
+
+26. **amplitude_quartile_range**: 3  
+    Reasoning: Variability in amplitude indicates consistency, relevant but less direct than the median.
+
+27. **amplitude_mean**: 3  
+    Reasoning: Average amplitude is important as it reflects overall tap size performance.
+
+28. **amplitude_min**: 5  
+    Reasoning: Minimum amplitude is an extreme value, less indicative of overall performance.
+
+29. **amplitude_max**: 5  
+    Reasoning: Maximum amplitude, while interesting, is less critical than central measures.
+
+30. **amplitude_stdev**: 4  
+    Reasoning: Variability in amplitude relates to consistency but is not as direct as mean or median.
+
+These penalty factors are assigned based on the clinical relevance of each feature to the MDS-UPDRS criteria for finger tapping severity, with lower penalties indicating higher relevance.

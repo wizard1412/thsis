@@ -1,93 +1,93 @@
-Here is the structured assignment of penalty factors for each feature based on their relevance to predicting MDS-UPDRS Item 3.4 scores:
+Here is the list of features with their assigned penalty factors based on clinical relevance to MDS-UPDRS Item 3.4 finger tapping severity:
 
-1. **finger_mvmnt_x_median**: 4  
-   Reasoning: Less relevant as horizontal movement isn't crucial for vertical tapping.
+1. **finger_mvmnt_thumb_x_median**: 3  
+   Reasoning: Median displacement indicates typical movement but lacks variability insight.
 
-2. **finger_mvmnt_x_quartile_range**: 5  
-   Reasoning: Variability in horizontal movement is minimally relevant.
+2. **finger_mvmnt_thumb_x_quartile_range**: 2  
+   Reasoning: Variability in thumb x movement is crucial for assessing rhythm and regularity.
 
-3. **finger_mvmnt_x_mean**: 4  
-   Reasoning: Average horizontal amplitude is less critical.
+3. **finger_mvmnt_thumb_x_mean**: 4  
+   Reasoning: Mean provides central tendency, less critical than variability measures.
 
-4. **finger_mvmnt_x_min**: 5  
-   Reasoning: Minimum horizontal movement is not very important.
+4. **finger_mvmnt_thumb_x_min**: 3  
+   Reasoning: Minimum values can indicate hesitations or freezes, moderately relevant.
 
-5. **finger_mvmnt_x_max**: 4  
-   Reasoning: Slightly more relevant than min but still not crucial.
+5. **finger_mvmnt_thumb_x_max**: 3  
+   Reasoning: Maximum displacement relates to amplitude but not as crucial as variability.
 
-6. **finger_mvmnt_x_stdev**: 3  
-   Reasoning: Variability could indicate hesitations or freezes, affecting rhythm.
+6. **finger_mvmnt_thumb_x_stdev**: 2  
+   Reasoning: Standard deviation indicates irregular movements, highly relevant for rhythm assessment.
 
-7. **finger_mvmnt_y_median**: 2  
-   Reasoning: Vertical movement is key for amplitude and rhythm.
+7. **finger_mvmnt_thumb_y_median**: 3  
+   Reasoning: Similar to x-axis median, somewhat relevant but less critical.
 
-8. **finger_mvmnt_y_quartile_range**: 3  
-   Reasoning: Affects rhythm regularity.
+8. **finger_mvmnt_thumb_y_quartile_range**: 2  
+   Reasoning: Variability in y-axis thumb movement is key for motor symptom assessment.
 
-9. **finger_mvmnt_y_mean**: 2  
-   Reasoning: Directly ties into amplitude assessment.
+9. **finger_mvmnt_thumb_y_mean**: 4  
+   Reasoning: Mean y displacement is less informative than variability measures.
 
-10. **finger_mvmnt_y_min**: 4  
-    Reasoning: Indicates possible amplitude issues but less critical.
+10. **finger_mvmnt_thumb_y_min**: 3  
+    Reasoning: Minimum y displacement can indicate hesitations, moderately relevant.
 
-11. **finger_mvmnt_y_max**: 3  
-    Reasoning: Important for peak amplitude assessment.
+11. **finger_mvmnt_thumb_y_max**: 3  
+    Reasoning: Maximum y displacement relates to amplitude but not as critical as variability.
 
-12. **finger_mvmnt_y_stdev**: 3  
-    Reasoning: Relates to rhythm consistency.
+12. **finger_mvmnt_thumb_y_stdev**: 2  
+    Reasoning: Variability in y-axis thumb movement is highly relevant for rhythm and regularity.
 
-13. **finger_mvmnt_dist_median**: 2  
-    Reasoning: Important for speed and amplitude.
+13. **finger_mvmnt_thumb_dist_median**: 3  
+    Reasoning: Median distance traveled by thumb relates to amplitude but less than variability.
 
-14. **finger_mvmnt_dist_quartile_range**: 3  
-    Reasoning: Affects rhythm regularity.
+14. **finger_mvmnt_thumb_dist_quartile_range**: 2  
+    Reasoning: Variability in thumb distance is important for assessing motor symptoms.
 
-15. **finger_mvmnt_dist_mean**: 2  
-    Reasoning: Crucial for overall amplitude and speed.
+15. **finger_mvmnt_thumb_dist_mean**: 4  
+    Reasoning: Mean distance is central tendency, less critical than variability or extremes.
 
-16. **finger_mvmnt_dist_min**: 4  
-    Reasoning: Indicates hesitations but less critical.
+16. **finger_mvmnt_thumb_dist_min**: 3  
+    Reasoning: Minimum distance could indicate issues but not as critical as other measures.
 
-17. **finger_mvmnt_dist_max**: 3  
-    Reasoning: Shows peak performance but not as crucial.
+17. **finger_mvmnt_thumb_dist_max**: 3  
+    Reasoning: Maximum thumb distance relates to amplitude but not as crucial as variability.
 
-18. **finger_mvmnt_dist_stdev**: 3  
-    Reasoning: Relates to rhythm consistency.
+18. **finger_mvmnt_thumb_dist_stdev**: 2  
+    Reasoning: Variability in thumb distance is highly relevant for motor assessment.
 
-19. **aperiodicity**: 2  
-    Reasoning: Directly tied to rhythm irregularity.
+19. **finger_mvmnt_index_x_median**: 3  
+    Reasoning: Median index x displacement is somewhat relevant but less critical.
 
-20. **periodEntropy**: 3  
-    Reasoning: Affects rhythm regularity.
+20. **finger_mvmnt_index_x_quartile_range**: 2  
+    Reasoning: Variability in index x movement is crucial for rhythm and regularity.
 
-21. **periodVarianceNorm**: 2  
-    Reasoning: Measures rhythm stability.
+21. **finger_mvmnt_index_x_mean**: 4  
+    Reasoning: Mean index x displacement is central tendency, less relevant than variability.
 
-22. **numInterruptions**: 2  
-    Reasoning: Directly part of scoring criteria.
+22. **finger_mvmnt_index_x_min**: 3  
+    Reasoning: Minimum index x displacement can indicate hesitations, moderately relevant.
 
-23. **numFreeze**: 2  
-    Reasoning: Crucial for severity assessment.
+23. **finger_mvmnt_index_x_max**: 3  
+    Reasoning: Maximum index x displacement relates to amplitude but not as critical as variability.
 
-24. **maxFreezeDuration**: 2  
-    Reasoning: Indicates severity with longer freezes.
+24. **finger_mvmnt_index_x_stdev**: 2  
+    Reasoning: Variability in index x movement is highly relevant for motor assessment.
 
-25. **period_median**: 3  
-    Reasoning: Relates to speed and rhythm.
+25. **finger_mvmnt_index_y_median**: 3  
+    Reasoning: Median index y displacement is somewhat relevant but less critical.
 
-26. **period_quartile_range**: 3  
-    Reasoning: Affects rhythm consistency.
+26. **finger_mvmnt_index_y_quartile_range**: 2  
+    Reasoning: Variability in index y movement is crucial for assessing rhythm and regularity.
 
-27. **period_mean**: 2  
-    Reasoning: Key for tapping speed assessment.
+27. **finger_mvmnt_index_y_mean**: 4  
+    Reasoning: Mean index y displacement is central tendency, less critical than variability.
 
-28. **period_min**: 4  
-    Reasoning: Less critical unless abnormal.
+28. **finger_mvmnt_index_y_min**: 3  
+    Reasoning: Minimum index y displacement can indicate hesitations, moderately relevant.
 
-29. **period_max**: 3  
-    Reasoning: Indicates hesitations or freezes.
+29. **finger_mvmnt_index_y_max**: 3  
+    Reasoning: Maximum index y displacement relates to amplitude but not as crucial as variability.
 
-30. **period_stdev**: 2  
-    Reasoning: Directly measures rhythm stability.
+30. **finger_mvmnt_index_y_stdev**: 2  
+    Reasoning: Variability in index y movement is highly relevant for motor assessment.
 
-Each feature's penalty factor reflects its relevance to the clinical aspects of MDS-UPDRS scoring, ensuring that more critical features are penalized less in the Lasso model.
+This structured approach ensures that features most indicative of motor symptoms in Parkinson's disease are prioritized, optimizing the Lasso model's performance.
