@@ -33,10 +33,10 @@ MAX_SCORE  = 4
 MODEL_CONFIGS = {
     "ds32b_v2_amp": {"exp_prefix": "fewshot_v2_ds32b_amp_freq",
                      "scored_csv": "scored_by_deepseek-r1_32b.csv",
-                     "max_n": 13},
+                     "max_n": 15},
     "ds32b_v1_amp": {"exp_prefix": "fewshot_v1_ds32b_amp_freq",
                      "scored_csv": "scored_by_deepseek-r1_32b.csv",
-                     "max_n": 13},
+                     "max_n": 15},
     "ds32b_v1_llmfreq": {"exp_prefix": "fewshot_v1_ds32b_llmfreq",
                           "scored_csv": "scored_by_deepseek-r1_32b.csv",
                           "max_n": 10},
@@ -47,6 +47,8 @@ STYLE = {
     "ds32b_v1_amp":     ("s--", "tab:orange", "v1 + amp"),
     "ds32b_v1_llmfreq": ("^-.", "tab:green",  "v1 + llmfreq"),
 }
+
+PLOT_MODELS = {"ds32b_v1_amp"}  # set to None to plot all models
 
 # ── helpers ────────────────────────────────────────────────────────────────────
 def half_up(x: np.ndarray) -> np.ndarray:
@@ -80,6 +82,8 @@ def make_plot(df_list, metric_specs, title, out_path):
         axes = [axes]
     for ax, (col, mtitle) in zip(axes, metric_specs):
         for model, (ls, color, label) in STYLE.items():
+            if PLOT_MODELS and model not in PLOT_MODELS:
+                continue
             for df_label, df in df_list:
                 sub = df[df.model == model].sort_values("n")
                 if col not in sub.columns:
@@ -206,13 +210,16 @@ def approach_C():
 # ── comparison: MAE across all approaches ─────────────────────────────────────
 def comparison_mae(dA, dB, dC):
     print("\n[Summary] MAE comparison across approaches")
-    fig, axes = plt.subplots(1, 2, figsize=(13, 5))
+    plot_keys = [m for m in MODEL_CONFIGS if PLOT_MODELS is None or m in PLOT_MODELS]
+    fig, axes = plt.subplots(1, len(plot_keys), figsize=(6.5 * len(plot_keys), 5))
+    if len(plot_keys) == 1:
+        axes = [axes]
     approach_styles = [
         (dA, "A: concordant (n=22), integer GT",   "o-",  "tab:green"),
         (dB, "B: all (n=53), raw pred + cont. GT", "s--", "tab:orange"),
         (dC, "C: all (n=53), half-up GT",          "^-.", "tab:red"),
     ]
-    for ax, model in zip(axes, MODEL_CONFIGS.keys()):
+    for ax, model in zip(axes, plot_keys):
         for df, lbl, ls, color in approach_styles:
             sub = df[df.model == model].sort_values("n")
             ax.plot(sub["n"], sub["mae"], ls, color=color, label=lbl,
@@ -232,13 +239,16 @@ def comparison_mae(dA, dB, dC):
 
 # ── comparison: Kappa across A / B / C ────────────────────────────────────────
 def comparison_kappa(dA, dB, dC):
-    fig, axes = plt.subplots(1, 2, figsize=(13, 5))
+    plot_keys = [m for m in MODEL_CONFIGS if PLOT_MODELS is None or m in PLOT_MODELS]
+    fig, axes = plt.subplots(1, len(plot_keys), figsize=(6.5 * len(plot_keys), 5))
+    if len(plot_keys) == 1:
+        axes = [axes]
     approach_styles = [
         (dA, "A: concordant (n=22)", "o-",  "tab:green"),
         (dB, "B: all (n=53), mixed", "s--", "tab:orange"),
         (dC, "C: all (n=53), half-up","^-.", "tab:red"),
     ]
-    for ax, model in zip(axes, MODEL_CONFIGS.keys()):
+    for ax, model in zip(axes, plot_keys):
         for df, lbl, ls, color in approach_styles:
             sub = df[df.model == model].sort_values("n")
             ax.plot(sub["n"], sub["kappa"], ls, color=color, label=lbl,
@@ -314,8 +324,11 @@ def rater_comparison():
     df.to_csv(OUTPUT_DIR / "rater_comparison.csv", index=False)
 
     # plot
-    fig, axes = plt.subplots(1, 2, figsize=(13, 5))
-    for ax, model in zip(axes, MODEL_CONFIGS.keys()):
+    plot_keys = [m for m in MODEL_CONFIGS if PLOT_MODELS is None or m in PLOT_MODELS]
+    fig, axes = plt.subplots(1, len(plot_keys), figsize=(6.5 * len(plot_keys), 5))
+    if len(plot_keys) == 1:
+        axes = [axes]
+    for ax, model in zip(axes, plot_keys):
         sub = df[df.model == model].sort_values("n")
         if sub.empty:
             continue

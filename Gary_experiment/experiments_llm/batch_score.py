@@ -80,10 +80,12 @@ _FREQ_RANKED = [
     "A_early",                         # #11 count=3
     "amplitude_min",                   # #12 count=3
     "amplitude_median",                # #13 count=3
+    "R_V_close",                       # #14 count=2
+    "ITI_MAD",                         # #15 count=2
 ]
 
-# 逐步加入 1→13 個特徵的子集
-_FREQ_SUBSETS = {n: _FREQ_RANKED[:n] for n in range(1, 14)}
+# 逐步加入 1→15 個特徵的子集
+_FREQ_SUBSETS = {n: _FREQ_RANKED[:n] for n in range(1, 16)}
 
 # ── 無 amplitude 特徵的頻率排名（依 figE_feature_frequency，v2 dataset） ──
 # 從各 FS 方法中出現頻率由高到低，前 10 個（排除 amplitude/A_early/A_late/D_A_* 等）
@@ -154,7 +156,7 @@ EXPERIMENTS = {
         }
         for n in range(1, 11)
     },
-    # ── v1 fewshot ds32b amplitude：頻率排名 1→13 個特徵 ──────────
+    # ── v1 fewshot ds32b amplitude：頻率排名 1→15 個特徵 ──────────
     **{
         f"fewshot_v1_ds32b_amp_freq{n}": {
             "features": _FREQ_SUBSETS[n],
@@ -164,7 +166,7 @@ EXPERIMENTS = {
             "model": "deepseek-r1:32b",
             "fewshot_examples": _FEWSHOT_EXAMPLES,
         }
-        for n in range(1, 14)
+        for n in range(1, 16)
     },
     # ── v2 fewshot ds32b amplitude：頻率排名 1→13 個特徵 ──────────
     **{
